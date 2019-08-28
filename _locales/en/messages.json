@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "CCFrank",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Displays the China Computer Federation rankings of conferences and journals in the search results. Currently supports ACM Digital Library, IEEE Xplore Digital Library, and dblp computer science bibliography.",
+    "description": "The description of the application, displayed in the web store."
+  }
+}

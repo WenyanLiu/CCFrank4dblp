@@ -1,0 +1,43 @@
+{
+    "name": "__MSG_appName__",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "__MSG_appDesc__",
+    "default_locale": "en",
+    "icons": {
+        "16": "logo/16x16.png",
+        "48": "logo/64x64.png",
+        "128": "logo/128x128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "logo/16x16.png",
+            "24": "logo/24x24.png",
+            "32": "logo/32x32.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://dl.acm.org/results.cfm?*",
+                "https://dblp.uni-trier.de/*",
+                "https://ieeexplore.ieee.org/search/searchresult.jsp?*"
+            ],
+            "js": [
+                "lib/jquery-3.3.1.min.js",
+                "ranking/ccf.js",
+                "site/siteUtil.js",
+                "site/acm.js",
+                "site/ieee.js",
+                "site/dblp.js",
+                "data/ccfRankingAbbrName.js",
+                "data/ccfRankingFullName.js",
+                "data/ccfRankingDblpName.js",
+                "script.js"
+            ],
+            "css": [
+                "style.css"
+            ]
+        }
+    ]
+}
