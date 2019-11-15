@@ -11,7 +11,7 @@ Chrome 扩展程序，在搜索结果中显示中国计算机学会的会议和�
 
 ## Install
 
-Load from the source (Recommended) *or* directly install the binary.
+Load from the source.
 
 ### Load Unpacked
 
@@ -27,21 +27,13 @@ Clone CCFrank to a directory.
 
 ![Load Extension](./img/load_unpacked.png)
 
-### Install the `.crx` file
-
-Download the [latest release](https://github.com/WenyanLiu/CCFrank/releases).
-
-1. Open the Extension Management page by navigating to `chrome://extensions`.
-    
-    - The Extension Management page can also be opened by clicking on the Chrome menu, hovering over **More Tools** then selecting **Extensions**.
-
-2. Enable Developer Mode by clicking the toggle switch next to **Developer mode**.
-
-3. Install the `CCFrank_x.x.crx` file by dropping it into the Chrome Extension's Management page.
-
-![Drop to install](./img/drop_install.png)
-
 ## What's New
+
+**Version 1.1**
+
+Nov 15, 2019
+
+1. 适配 dblp '2019-11-11: Open citation data and dblp' [Feature Spotlight]，建议更新到此版本。
 
 **Version 1.0**
 
