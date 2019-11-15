@@ -20,7 +20,7 @@ dblp.start = function () {
 }
 
 dblp.addRankings = function () {
-    let results = $("article > a > span:nth-child(1) > span:nth-child(1)");
+    let results = $("cite > a > span:nth-child(1) > span:nth-child(1)");
     dblp.resultsCount = results.length;
 
     results.each(function (index) {
