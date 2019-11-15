@@ -25,7 +25,7 @@ Clone CCFrank to a directory.
 
 3. Click the **LOAD UNPACKED** button and select the directory holding CCFrank.
 
-![Load Extension](./img/load_unpacked.png)
+<img src="./img/load_unpacked.png" height="300" alt="Load Extension">
 
 ## What's New
 
