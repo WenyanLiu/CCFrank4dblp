@@ -1,30 +1,30 @@
 const rawRankingString =
     "A	TOCS	ACM Transactions on Computer Systems	ACM Trans. Comput. Syst.\n" +
-    "A	TOS	ACM Transactions on Storage	TOS\n" +
-    "A	TCAD	IEEE Transactions On Computer-Aided Design Of Integrated Circuits And System	IEEE Trans. on CAD of Integrated Circuits and Systems\n" +
+    "A	TOS	ACM Transactions on Storage	ACM Trans. Storage\n" +
+    "A	TCAD	IEEE Transactions On Computer-Aided Design Of Integrated Circuits And System	IEEE Trans. Comput. Aided Des. Integr. Circuits Syst.\n" +
     "A	TC	IEEE Transactions on Computers	IEEE Trans. Computers\n" +
-    "A	TPDS	IEEE Transactions on Parallel and Distributed Systems	IEEE Trans. Parallel Distrib. Syst.\n" +
-    "B	TACO	ACM Transactions on Architecture and Code Optimization	TACO\n" +
-    "B	TAAS	ACM Transactions on Autonomous and Adaptive Systems	TAAS\n" +
+    "A	TPDS	IEEE Transactions on Parallel and Distributed Systems	IEEE Trans. Parallel Distributed Syst.\n" +
+    "B	TACO	ACM Transactions on Architecture and Code Optimization	ACM Trans. Archit. Code Optim.\n" +
+    "B	TAAS	ACM Transactions on Autonomous and Adaptive Systems	ACM Trans. Auton. Adapt. Syst.\n" +
     "B	TODAES	ACM Transactions on Design Automation of Electronic Systems	ACM Trans. Design Autom. Electr. Syst.\n" +
-    "B	TECS	ACM Transactions on Embedded Computing Systems	ACM Trans. Embedded Comput. Syst.\n" +
-    "B	TRETS	ACM Transactions on Reconfigurable Technology and Systems	TRETS\n" +
-    "B	TVLSI	IEEE Transactions on Very Large Scale Integration (VLSI) Systems	IEEE Trans. VLSI Syst.\n" +
-    "B	JPDC	Journal of Parallel and Distributed Computing	J. Parallel Distrib. Comput.\n" +
-    "B	JSA	Journal of Systems Architecture: Embedded Software Design	Journal of Systems Architecture - Embedded Systems Design\n" +
-    "B	PARCO	Parallel Computing	Parallel Computing\n" +
-    "B		Performance Evaluation: An International Journal	Perform. Eval.\n" +
-    "C	JETC	ACM Journal on Emerging Technologies in Computing Systems	JETC\n" +
-    "C		Concurrency and Computation: Practice and Experience	Concurrency and Computation: Practice and Experience\n" +
-    "C	DC	Distributed Computing	Distributed Computing\n" +
-    "C	FGCS	Future Generation Computer Systems	Future Generation Comp. Syst.\n" +
-    "C	TCC	IEEE Transactions on Cloud Computing	IEEE Trans. Cloud Computing\n" +
-    "C	Integration	Integration, the VLSI Journal	Integration\n" +
-    "C	JETTA	Journal of Electronic Testing-Theory and Applications	J. Electronic Testing\n" +
+    "B	TECS	ACM Transactions on Embedded Computing Systems	ACM Trans. Embed. Comput. Syst.\n" +
+    "B	TRETS	ACM Transactions on Reconfigurable Technology and Systems	ACM Trans. Reconfigurable Technol. Syst.\n" +
+    "B	TVLSI	IEEE Transactions on Very Large Scale Integration (VLSI) Systems	IEEE Trans. Very Large Scale Integr. Syst.\n" +
+    "B	JPDC	Journal of Parallel and Distributed Computing	J. Parallel Distributed Comput.\n" +
+    "B	JSA	Journal of Systems Architecture: Embedded Software Design	J. Syst. Archit.\n" +
+    "B	PARCO	Parallel Computing	PARCO\n" +
+    "B		Performance Evaluation: An International Journal	Perform. Evaluation\n" +
+    "C	JETC	ACM Journal on Emerging Technologies in Computing Systems	ACM J. Emerg. Technol. Comput. Syst.\n" +
+    "C		Concurrency and Computation: Practice and Experience	Concurr. Comput. Pract. Exp.\n" +
+    "C	DC	Distributed Computing	Distributed Comput.\n" +
+    "C	FGCS	Future Generation Computer Systems	Future Gener. Comput. Syst.\n" +
+    "C	TCC	IEEE Transactions on Cloud Computing	IEEE Trans. Cloud Comput.\n" +
+    "C	Integration	Integration, the VLSI Journal	Integr.\n" +
+    "C	JETTA	Journal of Electronic Testing-Theory and Applications	J. Electron. Test.\n" +
     "C	JGC	The Journal of Grid computing	J. Grid Comput.\n" +
-    "C	MICPRO	Microprocessors and Microsystems: Embedded Hardware Design	Microprocessors and Microsystems - Embedded Hardware Design\n" +
-    "C	RTS	Real-Time Systems	Real-Time Systems\n" +
-    "C	TJSC	The Journal of Supercomputing	The Journal of Supercomputing\n" +
+    "C	MICPRO	Microprocessors and Microsystems: Embedded Hardware Design	Microprocess. Microsystems\n" +
+    "C	RTS	Real-Time Systems	Real Time Syst.\n" +
+    "C	TJSC	The Journal of Supercomputing	J. Supercomput.\n" +
     "A	PPoPP	ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming	PPoPP\n" +
     "A	FAST	Conference on File and Storage Technologies	FAST\n" +
     "A	DAC	Design Automation Conference	DAC\n" +
@@ -86,25 +86,25 @@ const rawRankingString =
     "C	ISPD	International Symposium on Physical Design	ISPD\n" +
     "C	HotI	Symposium on High-Performance Interconnects	Hot Interconnects\n" +
     "C	VTS	VLSI Test Symposium	VTS\n" +
-    "A	JSAC	IEEE Journal of Selected Areas in Communications	IEEE Journal on Selected Areas in Communications\n" +
+    "A	JSAC	IEEE Journal of Selected Areas in Communications	IEEE J. Sel. Areas Commun.\n" +
     "A	TMC	IEEE Transactions on Mobile Computing	IEEE Trans. Mob. Comput.\n" +
     "A	TON	IEEE/ACM Transactions on Networking	IEEE/ACM Trans. Netw.\n" +
     "B	TOIT	ACM Transactions on Internet Technology	ACM Trans. Internet Techn.\n" +
-    "B	TOMCCAP	ACM Transactions on Multimedia Computing, Communications and Applications	TOMCCAP\n" +
-    "B	TOSN	ACM Transactions on Sensor Networks	TOSN\n" +
-    "B	CN	Computer Networks	Computer Networks\n" +
-    "B	TCOM	IEEE Transactions on Communications	IEEE Trans. Communications\n" +
-    "B	TWC	IEEE Transactions on Wireless Communications	IEEE Trans. Wireless Communications\n" +
+    "B	TOMCCAP	ACM Transactions on Multimedia Computing, Communications and Applications	ACM Trans. Multim. Comput. Commun. Appl.\n" +
+    "B	TOSN	ACM Transactions on Sensor Networks	ACM Trans. Sens. Networks\n" +
+    "B	CN	Computer Networks	Comput. Networks\n" +
+    "B	TCOM	IEEE Transactions on Communications	IEEE Trans. Commun.\n" +
+    "B	TWC	IEEE Transactions on Wireless Communications	IEEE Trans. Wirel. Commun.\n" +
     "C		Ad hoc Networks	Ad Hoc Networks\n" +
-    "C	CC	Computer Communications	Computer Communications\n" +
-    "C	TNSM	IEEE Transactions on Network and Service Management	IEEE Trans. Network and Service Management\n" +
-    "C		IET Communications	IET Communications\n" +
-    "C	JNCA	Journal of Network and Computer Applications	J. Network and Computer Applications\n" +
-    "C	MONET	Mobile Networks & Applications	MONET\n" +
+    "C	CC	Computer Communications	Comput. Commun.\n" +
+    "C	TNSM	IEEE Transactions on Network and Service Management	IEEE Trans. Netw. Serv. Manag.\n" +
+    "C		IET Communications	IET Commun.\n" +
+    "C	JNCA	Journal of Network and Computer Applications	J. Netw. Comput. Appl.\n" +
+    "C	MONET	Mobile Networks & Applications	Mob. Networks Appl.\n" +
     "C		Networks	Networks\n" +
-    "C	PPNA	Peer-to-Peer Networking and Applications	Peer-to-Peer Networking and Applications\n" +
-    "C	WCMC	Wireless Communications & Mobile Computing	Wireless Communications and Mobile Computing\n" +
-    "C		Wireless Networks	Wireless Networks\n" +
+    "C	PPNA	Peer-to-Peer Networking and Applications	Peer Peer Netw. Appl.\n" +
+    "C	WCMC	Wireless Communications & Mobile Computing	Wirel. Commun. Mob. Comput.\n" +
+    "C		Wireless Networks	Wirel. Networks\n" +
     "A	SIGCOMM	ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication	SIGCOMM\n" +
     "A	MobiCom	ACM International Conference on Mobile Computing and Networking	MobiCom\n" +
     "A	INFOCOM	IEEE International Conference on Computer Communications	INFOCOM\n" +
@@ -138,21 +138,21 @@ const rawRankingString =
     "C	MSWiM	International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems	MSWiM\n" +
     "C	WASA	International Conference on Wireless Algorithms, Systems, and Applications	WASA\n" +
     "C	HotNets	The Workshop on Hot Topics in Networks	HotNets\n" +
-    "A	TDSC	IEEE Transactions on Dependable and Secure Computing	IEEE Trans. Dependable Sec. Comput.\n" +
-    "A	TIFS	IEEE Transactions on Information Forensics and Security	IEEE Trans. Information Forensics and Security\n" +
-    "A		Journal of Cryptology	J. Cryptology\n" +
+    "A	TDSC	IEEE Transactions on Dependable and Secure Computing	IEEE Trans. Dependable Secur. Comput.\n" +
+    "A	TIFS	IEEE Transactions on Information Forensics and Security	IEEE Trans. Inf. Forensics Secur.\n" +
+    "A		Journal of Cryptology	J. Cryptol.\n" +
     "B	TOPS	ACM Transactions on Privacy and Security	ACM Trans. Priv. Secur.\n" +
-    "B		Computers & Security	Computers & Security\n" +
+    "B		Computers & Security	Comput. Secur.\n" +
     "B		Designs, Codes and Cryptography	Des. Codes Cryptogr.\n" +
-    "B	JCS	Journal of Computer Security	Journal of Computer Security\n" +
-    "C	CLSR	Computer Law and Security Review	\n" +
-    "C		EURASIP Journal on Information Security	EURASIP J. Information Security\n" +
-    "C		IET Information Security	IET Information Security\n" +
-    "C	IMCS	Information Management & Computer Security	Inf. & Comput. Security\n" +
-    "C	IJICS	International Journal of Information and Computer Security	IJICS\n" +
-    "C	IJISP	International Journal of Information Security and Privacy	IJISP\n" +
-    "C	JISA	Journal of Information Security and Application	J. Inf. Sec. Appl.\n" +
-    "C	SCN	Security and Communication Networks	Security and Communication Networks\n" +
+    "B	JCS	Journal of Computer Security	J. Comput. Secur.\n" +
+    "C	CLSR	Computer Law and Security Review	Comput. Law Secur. Rev.\n" +
+    "C		EURASIP Journal on Information Security	EURASIP J. Inf. Secur.\n" +
+    "C		IET Information Security	IET Inf. Secur.\n" +
+    "C	IMCS	Information Management & Computer Security	Inf. Comput. Secur.\n" +
+    "C	IJICS	International Journal of Information and Computer Security	Int. J. Inf. Comput. Secur.\n" +
+    "C	IJISP	International Journal of Information Security and Privacy	Int. J. Inf. Secur. Priv.\n" +
+    "C	JISA	Journal of Information Security and Application	J. Inf. Secur. Appl.\n" +
+    "C	SCN	Security and Communication Networks	Secur. Commun. Networks\n" +
     "A	CCS	ACM Conference on Computer and Communications Security	ACM Conference on Computer and Communications Security\n" +
     "A	EUROCRYPT	European Cryptology Conference	EUROCRYPT\n" +
     "A	S&P	IEEE Symposium on Security and Privacy	IEEE Symposium on Security and Privacy\n" +
@@ -198,26 +198,26 @@ const rawRankingString =
     "A	TOSEM	ACM Transactions on Software Engineering and Methodology	ACM Trans. Softw. Eng. Methodol.\n" +
     "A	TSE	IEEE Transactions on Software Engineering	IEEE Trans. Software Eng.\n" +
     "B	ASE	Automated Software Engineering	Autom. Softw. Eng.\n" +
-    "B	ESE	Empirical Software Engineering	Empirical Software Engineering\n" +
-    "B	TSC	IEEE Transactions on Service Computing	IEEE Trans. Services Computing\n" +
-    "B	IETS	IET Software	IET Software\n" +
-    "B	IST	Information and Software Technology	Information & Software Technology\n" +
+    "B	ESE	Empirical Software Engineering	Empir. Softw. Eng.\n" +
+    "B	TSC	IEEE Transactions on Service Computing	IEEE Trans. Serv. Comput.\n" +
+    "B	IETS	IET Software	IET Softw.\n" +
+    "B	IST	Information and Software Technology	Inf. Softw. Technol.\n" +
     "B	JFP	Journal of Functional Programming	J. Funct. Program.\n" +
-    "B		Journal of Software: Evolution and Process	Journal of Software: Evolution and Process\n" +
-    "B	JSS	Journal of Systems and Software	Journal of Systems and Softwar\n" +
+    "B		Journal of Software: Evolution and Process	J. Softw. Evol. Process.\n" +
+    "B	JSS	Journal of Systems and Software	J. Syst. Softw.\n" +
     "B	RE	Requirements Engineering	Requir. Eng.\n" +
     "B	SCP	Science of Computer Programming	Sci. Comput. Program.\n" +
-    "B	SoSyM	Software and System Modeling	Software and Systems Modeling\n" +
-    "B	STVR	Software Testing, Verification and Reliability	Softw. Test., Verif. Reliab.\n" +
-    "B	SPE	Software: Practice and Experience	Softw., Pract. Exper.\n" +
-    "C	CL	Computer Languages, Systems and Structures	Computer Languages, Systems & Structures\n" +
-    "C	IJSEKE	International Journal on Software Engineering and Knowledge Engineering	International Journal of Software Engineering and Knowledge Engineering\n" +
-    "C	STTT	International Journal on Software Tools for Technology Transfer	STTT\n" +
-    "C	JLAP	Journal of Logic and Algebraic Programming	J. Log. Algebr. Meth. Program.\n" +
+    "B	SoSyM	Software and System Modeling	Softw. Syst. Model.\n" +
+    "B	STVR	Software Testing, Verification and Reliability	Softw. Test. Verification Reliab.\n" +
+    "B	SPE	Software: Practice and Experience	Softw. Pract. Exp.\n" +
+    "C	CL	Computer Languages, Systems and Structures	Comput. Lang. Syst. Struct.\n" +
+    "C	IJSEKE	International Journal on Software Engineering and Knowledge Engineering	Int. J. Softw. Eng. Knowl. Eng.\n" +
+    "C	STTT	International Journal on Software Tools for Technology Transfer	Int. J. Softw. Tools Technol. Transf.\n" +
+    "C	JLAP	Journal of Logic and Algebraic Programming	J. Log. Algebraic Methods Program.\n" +
     "C	JWE	Journal of Web Engineering	J. Web Eng.\n" +
-    "C	SOCA	Service Oriented Computing and Applications	Service Oriented Computing and Applications\n" +
-    "C	SQJ	Software Quality Journal	Software Quality Journal\n" +
-    "C	TPLP	Theory and Practice of Logic Programming	TPLP\n" +
+    "C	SOCA	Service Oriented Computing and Applications	Serv. Oriented Comput. Appl.\n" +
+    "C	SQJ	Software Quality Journal	Softw. Qual. J.\n" +
+    "C	TPLP	Theory and Practice of Logic Programming	Theory Pract. Log. Program.\n" +
     "A	PLDI	ACM SIGPLAN Symposium on Programming Language Design & Implementation	PLDI\n" +
     "A	POPL	ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages	POPL\n" +
     "A	FSE/ESEC	ACM SIGSOFT Symposium on the Foundation of Software Engineering/ European Software Engineering Conference	SIGSOFT FSE/ESEC\n" +
@@ -276,33 +276,33 @@ const rawRankingString =
     "A 	TOIS	ACM Transactions on Information Systems	ACM Trans. Inf. Syst.\n" +
     "A 	TKDE	IEEE Transactions on Knowledge and Data Engineering	IEEE Trans. Knowl. Data Eng.\n" +
     "A 	VLDBJ	The VLDB Journal	VLDB J.\n" +
-    "B	TKDD	ACM Transactions on Knowledge Discovery from Data	TKDD\n" +
-    "B	TWEB	ACM Transactions on the Web	TWEB\n" +
-    "B	AEI	Advanced Engineering Informatics	Advanced Engineering Informatics\n" +
+    "B	TKDD	ACM Transactions on Knowledge Discovery from Data	ACM Trans. Knowl. Discov. Data\n" +
+    "B	TWEB	ACM Transactions on the Web	ACM Trans. Web\n" +
+    "B	AEI	Advanced Engineering Informatics	Adv. Eng. Informatics\n" +
     "B	DKE	Data and Knowledge Engineering	Data Knowl. Eng.\n" +
     "B	DMKD	Data Mining and Knowledge Discovery	Data Min. Knowl. Discov.\n" +
-    "B	EJIS	European Journal of Information Systems	EJIS\n" +
+    "B	EJIS	European Journal of Information Systems	Eur. J. Inf. Syst.\n" +
     "B		GeoInformatica	GeoInformatica\n" +
-    "B	IPM	Information Processing and Management	Inf. Process. Manage.\n" +
+    "B	IPM	Information Processing and Management	Inf. Process. Manag.\n" +
     "B		Information Sciences	Inf. Sci.\n" +
     "B	IS	Information Systems	Inf. Syst.\n" +
-    "B	JASIST	Journal of the American Society for Information Science and Technology	JASIST\n" +
+    "B	JASIST	Journal of the American Society for Information Science and Technology	J. Assoc. Inf. Sci. Technol.\n" +
     "B	JWS	Journal of Web Semantics	J. Web Semant.\n" +
     "B	KAIS	Knowledge and Information Systems	Knowl. Inf. Syst.\n" +
-    "C	DPD	Distributed and Parallel Databases	Distributed and Parallel Databases\n" +
-    "C	I&M	Information and Management	Information & Management\n" +
+    "C	DPD	Distributed and Parallel Databases	Distributed Parallel Databases\n" +
+    "C	I&M	Information and Management	Inf. Manag.\n" +
     "C	IPL	Information Processing Letters	Inf. Process. Lett.\n" +
-    "C	IR	Information Retrieval Journal	Inf. Retr. Journal\n" +
+    "C	IR	Information Retrieval Journal	Inf. Retr. J.\n" +
     "C	IJCIS	International Journal of Cooperative Information Systems	Int. J. Cooperative Inf. Syst.\n" +
-    "C	IJGIS	International Journal of Geographical Information Science	International Journal of Geographical Information Science\n" +
+    "C	IJGIS	International Journal of Geographical Information Science	Int. J. Geogr. Inf. Sci.\n" +
     "C	IJIS	International Journal of Intelligent Systems	Int. J. Intell. Syst.\n" +
-    "C	IJKM	International Journal of Knowledge Management	IJKM\n" +
+    "C	IJKM	International Journal of Knowledge Management	Int. J. Knowl. Manag.\n" +
     "C	IJSWIS	International Journal on Semantic Web and Information Systems	Int. J. Semantic Web Inf. Syst.\n" +
-    "C	JCIS	Journal of Computer Information Systems	JCIS\n" +
+    "C	JCIS	Journal of Computer Information Systems	J. Comput. Inf. Syst." +
     "C	JDM	Journal of Database Management	J. Database Manag.\n" +
     "C	JGITM	Journal of Global Information Technology Management	\n" +
     "C	JIIS	Journal of Intelligent Information Systems	J. Intell. Inf. Syst.\n" +
-    "C	JSIS	Journal of Strategic Information Systems	J. Strategic Inf. Sys.\n" +
+    "C	JSIS	Journal of Strategic Information Systems	J. Strateg. Inf. Syst.\n" +
     "A	SIGMOD	ACM Conference on Management of Data	SIGMOD Conference\n" +
     "A	SIGKDD	ACM Knowledge Discovery and Data Mining	KDD\n" +
     "A	ICDE	IEEE International Conference on Data Engineering	ICDE\n" +
@@ -331,33 +331,33 @@ const rawRankingString =
     "C	SSTD	International Symposium on Spatial and Temporal Databases	SSTD\n" +
     "C	PAKDD	Pacific-Asia Conference on Knowledge Discovery and Data Mining	PAKDD\n" +
     "C	WISE	Web Information Systems Engineering	WISE\n" +
-    "A	TIT	IEEE Transactions on Information Theory	IEEE Trans. Information Theory\n" +
+    "A	TIT	IEEE Transactions on Information Theory	IEEE Trans. Inf. Theory\n" +
     "A	IANDC	Information and Computation	Inf. Comput.\n" +
     "A	SICOMP	SIAM Journal on Computing	SIAM J. Comput.\n" +
     "B	TALG	ACM Transactions on Algorithms	ACM Trans. Algorithms\n" +
     "B	TOCL	ACM Transactions on Computational Logic	ACM Trans. Comput. Log.\n" +
     "B	TOMS	ACM Transactions on Mathematical Software	ACM Trans. Math. Softw.\n" +
     "B	Algorithmica	Algorithmica	Algorithmica\n" +
-    "B	CC	Computational complexity	Computational Complexity\n" +
-    "B	FAC	Formal Aspects of Computing	Formal Asp. Comput.\n" +
-    "B	FMSD	Formal Methods in System Design	Formal Methods in System Design\n" +
-    "B	INFORMS	INFORMS Journal on Computing	INFORMS Journal on Computing\n" +
+    "B	CC	Computational complexity	Comput. Complex.\n" +
+    "B	FAC	Formal Aspects of Computing	Formal Aspects Comput.\n" +
+    "B	FMSD	Formal Methods in System Design	Formal Methods Syst. Des.\n" +
+    "B	INFORMS	INFORMS Journal on Computing	INFORMS J. Comput.\n" +
     "B	JCSS	Journal of Computer and System Sciences	J. Comput. Syst. Sci.\n" +
-    "B	JGO	Journal of Global Optimization	J. Global Optimization\n" +
+    "B	JGO	Journal of Global Optimization	J. Glob. Optim.\n" +
     "B	JSC	Journal of Symbolic Computation	J. Symb. Comput.\n" +
-    "B	MSCS	Mathematical Structures in Computer Science	Mathematical Structures in Computer Science\n" +
+    "B	MSCS	Mathematical Structures in Computer Science	Math. Struct. Comput. Sci.\n" +
     "B	TCS	Theoretical Computer Science	Theor. Comput. Sci.\n" +
     "C	ACTA	Acta Informatica	Acta Inf.\n" +
-    "C	APAL	Annals of Pure and Applied Logic	Ann. Pure Appl. Logic\n" +
-    "C	DAM	Discrete Applied Mathematics	Discrete Applied Mathematics\n" +
-    "C	FUIN	Fundamenta Informaticae	Fundam. Inform.\n" +
-    "C	LISP	Higher-Order and Symbolic Computation	Higher-Order and Symbolic Computation\n" +
+    "C	APAL	Annals of Pure and Applied Logic	Ann. Pure Appl. Log.\n" +
+    "C	DAM	Discrete Applied Mathematics	Discret. Appl. Math.\n" +
+    "C	FUIN	Fundamenta Informaticae	Fundam. Informaticae\n" +
+    "C	LISP	Higher-Order and Symbolic Computation	High. Order Symb. Comput.\n" +
     "C	IPL	Information Processing Letters	Inf. Process. Lett.\n" +
-    "C	JCOMPLEXITY	Journal of Complexity	J. Complexity\n" +
+    "C	JCOMPLEXITY	Journal of Complexity	J. Complex.\n" +
     "C	LOGCOM	Journal of Logic and Computation	J. Log. Comput.\n" +
     "C	JSL	Journal of Symbolic Logic	J. Symb. Log.\n" +
-    "C	LMCS	Logical Methods in Computer Science	Logical Methods in Computer Science\n" +
-    "C	SIDMA	SIAM Journal on Discrete Mathematics	SIAM J. Discrete Math.\n" +
+    "C	LMCS	Logical Methods in Computer Science	Log. Methods Comput. Sci.\n" +
+    "C	SIDMA	SIAM Journal on Discrete Mathematics	SIAM J. Discret. Math.\n" +
     "C		Theory of Computing Systems	Theory Comput. Syst.\n" +
     "A	STOC	ACM Symposium on Theory of Computing	STOC\n" +
     "A	SODA	ACM-SIAM Symposium on Discrete Algorithms	SODA\n" +
@@ -384,29 +384,29 @@ const rawRankingString =
     "C	STACS	Symposium on Theoretical Aspects of Computer Science	STACS\n" +
     "A	TOG	ACM Transactions on Graphics	ACM Trans. Graph.\n" +
     "A	TIP	IEEE Transactions on Image Processing	IEEE Trans. Image Processing\n" +
-    "A	TVCG	IEEE Transactions on Visualization and Computer Graphics	IEEE Trans. Vis. Comput. Graph.\n" +
-    "B	TOMCCAP	ACM Transactions on Multimedia Computing,Communications and Application	TOMCCAP\n" +
-    "B	CAGD	Computer Aided Geometric Design	Computer Aided Geometric Design\n" +
+    "A	TVCG	IEEE Transactions on Visualization and Computer Graphics	IEEE Trans. Image Process.\n" +
+    "B	TOMCCAP	ACM Transactions on Multimedia Computing,Communications and Application	ACM Trans. Multim. Comput. Commun. Appl.\n" +
+    "B	CAGD	Computer Aided Geometric Design	Comput. Aided Geom. Des.\n" +
     "B	CGF	Computer Graphics Forum	Comput. Graph. Forum\n" +
-    "B	CAD	Computer-Aided Design	Computer-Aided Design\n" +
-    "B	GM	Graphical Models	Graphical Models\n" +
-    "B	TCSVT	IEEE Transactions on Circuits and Systems for Video Technology	IEEE Trans. Circuits Syst. Video Techn.\n" +
-    "B	TMM	IEEE Transactions on Multimedia	IEEE Trans. Multimedia\n" +
+    "B	CAD	Computer-Aided Design	Comput. Aided Des.\n" +
+    "B	GM	Graphical Models	Graph. Model.\n" +
+    "B	TCSVT	IEEE Transactions on Circuits and Systems for Video Technology	IEEE Trans. Circuits Syst. Video Technol.\n" +
+    "B	TMM	IEEE Transactions on Multimedia	IEEE Trans. Multim.\n" +
     "B	JASA	Journal of The Acoustical Society of America	\n" +
-    "B	SIIMS	SIAM Journal on Imaging Sciences	SIAM J. Imaging Sciences\n" +
-    "B	Speech Com	Speech Communication	Speech Communication\n" +
+    "B	SIIMS	SIAM Journal on Imaging Sciences	SIAM J. Imaging Sci.\n" +
+    "B	Speech Com	Speech Communication	Speech Commun.\n" +
     "C	CGTA	Computational Geometry: Theory and Applications	Comput. Geom.\n" +
-    "C	CAVW	Computer Animation and Virtual Worlds	\n" +
-    "C	C&G	Computers & Graphics	Computers & Graphics\n" +
-    "C	DCG	Discrete & Computational Geometry	Discrete & Computational Geometry\n" +
+    "C	CAVW	Computer Animation and Virtual Worlds	Comput. Animat. Virtual Worlds\n" +
+    "C	C&G	Computers & Graphics	Comput. Graph.\n" +
+    "C	DCG	Discrete & Computational Geometry	Discret. Comput. Geom.\n" +
     "C	SPL	IEEE Signal Processing Letters	IEEE Signal Process. Lett.\n" +
-    "C	IET-IPR	IET Image Processing	IET Image Processing\n" +
-    "C	JVCIR	Journal of Visual Communication and Image Representation	J. Visual Communication and Image Representation\n" +
-    "C	MS	Multimedia Systems	Multimedia Syst.\n" +
-    "C	MTA	Multimedia Tools and Applications	Multimedia Tools Appl.\n" +
-    "C		Signal Processing	Signal Processing\n" +
-    "C	SPIC	Signal processing : image communication	Sig. Proc.: Image Comm.\n" +
-    "C	TVC	The Visual Computer	The Visual Computer\n" +
+    "C	IET-IPR	IET Image Processing	IET Image Process.\n" +
+    "C	JVCIR	Journal of Visual Communication and Image Representation	J. Vis. Commun. Image Represent.\n" +
+    "C	MS	Multimedia Systems	Multim. Syst.\n" +
+    "C	MTA	Multimedia Tools and Applications	Multim. Tools Appl.\n" +
+    "C		Signal Processing	Signal Process.\n" +
+    "C	SPIC	Signal processing : image communication	Signal Process. Image Commun.\n" +
+    "C	TVC	The Visual Computer	Vis. Comput.\n" +
     "A	ACM MM	ACM International Conference on Multimedia	ACM Multimedia\n" +
     "A	SIGGRAPH	ACM SIGGRAPH Annual Conference	SIGGRAPH\n" +
     "A	VR	IEEE Virtual Reality	VR\n" +
@@ -438,65 +438,65 @@ const rawRankingString =
     "C	SMI	Shape Modeling International	Shape Modeling International\n" +
     "A	AI	Artificial Intelligence	Artif. Intell.\n" +
     "A	TPAMI	IEEE Trans on Pattern Analysis and Machine Intelligence	IEEE Trans. Pattern Anal. Mach. Intell.\n" +
-    "A	IJCV	International Journal of Computer Vision	International Journal of Computer Vision\n" +
+    "A	IJCV	International Journal of Computer Vision	Int. J. Comput. Vis.\n" +
     "A	JMLR	Journal of Machine Learning Research	J. Mach. Learn. Res.\n" +
-    "B	TAP	ACM Transactions on Applied Perception	TAP\n" +
-    "B	TSLP	ACM Transactions on Speech and Language Processing	TSLP\n" +
+    "B	TAP	ACM Transactions on Applied Perception	ACM Trans. Appl. Percept.\n" +
+    "B	TSLP	ACM Transactions on Speech and Language Processing	ACM Trans. Speech Lang. Process.\n" +
     "B	AAMAS	Autonomous Agents and Multi-Agent Systems	Autonomous Agents and Multi-Agent Systems\n" +
-    "B		Computational Linguistics	Computational Linguistics\n" +
-    "B	CVIU	Computer Vision and Image Understanding	Computer Vision and Image Understanding\n" +
+    "B		Computational Linguistics	Comput. Linguistics\n" +
+    "B	CVIU	Computer Vision and Image Understanding	Comput. Vis. Image Underst.\n" +
     "B	DKE	Data and Knowledge Engineering	Data Knowl. Eng.\n" +
-    "B		Evolutionary Computation	Evolutionary Computation\n" +
-    "B	TAC	IEEE Transactions on Affective Computing	IEEE Trans. Affective Computing\n" +
-    "B	TASLP	IEEE Transactions on Audio, Speech, and Language Processing	IEEE/ACM Trans. Audio, Speech & Language Processing\n" +
-    "B		IEEE Transactions on Cybernetics	IEEE Trans. Cybernetics\n" +
-    "B	TEC	IEEE Transactions on Evolutionary Computation	IEEE Trans. Evolutionary Computation\n" +
-    "B	TFS	IEEE Transactions on Fuzzy Systems	IEEE Trans. Fuzzy Systems\n" +
-    "B	TNNLS	IEEE Transactions on Neural Networks and learning systems	IEEE Trans. Neural Netw. Learning Syst.\n" +
-    "B	IJAR	International Journal of Approximate Reasoning	Int. J. Approx. Reasoning\n" +
+    "B		Evolutionary Computation	Evol. Comput.\n" +
+    "B	TAC	IEEE Transactions on Affective Computing	IEEE Trans. Affect. Comput.\n" +
+    "B	TASLP	IEEE Transactions on Audio, Speech, and Language Processing	IEEE ACM Trans. Audio Speech Lang. Process.\n" +
+    "B		IEEE Transactions on Cybernetics	IEEE Trans. Cybern.\n" +
+    "B	TEC	IEEE Transactions on Evolutionary Computation	IEEE Trans. Evol. Comput.\n" +
+    "B	TFS	IEEE Transactions on Fuzzy Systems	IEEE Trans. Fuzzy Syst.\n" +
+    "B	TNNLS	IEEE Transactions on Neural Networks and learning systems	IEEE Trans. Neural Networks Learn. Syst.\n" +
+    "B	IJAR	International Journal of Approximate Reasoning	Int. J. Approx. Reason.\n" +
     "B	JAIR	Journal of Artificial Intelligence Research	J. Artif. Intell. Res.\n" +
-    "B		Journal of Automated Reasoning	J. Autom. Reasoning\n" +
+    "B		Journal of Automated Reasoning	J. Autom. Reason.\n" +
     "B	JSLHR	Journal of Speech, Language, and Hearing Research	\n" +
-    "B		Machine Learning	Machine Learning\n" +
-    "B		Neural Computation	Neural Computation\n" +
+    "B		Machine Learning	Mach. Learn.\n" +
+    "B		Neural Computation	Neural Comput.\n" +
     "B		Neural Networks	Neural Networks\n" +
-    "B		Pattern Recognition	Pattern Recognition\n" +
-    "C	TALLIP	ACM Transactions on Asian and Low-Resource Language Information Processing	ACM Trans. Asian & Low-Resource Lang. Inf. Process.\n" +
+    "B		Pattern Recognition	Pattern Recognit.\n" +
+    "C	TALLIP	ACM Transactions on Asian and Low-Resource Language Information Processing	ACM Trans. Asian Low Resour. Lang. Inf. Process.\n" +
     "C		Applied Intelligence	Appl. Intell.\n" +
-    "C	AIM	Artificial Intelligence in Medicine	Artificial Intelligence in Medicine\n" +
-    "C		Artificial Life	Artificial Life\n" +
-    "C		Computational Intelligence	Computational Intelligence\n" +
-    "C		Computer Speech and Language	Computer Speech & Language\n" +
+    "C	AIM	Artificial Intelligence in Medicine	Artif. Intell. Medicine\n" +
+    "C		Artificial Life	Artif. Life\n" +
+    "C		Computational Intelligence	Comput. Intell.\n" +
+    "C		Computer Speech and Language	Comput. Speech Lang.\n" +
     "C		Connection Science	Connect. Sci.\n" +
-    "C	DSS	Decision Support Systems	Decision Support Systems\n" +
-    "C	EAAI	Engineering Applications of Artificial Intelligence	Eng. Appl. of AI\n" +
-    "C		Expert Systems	Expert Systems\n" +
+    "C	DSS	Decision Support Systems	Decis. Support Syst.\n" +
+    "C	EAAI	Engineering Applications of Artificial Intelligence	Eng. Appl. Artif. Intell.\n" +
+    "C		Expert Systems	Expert Syst. J. Knowl. Eng.\n" +
     "C	ESWA	Expert Systems with Applications	Expert Syst. Appl.\n" +
-    "C		Fuzzy Sets and Systems	Fuzzy Sets and Systems\n" +
+    "C		Fuzzy Sets and Systems	Fuzzy Sets Syst.\n" +
     "C	TG	IEEE Transactions on Games	IEEE Trans. Games\n" +
-    "C	IET-CVI	IET Computer Vision	IET Computer Vision\n" +
-    "C		IET Signal Processing	IET Signal Processing\n" +
-    "C	IVC	Image and Vision Computing	Image Vision Comput.\n" +
+    "C	IET-CVI	IET Computer Vision	IET Comput. Vis.\n" +
+    "C		IET Signal Processing	IET Signal Process.\n" +
+    "C	IVC	Image and Vision Computing	Image Vis. Comput.\n" +
     "C	IDA	Intelligent Data Analysis	Intell. Data Anal.\n" +
-    "C	IJCIA	International Journal of Computational Intelligence and Applications	International Journal of Computational Intelligence and Applications\n" +
+    "C	IJCIA	International Journal of Computational Intelligence and Applications	Int. J. Comput. Intell. Appl.\n" +
     "C	IJIS	International Journal of Intelligent Systems	Int. J. Intell. Syst.\n" +
     "C	IJNS	International Journal of Neural Systems	Int. J. Neural Syst.\n" +
-    "C	IJPRAI	International Journal of Pattern Recognition and Artificial Intelligence	IJPRAI\n" +
-    "C	IJUFKS	International Journal of Uncertainty, Fuzziness and Knowledge-Based System	International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems\n" +
-    "C	IJDAR	International Journal on Document Analysis and Recognition	IJDAR\n" +
+    "C	IJPRAI	International Journal of Pattern Recognition and Artificial Intelligence	Int. J. Pattern Recognit. Artif. Intell.\n" +
+    "C	IJUFKS	International Journal of Uncertainty, Fuzziness and Knowledge-Based System	Int. J. Uncertain. Fuzziness Knowl. Based Syst.\n" +
+    "C	IJDAR	International Journal on Document Analysis and Recognition	Int. J. Document Anal. Recognit.\n" +
     "C	JETAI	Journal of Experimental and Theoretical Artificial Intelligence	J. Exp. Theor. Artif. Intell.\n" +
-    "C	KBS	Knowledge-Based Systems	Knowl.-Based Syst.\n" +
-    "C		Machine Translation	Machine Translation\n" +
+    "C	KBS	Knowledge-Based Systems	Knowl. Based Syst.\n" +
+    "C		Machine Translation	Mach. Transl.\n" +
     "C		Machine Vision and Applications	Mach. Vis. Appl.\n" +
-    "C		Natural Computing	Natural Computing\n" +
-    "C	NLE	Natural Language Engineering	Natural Language Engineering\n" +
-    "C	NCA	Neural Computing & Applications	Neural Computing and Applications\n" +
-    "C	NPL	Neural Processing Letters	Neural Processing Letters\n" +
+    "C		Natural Computing	Nat. Comput.\n" +
+    "C	NLE	Natural Language Engineering	Nat. Lang. Eng.\n" +
+    "C	NCA	Neural Computing & Applications	Neural Comput. Appl.\n" +
+    "C	NPL	Neural Processing Letters	Neural Process. Lett.\n" +
     "C		Neurocomputing	Neurocomputing\n" +
     "C	PAA	Pattern Analysis and Applications	Pattern Anal. Appl.\n" +
-    "C	PRL	Pattern Recognition Letters	Pattern Recognition Letters\n" +
+    "C	PRL	Pattern Recognition Letters	Pattern Recognit. Lett.\n" +
     "C		Soft Computing	Soft Comput.\n" +
-    "C	WI	Web Intelligence	Web Intelligence\n" +
+    "C	WI	Web Intelligence	Web Intell.\n" +
     "A	AAAI	AAAI Conference on Artificial Intelligence	AAAI\n" +
     "A	NeurIPS	Annual Conference on Neural Information Processing Systems	NeurIPS\n" +
     "A	ACL	Annual Meeting of the Association for Computational Linguistics	ACL\n" +
@@ -537,17 +537,17 @@ const rawRankingString =
     "C	IJCNN	International Joint Conference on Neural Networks	IJCNN\n" +
     "C	PRICAI	Pacific Rim International Conference on Artificial Intelligence	PRICAI\n" +
     "C	NAACL	The Annual Conference of the North American Chapter of the Association for Computational Linguistics	NAACL\n" +
-    "A	TOCHI	ACM Transactions on Computer-Human Interaction	ACM Trans. Comput.-Hum. Interact.\n" +
-    "A	IJHCS	International Journal of Human Computer Studies	Int. J. Hum.-Comput. Stud.\n" +
-    "B	CSCW	Computer Supported Cooperative Work	Computer Supported Cooperative Work\n" +
-    "B	HCI	Human Computer Interaction	Human-Computer Interaction\n" +
-    "B		IEEE Transactions on Human-Machine Systems	IEEE Trans. Human-Machine Systems\n" +
-    "B	IWC	Interacting with Computers	Interacting with Computers\n" +
-    "B	IJHCI	International Journal of Human-Computer Interaction	Int. J. Hum. Comput. Interaction\n" +
-    "B	UMUAI	User Modeling and User-Adapted Interaction	User Model. User-Adapt. Interact.\n" +
-    "C	BIT	Behaviour & Information Technology	Behaviour & IT\n" +
-    "C	PUC	Personal and Ubiquitous Computing	Personal and Ubiquitous Computing\n" +
-    "C	PMC	Pervasive and Mobile Computing	Pervasive and Mobile Computing\n" +
+    "A	TOCHI	ACM Transactions on Computer-Human Interaction	ACM Trans. Comput. Hum. Interact.\n" +
+    "A	IJHCS	International Journal of Human Computer Studies	Int. J. Hum. Comput. Stud.\n" +
+    "B	CSCW	Computer Supported Cooperative Work	Comput. Support. Cooperative Work.\n" +
+    "B	HCI	Human Computer Interaction	Hum. Comput. Interact.\n" +
+    "B		IEEE Transactions on Human-Machine Systems	IEEE Trans. Hum. Mach. Syst.\n" +
+    "B	IWC	Interacting with Computers	Interact. Comput.\n" +
+    "B	IJHCI	International Journal of Human-Computer Interaction	Int. J. Hum. Comput. Interact.\n" +
+    "B	UMUAI	User Modeling and User-Adapted Interaction	User Model. User Adapt. Interact.\n" +
+    "C	BIT	Behaviour & Information Technology	Behav. Inf. Technol.\n" +
+    "C	PUC	Personal and Ubiquitous Computing	Pers. Ubiquitous Comput.\n" +
+    "C	PMC	Pervasive and Mobile Computing	Pervasive Mob. Comput.\n" +
     "A	CSCW	ACM Conference on Computer Supported Cooperative Work and Social Computing	CSCW\n" +
     "A	CHI	ACM Conference on Human Factors in Computing Systems	CHI\n" +
     "A	UbiComp	ACM International Conference on Ubiquitous Computing	UbiComp\n" +
@@ -572,31 +572,31 @@ const rawRankingString =
     "C	MobiQuitous	International Conference on Mobile and Ubiquitous Systems: Computing,Networking and Services	MobiQuitous\n" +
     "C	AVI	International Working Conference on Advanced Visual Interfaces	AVI\n" +
     "A 	JACM	Journal of the ACM	J. ACM\n" +
-    "A 	Proc. IEEE	Proceedings of the IEEE	Proceedings of the IEEE\n" +
-    "B		Bioinformatics	Bioinformatics\n" +
-    "B		Briefings in Bioinformatics	Briefings in Bioinformatics\n" +
+    "A 	Proc. IEEE	Proceedings of the IEEE	Proc. IEEE\n" +
+    "B		Bioinformatics	Bioinform.\n" +
+    "B		Briefings in Bioinformatics	Briefings Bioinform.\n" +
     "B	Cognition	Cognition: International Journal of Cognitive Science	\n" +
-    "B	TASAE	IEEE Transactions on Automation Science and Engineering	IEEE Trans. Automation Science and Engineering\n" +
-    "B	TGARS	IEEE Transactions on Geoscience and Remote Sensing	IEEE Trans. Geoscience and Remote Sensing\n" +
-    "B	TITS	IEEE Transactions on Intelligent Transportation Systems	IEEE Trans. Intelligent Transportation Systems\n" +
-    "B	TMI	IEEE Transactions on Medical Imaging	IEEE Trans. Med. Imaging\n" +
+    "B	TASAE	IEEE Transactions on Automation Science and Engineering	IEEE Trans Autom. Sci. Eng.\n" +
+    "B	TGARS	IEEE Transactions on Geoscience and Remote Sensing	IEEE Trans. Geosci. Remote. Sens.\n" +
+    "B	TITS	IEEE Transactions on Intelligent Transportation Systems	IEEE Trans. Intell. Transp. Syst.\n" +
+    "B	TMI	IEEE Transactions on Medical Imaging	IEEE Trans. Medical Imaging\n" +
     "B	TR	IEEE Transactions on Robotics	IEEE Trans. Robotics\n" +
-    "B	TCBB	IEEE-ACM Transactions on Computational Biology and Bioinformatics	IEEE/ACM Trans. Comput. Biology Bioinform.\n" +
+    "B	TCBB	IEEE-ACM Transactions on Computational Biology and Bioinformatics	IEEE ACM Trans. Comput. Biol. Bioinform.\n" +
     "B	JCST	Journal of Computer Science and Technology	J. Comput. Sci. Technol.\n" +
-    "B	JAMIA	Journal of the American Medical Informatics Association	JAMIA\n" +
-    "B		PLOS Computational Biology	PLoS Computational Biology\n" +
-    "B		Science China Information Sciences	SCIENCE CHINA Information Sciences\n" +
+    "B	JAMIA	Journal of the American Medical Informatics Association	J. Am. Medical Informatics Assoc.\n" +
+    "B		PLOS Computational Biology	PLoS Comput. Biol.\n" +
+    "B		Science China Information Sciences	Sci. China Inf. Sci.\n" +
     "B		The Computer Journal	Comput. J.\n" +
-    "B		World Wide Web Journal	World Wide Web Journal\n" +
-    "C		BMC Bioinformatics	BMC Bioinformatics\n" +
-    "C		Cybernetics and Systems	Cybernetics and Systems\n" +
+    "B		World Wide Web Journal	World Wide Web J.\n" +
+    "C		BMC Bioinformatics	BMC Bioinform.\n" +
+    "C		Cybernetics and Systems	Cybern. Syst.\n" +
     "C	FCS	Frontiers of Computer Science	Frontiers Comput. Sci.\n" +
-    "C		IEEE Geoscience and Remote Sensing Letters	IEEE Geosci. Remote Sensing Lett.\n" +
-    "C	JBHI	IEEE Journal of Biomedical and Health Informatics	IEEE J. Biomedical and Health Informatics\n" +
+    "C		IEEE Geoscience and Remote Sensing Letters	IEEE Geosci. Remote. Sens. Lett.\n" +
+    "C	JBHI	IEEE Journal of Biomedical and Health Informatics	IEEE J. Biomed. Health Informatics\n" +
     "C	TBD	IEEE Transactions on Big Data	IEEE Trans. Big Data\n" +
     "C		IET Intelligent Transport Systems	\n" +
-    "C	JBI	Journal of Biomedical Informatics	Journal of Biomedical Informatics\n" +
-    "C		Medical Image Analysis	Medical Image Analysis\n" +
+    "C	JBI	Journal of Biomedical Informatics	J. Biomed. Informatics\n" +
+    "C		Medical Image Analysis	Medical Image Anal.\n" +
     "A	WWW	International World Wide Web Conferences	WWW\n" +
     "A	RTSS	Real-Time Systems Symposium	RTSS\n" +
     "B	CogSci	Cognitive Science Society Annual Conference	CogSci\n" +
