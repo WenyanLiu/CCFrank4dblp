@@ -29,11 +29,17 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 1.2**
+
+Oct 28, 2020
+
+1. 适配 dblp 刊物名称，建议更新到此版本。
+
 **Version 1.1**
 
 Nov 15, 2019
 
-1. 适配 dblp '2019-11-11: Open citation data and dblp' [Feature Spotlight]，建议更新到此版本。
+1. 适配 dblp '2019-11-11: Open citation data and dblp' [Feature Spotlight]。
 
 **Version 1.0**
 
