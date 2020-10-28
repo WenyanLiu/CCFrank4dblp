@@ -1,4 +1,4 @@
-# CCFrank
+# ![](./logo/16x16.png) CCFrank
 
 The Chrome Extension displays the China Computer Federation rankings of conferences and journals in the search results. It supports dblp computer science bibliography.
 
@@ -33,7 +33,10 @@ Clone CCFrank to a directory.
 
 Oct 28, 2020
 
-1. 适配 dblp 刊物名称，建议更新到此版本。
+1. 适配 dblp 刊物名称，建议更新到此版本；
+2. 增加了 dblp computer science bibliography 的镜像站点支持；
+3. 移除了 ACM Digital Library 和 IEEE Xplore 支持，专注优化 dblp 支持
+（如需使用 ACM Digital Library、IEEE Xplore 和 Springer，请移步至 [![show-rank](https://raw.githubusercontent.com/hnshhslsh/show-rank/master/logo/16x16.png) hnshhslsh/show-rank](https://github.com/hnshhslsh/show-rank)，谢谢！）。
 
 **Version 1.1**
 

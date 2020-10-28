@@ -4,7 +4,7 @@
     "description": "The title of the application, displayed in the web store."
   },
   "appDesc": {
-    "message": "在搜索结果中显示中国计算机学会的会议和期刊排名。目前支持 ACM Digital Library、IEEE Xplore Digital Library 和 dblp computer science bibliography。",
+    "message": "在搜索结果中显示中国计算机学会的会议和期刊排名。支持 dblp computer science bibliography。",
     "description": "The description of the application, displayed in the web store."
   }
 }

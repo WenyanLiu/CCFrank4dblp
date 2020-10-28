@@ -1,7 +1,7 @@
 {
     "name": "__MSG_appName__",
     "manifest_version": 2,
-    "version": "1.0",
+    "version": "1.2",
     "description": "__MSG_appDesc__",
     "default_locale": "en",
     "icons": {
@@ -19,16 +19,15 @@
     "content_scripts": [
         {
             "matches": [
-                "https://dl.acm.org/results.cfm?*",
+                "https://dblp.org/*",
                 "https://dblp.uni-trier.de/*",
-                "https://ieeexplore.ieee.org/search/searchresult.jsp?*"
+                "https://dblp2.uni-trier.de/*",
+                "https://dblp.dagstuhl.de/*"
             ],
             "js": [
                 "lib/jquery-3.3.1.min.js",
                 "ranking/ccf.js",
                 "site/siteUtil.js",
-                "site/acm.js",
-                "site/ieee.js",
                 "site/dblp.js",
                 "data/ccfRankingAbbrName.js",
                 "data/ccfRankingFullName.js",
