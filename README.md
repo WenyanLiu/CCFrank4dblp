@@ -1,4 +1,4 @@
-# ![](./logo/16x16.png) CCFrank
+# ![](./logo/32x32.png) CCFrank
 
 The Chrome Extension displays the China Computer Federation rankings of conferences and journals in the search results. It supports dblp computer science bibliography.
 
