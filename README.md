@@ -1,8 +1,8 @@
-# <img src="./logo/32x32.png" height="21px" alt=""> CCFrank
+# <img src="./icon/32x32.png" height="21px" alt=""> CCFrank
 
-The Chrome Extension displays the China Computer Federation rankings of conferences and journals in the search results. It supports dblp computer science bibliography.
+The Chrome Extension displays the China Computer Federation recommended rank of international conferences and journals in the dblp search results.
 
-Chrome 扩展程序，在搜索结果中显示中国计算机学会的会议和期刊排名。支持 dblp computer science bibliography。
+Chrome 扩展程序，在 dblp 的搜索结果中显示中国计算机学会推荐的国际会议和期刊排名。
 
 ## Preview
 
@@ -42,7 +42,7 @@ Oct 28, 2020
 
 Nov 15, 2019
 
-1. 适配 dblp '2019-11-11: Open citation data and dblp' [Feature Spotlight]。
+1. 适配 dblp "2019-11-11: Open citation data and dblp" [Feature Spotlight]。
 
 **Version 1.0**
 

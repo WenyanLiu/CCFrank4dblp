@@ -1,5 +1,3 @@
-dblp.rankingSpanProvider.push(ccf.getRankingSpan);
+dblp.rankSpanList.push(ccf.getRankSpan);
 
-if (location.href.startsWith("https://dblp")) {
-    dblp.start();
-} 
+dblp.start();

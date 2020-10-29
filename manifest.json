@@ -1,42 +1,41 @@
 {
-    "name": "__MSG_appName__",
-    "manifest_version": 2,
-    "version": "1.2",
-    "description": "__MSG_appDesc__",
-    "default_locale": "en",
-    "icons": {
-        "16": "logo/16x16.png",
-        "48": "logo/64x64.png",
-        "128": "logo/128x128.png"
-    },
-    "browser_action": {
-        "default_icon": {
-            "16": "logo/16x16.png",
-            "24": "logo/24x24.png",
-            "32": "logo/32x32.png"
-        }
-    },
-    "content_scripts": [
-        {
-            "matches": [
-                "https://dblp.org/*",
-                "https://dblp.uni-trier.de/*",
-                "https://dblp2.uni-trier.de/*",
-                "https://dblp.dagstuhl.de/*"
-            ],
-            "js": [
-                "lib/jquery-3.3.1.min.js",
-                "ranking/ccf.js",
-                "site/siteUtil.js",
-                "site/dblp.js",
-                "data/ccfRankingAbbrName.js",
-                "data/ccfRankingFullName.js",
-                "data/ccfRankingDblpName.js",
-                "script.js"
-            ],
-            "css": [
-                "style.css"
-            ]
-        }
-    ]
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDesc__",
+  "version": "1.2",
+  "manifest_version": 2,
+  "default_locale": "en",
+  "icons": {
+    "16": "icon/16x16.png",
+    "24": "icon/24x24.png",
+    "32": "icon/32x32.png",
+    "64": "icon/64x64.png",
+    "128": "icon/128x128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon/16x16.png",
+      "24": "icon/24x24.png",
+      "32": "icon/32x32.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://dblp.org/*",
+        "https://dblp.uni-trier.de/*",
+        "https://dblp2.uni-trier.de/*",
+        "https://dblp.dagstuhl.de/*"
+      ],
+      "css": ["css/style.css"],
+      "js": [
+        "lib/jquery-3.5.1.min.js",
+        "js/dblp.js",
+        "js/ccf.js",
+        "data/ccfRankAbbrName.js",
+        "data/ccfRankFullName.js",
+        "data/ccfRankDblpName.js",
+        "script.js"
+      ]
+    }
+  ]
 }
