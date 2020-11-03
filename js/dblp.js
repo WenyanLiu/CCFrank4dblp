@@ -4,7 +4,15 @@ dblp.rankSpanList = [];
 
 dblp.start = function () {
   let url = window.location.href;
-  if (url.includes("/search?q=")) {
+  if (url.includes("/pid/")) {
+    dblp.appendRanks();
+  } else if (url.includes("/db/conf/") || url.includes("/db/journals/")) {
+    if (url.includes("/index.html")) {
+      dblp.appendRank("h1");
+    } else {
+      dblp.appendRank("#breadcrumbs > ul > li > span:nth-child(3) > a > span");
+    }
+  } else {
     setInterval(function () {
       let message = $("#completesearch-publs > div > p.waiting");
       if (message.css("display") == "none") {
@@ -14,14 +22,6 @@ dblp.start = function () {
         dblp.appendRanks();
       }
     }, 700);
-  } else if (url.includes("/pid/")) {
-    dblp.appendRanks();
-  } else if (url.includes("/db/conf/") || url.includes("/db/journals/")) {
-    if (url.includes("/index.html")) {
-      dblp.appendRank("h1");
-    } else {
-      dblp.appendRank("#breadcrumbs > ul > li > span:nth-child(3) > a > span");
-    }
   }
 };
 

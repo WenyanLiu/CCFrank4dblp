@@ -29,6 +29,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 1.3.1**
+
+Nov 3, 2020
+
+1. 增加了 dblp 使用 AJAX 更新搜索结果（即 URL 无 "/search?q=" 关键词）时的支持。
+
 **Version 1.3**
 
 Oct 29, 2020
