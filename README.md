@@ -33,7 +33,7 @@ Clone CCFrank to a directory.
 
 Nov 3, 2020
 
-1. 感谢 @kevyn-zhang 指正，修正了 Software: Practice and Experience (SPE) 等由“连字符”引起的错误。
+1. 感谢 @kevyn-zhang 指正，修正了 Software: Practice and Experience (SPE) 等由“连字符”引起的错误，建议更新到此版本。
 
 **Version 1.3.1**
 
@@ -45,7 +45,7 @@ Nov 3, 2020
 
 Oct 29, 2020
 
-1. 增加了 dblp person、DB/Conferences and Workshops 和 DB/Journals 网页的支持，建议更新到此版本；
+1. 增加了 dblp person、DB/Conferences and Workshops 和 DB/Journals 网页的支持；
 2. 重构了代码。
 
 **Version 1.2**
