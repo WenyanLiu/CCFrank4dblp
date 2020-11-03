@@ -13,7 +13,7 @@ const ccfRankList =
   "B	JPDC	Journal of Parallel and Distributed Computing	J. Parallel Distributed Comput.\n" +
   "B	JSA	Journal of Systems Architecture: Embedded Software Design	J. Syst. Archit.\n" +
   "B	PARCO	Parallel Computing	PARCO\n" +
-  "B		Performance Evaluation: An International Journal	Perform. Evaluation\n" +
+  "B		Performance Evaluation	Perform. Evaluation\n" +
   "C	JETC	ACM Journal on Emerging Technologies in Computing Systems	ACM J. Emerg. Technol. Comput. Syst.\n" +
   "C		Concurrency and Computation: Practice and Experience	Concurr. Comput. Pract. Exp.\n" +
   "C	DC	Distributed Computing	Distributed Comput.\n" +
@@ -22,7 +22,7 @@ const ccfRankList =
   "C	Integration	Integration, the VLSI Journal	Integr.\n" +
   "C	JETTA	Journal of Electronic Testing-Theory and Applications	J. Electron. Test.\n" +
   "C	JGC	The Journal of Grid computing	J. Grid Comput.\n" +
-  "C	MICPRO	Microprocessors and Microsystems: Embedded Hardware Design	Microprocess. Microsystems\n" +
+  "C	MICPRO	Microprocessors and Microsystems	Microprocess. Microsystems\n" +
   "C	RTS	Real-Time Systems	Real Time Syst.\n" +
   "C	TJSC	The Journal of Supercomputing	J. Supercomput.\n" +
   "A	PPoPP	ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming	PPoPP\n" +
@@ -209,7 +209,7 @@ const ccfRankList =
   "B	SCP	Science of Computer Programming	Sci. Comput. Program.\n" +
   "B	SoSyM	Software and System Modeling	Softw. Syst. Model.\n" +
   "B	STVR	Software Testing, Verification and Reliability	Softw. Test. Verification Reliab.\n" +
-  "B	SPE	Software: Practice and Experience	Softw. Pract. Exp.\n" +
+  "B	SPE	Software - Practice and Experience	Softw. Pract. Exp.\n" +
   "C	CL	Computer Languages, Systems and Structures	Comput. Lang. Syst. Struct.\n" +
   "C	IJSEKE	International Journal on Software Engineering and Knowledge Engineering	Int. J. Softw. Eng. Knowl. Eng.\n" +
   "C	STTT	International Journal on Software Tools for Technology Transfer	Int. J. Softw. Tools Technol. Transf.\n" +
@@ -395,7 +395,7 @@ const ccfRankList =
   "B	JASA	Journal of The Acoustical Society of America	\n" +
   "B	SIIMS	SIAM Journal on Imaging Sciences	SIAM J. Imaging Sci.\n" +
   "B	Speech Com	Speech Communication	Speech Commun.\n" +
-  "C	CGTA	Computational Geometry: Theory and Applications	Comput. Geom.\n" +
+  "C	CGTA	Computational Geometry	Comput. Geom.\n" +
   "C	CAVW	Computer Animation and Virtual Worlds	Comput. Animat. Virtual Worlds\n" +
   "C	C&G	Computers & Graphics	Comput. Graph.\n" +
   "C	DCG	Discrete & Computational Geometry	Discret. Comput. Geom.\n" +
@@ -405,7 +405,7 @@ const ccfRankList =
   "C	MS	Multimedia Systems	Multim. Syst.\n" +
   "C	MTA	Multimedia Tools and Applications	Multim. Tools Appl.\n" +
   "C		Signal Processing	Signal Process.\n" +
-  "C	SPIC	Signal processing : image communication	Signal Process. Image Commun.\n" +
+  "C	SPIC	Signal Processing: Image Communication	Signal Process. Image Commun.\n" +
   "C	TVC	The Visual Computer	Vis. Comput.\n" +
   "A	ACM MM	ACM International Conference on Multimedia	ACM Multimedia\n" +
   "A	SIGGRAPH	ACM SIGGRAPH Annual Conference	SIGGRAPH\n" +

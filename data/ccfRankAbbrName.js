@@ -30,7 +30,7 @@ ccf.rankAbbrName = {
   Integration: { "Integration, the VLSI Journal": "C" },
   JETTA: { "Journal of Electronic Testing-Theory and Applications": "C" },
   JGC: { "The Journal of Grid computing": "C" },
-  MICPRO: { "Microprocessors and Microsystems: Embedded Hardware Design": "C" },
+  MICPRO: { "Microprocessors and Microsystems": "C" },
   RTS: { "Real-Time Systems": "C" },
   TJSC: { "The Journal of Supercomputing": "C" },
   PPoPP: {
@@ -345,7 +345,7 @@ ccf.rankAbbrName = {
   SCP: { "Science of Computer Programming": "B" },
   SoSyM: { "Software and System Modeling": "B" },
   STVR: { "Software Testing, Verification and Reliability": "B" },
-  SPE: { "Software: Practice and Experience": "B" },
+  SPE: { "Software - Practice and Experience": "B" },
   CL: { "Computer Languages, Systems and Structures": "C" },
   IJSEKE: {
     "International Journal on Software Engineering and Knowledge Engineering":
@@ -634,7 +634,7 @@ ccf.rankAbbrName = {
   JASA: { "Journal of The Acoustical Society of America": "B" },
   SIIMS: { "SIAM Journal on Imaging Sciences": "B" },
   "Speech Com": { "Speech Communication": "B" },
-  CGTA: { "Computational Geometry: Theory and Applications": "C" },
+  CGTA: { "Computational Geometry": "C" },
   CAVW: { "Computer Animation and Virtual Worlds": "C" },
   "C&G": { "Computers & Graphics": "C" },
   DCG: { "Discrete & Computational Geometry": "C" },
@@ -643,7 +643,7 @@ ccf.rankAbbrName = {
   JVCIR: { "Journal of Visual Communication and Image Representation": "C" },
   MS: { "Multimedia Systems": "C" },
   MTA: { "Multimedia Tools and Applications": "C" },
-  SPIC: { "Signal processing : image communication": "C" },
+  SPIC: { "Signal Processing: Image Communication": "C" },
   TVC: { "The Visual Computer": "C" },
   "ACM MM": { "ACM International Conference on Multimedia": "A" },
   SIGGRAPH: { "ACM SIGGRAPH Annual Conference": "A" },

@@ -29,6 +29,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 1.3.2**
+
+Nov 3, 2020
+
+1. 感谢 @kevyn-zhang 指正，修正了 Software: Practice and Experience (SPE) 等由“连字符”引起的错误。
+
 **Version 1.3.1**
 
 Nov 3, 2020
@@ -62,8 +68,8 @@ Nov 15, 2019
 Aug 28, 2019
 
 1. 优化了 dblp 上会议和刊物名称的匹配规则；
-2. 修正了错误，更新到《中国计算机学会推荐国际学术会议和期刊目录》第五版（2019年4月）。
+2. 修正了错误，更新到《[中国计算机学会推荐国际学术会议和期刊目录](https://www.ccf.org.cn/Academic_Evaluation/By_category/)》第五版（2019年4月）。
 
 ## Acknowledgement
 
-I would like to express my appreciation to [S.H. Lee](https://github.com/hnshhslsh) and [yishanchuan](https://github.com/yishanchuan) for their previous work.
+I would like to express my appreciation to [S.H. Lee](https://github.com/hnshhslsh) and [yishanchuan](https://github.com/yishanchuan) for their previous work and @ravenxrz and @kevyn-zhang for their advice!

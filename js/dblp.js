@@ -65,7 +65,7 @@ dblp.parseNames = function (source) {
       full = "";
     } else {
       abbr = "";
-      full = source;
+      full = source.replace("\n", " ");
     }
   }
   full = full.split("/");

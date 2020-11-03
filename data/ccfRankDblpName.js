@@ -23,7 +23,7 @@ ccf.rankDblpName = {
   "J. Syst. Archit.":
     "Journal of Systems Architecture: Embedded Software Design",
   PARCO: "Parallel Computing",
-  "Perform. Evaluation": "Performance Evaluation: An International Journal",
+  "Perform. Evaluation": "Performance Evaluation",
   "ACM J. Emerg. Technol. Comput. Syst.":
     "ACM Journal on Emerging Technologies in Computing Systems",
   "Concurr. Comput. Pract. Exp.":
@@ -34,8 +34,7 @@ ccf.rankDblpName = {
   "Integr.": "Integration, the VLSI Journal",
   "J. Electron. Test.": "Journal of Electronic Testing-Theory and Applications",
   "J. Grid Comput.": "The Journal of Grid computing",
-  "Microprocess. Microsystems":
-    "Microprocessors and Microsystems: Embedded Hardware Design",
+  "Microprocess. Microsystems": "Microprocessors and Microsystems",
   "Real Time Syst.": "Real-Time Systems",
   "J. Supercomput.": "The Journal of Supercomputing",
   PPoPP:
@@ -268,7 +267,7 @@ ccf.rankDblpName = {
   "Softw. Syst. Model.": "Software and System Modeling",
   "Softw. Test. Verification Reliab.":
     "Software Testing, Verification and Reliability",
-  "Softw. Pract. Exp.": "Software: Practice and Experience",
+  "Softw. Pract. Exp.": "Software - Practice and Experience",
   "Comput. Lang. Syst. Struct.": "Computer Languages, Systems and Structures",
   "Int. J. Softw. Eng. Knowl. Eng.":
     "International Journal on Software Engineering and Knowledge Engineering",
@@ -483,7 +482,7 @@ ccf.rankDblpName = {
   "IEEE Trans. Multim.": "IEEE Transactions on Multimedia",
   "SIAM J. Imaging Sci.": "SIAM Journal on Imaging Sciences",
   "Speech Commun.": "Speech Communication",
-  "Comput. Geom.": "Computational Geometry: Theory and Applications",
+  "Comput. Geom.": "Computational Geometry",
   "Comput. Animat. Virtual Worlds": "Computer Animation and Virtual Worlds",
   "Comput. Graph.": "Computers & Graphics",
   "Discret. Comput. Geom.": "Discrete & Computational Geometry",
@@ -494,7 +493,7 @@ ccf.rankDblpName = {
   "Multim. Syst.": "Multimedia Systems",
   "Multim. Tools Appl.": "Multimedia Tools and Applications",
   "Signal Process.": "Signal Processing",
-  "Signal Process. Image Commun.": "Signal processing : image communication",
+  "Signal Process. Image Commun.": "Signal Processing: Image Communication",
   "Vis. Comput.": "The Visual Computer",
   "ACM Multimedia": "ACM International Conference on Multimedia",
   SIGGRAPH: "ACM SIGGRAPH Annual Conference",
