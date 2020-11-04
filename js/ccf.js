@@ -5,9 +5,9 @@ ccf.getRankInfo = function (names) {
   rankInfo.ranks = [];
   rankInfo.info = "";
   for (let name of names) {
-    if (name.abbr != "") {
+    if (isNaN(name.abbr) && name.abbr != "") {
       dblpFullName = ccf.rankDblpName[name.abbr];
-    } else if (name.full != "") {
+    } else if (isNaN(name.full) && name.full != "") {
       dblpFullName = ccf.rankDblpName[name.full];
     }
     if (dblpFullName != undefined) {
