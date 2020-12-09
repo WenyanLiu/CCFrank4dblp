@@ -11,7 +11,13 @@ Chrome 扩展程序，在 dblp 的搜索结果中显示中国计算机学会推�
 
 ## Install
 
-Load from the source.
+Directly install from the Chrome Web Store (Recommended) *or* load from the source.
+
+### Install from the Chrome Web Store
+
+1. Find the [CCFrank](https://chrome.google.com/webstore/detail/ccfrank/pfcajmbenomfbjnbjhgbnbdjmiklnkie) extension.
+2. Click `Add to Chrome`.
+3. CCFrank needs to read and change dblp and its mirror sites. To approve, click `Add extension`.
 
 ### Load Unpacked
 
@@ -28,6 +34,12 @@ Clone CCFrank to a directory.
 <img src="./img/load_unpacked.png" height="300" alt="Load Extension">
 
 ## What's New
+
+**:tada: Published**
+
+Nov 6, 2020
+
+[CCFrank](https://chrome.google.com/webstore/detail/ccfrank/pfcajmbenomfbjnbjhgbnbdjmiklnkie) 在 Chrome 网上应用店发布~
 
 **Version 1.3.2**
 
