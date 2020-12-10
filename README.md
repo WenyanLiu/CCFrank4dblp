@@ -20,7 +20,7 @@ Directly install from the Chrome Web Store or Firefox Bowser Add-ons (Recommende
 
 ### Install from the Firefox Bowser Add-ons
 
-1. Select the [CCFrank](https://chrome.google.com/webstore/detail/ccfrank/pfcajmbenomfbjnbjhgbnbdjmiklnkie) extension.
+1. Select the [CCFrank](https://addons.mozilla.org/zh-CN/firefox/addon/ccfrank/) extension.
 2. Click the `+ Add to Firxfox` button.
 
 ### Load Unpacked
