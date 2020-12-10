@@ -1,23 +1,27 @@
 # <img src="./icon/32x32.png" height="21px" alt=""> CCFrank
 
-The Chrome Extension displays the China Computer Federation recommended rank of international conferences and journals in the dblp search results.
+The Chrome Extension and Firefox Add-on display the China Computer Federation recommended rank of international conferences and journals in the dblp search results.
 
-Chrome 扩展程序，在 dblp 的搜索结果中显示中国计算机学会推荐的国际会议和期刊排名。
+Chrome 扩展程序 & Firefox 附加组件，在 dblp 的搜索结果中显示中国计算机学会推荐的国际会议和期刊排名。
 
 ## Preview
 
 ![CCFrank on dblp](./img/dblp.png)
 
-
 ## Install
 
-Directly install from the Chrome Web Store (Recommended) *or* load from the source.
+Directly install from the Chrome Web Store or Firefox Bowser Add-ons (Recommended) *or* load from the source.
 
 ### Install from the Chrome Web Store
 
 1. Find the [CCFrank](https://chrome.google.com/webstore/detail/ccfrank/pfcajmbenomfbjnbjhgbnbdjmiklnkie) extension.
 2. Click `Add to Chrome`.
 3. CCFrank needs to read and change dblp and its mirror sites. To approve, click `Add extension`.
+
+### Install from the Firefox Bowser Add-ons
+
+1. Select the [CCFrank](https://chrome.google.com/webstore/detail/ccfrank/pfcajmbenomfbjnbjhgbnbdjmiklnkie) extension.
+2. Click the `+ Add to Firxfox` button.
 
 ### Load Unpacked
 
@@ -37,9 +41,13 @@ Clone CCFrank to a directory.
 
 **:tada: Published**
 
+Nov 9, 2020
+
+CCFrank 在 [Firefox 附加组件工坊](https://addons.mozilla.org/zh-CN/firefox/addon/ccfrank/)上架~
+
 Nov 6, 2020
 
-[CCFrank](https://chrome.google.com/webstore/detail/ccfrank/pfcajmbenomfbjnbjhgbnbdjmiklnkie) 在 Chrome 网上应用店发布~
+CCFrank 在 [Chrome 网上应用店](https://chrome.google.com/webstore/detail/ccfrank/pfcajmbenomfbjnbjhgbnbdjmiklnkie)发布~
 
 **Version 1.3.2**
 
