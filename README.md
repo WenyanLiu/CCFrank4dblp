@@ -39,6 +39,11 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 2.0.0**
+
+1. 全新的匹配规则，即“全称/简称匹配”->“网址匹配”，建议更新到此版本。
+2. 感谢 @realstolz 指正，最新版本已规避由“区分大小写”引起的错误。
+
 **:tada: Published**
 
 Nov 9, 2020
@@ -53,7 +58,7 @@ CCFrank 在 [Chrome 网上应用店](https://chrome.google.com/webstore/detail/c
 
 Nov 3, 2020
 
-1. 感谢 @kevyn-zhang 指正，修正了 Software: Practice and Experience (SPE) 等由“连字符”引起的错误，建议更新到此版本。
+1. 感谢 @kevyn-zhang 指正，修正了 Software: Practice and Experience (SPE) 等由“连字符”引起的错误。
 
 **Version 1.3.1**
 
