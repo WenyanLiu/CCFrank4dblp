@@ -1,7 +1,7 @@
 {
   "name": "__MSG_extName__",
   "description": "__MSG_extDesc__",
-  "version": "1.3.2",
+  "version": "2.0.0",
   "manifest_version": 2,
   "default_locale": "en",
   "icons": {
@@ -31,9 +31,9 @@
         "lib/jquery-3.5.1.min.js",
         "js/dblp.js",
         "js/ccf.js",
-        "data/ccfRankAbbrName.js",
-        "data/ccfRankFullName.js",
-        "data/ccfRankDblpName.js",
+        "data/ccfRankAbbr.js",
+        "data/ccfRankFull.js",
+        "data/ccfRankUrl.js",
         "script.js"
       ]
     }

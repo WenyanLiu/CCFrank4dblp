@@ -4,7 +4,7 @@
     "description": "Extension name."
   },
   "extDesc": {
-    "message": "在 dblp 的搜索结果中显示中国计算机学会推荐的国际会议和期刊排名。",
+    "message": "在 dblp 的搜索结果中显示中国计算机学会（CCF）推荐的国际会议和期刊排名。",
     "description": "Extension description."
   }
 }
