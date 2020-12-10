@@ -41,41 +41,43 @@ Clone CCFrank to a directory.
 
 **Version 2.0.0**
 
+> Nov 10, 2020
+
 1. 全新的匹配规则，即“全称/简称匹配”->“网址匹配”，建议更新到此版本。
 2. 感谢 @realstolz 指正，最新版本已规避由“区分大小写”引起的错误。
 
 **:tada: Published**
 
-Nov 9, 2020
+> Nov 9, 2020
 
 CCFrank 在 [Firefox 附加组件工坊](https://addons.mozilla.org/zh-CN/firefox/addon/ccfrank/)上架~
 
-Nov 6, 2020
+> Nov 6, 2020
 
 CCFrank 在 [Chrome 网上应用店](https://chrome.google.com/webstore/detail/ccfrank/pfcajmbenomfbjnbjhgbnbdjmiklnkie)发布~
 
 **Version 1.3.2**
 
-Nov 3, 2020
+> Nov 3, 2020
 
 1. 感谢 @kevyn-zhang 指正，修正了 Software: Practice and Experience (SPE) 等由“连字符”引起的错误。
 
 **Version 1.3.1**
 
-Nov 3, 2020
+> Nov 3, 2020
 
 1. 增加了 dblp 使用 AJAX 更新搜索结果（即 URL 无 "/search?q=" 关键词）时的支持。
 
 **Version 1.3**
 
-Oct 29, 2020
+> Oct 29, 2020
 
 1. 增加了 dblp person、DB/Conferences and Workshops 和 DB/Journals 网页的支持；
 2. 重构了代码。
 
 **Version 1.2**
 
-Oct 28, 2020
+> Oct 28, 2020
 
 1. 适配 dblp 刊物名称；
 2. 增加了 dblp computer science bibliography 的镜像站点支持；
@@ -84,13 +86,13 @@ Oct 28, 2020
 
 **Version 1.1**
 
-Nov 15, 2019
+> Nov 15, 2019
 
 1. 适配 dblp "2019-11-11: Open citation data and dblp" [Feature Spotlight]。
 
 **Version 1.0**
 
-Aug 28, 2019
+> Aug 28, 2019
 
 1. 优化了 dblp 上会议和刊物名称的匹配规则；
 2. 修正了错误，更新到《[中国计算机学会推荐国际学术会议和期刊目录](https://www.ccf.org.cn/Academic_Evaluation/By_category/)》第五版（2019年4月）。
