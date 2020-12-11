@@ -1,11 +1,25 @@
-# <img src="./icon/32x32.png" height="21px" alt=""> CCFrank ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/wenyanliu/CCFrank4dblp?color=%23EA4AAA&label=Github&logo=github&logoColor=%23EA4AAA) ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pfcajmbenomfbjnbjhgbnbdjmiklnkie?color=%234285F4&label=Chrome%20Web%20Store&logo=google-chrome&logoColor=%234285F4) ![Mozilla Add-on](https://img.shields.io/amo/v/ccfrank?color=%23FF7139&label=Mozilla%20Add-on&logo=firefox-browser&logoColor=%23FF7139)
+<h1 align="center"><img src="./icon/32x32.png" height="21px" alt=""> CCFrank</h1>
+<p align="center">
+    <a href="https://github.com/WenyanLiu/CCFrank4dblp">
+        <img alt="GitHub manifest version" src="https://img.shields.io/github/manifest-json/v/wenyanliu/CCFrank4dblp?color=%23EA4AAA&label=Github&logo=github&logoColor=%23EA4AAA">
+    </a>
+    <a href="https://chrome.google.com/webstore/detail/ccfrank/pfcajmbenomfbjnbjhgbnbdjmiklnkie">
+        <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/pfcajmbenomfbjnbjhgbnbdjmiklnkie?color=%234285F4&label=Chrome%20Web%20Store&logo=google-chrome&logoColor=%234285F4">
+    </a>
+    <a href="https://chrome.google.com/webstore/detail/ccfrank/pfcajmbenomfbjnbjhgbnbdjmiklnkie">
+        <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/users/pfcajmbenomfbjnbjhgbnbdjmiklnkie?color=%234285F4&label=Chrome%20Web%20Store&logo=google-chrome&logoColor=%234285F4">
+    </a>
+    <a href="https://addons.mozilla.org/zh-CN/firefox/addon/ccfrank/">
+        <img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/ccfrank?color=%23FF7139&label=Mozilla%20Add-on&logo=firefox-browser&logoColor=%23FF7139">
+    </a>
+    <a href="https://addons.mozilla.org/zh-CN/firefox/addon/ccfrank/">
+        <img alt="Mozilla Add-on" src="https://img.shields.io/amo/users/ccfrank?color=%23FF7139&label=Mozilla%20Add-on&logo=firefox-browser&logoColor=%23FF7139">
+    </a>
+</p>
 
 The Chrome Extension and Firefox Add-on display the China Computer Federation recommended rank of international conferences and journals in the dblp search results.
 
 Chrome 扩展程序 & Firefox 附加组件，在 dblp 的搜索结果中显示中国计算机学会推荐的国际会议和期刊排名。
-
-![Chrome Web Store](https://img.shields.io/chrome-web-store/users/pfcajmbenomfbjnbjhgbnbdjmiklnkie?color=%234285F4&label=Chrome%20Web%20Store&logo=google-chrome&logoColor=%234285F4)
-![Mozilla Add-on](https://img.shields.io/amo/users/ccfrank?color=%23FF7139&label=Mozilla%20Add-on&logo=firefox-browser&logoColor=%23FF7139)
 
 ## Preview
 
