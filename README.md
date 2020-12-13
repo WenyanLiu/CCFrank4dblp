@@ -17,9 +17,9 @@
     </a>
 </p>
 
-The Chrome Extension and Firefox Add-on display the China Computer Federation recommended rank of international conferences and journals in the dblp search results.
+The Chrome Extension and Firefox Add-on display the China Computer Federation recommended rank of international conferences and journals in the dblp and Google Scholar search results.
 
-Chrome 扩展程序 & Firefox 附加组件，在 dblp 的搜索结果中显示中国计算机学会推荐的国际会议和期刊排名。
+Chrome 扩展程序 & Firefox 附加组件，在 dblp 和 Google 学术的搜索结果中显示中国计算机学会推荐的国际会议和期刊排名。
 
 ## Preview
 
@@ -27,26 +27,21 @@ Chrome 扩展程序 & Firefox 附加组件，在 dblp 的搜索结果中显示�
 
 ## Install
 
-Directly install from the Chrome Web Store or Firefox Bowser Add-ons (Recommended) *or* load from the source.
+Directly install from the Chrome Web Store or Firefox Bowser Add-ons (Recommended) _or_ load from the source.
 
-### Install from the Chrome Web Store
+### Install from the Chrome Web Store / Firefox Bowser Add-ons
 
-1. Find the [CCFrank](https://chrome.google.com/webstore/detail/ccfrank/pfcajmbenomfbjnbjhgbnbdjmiklnkie) extension.
-2. Click `Add to Chrome`.
-3. CCFrank needs to read and change dblp and its mirror sites. To approve, click `Add extension`.
-
-### Install from the Firefox Bowser Add-ons
-
-1. Select the [CCFrank](https://addons.mozilla.org/zh-CN/firefox/addon/ccfrank/) extension.
-2. Click the `+ Add to Firefox` button.
+1. Find the CCFrank extension in [Chrome Web Store](https://chrome.google.com/webstore/detail/ccfrank/pfcajmbenomfbjnbjhgbnbdjmiklnkie) / [Firefox Bowser Add-ons](https://addons.mozilla.org/zh-CN/firefox/addon/ccfrank/).
+2. Click the `Add to Chrome` / `+ Add to Firefox` button.
+3. CCFrank needs to read and change dblp, Google Scholar and its mirror sites. To approve, click `Add extension`.
 
 ### Load Unpacked
 
 Clone CCFrank to a directory.
 
 1. Open the Extension Management page by navigating to `chrome://extensions`.
-    
-    - The Extension Management page can also be opened by clicking on the Chrome menu, hovering over **More Tools** then selecting **Extensions**.
+
+   - The Extension Management page can also be opened by clicking on the Chrome menu, hovering over **More Tools** then selecting **Extensions**.
 
 2. Enable Developer Mode by clicking the toggle switch next to **Developer mode**.
 
@@ -56,12 +51,18 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 3.0.0**
+
+> Dec 13, 2020
+
+1. 增加了对 Google Scholar 的支持。
+
 **Version 2.0.0**
 
 > Dec 10, 2020
 
 1. 全新的匹配规则，即“全称/简称匹配”->“网址匹配”，建议更新到此版本。
-2. 感谢 @realstolz 指正，最新版本已规避由“区分大小写”引起的错误。
+2. 感谢 @realstolz 指正，新版本已规避由“区分大小写”引起的错误。
 
 **:tada: Published**
 
@@ -99,7 +100,7 @@ CCFrank 在 [Chrome 网上应用店](https://chrome.google.com/webstore/detail/c
 1. 适配 dblp 刊物名称；
 2. 增加了 dblp computer science bibliography 的镜像站点支持；
 3. 移除了 ACM Digital Library 和 IEEE Xplore 支持，专注优化 dblp 支持
-（如需使用 ACM Digital Library、IEEE Xplore 和 Springer，请移步至 [![show-rank](https://raw.githubusercontent.com/hnshhslsh/show-rank/master/logo/16x16.png) hnshhslsh/show-rank](https://github.com/hnshhslsh/show-rank)，谢谢！）。
+   （如需使用 ACM Digital Library、IEEE Xplore 和 Springer，请移步至 [![show-rank](https://raw.githubusercontent.com/hnshhslsh/show-rank/master/logo/16x16.png) hnshhslsh/show-rank](https://github.com/hnshhslsh/show-rank)，谢谢！）。
 
 **Version 1.1**
 
@@ -112,7 +113,7 @@ CCFrank 在 [Chrome 网上应用店](https://chrome.google.com/webstore/detail/c
 > Aug 28, 2019
 
 1. 优化了 dblp 上会议和刊物名称的匹配规则；
-2. 修正了错误，更新到《[中国计算机学会推荐国际学术会议和期刊目录](https://www.ccf.org.cn/Academic_Evaluation/By_category/)》第五版（2019年4月）。
+2. 修正了错误，更新到《[中国计算机学会推荐国际学术会议和期刊目录](https://www.ccf.org.cn/Academic_Evaluation/By_category/)》第五版（2019 年 4 月）。
 
 ## Acknowledgement
 

@@ -2,8 +2,8 @@ const dblp = {};
 
 dblp.rankSpanList = [];
 
-dblp.start = function () {
-  let url = window.location.href;
+dblp.run = function () {
+  let url = window.location.pathname;
   if (url.includes("/pid/")) {
     dblp.appendRanks();
   } else if (url.includes("/db/")) {
@@ -27,7 +27,6 @@ dblp.start = function () {
 
 dblp.appendRanks = function () {
   let elements = $("cite > a");
-  dblp.elementsCount = elements.length;
   elements.each(function () {
     let element = $(this);
     let source = element.attr("href");
