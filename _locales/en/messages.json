@@ -4,7 +4,7 @@
     "description": "Extension name."
   },
   "extDesc": {
-    "message": "Displays the China Computer Federation recommended rank of international conferences and journals in the dblp search results.",
+    "message": "Displays the CCF recommended rank of international conferences and journals in the dblp and Google Scholar search results.",
     "description": "Extension description."
   }
 }

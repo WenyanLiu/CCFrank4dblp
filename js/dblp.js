@@ -2,11 +2,11 @@ const dblp = {};
 
 dblp.rankSpanList = [];
 
-dblp.start = function () {
-  let url = window.location.href;
+dblp.run = function () {
+  let url = window.location.pathname;
   if (url.includes("/pid/")) {
     dblp.appendRanks();
-  } else if (url.includes("/db/conf/") || url.includes("/db/journals/")) {
+  } else if (url.includes("/db/")) {
     if (url.includes("/index.html")) {
       dblp.appendRank("h1");
     } else {
@@ -26,15 +26,17 @@ dblp.start = function () {
 };
 
 dblp.appendRanks = function () {
-  let elements = $("cite > a > span:nth-child(1) > span:nth-child(1)");
-  dblp.elementsCount = elements.length;
+  let elements = $("cite > a");
   elements.each(function () {
     let element = $(this);
-    let source = element.text().trim();
+    let source = element.attr("href");
     if (source.length != 0 && !element.next().hasClass("ccf-rank")) {
       for (let getRankSpan of dblp.rankSpanList) {
-        let names = dblp.parseNames(source);
-        element.after(getRankSpan(names));
+        let urls = source.substring(
+          source.indexOf("/db/") + 3,
+          source.lastIndexOf("/")
+        );
+        element.after(getRankSpan(urls));
       }
     }
   });
@@ -42,39 +44,14 @@ dblp.appendRanks = function () {
 
 dblp.appendRank = function (selector) {
   let element = $(selector);
-  let headline = element.text().trim();
+  let headline = window.location.pathname;
   if (headline.length != 0) {
     for (let getRankSpan of dblp.rankSpanList) {
-      let names = dblp.parseNames(headline);
-      element.after(getRankSpan(names));
+      let urls = headline.substring(
+        headline.indexOf("/db/") + 3,
+        headline.lastIndexOf("/")
+      );
+      element.after(getRankSpan(urls));
     }
   }
-};
-
-dblp.parseNames = function (source) {
-  let names = [];
-  let abbr;
-  let full;
-  let index = source.lastIndexOf("(");
-  if (index != -1) {
-    abbr = source.substr(index + 1, source.length - index - 2);
-    full = source.substr(0, index).trim();
-  } else {
-    if (source.length <= 14) {
-      abbr = source;
-      full = "";
-    } else {
-      abbr = "";
-      full = source.replace("\n", " ");
-    }
-  }
-  full = full.split("/");
-  abbr = abbr.split("/");
-  for (let i = 0; i < Math.max(abbr.length, full.length); ++i) {
-    let name = {};
-    name.full = (full[i] || "").trim();
-    name.abbr = (abbr[i] || "").trim();
-    names.push(name);
-  }
-  return names;
 };
