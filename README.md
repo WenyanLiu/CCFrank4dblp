@@ -53,6 +53,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 3.0.1**
+
+> Dec 15, 2020
+
+1. 修复了由标题中包含“特殊字符”引起的错误。
+
 **Version 3.0.0**
 
 > Dec 13, 2020
