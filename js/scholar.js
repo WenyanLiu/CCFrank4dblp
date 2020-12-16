@@ -27,8 +27,7 @@ scholar.appendRank = function () {
       .replace(/[\,\-\…]/g, "")
       .split(" ");
     let author = data[1];
-    let year = data.slice(-3)[0];
-    fetchRank(node, title, author, year);
+    fetchRank(node, title, author);
   });
 };
 
@@ -43,17 +42,16 @@ scholar.appendRanks = function () {
         .text()
         .replace(/[\,\…]/g, "")
         .split(" ")[1];
-      let year = $(this).find("td.gsc_a_y").text();
-      fetchRank(node, title, author, year);
+      fetchRank(node, title, author);
     }
   });
 };
 
-function fetchRank(node, title, author, year) {
+function fetchRank(node, title, author) {
   var xhr = new XMLHttpRequest();
   api_format =
     "https://dblp.org/search/publ/api?q=" +
-    encodeURIComponent(title + " " + author + " year:" + year + ":") +
+    encodeURIComponent(title + " " + author) +
     "&format=json";
   xhr.open("GET", api_format, true);
   xhr.onreadystatechange = function () {

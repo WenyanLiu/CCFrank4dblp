@@ -53,6 +53,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 3.0.3**
+
+> Dec 16, 2020
+
+1. 放宽了 Google 学术的匹配条件，修复了由“发表年份”不匹配引起的错误。
+
 **Version 3.0.2**
 
 > Dec 16, 2020
