@@ -306,7 +306,7 @@ ccf.rankAbbrName = {
   "/conf/kdd": "SIGKDD",
   "/conf/icde": "ICDE",
   "/conf/sigir": "SIGIR",
-  "/conf/vldb": "VLDB",
+  "/journals/pvldb": "VLDB",
   "/conf/cikm": "CIKM",
   "/conf/wsdm": "WSDM",
   "/conf/pods": "PODS",

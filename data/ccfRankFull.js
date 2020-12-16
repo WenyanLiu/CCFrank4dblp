@@ -390,7 +390,7 @@ ccf.rankFullName = {
   "/conf/icde": "IEEE International Conference on Data Engineering",
   "/conf/sigir":
     "International Conference on Research on Development in Information Retrieval",
-  "/conf/vldb": "International Conference on Very Large Data Bases",
+  "/journals/pvldb": "International Conference on Very Large Data Bases",
   "/conf/cikm":
     "ACM International Conference on Information and Knowledge Management",
   "/conf/wsdm": "ACM International Conference on Web Search and Data Mining",

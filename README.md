@@ -53,6 +53,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 3.0.2**
+
+> Dec 16, 2020
+
+1. 更正了 VLDB 会议的网址。
+
 **Version 3.0.1**
 
 > Dec 15, 2020

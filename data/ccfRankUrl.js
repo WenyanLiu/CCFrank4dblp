@@ -306,7 +306,7 @@ ccf.rankUrl = {
   "/conf/kdd": "A",
   "/conf/icde": "A",
   "/conf/sigir": "A",
-  "/conf/vldb": "A",
+  "/journals/pvldb": "A",
   "/conf/cikm": "B",
   "/conf/wsdm": "B",
   "/conf/pods": "B",

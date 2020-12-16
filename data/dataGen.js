@@ -308,7 +308,7 @@ const ccfRankList =
   "A	SIGKDD	ACM Knowledge Discovery and Data Mining	/conf/kdd\n" +
   "A	ICDE	IEEE International Conference on Data Engineering	/conf/icde\n" +
   "A	SIGIR	International Conference on Research on Development in Information Retrieval	/conf/sigir\n" +
-  "A	VLDB	International Conference on Very Large Data Bases	/conf/vldb\n" +
+  "A	VLDB	International Conference on Very Large Data Bases	/journals/pvldb\n" +
   "B	CIKM	ACM International Conference on Information and Knowledge Management	/conf/cikm\n" +
   "B	WSDM	ACM International Conference on Web Search and Data Mining	/conf/wsdm\n" +
   "B	PODS	ACM Symposium on Principles of Database Systems	/conf/pods\n" +
