@@ -198,7 +198,7 @@ const ccfRankList =
 	"C	PETS	Privacy Enhancing Technologies Symposium	/conf/pet	/conf/pet/pet\n" +
 	"C	SAC	Selected Areas in Cryptography	/conf/sacrypt	/conf/sacrypt/sacrypt\n" +
 	"C	SOUPS	Symposium On Usable Privacy and Security	/conf/soups	/conf/soups/soups\n" +
-	"C	HotSec	USENIX Workshop on Hot Topics in Security	/conf/uss	/conf/uss/hotsec\n" +
+	"C	HotSec	USENIX Workshop on Hot Topics in Security	/conf/uss/	/conf/uss/hotsec\n" +
 	"A	TOPLAS	ACM Transactions on Programming Languages & Systems	/journals/toplas	/journals/toplas/toplas\n" +
 	"A	TOSEM	ACM Transactions on Software Engineering and Methodology	/journals/tosem	/journals/tosem/tosem\n" +
 	"A	TSE	IEEE Transactions on Software Engineering	/journals/tse	/journals/tse/tse\n" +

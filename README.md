@@ -53,7 +53,7 @@ Clone CCFrank to a directory.
 
 ## What's New
 
-**Version 3.1.0**
+**Version 3.1.1**
 
 > Dec 20, 2020
 
