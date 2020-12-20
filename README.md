@@ -57,7 +57,7 @@ Clone CCFrank to a directory.
 
 > Dec 20, 2020
 
-1. 修复了由“会议/期刊的URL重复”引起的错误。
+1. 感谢 @ifzh 和 @linwhitehat 的帮助，修复了由“会议/期刊的URL重复”引起的错误。
 
 **Version 3.0.3**
 
