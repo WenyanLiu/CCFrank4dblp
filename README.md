@@ -53,6 +53,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 3.1.0**
+
+> Dec 20, 2020
+
+1. 修复了由“会议/期刊的URL重复”引起的错误。
+
 **Version 3.0.3**
 
 > Dec 16, 2020
