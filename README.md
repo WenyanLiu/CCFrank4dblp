@@ -143,4 +143,4 @@ CCFrank 在 [Chrome 网上应用店](https://chrome.google.com/webstore/detail/c
 
 ## Acknowledgement
 
-I would like to express my appreciation to [S.H. Lee](https://github.com/hnshhslsh) and [yishanchuan](https://github.com/yishanchuan) for their previous work and @ravenxrz , @kevyn-zhang and @junwei-wang for their advice!
+I would like to express my appreciation to [S.H. Lee](https://github.com/hnshhslsh) and [yishanchuan](https://github.com/yishanchuan) for their previous work and @ravenxrz , @kevyn-zhang, @junwei-wang, @ifzh and @linwhitehat for their advice!
