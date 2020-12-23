@@ -151,6 +151,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://blog.csdn.net/hnshhslsh"><img src="https://avatars2.githubusercontent.com/u/9738445?v=4" width="100px;" alt=""/><br /><sub><b>S.H. Lee</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=hnshhslsh" title="Code">💻</a></td>
+    <td align="center"><a href="http://yishanchuan.github.io/"><img src="https://avatars3.githubusercontent.com/u/16149816?v=4" width="100px;" alt=""/><br /><sub><b>yishanchuan</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=yishanchuan" title="Code">💻</a></td>
   </tr>
 </table>
 
