@@ -31,6 +31,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "realstolz",
+      "name": "Rong Chen",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1779861?v=4",
+      "profile": "http://ipads.se.sjtu.edu.cn/rong_chen",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
