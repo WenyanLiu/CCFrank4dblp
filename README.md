@@ -154,6 +154,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://yishanchuan.github.io/"><img src="https://avatars3.githubusercontent.com/u/16149816?v=4" width="100px;" alt=""/><br /><sub><b>yishanchuan</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=yishanchuan" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/kevyn-zhang"><img src="https://avatars1.githubusercontent.com/u/73885971?v=4" width="100px;" alt=""/><br /><sub><b>kevyn-zhang</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Akevyn-zhang" title="Bug reports">🐛</a></td>
     <td align="center"><a href="http://ipads.se.sjtu.edu.cn/rong_chen"><img src="https://avatars2.githubusercontent.com/u/1779861?v=4" width="100px;" alt=""/><br /><sub><b>Rong Chen</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Arealstolz" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://jwa.ng"><img src="https://avatars1.githubusercontent.com/u/866329?v=4" width="100px;" alt=""/><br /><sub><b>Junwei Wang</b></sub></a><br /><a href="#platform-junwei-wang" title="Packaging/porting to new platform">📦</a></td>
   </tr>
 </table>
 
