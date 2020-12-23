@@ -59,6 +59,15 @@
         "bug",
         "ideas"
       ]
+    },
+    {
+      "login": "linwhitehat",
+      "name": "lin",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20349381?v=4",
+      "profile": "https://linwhitehat.github.io/",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
