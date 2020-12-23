@@ -1,7 +1,4 @@
 <h1 align="center"><img src="./icon/32x32.png" height="21px" alt=""> CCFrank</h1>
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
     <a href="https://github.com/WenyanLiu/CCFrank4dblp">
         <img alt="GitHub manifest version" src="https://img.shields.io/github/manifest-json/v/wenyanliu/CCFrank4dblp?color=%23EA4AAA&label=Github&logo=github&logoColor=%23EA4AAA">
@@ -143,10 +140,6 @@ CCFrank 在 [Chrome 网上应用店](https://chrome.google.com/webstore/detail/c
 
 1. 优化了 dblp 上会议和刊物名称的匹配规则；
 2. 修正了错误，更新到《[中国计算机学会推荐国际学术会议和期刊目录](https://www.ccf.org.cn/Academic_Evaluation/By_category/)》第五版（2019 年 4 月）。
-
-## Acknowledgement
-
-I would like to express my appreciation to [S.H. Lee](https://github.com/hnshhslsh) and [yishanchuan](https://github.com/yishanchuan) for their previous work and @ravenxrz , @kevyn-zhang, @junwei-wang, @ifzh and @linwhitehat for their advice!
 
 ## Contributors ✨
 
