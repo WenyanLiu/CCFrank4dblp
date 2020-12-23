@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "hnshhslsh",
+      "name": "S.H. Lee",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9738445?v=4",
+      "profile": "http://blog.csdn.net/hnshhslsh",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "CCFrank4dblp",
+  "projectOwner": "WenyanLiu",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
