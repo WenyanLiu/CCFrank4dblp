@@ -40,6 +40,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "junwei-wang",
+      "name": "Junwei Wang",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/866329?v=4",
+      "profile": "http://jwa.ng",
+      "contributions": [
+        "platform"
+      ]
     }
   ],
   "contributorsPerLine": 7,
