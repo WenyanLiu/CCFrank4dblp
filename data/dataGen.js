@@ -485,7 +485,7 @@ const ccfRankList =
 	"B		Machine Learning	/journals/ml	/journals/ml/ml\n" +
 	"B		Neural Computation	/journals/neco	/journals/neco/neco\n" +
 	"B		Neural Networks	/journals/nn	/journals/nn/nn\n" +
-	"B		Pattern Recognition	/conf/par	/conf/par/par\n" +
+	"B		Pattern Recognition	/journals/pr	/journals/pr/pr\n" +
 	"C	TALLIP	ACM Transactions on Asian and Low-Resource Language Information Processing	/journals/talip	/journals/talip/talip\n" +
 	"C		Applied Intelligence	/journals/apin	/journals/apin/apin\n" +
 	"C	AIM	Artificial Intelligence in Medicine	/journals/artmed	/journals/artmed/artmed\n" +

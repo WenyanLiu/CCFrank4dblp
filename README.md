@@ -53,6 +53,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 3.1.2**
+
+> Mar 1, 2021
+
+1. 感谢 @zhuye88 的帮助，修复了《目录》中“Pattern Recognition”地址的错误。
+
 **Version 3.1.1**
 
 > Dec 20, 2020
