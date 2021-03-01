@@ -68,6 +68,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "zhuye88",
+      "name": "YE ZHU",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19607512?v=4",
+      "profile": "http://www.yezhu.com.au/",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
