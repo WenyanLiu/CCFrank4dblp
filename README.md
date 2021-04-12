@@ -53,6 +53,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 3.1.3**
+
+> Apr 12, 2021
+
+1. 修复 Google 学术首条搜索结果的 Tooltip 显示被覆盖的错误。
+
 **Version 3.1.2**
 
 > Mar 1, 2021
