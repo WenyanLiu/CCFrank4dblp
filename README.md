@@ -53,6 +53,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**:tada: Daily Users**
+
+> Jun 18, 2021
+
+Total current users: 1,006
+
 **Version 3.1.3**
 
 > Apr 12, 2021
