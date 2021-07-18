@@ -179,6 +179,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ifzh"><img src="https://avatars0.githubusercontent.com/u/11475849?v=4?s=100" width="100px;" alt=""/><br /><sub><b>iFzh</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Aifzh" title="Bug reports">🐛</a> <a href="#ideas-ifzh" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://linwhitehat.github.io/"><img src="https://avatars3.githubusercontent.com/u/20349381?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lin</b></sub></a><br /><a href="#ideas-linwhitehat" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://www.yezhu.com.au/"><img src="https://avatars.githubusercontent.com/u/19607512?v=4?s=100" width="100px;" alt=""/><br /><sub><b>YE ZHU</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Azhuye88" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/zshhans"><img src="https://avatars.githubusercontent.com/u/25279261?v=4?s=100" width="100px;" alt=""/><br /><sub><b>zshhans</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Azshhans" title="Bug reports">🐛</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=zshhans" title="Code">💻</a></td>
   </tr>
 </table>
 

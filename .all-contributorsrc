@@ -59,6 +59,16 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "zshhans",
+      "name": "zshhans",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25279261?v=4",
+      "profile": "https://github.com/zshhans",
+      "contributions": [
+        "bug",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
