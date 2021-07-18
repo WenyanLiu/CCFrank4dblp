@@ -1,8 +1,8 @@
 {
   "name": "__MSG_extName__",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "__MSG_extDesc__",
-  "manifest_version": 3,
+  "manifest_version": 2,
   "default_locale": "en",
   "icons": {
     "16": "icon/16x16.png",
@@ -11,7 +11,7 @@
     "64": "icon/64x64.png",
     "128": "icon/128x128.png"
   },
-  "action": {
+  "browser_action": {
     "default_icon": {
       "16": "icon/16x16.png",
       "24": "icon/24x24.png",
