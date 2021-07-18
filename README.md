@@ -53,7 +53,13 @@ Clone CCFrank to a directory.
 
 ## What's New
 
-**:tada: Daily Users**
+**Version 3.2.3**
+
+> Jul 18, 2021
+
+1. 感谢 @zshhans 的帮助，修复了 XHR not working on Firefox 的错误。
+
+**:tada: Daily Users** 
 
 > Jun 18, 2021
 
