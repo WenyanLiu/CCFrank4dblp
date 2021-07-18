@@ -6,6 +6,19 @@
   "commit": false,
   "contributors": [
     {
+      "login": "WenyanLiu",
+      "name": "wyliu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16554557?v=4",
+      "profile": "https://scholar.google.com/citations?user=a8sqKFkAAAAJ",
+      "contributions": [
+        "ideas",
+        "code",
+        "data",
+        "doc",
+        "maintenance"
+      ]
+    },
+    {
       "login": "kevyn-zhang",
       "name": "kevyn-zhang",
       "avatar_url": "https://avatars1.githubusercontent.com/u/73885971?v=4",
@@ -68,19 +81,6 @@
       "contributions": [
         "bug",
         "code"
-      ]
-    },
-    {
-      "login": "WenyanLiu",
-      "name": "wyliu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16554557?v=4",
-      "profile": "https://scholar.google.com/citations?user=a8sqKFkAAAAJ",
-      "contributions": [
-        "ideas",
-        "code",
-        "data",
-        "doc",
-        "maintenance"
       ]
     }
   ],
