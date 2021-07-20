@@ -197,3 +197,10 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 - [![show-rank](https://raw.githubusercontent.com/hnshhslsh/show-rank/master/logo/16x16.png) hnshhslsh/show-rank](https://github.com/hnshhslsh/show-rank) - 支持在 Chrome 中的 ACM Digital Library、dblp、IEEE Xplore 和 Springer 显示中国计算机学会推荐的国际会议和期刊排名；
 - [![swufe_ccf_show_ranking](https://raw.githubusercontent.com/Nixiak-nan/swufe_ccf_show_ranking/master/logo/16.png) Nixiak-nan/swufe_ccf_show_ranking](https://github.com/Nixiak-nan/swufe_ccf_show_ranking) - 支持在 Chrome 和 Firefox 中的 百度学术、知网、Google Scholar、IEEExplore、Microsoft Academic、Springer、Web of Science 显示西南财经大学学术期刊目录。
+
+## Reports
+
+- Nov 3, 2020. [m1llie](https://github.com/m1-llie): [高效搜集论文指北](https://m1llie.tech/archives/searchpaper.html).
+- Dec 7, 2020. 安全学术圈: [CCFrank：DBLP论文等级助手插件](https://mp.weixin.qq.com/s/LXVp25dB-f41l2gnWx0Yog).
+- Apr 23, 2021. [Buffer](https://www.zhihu.com/people/buffer-3): [科研论文检索方法入门（计算机领域）](https://zhuanlan.zhihu.com/p/367339390).
+- Jul 19, 2021. [Lil Ning](https://www.zhihu.com/people/evanism101): [深度学习方向科研工作的神器](https://zhuanlan.zhihu.com/p/388558877).
