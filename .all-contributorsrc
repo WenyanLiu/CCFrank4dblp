@@ -82,6 +82,15 @@
         "bug",
         "code"
       ]
+    },
+    {
+      "login": "Fanchao-Qi",
+      "name": "Fanchao Qi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12222818?v=4",
+      "profile": "https://github.com/Fanchao-Qi",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,

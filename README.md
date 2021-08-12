@@ -189,6 +189,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/zshhans"><img src="https://avatars.githubusercontent.com/u/25279261?v=4?s=100" width="100px;" alt=""/><br /><sub><b>zshhans</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Azshhans" title="Bug reports">🐛</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=zshhans" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Fanchao-Qi"><img src="https://avatars.githubusercontent.com/u/12222818?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Fanchao Qi</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3AFanchao-Qi" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
