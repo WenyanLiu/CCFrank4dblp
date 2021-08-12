@@ -35,7 +35,7 @@ scholar.appendRank = function () {
 scholar.appendRanks = function () {
   let elements = $("tr.gsc_a_tr");
   elements.each(function () {
-    let node = $(this).find("td.gsc_a_t > a");
+    let node = $(this).find("td.gsc_a_t > a").first();
     if (!node.next().hasClass("ccf-rank")) {
       let title = node.text().replace(/[^A-z]/g, " ");
       let author = $(this)

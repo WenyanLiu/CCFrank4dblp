@@ -53,6 +53,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 3.2.4**
+
+> Aug 12, 2021
+
+1. 感谢 @Fanchao-Qi 的指正，修复了与 CatalyzeX 插件同时开启时重复 tag 的错误。
+
 **Version 3.2.3**
 
 > Jul 18, 2021
