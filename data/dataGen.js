@@ -1,3 +1,9 @@
+/**
+ * MIT License
+ *
+ * Copyright (c) 2019-2021 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp)
+ */
+
 const ccfRankList =
 	"A	TOCS	ACM Transactions on Computer Systems	/journals/tocs	/journals/tocs/tocs\n" +
 	"A	TOS	ACM Transactions on Storage	/journals/tos	/journals/tos/tos\n" +

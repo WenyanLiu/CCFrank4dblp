@@ -1,3 +1,9 @@
+/**
+ * MIT License
+ *
+ * Copyright (c) 2019-2021 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp)
+ */
+
 ccf.rankDb = {
   "/journals/tocs": "/journals/tocs/tocs",
   "/journals/tos": "/journals/tos/tos",
