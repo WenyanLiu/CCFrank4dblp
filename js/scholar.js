@@ -20,7 +20,7 @@ scholar.appendRank = function () {
   let elements = $("#gs_res_ccl_mid > div > div.gs_ri");
   elements.each(function () {
     let node = $(this).find("h3 > a");
-    let title = node.text().replace(/[^A-z]/g, " ");
+    let title = node.text();
     let data = $(this)
       .find("div.gs_a")
       .text()
@@ -37,7 +37,7 @@ scholar.appendRanks = function () {
   elements.each(function () {
     let node = $(this).find("td.gsc_a_t > a").first();
     if (!node.next().hasClass("ccf-rank")) {
-      let title = node.text().replace(/[^A-z]/g, " ");
+      let title = node.text();
       let author = $(this)
         .find("div.gs_gray")
         .text()

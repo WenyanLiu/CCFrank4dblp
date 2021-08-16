@@ -53,6 +53,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 3.2.5**
+
+> Aug 16, 2021
+
+1. 修复了 Google Scholar 文章标题预处理的错误。
+
 **Version 3.2.4**
 
 > Aug 12, 2021
