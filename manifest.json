@@ -102,7 +102,8 @@
         "https://scholar.google.ru/*",
         "https://scholar.google.se/*",
         "https://scholar.google.si/*",
-        "https://scholar.google.sk/*"
+        "https://scholar.google.sk/*",
+        "https://www.connectedpapers.com/main/*"
       ],
       "css": ["css/style.css"],
       "js": [
@@ -110,6 +111,7 @@
         "js/dblp.js",
         "js/scholar.js",
         "js/ccf.js",
+        "js/connectedpapers.js",
         "data/ccfRankAbbr.js",
         "data/ccfRankFull.js",
         "data/ccfRankDb.js",
