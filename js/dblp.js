@@ -1,3 +1,9 @@
+/**
+ * MIT License
+ *
+ * Copyright (c) 2019-2021 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp)
+ */
+
 const dblp = {};
 
 dblp.rankSpanList = [];
@@ -34,8 +40,12 @@ dblp.appendRanks = function () {
       for (let getRankSpan of dblp.rankSpanList) {
         let urls = source.substring(
           source.indexOf("/db/") + 3,
-          source.lastIndexOf("/")
+          source.lastIndexOf(".html")
         );
+        var pattern = /[0-9]{1,4}(-[0-9]{1,4})?$/;
+        if (pattern.test(urls)) {
+          urls = urls.replace(pattern, "");
+        } else { urls = "" };
         element.after(getRankSpan(urls));
       }
     }
@@ -51,7 +61,8 @@ dblp.appendRank = function (selector) {
         headline.indexOf("/db/") + 3,
         headline.lastIndexOf("/")
       );
-      element.after(getRankSpan(urls));
+      url = ccf.rankDb[urls];
+      element.after(getRankSpan(url));
     }
   }
 };

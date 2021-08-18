@@ -53,6 +53,60 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 3.2.5**
+
+> Aug 16, 2021
+
+1. 修复了 Google Scholar 文章标题预处理的错误。
+
+**Version 3.2.4**
+
+> Aug 12, 2021
+
+1. 感谢 @Fanchao-Qi 的指正，修复了与 CatalyzeX 插件同时开启时重复 tag 的错误。
+
+**Version 3.2.3**
+
+> Jul 18, 2021
+
+1. 感谢 @zshhans 的帮助，修复了 XHR not working on Firefox 的错误。
+
+**:tada: Daily Users** 
+
+> Jun 18, 2021
+
+Total current users: 1,006
+
+**Version 3.1.3**
+
+> Apr 12, 2021
+
+1. 修复 Google 学术首条搜索结果的 Tooltip 显示被覆盖的错误。
+
+**Version 3.1.2**
+
+> Mar 1, 2021
+
+1. 感谢 @zhuye88 的帮助，修复了《目录》中“Pattern Recognition”地址的错误。
+
+**Version 3.1.1**
+
+> Dec 20, 2020
+
+1. 感谢 @ifzh 和 @linwhitehat 的帮助，修复了由“会议/期刊的URL重复”引起的错误。
+
+**Version 3.0.3**
+
+> Dec 16, 2020
+
+1. 放宽了 Google 学术的匹配条件，修复了由“发表年份”不匹配引起的错误。
+
+**Version 3.0.2**
+
+> Dec 16, 2020
+
+1. 更正了 VLDB 会议的网址。
+
 **Version 3.0.1**
 
 > Dec 15, 2020
@@ -107,8 +161,7 @@ CCFrank 在 [Chrome 网上应用店](https://chrome.google.com/webstore/detail/c
 
 1. 适配 dblp 刊物名称；
 2. 增加了 dblp computer science bibliography 的镜像站点支持；
-3. 移除了 ACM Digital Library 和 IEEE Xplore 支持，专注优化 dblp 支持
-   （如需使用 ACM Digital Library、IEEE Xplore 和 Springer，请移步至 [![show-rank](https://raw.githubusercontent.com/hnshhslsh/show-rank/master/logo/16x16.png) hnshhslsh/show-rank](https://github.com/hnshhslsh/show-rank)，谢谢！）。
+3. 专注优化 dblp 支持。
 
 **Version 1.1**
 
@@ -123,6 +176,44 @@ CCFrank 在 [Chrome 网上应用店](https://chrome.google.com/webstore/detail/c
 1. 优化了 dblp 上会议和刊物名称的匹配规则；
 2. 修正了错误，更新到《[中国计算机学会推荐国际学术会议和期刊目录](https://www.ccf.org.cn/Academic_Evaluation/By_category/)》第五版（2019 年 4 月）。
 
-## Acknowledgement
+## Contributors ✨
 
-I would like to express my appreciation to [S.H. Lee](https://github.com/hnshhslsh) and [yishanchuan](https://github.com/yishanchuan) for their previous work and @ravenxrz , @kevyn-zhang and @junwei-wang for their advice!
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://scholar.google.com/citations?user=a8sqKFkAAAAJ"><img src="https://avatars.githubusercontent.com/u/16554557?v=4?s=100" width="100px;" alt=""/><br /><sub><b>wyliu</b></sub></a><br /><a href="#ideas-WenyanLiu" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=WenyanLiu" title="Code">💻</a> <a href="#data-WenyanLiu" title="Data">🔣</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=WenyanLiu" title="Documentation">📖</a> <a href="#maintenance-WenyanLiu" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/kevyn-zhang"><img src="https://avatars1.githubusercontent.com/u/73885971?v=4?s=100" width="100px;" alt=""/><br /><sub><b>kevyn-zhang</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Akevyn-zhang" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://ipads.se.sjtu.edu.cn/rong_chen"><img src="https://avatars2.githubusercontent.com/u/1779861?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rong Chen</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Arealstolz" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://jwa.ng"><img src="https://avatars1.githubusercontent.com/u/866329?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Junwei Wang</b></sub></a><br /><a href="#platform-junwei-wang" title="Packaging/porting to new platform">📦</a></td>
+    <td align="center"><a href="https://github.com/ifzh"><img src="https://avatars0.githubusercontent.com/u/11475849?v=4?s=100" width="100px;" alt=""/><br /><sub><b>iFzh</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Aifzh" title="Bug reports">🐛</a> <a href="#ideas-ifzh" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://linwhitehat.github.io/"><img src="https://avatars3.githubusercontent.com/u/20349381?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lin</b></sub></a><br /><a href="#ideas-linwhitehat" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://www.yezhu.com.au/"><img src="https://avatars.githubusercontent.com/u/19607512?v=4?s=100" width="100px;" alt=""/><br /><sub><b>YE ZHU</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Azhuye88" title="Bug reports">🐛</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/zshhans"><img src="https://avatars.githubusercontent.com/u/25279261?v=4?s=100" width="100px;" alt=""/><br /><sub><b>zshhans</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Azshhans" title="Bug reports">🐛</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=zshhans" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Fanchao-Qi"><img src="https://avatars.githubusercontent.com/u/12222818?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Fanchao Qi</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3AFanchao-Qi" title="Bug reports">🐛</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Reports
+
+- Nov 3, 2020. [m1llie](https://github.com/m1-llie): [高效搜集论文指北](https://m1llie.tech/archives/searchpaper.html).
+- Dec 7, 2020. 安全学术圈: [CCFrank：DBLP论文等级助手插件](https://mp.weixin.qq.com/s/LXVp25dB-f41l2gnWx0Yog).
+- Apr 23, 2021. [Buffer](https://www.zhihu.com/people/buffer-3): [科研论文检索方法入门（计算机领域）](https://zhuanlan.zhihu.com/p/367339390).
+- Jul 19, 2021. [Lil Ning](https://www.zhihu.com/people/evanism101): [深度学习方向科研工作的神器](https://zhuanlan.zhihu.com/p/388558877).
+
+## More Awesome Scripts
+
+- [![show-rank](https://raw.githubusercontent.com/hnshhslsh/show-rank/master/logo/16x16.png) hnshhslsh/show-rank](https://github.com/hnshhslsh/show-rank) - 支持在 Chrome 中的 ACM Digital Library、dblp、IEEE Xplore 和 Springer 显示中国计算机学会推荐的国际会议和期刊排名；
+- [![swufe_ccf_show_ranking](https://raw.githubusercontent.com/Nixiak-nan/swufe_ccf_show_ranking/master/logo/16.png) Nixiak-nan/swufe_ccf_show_ranking](https://github.com/Nixiak-nan/swufe_ccf_show_ranking) - 支持在 Chrome 和 Firefox 中的 百度学术、知网、Google Scholar、IEEExplore、Microsoft Academic、Springer、Web of Science 显示西南财经大学学术期刊目录。
