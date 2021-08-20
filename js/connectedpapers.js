@@ -10,20 +10,22 @@ connectedpapers.rankSpanList = [];
 
 connectedpapers.run = function () {
     let url = window.location.pathname;
-    window.onload=function(){
-        // window.alert(url);
-        // let elements = $("#desktop-app > div.flexcolumn.main-router > div.main-view-window");
-        // let elements = $("div.minilist-column.flexcolumn");
-    //     console.log("trigger");
-        // console.log(elements);
+    // window.onload=function(){
+    //     // window.alert(url);
+    //     // let elements = $("#desktop-app > div.flexcolumn.main-router > div.main-view-window");
+    //     // let elements = $("div.minilist-column.flexcolumn");
+    // //     console.log("trigger");
+    //     // console.log(elements);
         
-        // let connects = $("div.list-group-item-mod.minilist-list-entry");
-        // console.log(connects);
+    //     // let connects = $("div.list-group-item-mod.minilist-list-entry");
+    //     // console.log(connects);
 
+    //     connectedpapers.appendRank();
+    // };
+    
+    window.setInterval(function() {
         connectedpapers.appendRank();
-    };
-    
-    
+    }, 3000);
 
     console.log("trigger1");
 
