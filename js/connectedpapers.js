@@ -10,16 +10,20 @@ connectedpapers.rankSpanList = [];
 
 connectedpapers.run = function () {
     let url = window.location.pathname;
-    window.onload=function(){
+    // window.onload=function(){
 
-        connectedpapers.appendRank();
-        connectedpapers.appendRanks();
-    };
-    
-    // window.setInterval(function() {
     //     connectedpapers.appendRank();
     //     connectedpapers.appendRanks();
-    // }, 3000);
+    // };
+    // 这里还是不行，怎么在页面全部出现之后再确定
+    setTimeout(function() {
+        $(window).bind("popstate", function() {
+            connectedpapers.appendRank();
+            connectedpapers.appendRanks();
+        });
+        connectedpapers.appendRank();
+        connectedpapers.appendRanks();
+    }, 3000);
 
     console.log("trigger1");
 

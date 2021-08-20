@@ -34,7 +34,6 @@ scholar.appendRank = function () {
       .split(" ");
     let author = data[1];
     let year = data.slice(-3)[0];
-    console.log(node, title, author, year)
     fetchRank(node, title, author, year);
   });
 };
