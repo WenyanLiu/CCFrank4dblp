@@ -11,19 +11,18 @@ connectedpapers.rankSpanList = [];
 connectedpapers.run = function () {
     let url = window.location.pathname;
     console.log(url);
-    // window.onload=function(){
+    window.onload = function(){
 
-    //     connectedpapers.appendRank();
-    //     connectedpapers.appendRanks();
-    // };
+        setTimeout(function() {
+            if (url.indexOf('/main') != -1) {
+                connectedpapers.appendRank();
+                connectedpapers.appendRanks();
+            }
+            
+        }, 3000);
+    };
     // 这里还是不行，怎么在页面全部出现之后再确定
-    setTimeout(function() {
-        if (url.indexOf('/main') != -1) {
-            connectedpapers.appendRank();
-            connectedpapers.appendRanks();
-        }
-        
-    }, 3000);
+    
 
     console.log("trigger1");
 
@@ -46,7 +45,9 @@ connectedpapers.appendRank = function() {
     let data = nodes[2];
     // console.log(data);
     let xdata = (data.innerText).split('\n');
-    let author = xdata[0];
+    let authors = xdata[0].split(" ");
+    console.log(authors);
+    let author = authors[0];
     let year = xdata[1];
     // console.log(author);
     // console.log(year);
@@ -63,7 +64,8 @@ connectedpapers.appendRanks = function() {
         let title = (node[0]).innerText;
         // console.log(title);
         let xdata = ((node[1]).innerText).split('\n');
-        let author = xdata[0];
+        let authors = xdata[0].split(" ");
+        let author = authors[0];
         let year = xdata[1];
         // console.log(author);
         // console.log(year);
@@ -73,56 +75,60 @@ connectedpapers.appendRanks = function() {
 };
 
 function fetchRank(node, title, author, year) {
-        var xhr = new XMLHttpRequest();
-        api_format = "https://dblp.org/search/publ/api?q=" + encodeURIComponent(title + " " + author) + "&format=json";
-        xhr.open("GET", api_format, true);
-        xhr.onreadystatechange = function () {
+    // console.log(title);
+    // console.log(author);
+    // console.log(year);
+    var xhr = new XMLHttpRequest();
+    api_format = "https://dblp.org/search/publ/api?q=" + encodeURIComponent(title + " " + author) + "&format=json";
+    xhr.open("GET", api_format, true);
+    // console.log(api_format);
+    xhr.onreadystatechange = function () {
         if (xhr.readyState == 4) {
             var dblp_url = "";
             var resp = JSON.parse(xhr.responseText).result.hits;
             if (resp["@total"] == 0) {
-            dblp_url == "";
+                dblp_url == "";
             } else if (resp["@total"] == 1) {
-            url = resp.hit[0].info.url;
-            dblp_url = url.substring(
-                url.indexOf("/rec/") + 4,
-                url.lastIndexOf("/")
-            );
-            } else {
-            for (var h = 0; h < resp["@total"]; h++) {
-                info = resp.hit[h].info
-                author_1st = info.authors.author[0].text;
-                year_fuzzy = info.year;
-                year_last_check = 0;
-                if (Math.abs(Number(year) - year_fuzzy) <= 1
-                && author_1st.toLowerCase().split(" ").indexOf(author.toLowerCase()) != -1
-                && year_fuzzy != year_last_check) {
-                year_last_check = year_fuzzy;
-                url = resp.hit[h].info.url;
-                dblp_url_last_check = url.substring(
+                url = resp.hit[0].info.url;
+                dblp_url = url.substring(
                     url.indexOf("/rec/") + 4,
                     url.lastIndexOf("/")
                 );
-                if (year_fuzzy == year + 1) {
-                    dblp_url = dblp_url_last_check;
-                } else if (year_fuzzy == year) {
-                    dblp_url = dblp_url_last_check;
-                    break;
-                } else {
-                    if (dblp_url == "") {
-                    dblp_url = dblp_url_last_check;
-                    };
+            } else {
+                for (var h = 0; h < resp["@total"]; h++) {
+                    info = resp.hit[h].info
+                    author_1st = info.authors.author[0].text;
+                    year_fuzzy = info.year;
+                    year_last_check = 0;
+                    if (Math.abs(Number(year) - year_fuzzy) <= 1
+                    && author_1st.toLowerCase().split(" ").indexOf(author.toLowerCase()) != -1
+                    && year_fuzzy != year_last_check) {
+                        year_last_check = year_fuzzy;
+                        url = resp.hit[h].info.url;
+                        dblp_url_last_check = url.substring(
+                            url.indexOf("/rec/") + 4,
+                            url.lastIndexOf("/")
+                        );
+                        if (year_fuzzy == year + 1) {
+                            dblp_url = dblp_url_last_check;
+                        } else if (year_fuzzy == year) {
+                            dblp_url = dblp_url_last_check;
+                            break;
+                        } else {
+                            if (dblp_url == "") {
+                            dblp_url = dblp_url_last_check;
+                            };
+                        }
+                    }
                 }
-                }
-            }
             }
             dblp_url = ccf.rankDb[dblp_url];
             for (let getRankSpan of connectedpapers.rankSpanList) {
-            $(node).after(getRankSpan(dblp_url));
+                $(node).after(getRankSpan(dblp_url));
             }
         }
-        };
-        xhr.send();
+    };
+    xhr.send();
 };
 
 // connectedpapers.js:94 Uncaught TypeError: Cannot read property 'text' of undefined
