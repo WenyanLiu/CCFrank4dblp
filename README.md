@@ -27,6 +27,10 @@ Chrome 扩展程序 & Firefox 附加组件，在 dblp 和 Google 学术的搜索
 
 ![CCFrank on Google Scholar](./img/scholar.png)
 
+![CCFrank on Connectedpapers](./img/connectedpapers.png)
+
+> refresh the page if ranks didn't appear, there is a bug on the [connectedpapers](https://www.connectedpapers.com/) currently.
+
 ## Install
 
 Directly install from the Chrome Web Store or Firefox Bowser Add-ons (Recommended) _or_ load from the source.
