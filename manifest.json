@@ -1,6 +1,6 @@
 {
   "name": "__MSG_extName__",
-  "version": "3.2.5",
+  "version": "4.0.0",
   "description": "__MSG_extDesc__",
   "manifest_version": 2,
   "default_locale": "en",
@@ -109,9 +109,10 @@
       "js": [
         "lib/jquery-3.5.1.min.js",
         "js/dblp.js",
+        "js/connectedpapers.js",
         "js/scholar.js",
         "js/ccf.js",
-        "js/connectedpapers.js",
+        "js/fetchRank.js",
         "data/ccfRankAbbr.js",
         "data/ccfRankFull.js",
         "data/ccfRankDb.js",

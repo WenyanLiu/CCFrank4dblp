@@ -1,4 +1,6 @@
 .ccf-rank {
+  display: inline-block;
+  height: 18.35px;
   font-size: 12px;
   font-weight: bold;
   white-space: nowrap;
