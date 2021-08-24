@@ -91,6 +91,17 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "purplewall1206",
+      "name": "ppw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10174153?v=4",
+      "profile": "http://www.zi-c.wang",
+      "contributions": [
+        "code",
+        "platform",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
