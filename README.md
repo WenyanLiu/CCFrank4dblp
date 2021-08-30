@@ -15,11 +15,17 @@
     <a href="https://addons.mozilla.org/zh-CN/firefox/addon/ccfrank/">
         <img alt="Mozilla Add-on" src="https://img.shields.io/amo/users/ccfrank?color=%23FF7139&label=Mozilla%20Add-on&logo=firefox-browser&logoColor=%23FF7139">
     </a>
+    <a href="https://microsoftedge.microsoft.com/addons/detail/ccfrank/pboigbpepikdoeindehghnpojjblhjmm">
+        <img alt="Edge Add-on" src="https://img.shields.io/badge/dynamic/json?color=%230078D7&label=Edge%20Add-on&logo=microsoftedge&logoColor=%230078D7&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fpboigbpepikdoeindehghnpojjblhjmm">
+    </a>
+    <a href="https://microsoftedge.microsoft.com/addons/detail/ccfrank/pboigbpepikdoeindehghnpojjblhjmm">
+        <img alt="Edge Add-on" src="https://img.shields.io/badge/dynamic/json?color=%230078D7&label=Edge%20Add-on&logo=microsoftedge&logoColor=%230078D7&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fpboigbpepikdoeindehghnpojjblhjmm">
+    </a>
 </p>
 
-The Chrome Extension and Firefox Add-on display the China Computer Federation recommended rank of international conferences and journals in the dblp, Google Scholar and Connected Papers search results.
+The Chrome Extension, Firefox and Edge Add-on display the China Computer Federation recommended rank of international conferences and journals in the dblp, Google Scholar and Connected Papers search results.
 
-Chrome 扩展程序 & Firefox 附加组件，在 dblp、Google 学术和 Connected Papers 的搜索结果中显示中国计算机学会推荐的国际会议和期刊排名。
+Chrome 扩展程序、Firefox 和 Edge 附加组件，在 dblp、Google 学术和 Connected Papers 的搜索结果中显示中国计算机学会推荐的国际会议和期刊排名。
 
 ## Preview
 
@@ -33,13 +39,13 @@ Chrome 扩展程序 & Firefox 附加组件，在 dblp、Google 学术和 Connect
 
 ## Install
 
-Directly install from the Chrome Web Store or Firefox Bowser Add-ons (Recommended) _or_ load from the source.
+Directly install from the Chrome, Firefox or Microsoft Edge Add-ons Store (Recommended) _or_ load from the source.
 
-### Install from the Chrome Web Store / Firefox Bowser Add-ons
+### Install from the Chrome / Firefox / Microsoft Edge Add-ons Store
 
-1. Find the CCFrank extension in [Chrome Web Store](https://chrome.google.com/webstore/detail/ccfrank/pfcajmbenomfbjnbjhgbnbdjmiklnkie) / [Firefox Bowser Add-ons](https://addons.mozilla.org/zh-CN/firefox/addon/ccfrank/).
-2. Click the `Add to Chrome` / `+ Add to Firefox` button.
-3. CCFrank needs to read and change dblp, Google Scholar and its mirror sites. To approve, click `Add extension`.
+1. Find the CCFrank extension in [Chrome Web Store](https://chrome.google.com/webstore/detail/ccfrank/pfcajmbenomfbjnbjhgbnbdjmiklnkie) / [Firefox Bowser Add-ons](https://addons.mozilla.org/zh-CN/firefox/addon/ccfrank/) / [Microsoft Edge Add-ons Store](https://microsoftedge.microsoft.com/addons/detail/ccfrank/pboigbpepikdoeindehghnpojjblhjmm).
+2. Click the `Add to Browser` button.
+3. CCFrank needs to read and change dblp, Google Scholar, Connected Papers and its mirror sites. To approve, click `Add extension`.
 
 ### Load Unpacked
 
@@ -56,6 +62,12 @@ Clone CCFrank to a directory.
 <img src="./img/load_unpacked.png" height="300" alt="Load Extension">
 
 ## What's New
+
+**:tada: Published**
+
+> Aug 30, 2021
+
+CCFrank 在 [Microsoft Edge 扩展商店](https://microsoftedge.microsoft.com/addons/detail/ccfrank/pboigbpepikdoeindehghnpojjblhjmm)上架~
 
 **Version 4.0.0**
 
