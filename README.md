@@ -240,6 +240,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 - Nov 3, 2020. [m1llie](https://github.com/m1-llie): [高效搜集论文指北](https://m1llie.tech/archives/searchpaper.html).
 - Dec 7, 2020. 安全学术圈: [CCFrank：DBLP论文等级助手插件](https://mp.weixin.qq.com/s/LXVp25dB-f41l2gnWx0Yog).
 - Apr 23, 2021. [Buffer](https://www.zhihu.com/people/buffer-3): [科研论文检索方法入门（计算机领域）](https://zhuanlan.zhihu.com/p/367339390).
+- Jun 15, 2021. [etamsylate-pupu](https://github.com/etamsylate-pupu): [文献阅读技巧](https://redamancy.tech/archives/25/).
 - Jul 19, 2021. [Lil Ning](https://www.zhihu.com/people/evanism101): [深度学习方向科研工作的神器](https://zhuanlan.zhihu.com/p/388558877).
 
 ## More Awesome Scripts
