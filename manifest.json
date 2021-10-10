@@ -1,8 +1,8 @@
 {
   "name": "__MSG_extName__",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "__MSG_extDesc__",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "default_locale": "en",
   "icons": {
     "16": "icon/16x16.png",
@@ -11,7 +11,7 @@
     "64": "icon/64x64.png",
     "128": "icon/128x128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": {
       "16": "icon/16x16.png",
       "24": "icon/24x24.png",
@@ -121,5 +121,5 @@
       ]
     }
   ],
-  "permissions": ["*://dblp.org/*"]
+  "host_permissions": ["*://dblp.org/*"]
 }

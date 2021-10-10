@@ -63,6 +63,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.0.1**
+
+> Oct 10, 2021
+
+1. Migrate to Manifest V3.
+
 **:tada: Published**
 
 > Aug 30, 2021
