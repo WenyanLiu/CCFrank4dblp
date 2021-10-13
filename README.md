@@ -245,5 +245,5 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## More Awesome Scripts
 
-- [![show-rank](https://raw.githubusercontent.com/hnshhslsh/show-rank/master/logo/16x16.png) hnshhslsh/show-rank](https://github.com/hnshhslsh/show-rank) - 支持在 Chrome 中的 ACM Digital Library、dblp、IEEE Xplore 和 Springer 显示中国计算机学会推荐的国际会议和期刊排名；
+- [![show-rank](https://raw.githubusercontent.com/hnshhslsh/show-rank/master/logo/16x16.png) hnshhslsh/show-rank](https://github.com/hnshhslsh/show-rank) - 支持在 Chrome 中的 ACM Digital Library、dblp、IEEE Xplore 和 Springer 显示中国计算机学会推荐的国际会议和期刊排名（:clap: 很开心自己在谷歌学术上的查询方法被[直接使用](https://github.com/hnshhslsh/show-rank/commit/864b7a8d2896707e19281ed6e21518eb35cda1db)啦）；
 - [![swufe_ccf_show_ranking](https://raw.githubusercontent.com/Nixiak-nan/swufe_ccf_show_ranking/master/logo/16.png) Nixiak-nan/swufe_ccf_show_ranking](https://github.com/Nixiak-nan/swufe_ccf_show_ranking) - 支持在 Chrome 和 Firefox 中的 百度学术、知网、Google Scholar、IEEExplore、Microsoft Academic、Springer、Web of Science 显示西南财经大学学术期刊目录。
