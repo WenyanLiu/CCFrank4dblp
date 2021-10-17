@@ -242,6 +242,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 - Apr 23, 2021. [Buffer](https://www.zhihu.com/people/buffer-3): [科研论文检索方法入门（计算机领域）](https://zhuanlan.zhihu.com/p/367339390).
 - Jun 15, 2021. [etamsylate-pupu](https://github.com/etamsylate-pupu): [文献阅读技巧](https://redamancy.tech/archives/25/).
 - Jul 19, 2021. [Lil Ning](https://www.zhihu.com/people/evanism101): [深度学习方向科研工作的神器](https://zhuanlan.zhihu.com/p/388558877).
+- Oct 14, 2021. [爱可可-爱生活](https://weibo.com/u/1402400261): [CCFrank](https://m.weibo.cn/status/4692180050905247).
 
 ## More Awesome Scripts
 
