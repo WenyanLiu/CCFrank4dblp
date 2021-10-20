@@ -650,8 +650,10 @@ var ccfRankFull = {};
 var ccfRankAbbr = {};
 var ccfRankDb = {};
 var ccfRankUrl = {};
+var ccfFullUrl = {};
 for (x of ccfRankList.split("\n")) {
 	y = x.split("\t");
+	ccfFullUrl[y[2].toUpperCase()] = y[4];
 	if (y[4] != "") {
 		ccfRankUrl[y[4]] = y[0];
 		ccfRankAbbr[y[4]] = y[1];
@@ -679,5 +681,10 @@ fs.writeFileSync(
 fs.writeFileSync(
 	"ccfRankUrl.js",
 	"ccf.rankUrl = " + JSON.stringify(ccfRankUrl),
+	"utf8"
+);
+fs.writeFileSync(
+	"ccfFullUrl.js",
+	"ccf.fullUrl = " + JSON.stringify(ccfFullUrl),
 	"utf8"
 );

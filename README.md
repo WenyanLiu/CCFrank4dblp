@@ -23,9 +23,9 @@
     </a>
 </p>
 
-The Chrome Extension, Firefox and Edge Add-on display the China Computer Federation recommended rank of international conferences and journals in the dblp, Google Scholar and Connected Papers search results.
+The Chrome Extension, Firefox and Edge Add-on display the China Computer Federation recommended rank of international conferences and journals in the dblp, Google Scholar, Connected Papers and Web of Science search results.
 
-Chrome 扩展程序、Firefox 和 Edge 附加组件，在 dblp、Google 学术和 Connected Papers 的搜索结果中显示中国计算机学会推荐的国际会议和期刊排名。
+Chrome 扩展程序、Firefox 和 Edge 附加组件，在 dblp、Google 学术、Connected Papers 和 Web of Science 的搜索结果中显示中国计算机学会推荐的国际会议和期刊排名。
 
 ## Preview
 
@@ -36,6 +36,8 @@ Chrome 扩展程序、Firefox 和 Edge 附加组件，在 dblp、Google 学术�
 ![CCFrank on Connected Papers](./img/connectedpapers.png)
 
 :warning: Please refresh the page if the CCF ranks don't show up on [Connected Papers](https://www.connectedpapers.com/).
+
+![CCFrank on Web of Science](./img/wos.png)
 
 ## Install
 
@@ -62,6 +64,12 @@ Clone CCFrank to a directory.
 <img src="./img/load_unpacked.png" height="300" alt="Load Extension">
 
 ## What's New
+
+**Version 4.1.0**
+
+> Oct 20, 2021
+
+1. 增加对 Web of Science 的支持。
 
 **Version 4.0.1**
 

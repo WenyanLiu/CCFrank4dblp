@@ -55,7 +55,7 @@ function fetchRank(node, title, authorA, year, site) {
             }
             dblp_url = ccf.rankDb[dblp_url];
             for (let getRankSpan of site.rankSpanList) {
-                $(node).after(getRankSpan(dblp_url));
+                $(node).after(getRankSpan(dblp_url, "url"));
             }
         }
     };

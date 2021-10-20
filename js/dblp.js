@@ -46,7 +46,7 @@ dblp.appendRanks = function () {
         if (pattern.test(urls)) {
           urls = urls.replace(pattern, "");
         } else { urls = "" };
-        element.after(getRankSpan(urls));
+        element.after(getRankSpan(urls, "url"));
       }
     }
   });
@@ -62,7 +62,7 @@ dblp.appendRank = function (selector) {
         headline.lastIndexOf("/")
       );
       url = ccf.rankDb[urls];
-      element.after(getRankSpan(url));
+      element.after(getRankSpan(url, "url"));
     }
   }
 };

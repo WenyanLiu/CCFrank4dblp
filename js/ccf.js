@@ -1,10 +1,25 @@
+/**
+ * MIT License
+ *
+ * Copyright (c) 2019-2021 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp)
+ */
+
 const ccf = {};
 
-ccf.getRankInfo = function (url) {
+ccf.getRankInfo = function (refine, type) {
   let rankInfo = {};
   rankInfo.ranks = [];
   rankInfo.info = "";
-  let rank = ccf.rankUrl[url];
+  let rank;
+  let url;
+  if (type == "url") {
+    rank = ccf.rankUrl[refine];
+    url = refine;
+  } else {
+    console.log(refine);
+    url = ccf.fullUrl[refine];
+    rank = ccf.rankUrl[url];
+  }
   if (rank == undefined) {
     rank = "none";
     rankInfo.info += "Not Found\n";
@@ -31,8 +46,8 @@ ccf.getRankClass = function (ranks) {
   return "ccf-none";
 };
 
-ccf.getRankSpan = function (url) {
-  let rankInfo = ccf.getRankInfo(url);
+ccf.getRankSpan = function (refine, type) {
+  let rankInfo = ccf.getRankInfo(refine, type);
   let span = $("<span>")
     .addClass("ccf-rank")
     .addClass(ccf.getRankClass(rankInfo.ranks))

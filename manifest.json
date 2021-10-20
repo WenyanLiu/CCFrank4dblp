@@ -1,6 +1,6 @@
 {
   "name": "__MSG_extName__",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "__MSG_extDesc__",
   "manifest_version": 3,
   "default_locale": "en",
@@ -103,7 +103,8 @@
         "https://scholar.google.se/*",
         "https://scholar.google.si/*",
         "https://scholar.google.sk/*",
-        "https://www.connectedpapers.com/main/*"
+        "https://www.connectedpapers.com/main/*",
+        "https://www.webofscience.com/*"
       ],
       "css": ["css/style.css"],
       "js": [
@@ -111,12 +112,14 @@
         "js/dblp.js",
         "js/connectedpapers.js",
         "js/scholar.js",
+        "js/wos.js",
         "js/ccf.js",
         "js/fetchRank.js",
         "data/ccfRankAbbr.js",
         "data/ccfRankFull.js",
         "data/ccfRankDb.js",
         "data/ccfRankUrl.js",
+        "data/ccfFullUrl.js",
         "script.js"
       ]
     }

@@ -1,6 +1,7 @@
 dblp.rankSpanList.push(ccf.getRankSpan);
 scholar.rankSpanList.push(ccf.getRankSpan);
 connectedpapers.rankSpanList.push(ccf.getRankSpan);
+wos.rankSpanList.push(ccf.getRankSpan);
 
 if (window.location.hostname.startsWith("dblp")) {
     dblp.run();
@@ -8,5 +9,6 @@ if (window.location.hostname.startsWith("dblp")) {
     scholar.run();
 } else if (window.location.hostname.includes("connectedpaper")) {
     connectedpapers.run();
-} 
-
+} else if (window.location.hostname.includes("webofscience")) {
+    wos.run();
+}
