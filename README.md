@@ -65,6 +65,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.1.1**
+
+> Oct 20, 2021
+
+1. The description translation in locale en exceeds maximum size limit of 132 characters.
+
 **Version 4.1.0**
 
 > Oct 20, 2021
