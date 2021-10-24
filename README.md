@@ -65,6 +65,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.1.2**
+
+> Oct 24, 2021
+
+1. 修复了 dblp 中 AsiaCCS 2021 地址的错误。
+
 **Version 4.1.1**
 
 > Oct 20, 2021

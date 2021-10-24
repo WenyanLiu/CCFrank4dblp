@@ -185,6 +185,7 @@ const ccfRankList =
 	"C	IH&MMSec	ACM Workshop on Information Hiding and Multimedia Security	/conf/ih	/conf/ih/ih\n" +
 	"C	ACNS	Applied Cryptography and Network Security	/conf/acns	/conf/acns/acns\n" +
 	"C	AsiaCCS	Asia Conference on Computer and Communications Security	/conf/asiaccs	/conf/ccs/asiaccs\n" +
+	"C	AsiaCCS	Asia Conference on Computer and Communications Security	/conf/asiaccs	/conf/asiaccs/asiaccs\n" +
 	"C	ACISP	AustralasiaConferenceonInformation SecurityandPrivacy	/conf/acisp	/conf/acisp/acisp\n" +
 	"C	CT-RSA	RSA Conference, Cryptographers' Track	/conf/ctrsa	/conf/ctrsa/ctrsa\n" +
 	"C	DIMVA	Detection of Intrusions and Malware &Vulnerability Assessment	/conf/dimva	/conf/dimva/dimva\n" +
