@@ -65,6 +65,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version Unchanged**
+
+> Oct 26, 2021
+
+1. New branch "mv2-firefox" for downgrading to Manifest V2. Mozilla Add-ons "are hoping to complete enough work on this project to support developer testing in Q4 2021 and start accepting v3 submissions in early 2022. This schedule may be pushed back or delayed due to unforeseeable circumstances." See [Manifest v3 update](https://blog.mozilla.org/addons/2021/05/27/manifest-v3-update/).
+
 **Version 4.1.2**
 
 > Oct 24, 2021
