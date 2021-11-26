@@ -102,6 +102,15 @@
         "platform",
         "bug"
       ]
+    },
+    {
+      "login": "neardws",
+      "name": "Near",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23012163?v=4",
+      "profile": "https://www.neardws.com",
+      "contributions": [
+        "platform"
+      ]
     }
   ],
   "contributorsPerLine": 7,
