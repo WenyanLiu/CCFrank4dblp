@@ -24,7 +24,6 @@ wos.appendRanks = function () {
         if (!node.next().hasClass("ccf-rank")) {
             for (let getRankSpan of wos.rankSpanList) {
                 let publication = node.text();
-                console.log(publication);
                 node.after(getRankSpan(publication, "publication"));
             }
         }

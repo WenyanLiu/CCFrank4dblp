@@ -48,7 +48,8 @@ function fetchRank(node, title, authorA, year, site) {
                         } else {
                             if (dblp_url == "") {
                                 dblp_url = dblp_url_last_check;
-                            };
+                            }
+                            ;
                         }
                     }
                 }
