@@ -75,6 +75,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.2.1**
+
+> Dec 26, 2021 
+
+1. 增加对 Semantic Scholar 上 CCF 期刊的支持。
+
 **Version 4.2.0**
 
 > Dec 18, 2021

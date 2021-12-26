@@ -18,8 +18,14 @@ ccf.getRankInfo = function (refine, type) {
     } else if (type == 'abbr') {
         let full = ccf.abbrFull[refine];
         url = ccf.fullUrl[full];
+        if (full === undefined) {
+            refine = refine.substring(0, refine.length - 1);
+            var res = Object.keys(ccf.fullUrl).filter(function (k) {
+                return k.indexOf(refine.toUpperCase()) == 0;
+            });
+            url = res ? ccf.fullUrl[res] : false;
+        }
         rank = ccf.rankUrl[url];
-        console.log(refine, full);
     } else {
         url = ccf.fullUrl[refine];
         rank = ccf.rankUrl[url];

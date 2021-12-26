@@ -1,0 +1,7 @@
+# mac
+.DS_Store
+**/.DS_Store
+.DS_Store?
+
+# PyCharm
+.idea/
