@@ -1,4 +1,5 @@
 <h1 align="center"><img src="./icon/32x32.png" height="21px" alt=""> CCFrank</h1>
+<h3 align="center">（开发者正在紧张刺激地准备毕业中，12月再找大家玩耍）</h2>
 <p align="center">
     <a href="https://github.com/WenyanLiu/CCFrank4dblp">
         <img alt="GitHub manifest version" src="https://img.shields.io/github/manifest-json/v/wenyanliu/CCFrank4dblp?color=%23EA4AAA&label=Github&logo=github&logoColor=%23EA4AAA">
@@ -308,6 +309,6 @@ Contributions of any kind welcome!
 - [![show-rank](https://raw.githubusercontent.com/hnshhslsh/show-rank/master/logo/16x16.png) hnshhslsh/show-rank](https://github.com/hnshhslsh/show-rank)
   - 支持在 Chrome 中的 ACM Digital Library、dblp、IEEE Xplore 和 Springer
   显示中国计算机学会推荐的国际会议和期刊排名（很开心自己在谷歌学术上的查询方法被[直接使用](https://github.com/hnshhslsh/show-rank/commit/864b7a8d2896707e19281ed6e21518eb35cda1db)啦:clap:）；
-- [![swufe_ccf_show_ranking](https://raw.githubusercontent.com/Nixiak-nan/swufe_ccf_show_ranking/master/logo/16.png) Nixiak-nan/swufe_ccf_show_ranking](https://github.com/Nixiak-nan/swufe_ccf_show_ranking)
+- [![swufe_ccf_show_ranking](https://raw.githubusercontent.com/Nixiak-nan/swufe_ccf_show_ranking/master/logo/16.png) Nixiak-nan/swufe_ccf_show_ranking](https://github.com/Nixiak-nan/easyScholar/tree/0551c6dcecd70dbc08b580fbce0df43563ebe90c#%E7%AE%80%E4%BB%8B)
   - 支持在 Chrome 和 Firefox 中的 百度学术、知网、Google Scholar、IEEExplore、Microsoft Academic、Springer、Web of Science
   显示西南财经大学学术期刊目录（Github 果然是大型交友平台，和开发同学已成为好友啦）。
