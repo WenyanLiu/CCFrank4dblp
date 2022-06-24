@@ -26,6 +26,10 @@ ccf.getRankInfo = function (refine, type) {
             url = res ? ccf.fullUrl[res] : false;
         }
         rank = ccf.rankUrl[url];
+    } else if (type == 'meeting') {
+        let full = ccf.abbrFull[refine];
+        url = ccf.fullUrl[full];
+        rank = ccf.rankUrl[url];
     } else {
         url = ccf.fullUrl[refine];
         rank = ccf.rankUrl[url];
