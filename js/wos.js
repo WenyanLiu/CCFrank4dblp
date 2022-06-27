@@ -18,8 +18,7 @@ wos.run = function () {
 };
 
 wos.appendRanks = function () {
-    let publication_elements = $(".summary-source-title-link[lang='en']");
-    publication_elements.each(function () {
+    $(".summary-source-title-link[lang='en']").each(function () {
         let node = $(this);
         if (!node.next().hasClass("ccf-rank")) {
             for (let getRankSpan of wos.rankSpanList) {
@@ -28,8 +27,16 @@ wos.appendRanks = function () {
             }
         }
     });
-    let meeting_elements = $("[name='conf_title'");
-    meeting_elements.each(function () {
+    $(".summary-source-title[lang='en']").each(function () {
+        let node = $(this);
+        if (!node.next().hasClass("ccf-rank")) {
+            for (let getRankSpan of wos.rankSpanList) {
+                let publication = node.text();
+                node.after(getRankSpan(publication, "publication"));
+            }
+        }
+    });
+    $("[name='conf_title']").each(function () {
         let node = $(this);
         if (!node.next().hasClass("ccf-rank")) {
             for (let getRankSpan of wos.rankSpanList) {
@@ -48,13 +55,11 @@ wos.appendRanks = function () {
                             }
                         }
                         meeting = tmp_name.join(" ");
-                        console.log(meeting);
                         items.push(getRankSpan(meeting, "meeting"));
                     } 
                 }
 
                 if (meeting == "") {
-                    console.log("not found", meeting);
                     items.push(getRankSpan(meeting, "meeting"));
                 }
                 node.after(items);
