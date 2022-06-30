@@ -121,6 +121,17 @@
       "contributions": [
         "platform"
       ]
+    },
+    {
+      "login": "FunClip",
+      "name": "Kai Chen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23724147?v=4",
+      "profile": "https://github.com/FunClip",
+      "contributions": [
+        "code",
+        "maintenance",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
