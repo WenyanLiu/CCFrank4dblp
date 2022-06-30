@@ -132,6 +132,16 @@
         "maintenance",
         "bug"
       ]
+    },
+    {
+      "login": "996787373",
+      "name": "Time machine",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25929774?v=4",
+      "profile": "https://github.com/996787373",
+      "contributions": [
+        "maintenance",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
