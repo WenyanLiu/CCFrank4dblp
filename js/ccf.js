@@ -1,7 +1,7 @@
 /**
  * MIT License
  *
- * Copyright (c) 2019-2021 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp) Kai Chen (https://github.com/FunClip)
+ * Copyright (c) 2019-2021 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp), Kai Chen (https://github.com/FunClip)
  */
 
 const ccf = {};
