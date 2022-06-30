@@ -281,6 +281,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.neardws.com"><img src="https://avatars.githubusercontent.com/u/23012163?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Near</b></sub></a><br /><a href="#platform-neardws" title="Packaging/porting to new platform">📦</a></td>
     <td align="center"><a href="http://bo233.github.io"><img src="https://avatars.githubusercontent.com/u/31071399?v=4?s=100" width="100px;" alt=""/><br /><sub><b>bo233</b></sub></a><br /><a href="#platform-bo233" title="Packaging/porting to new platform">📦</a></td>
     <td align="center"><a href="https://github.com/FunClip"><img src="https://avatars.githubusercontent.com/u/23724147?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kai Chen</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=FunClip" title="Code">💻</a> <a href="#maintenance-FunClip" title="Maintenance">🚧</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3AFunClip" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/996787373"><img src="https://avatars.githubusercontent.com/u/25929774?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Time machine</b></sub></a><br /><a href="#maintenance-996787373" title="Maintenance">🚧</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/pulls?q=is%3Apr+reviewed-by%3A996787373" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
