@@ -235,7 +235,7 @@ ccf.rankUrl = {
     "/conf/popl/popl": "A",
     "/conf/sigsoft/fse": "A",
     "/conf/sosp/sosp": "A",
-    "/conf/oopsla/splash": "A",
+    "/conf/oopsla/oopsla": "A",
     "/conf/kbse/ase": "A",
     "/conf/kbse/": "A",
     "/conf/icse/icse": "A",

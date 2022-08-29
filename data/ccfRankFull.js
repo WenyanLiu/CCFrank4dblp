@@ -235,7 +235,7 @@ ccf.rankFullName = {
     "/conf/popl/popl": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
     "/conf/sigsoft/fse": "ACM SIGSOFT Symposium on the Foundation of Software Engineering/ European Software Engineering Conference",
     "/conf/sosp/sosp": "ACM Symposium on Operating Systems Principles",
-    "/conf/oopsla/splash": "Conference on Object-Oriented Programming Systems, Languages,and Applications",
+    "/conf/oopsla/oopsla": "Conference on Object-Oriented Programming Systems, Languages,and Applications",
     "/conf/kbse/ase": "International Conference on Automated Software Engineering",
     "/conf/kbse/": "International Conference on Automated Software Engineering",
     "/conf/icse/icse": "International Conference on Software Engineering",

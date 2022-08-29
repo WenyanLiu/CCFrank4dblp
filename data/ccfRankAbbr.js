@@ -235,7 +235,7 @@ ccf.rankAbbrName = {
     "/conf/popl/popl": "POPL",
     "/conf/sigsoft/fse": "FSE/ESEC",
     "/conf/sosp/sosp": "SOSP",
-    "/conf/oopsla/splash": "OOPSLA",
+    "/conf/oopsla/oopsla": "OOPSLA",
     "/conf/kbse/ase": "ASE",
     "/conf/kbse/": "ASE",
     "/conf/icse/icse": "ICSE",
