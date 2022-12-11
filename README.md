@@ -1,5 +1,4 @@
 <h1 align="center"><img src="./icon/32x32.png" height="21px" alt=""> CCFrank</h1>
-<h3 align="center">（开发者正在紧张刺激地准备毕业中，12月再找大家玩耍）</h2>
 <p align="center">
     <a href="https://github.com/WenyanLiu/CCFrank4dblp">
         <img alt="GitHub manifest version" src="https://img.shields.io/github/manifest-json/v/wenyanliu/CCFrank4dblp?color=%23EA4AAA&label=Github&logo=github&logoColor=%23EA4AAA">
@@ -76,23 +75,30 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.2.3**
+
+> Dec 11, 2022
+
+1. 感谢 @FlyingFog 修复了 OOPSLA 地址的错误。
+2. 感谢 @FlyingFog 扩充了 tag 显示逻辑。
+
 **Version 4.2.2**
 
 > Jun 30, 2022
 
-1. 感谢 @FunClip 修复对 Web of Science 的支持。
+1. 感谢 @FunClip 修复了对 Web of Science 的支持。
 
 **Version 4.2.1**
 
 > Dec 26, 2021 
 
-1. 增加对 Semantic Scholar 上 CCF 期刊的支持。
+1. 增加了对 Semantic Scholar 上 CCF 期刊的支持。
 
 **Version 4.2.0**
 
 > Dec 18, 2021
 
-1. 增加对 Semantic Scholar 上 CCF 会议的支持。 
+1. 增加了对 Semantic Scholar 上 CCF 会议的支持。 
 
 **Version Unchanged**
 
@@ -119,7 +125,7 @@ Clone CCFrank to a directory.
 
 > Oct 20, 2021
 
-1. 增加对 Web of Science 的支持。
+1. 增加了对 Web of Science 的支持。
 
 **Version 4.0.1**
 
@@ -138,7 +144,7 @@ CCFrank
 
 > Aug 24, 2021
 
-1. 感谢 @purplewall1206 增加对 Connected Papers 的支持。
+1. 感谢 @purplewall1206 增加了对 Connected Papers 的支持。
 
 **Version 3.2.5**
 
@@ -168,7 +174,7 @@ Total current users: 1,006
 
 > Apr 12, 2021
 
-1. 修复 Google 学术首条搜索结果的 Tooltip 显示被覆盖的错误。
+1. 修复了 Google 学术首条搜索结果的 Tooltip 显示被覆盖的错误。
 
 **Version 3.1.2**
 
