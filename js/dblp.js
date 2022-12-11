@@ -38,6 +38,16 @@ dblp.appendRanks = function () {
         let source = element.attr("href");
         if (source.length != 0 && !element.next().hasClass("ccf-rank")) {
             for (let getRankSpan of dblp.rankSpanList) {
+                
+                let issueName = element.find("span[itemprop=issueNumber]").text();
+                if(issueName.length != 0 && isNaN(issueName)){
+                    var abbrName = ccf.abbrFull[issueName];
+                    if(typeof(abbrName) != "undefined"){ 
+                        element.after(getRankSpan(issueName, 'abbr'));
+                        continue;
+                    }
+                }
+
                 let urls = source.substring(
                     source.indexOf("/db/") + 3,
                     source.lastIndexOf(".html")

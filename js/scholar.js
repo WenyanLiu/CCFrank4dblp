@@ -26,15 +26,17 @@ scholar.appendRank = function () {
     let elements = $("#gs_res_ccl_mid > div > div.gs_ri");
     elements.each(function () {
         let node = $(this).find("h3 > a");
-        let title = node.text();
-        let data = $(this)
-            .find("div.gs_a")
-            .text()
-            .replace(/[\,\-\…]/g, "")
-            .split(" ");
-        let author = data[1];
-        let year = data.slice(-3)[0];
-        fetchRank(node, title, author, year, scholar);
+        if (!node.next().hasClass("ccf-rank")) {
+            let title = node.text();
+            let data = $(this)
+                .find("div.gs_a")
+                .text()
+                .replace(/[\,\-\…]/g, "")
+                .split(" ");
+            let author = data[1];
+            let year = data.slice(-3)[0];
+            fetchRank(node, title, author, year, scholar);
+        }
     });
 };
 
