@@ -6,14 +6,16 @@
 
 function fetchRank(node, title, authorA, year, site) {
     var xhr = new XMLHttpRequest();
-    api_format = "https://dblp.org/search/publ/api?q=" + encodeURIComponent(title + " " + authorA) + "&format=json";
+    api_format = "https://dblp.org/search/publ/api?q=" + encodeURIComponent(title + "  author:" + authorA) + "&format=json";
     xhr.open("GET", api_format, true);
+    var resp_flag = true;
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4) {
             var dblp_url = "";
             var resp = JSON.parse(xhr.responseText).result.hits;
             if (resp["@total"] == 0) {
                 dblp_url == "";
+                resp_flag = false;   
             } else if (resp["@total"] == 1) {
                 url = resp.hit[0].info.url;
                 dblp_url = url.substring(
@@ -23,6 +25,11 @@ function fetchRank(node, title, authorA, year, site) {
             } else {
                 for (var h = 0; h < resp["@total"]; h++) {
                     info = resp.hit[h].info;
+
+                    var cur_venue = info.type
+                    if(cur_venue == "Informal Publications") 
+                        continue;
+
                     if (Array.isArray(info.authors.author)) {
                         author_1st = info.authors.author[0].text;
                     } else {
@@ -55,8 +62,24 @@ function fetchRank(node, title, authorA, year, site) {
                 }
             }
             dblp_url = ccf.rankDb[dblp_url];
-            for (let getRankSpan of site.rankSpanList) {
-                $(node).after(getRankSpan(dblp_url, "url"));
+            //Find a new vul: rankDB lacks of `tacas` etc., but it does occur in file `dataGen`.
+            if(typeof(dblp_url) == "undefined" && resp_flag != false){
+                dblp_abbr = resp.hit[0].info.number;
+                if(typeof(dblp_abbr) != "undefined" && isNaN(dblp_abbr)){
+                }
+                else{
+                    dblp_abbr = resp.hit[0].info.venue;
+                }
+                for (let getRankSpan of site.rankSpanList) {
+                    // console.log("with abbr");
+                    $(node).after(getRankSpan(dblp_abbr, "abbr"));
+                }
+            }
+            else{
+                for (let getRankSpan of site.rankSpanList) {
+                    // console.log("with url");
+                    $(node).after(getRankSpan(dblp_url, "url"));
+                }
             }
         }
     };

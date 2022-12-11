@@ -142,6 +142,17 @@
         "maintenance",
         "review"
       ]
+    },
+    {
+      "login": "FlyingFog",
+      "name": "FlyingFog",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39846119?v=4",
+      "profile": "https://github.com/FlyingFog",
+      "contributions": [
+        "code",
+        "bug",
+        "data"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -149,5 +160,6 @@
   "projectOwner": "WenyanLiu",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }
