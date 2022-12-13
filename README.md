@@ -75,6 +75,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.3.0**
+
+> Dec 13, 2022
+
+1. 感谢 @ViTsing 提醒，调整到《[中国计算机学会推荐国际学术会议和期刊目录](https://www.ccf.org.cn/Academic_Evaluation/By_category/)》2022年拟定版（2022 年 12 月）。
+
 **Version 4.2.3**
 
 > Dec 11, 2022
