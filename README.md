@@ -304,6 +304,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center"><a href="https://github.com/FlyingFog"><img src="https://avatars.githubusercontent.com/u/39846119?v=4?s=100" width="100px;" alt="FlyingFog"/><br /><sub><b>FlyingFog</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=FlyingFog" title="Code">💻</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3AFlyingFog" title="Bug reports">🐛</a> <a href="#data-FlyingFog" title="Data">🔣</a></td>
+      <td align="center"><a href="https://github.com/ViTsing"><img src="https://avatars.githubusercontent.com/u/39085334?v=4?s=100" width="100px;" alt="ViTsing"/><br /><sub><b>ViTsing</b></sub></a><br /><a href="#data-ViTsing" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
