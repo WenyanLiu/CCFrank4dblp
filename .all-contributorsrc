@@ -153,6 +153,15 @@
         "bug",
         "data"
       ]
+    },
+    {
+      "login": "ViTsing",
+      "name": "ViTsing",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39085334?v=4",
+      "profile": "https://github.com/ViTsing",
+      "contributions": [
+        "data"
+      ]
     }
   ],
   "contributorsPerLine": 7,
