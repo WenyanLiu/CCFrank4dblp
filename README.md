@@ -75,6 +75,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.3.1**
+
+> Mar 6, 2023
+
+1. 感谢 @sdtsztom 指正，修复了 dblp 中 HPCA 地址的错误。
+
 **Version 4.3.0**
 
 > Dec 13, 2022

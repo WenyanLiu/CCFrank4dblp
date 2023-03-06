@@ -36,7 +36,7 @@
     "/conf/ppopp/ppopp": "A",
     "/conf/fast/fast": "A",
     "/conf/dac/dac": "A",
-    "/conf/cnhpca/cnhpca": "A",
+    "/conf/hpca/hpca": "A",
     "/journals/micro/micro": "A",
     "/conf/sc/sc": "A",
     "/conf/asplos/asplos": "A",
