@@ -75,6 +75,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version Unchanged**
+
+> Mat 18, 2023
+
+1. 感谢 @ch3n9w 提醒，更新了 Firefox 中的版本。
+
 **Version 4.3.1**
 
 > Mar 6, 2023
