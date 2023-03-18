@@ -318,6 +318,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/FlyingFog"><img src="https://avatars.githubusercontent.com/u/39846119?v=4?s=100" width="100px;" alt="FlyingFog"/><br /><sub><b>FlyingFog</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=FlyingFog" title="Code">💻</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3AFlyingFog" title="Bug reports">🐛</a> <a href="#data-FlyingFog" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ViTsing"><img src="https://avatars.githubusercontent.com/u/39085334?v=4?s=100" width="100px;" alt="ViTsing"/><br /><sub><b>ViTsing</b></sub></a><br /><a href="#data-ViTsing" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sdtsztom"><img src="https://avatars.githubusercontent.com/u/26901541?v=4?s=100" width="100px;" alt="Tang"/><br /><sub><b>Tang</b></sub></a><br /><a href="#data-sdtsztom" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ch3n9w"><img src="https://avatars.githubusercontent.com/u/40637063?v=4?s=100" width="100px;" alt="ch3n"/><br /><sub><b>ch3n</b></sub></a><br /><a href="#platform-ch3n9w" title="Packaging/porting to new platform">📦</a></td>
     </tr>
   </tbody>
 </table>
