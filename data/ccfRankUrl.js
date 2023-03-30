@@ -37,7 +37,7 @@
     "/conf/fast/fast": "A",
     "/conf/dac/dac": "A",
     "/conf/hpca/hpca": "A",
-    "/journals/micro/micro": "A",
+    "/conf/micro/micro": "A",
     "/conf/sc/sc": "A",
     "/conf/asplos/asplos": "A",
     "/conf/isca/isca": "A",

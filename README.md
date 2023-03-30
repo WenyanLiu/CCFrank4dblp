@@ -75,9 +75,15 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.3.2**
+
+> Mar 30, 2023
+
+1. 感谢 @sdtsztom 指正，修复了 dblp 中 MICRO 地址的错误。
+
 **Version Unchanged**
 
-> Mat 18, 2023
+> Mar 18, 2023
 
 1. 感谢 @ch3n9w 提醒，更新了 Firefox 中的版本。
 

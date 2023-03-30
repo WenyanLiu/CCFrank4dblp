@@ -37,7 +37,7 @@
     "/conf/fast/fast": "Conference on File and Storage Technologies",
     "/conf/dac/dac": "Design Automation Conference",
     "/conf/hpca/hpca": "High-Performance Computer Architecture",
-    "/journals/micro/micro": "IEEE/ACM International Symposium on Microarchitecture",
+    "/conf/micro/micro": "IEEE/ACM International Symposium on Microarchitecture",
     "/conf/sc/sc": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
     "/conf/asplos/asplos": "International Conference on Architectural Support for Programming Languages and Operating Systems",
     "/conf/isca/isca": "International Symposium on Computer Architecture",

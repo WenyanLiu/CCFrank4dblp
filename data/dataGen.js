@@ -37,7 +37,7 @@ const ccfRankList =
     "A	FAST	Conference on File and Storage Technologies	/conf/fast	/conf/fast/fast\n" +
     "A	DAC	Design Automation Conference	/conf/dac	/conf/dac/dac\n" +
     "A	HPCA	High-Performance Computer Architecture	/conf/hpca	/conf/hpca/hpca\n" +
-    "A	MICRO	IEEE/ACM International Symposium on Microarchitecture	/journals/micro	/journals/micro/micro\n" +
+    "A	MICRO	IEEE/ACM International Symposium on Microarchitecture	/conf/micro	/conf/micro/micro\n" +
     "A	SC	International Conference for High Performance Computing, Networking, Storage, and Analysis	/conf/sc	/conf/sc/sc\n" +
     "A	ASPLOS	International Conference on Architectural Support for Programming Languages and Operating Systems	/conf/asplos	/conf/asplos/asplos\n" +
     "A	ISCA	International Symposium on Computer Architecture	/conf/isca	/conf/isca/isca\n" +
