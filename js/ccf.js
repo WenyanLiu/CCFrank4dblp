@@ -43,14 +43,21 @@ ccf.getRankInfo = function (refine, type) {
         if (abbrname != "") {
             rankInfo.info += " (" + abbrname + ")";
         }
-        rankInfo.info += ": CCF " + rank + "\n";
+        if (rank == "E") {
+            rankInfo.info += ": Expanded\n";
+        } else if (rank == "P") {
+            rankInfo.info += ": Preprint\n";
+        } else {
+            rankInfo.info += ": CCF " + rank + "\n";
+        }
+
     }
     rankInfo.ranks.push(rank);
     return rankInfo;
 };
 
 ccf.getRankClass = function (ranks) {
-    for (let rank of "ABC") {
+    for (let rank of "ABCEP") {
         for (let r of ranks) {
             if (r[0] == rank) {
                 return "ccf-" + rank.toLowerCase();
@@ -64,8 +71,16 @@ ccf.getRankSpan = function (refine, type) {
     let rankInfo = ccf.getRankInfo(refine, type);
     let span = $("<span>")
         .addClass("ccf-rank")
-        .addClass(ccf.getRankClass(rankInfo.ranks))
-        .text("CCF " + rankInfo.ranks.join("/"));
+        .addClass(ccf.getRankClass(rankInfo.ranks));
+    if (rankInfo.ranks == "E") {
+        span.text("Expanded");
+    } else if (rankInfo.ranks == "P") {
+        span.text("Preprint");
+    } else if (rankInfo.ranks == "none") {
+        span.text("CCF None");
+    } else {
+        span.text("CCF " + rankInfo.ranks.join("/"));
+    }
     if (rankInfo.info.length != 0) {
         span
             .addClass("ccf-tooltip")

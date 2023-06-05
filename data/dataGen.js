@@ -682,7 +682,9 @@ const ccfRankList =
     "C	ISBRA	International Symposium on Bioinformatics Research and Applications	/conf/isbra	/conf/isbra/isbra\n" +
     "C	SAGT	International Symposium on Algorithmic Game Theory	/conf/sagt	/conf/sagt/sagt\n" +
     "C	SIGSPATIAL	ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems	/journals/sigspatial	/journals/sigspatial/sigspatial\n" +
-    "C	ICIC	International Conference on Intelligent Computing	/conf/icic	/conf/icic/icic";
+    "C	ICIC	International Conference on Intelligent Computing	/conf/icic	/conf/icic/icic\n" +
+    "E\tICLR\tInternational Conference on Learning Representations\t/conf/iclr\t/conf/iclr/iclr\n" +
+    "P\t\tArXiv\t/journals/corr\t/journals/corr/corr";
 
 var ccfRankFull = {};
 var ccfRankAbbr = {};

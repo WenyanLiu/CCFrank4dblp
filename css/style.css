@@ -17,11 +17,19 @@
 }
 
 .ccf-b {
-    background-color: #ffc107;
+    background-color: #4182d1;
 }
 
 .ccf-c {
-    background-color: #28a745;
+    background-color: #468847;
+}
+
+.ccf-e {
+    background-color: #dc3545;
+}
+
+.ccf-p {
+    background-color: #6c757d;
 }
 
 .ccf-none {
