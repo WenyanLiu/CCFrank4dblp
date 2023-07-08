@@ -681,7 +681,7 @@ const ccfRankList =
     "C	COSIT	International Conference on Spatial Information Theory	/conf/cosit	/conf/cosit/cosit\n" +
     "C	ISBRA	International Symposium on Bioinformatics Research and Applications	/conf/isbra	/conf/isbra/isbra\n" +
     "C	SAGT	International Symposium on Algorithmic Game Theory	/conf/sagt	/conf/sagt/sagt\n" +
-    "C	SIGSPATIAL	ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems	/journals/sigspatial	/journals/sigspatial/sigspatial\n" +
+    "C	SIGSPATIAL	ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems	/conf/gis	/conf/gis/gis\n" +
     "C	ICIC	International Conference on Intelligent Computing	/conf/icic	/conf/icic/icic";
 
 var ccfRankFull = {};
