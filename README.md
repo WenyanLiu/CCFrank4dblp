@@ -79,7 +79,7 @@ Clone CCFrank to a directory.
 
 > Oct 21, 2023
 
-1. Add application token to the queries.
+1. Add application token to the queries (Debug only).
 
 **Version 4.3.2**
 
