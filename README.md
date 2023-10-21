@@ -355,6 +355,7 @@ Contributions of any kind welcome!
 - Jul 19, 2021. [Lil Ning](https://www.zhihu.com/people/evanism101): [深度学习方向科研工作的神器](https://zhuanlan.zhihu.com/p/388558877).
 - Oct 14, 2021. [爱可可-爱生活](https://weibo.com/u/1402400261): [CCFrank](https://m.weibo.cn/status/4692180050905247).
 - Oct 21, 2021. [Wenhao Yang](https://github.com/Alpha-Yang)：[保研工具推荐-快速查询导师论文发表情况](https://github.com/Alpha-Yang/CS-BAOYAN-2022/blob/eb1d092a99fb62fd080db82da66cdf37d7060d0b/%E5%AF%BC%E5%B8%88%E6%8E%A8%E8%8D%90/%E4%BF%9D%E7%A0%94%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90-%E5%BF%AB%E9%80%9F%E6%9F%A5%E8%AF%A2%E5%AF%BC%E5%B8%88%E8%AE%BA%E6%96%87%E5%8F%91%E8%A1%A8%E6%83%85%E5%86%B5.md).
+- Apr 9, 2023. [暗夜无风](https://www.zhihu.com/people/xu-zhen-rong-49)：[CCFrank——谷歌学术插件，轻松又方便](https://zhuanlan.zhihu.com/p/620578442?utm_psn=1699161915610292224).
 
 ## More Awesome Scripts
 
