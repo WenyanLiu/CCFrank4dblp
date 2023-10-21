@@ -75,6 +75,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.3.3**
+
+> Oct 21, 2023
+
+1. Add application token to the queries.
+
 **Version 4.3.2**
 
 > Mar 30, 2023

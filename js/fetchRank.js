@@ -6,7 +6,7 @@
 
 function fetchRank(node, title, authorA, year, site) {
     var xhr = new XMLHttpRequest();
-    api_format = "https://dblp.org/search/publ/api?q=" + encodeURIComponent(title + "  author:" + authorA) + "&format=json";
+    api_format = "https://dblp.org/search/publ/api?q=" + encodeURIComponent(title + "  author:" + authorA) + "&format=json&app=CCFrank4dblp+v4.3.3";
     xhr.open("GET", api_format, true);
     var resp_flag = true;
     xhr.onreadystatechange = function () {
