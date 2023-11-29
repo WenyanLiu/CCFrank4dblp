@@ -7,7 +7,7 @@
 
 function fetchRank(node, title, authorA, year, site) {
 
-    let query_url = "https://dblp.org/search/publ/api?q=" + encodeURIComponent(title + "  author:" + authorA) + "&format=json&app=CCFrank4dblp+v4.3.3";
+    let query_url = "https://dblp.org/search/publ/api?q=" + encodeURIComponent(title + "  author:" + authorA) + "&format=json&app=CCFrank4dblp";
 
     let cached = apiCache.getItem( query_url );
     if( cached ) fetchFromCache( cached, node, title, authorA, year, site );
