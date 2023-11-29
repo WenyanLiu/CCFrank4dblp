@@ -117,6 +117,7 @@
         "js/scholar.js",
         "js/semanticscholar.js",
         "js/wos.js",
+        "js/apiCache.js",
         "js/ccf.js",
         "js/fetchRank.js",
         "data/ccfRankAbbr.js",
