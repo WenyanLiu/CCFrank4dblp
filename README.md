@@ -75,6 +75,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.4.0**
+
+1. Merge the Pull request from @mra42 to fix repeating dblp API queries.
+- Allow persistently storing data in browser's localStorage with a default expiration time of one day.
+- Improved fetchRank() in order to cache and reuse query results.
+
 **Version 4.3.3**
 
 > Oct 21, 2023
