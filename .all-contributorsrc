@@ -180,6 +180,16 @@
       "contributions": [
         "platform"
       ]
+    },
+    {
+      "login": "mra42",
+      "name": "Marcel R. Ackermann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29752535?v=4",
+      "profile": "https://dagstuhl.de/ackermann",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -188,5 +198,6 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true,
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }
