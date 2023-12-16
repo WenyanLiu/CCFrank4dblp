@@ -1,3 +1,9 @@
+/**
+ * MIT License
+ *
+ * Copyright (c) 2019-2023 mra42 (https://github.com/mra42), dozed (https://github.com/dozed)
+ */
+
 // cached values become stale after (86400000 = 24h) millisecs
 const expiresAfter = 86400000;
 
