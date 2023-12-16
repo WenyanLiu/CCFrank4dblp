@@ -62,7 +62,7 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
                     url.lastIndexOf("/")
                 );
             } else {
-                for (var h = 0; h < resp["@total"]; h++) {
+                for (var h = 0; h < resp["@sent"]; h++) {
                     info = resp.hit[h].info;
 
                     var cur_venue = info.type
