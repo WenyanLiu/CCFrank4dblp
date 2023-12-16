@@ -7,7 +7,10 @@
 
 function fetchRank(node, title, authorA, year, site) {
 
-    let query_url = "https://dblp.org/search/publ/api?q=" + encodeURIComponent(title + "  author:" + authorA) + "&format=json&app=CCFrank4dblp";
+    const manifest = chrome.runtime.getManifest();
+    const version = manifest.version;
+
+    let query_url = "https://dblp.org/search/publ/api?q=" + encodeURIComponent(title + "  author:" + authorA) + "&format=json&app=CCFrank4dblp_" + version;
 
     let cached = apiCache.getItem( query_url );
     if( cached ) fetchFromCache( cached, node, title, authorA, year, site );
@@ -44,6 +47,7 @@ function fetchFromCache(cached, node, title, authorA, year, site) {
 
 function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
     console.debug("fetch from API: %s (%s) \"%s\"", authorA, year, title );
+    console.debug("query url: %s", query_url)
 
     var xhr = new XMLHttpRequest();
     xhr.open("GET", query_url, true);
