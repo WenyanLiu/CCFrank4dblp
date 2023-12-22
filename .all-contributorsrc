@@ -200,6 +200,15 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "KezhengLiu",
+      "name": "KezhengLiu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43874813?v=4",
+      "profile": "https://github.com/KezhengLiu",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
