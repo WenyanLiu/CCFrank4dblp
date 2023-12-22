@@ -209,6 +209,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "Sumsky21",
+      "name": "Sumsky21",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58537872?v=4",
+      "profile": "https://sumsky.top/",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
