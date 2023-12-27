@@ -76,6 +76,9 @@ Clone CCFrank to a directory.
 ## What's New
 
 **Version 4.4.1**
+
+> Dec 16, 2023
+
 1. Refactor code to immediately process existing search results on page load and add a MutationObserver to dynamically handle new entries without duplicating marks on subsequent pages.
 2. Merge the Pull request from @dozed to add several checks.
 - Loop over `@sent` instead of `@total`.
@@ -83,6 +86,8 @@ Clone CCFrank to a directory.
 - Clear cache items in case of `QuotaExceededError` in `localStorage.setItem`.
 
 **Version 4.4.0**
+
+> Nov 29, 2023
 
 1. Merge the Pull request from @mra42 to fix repeating dblp API queries.
 - Allow persistently storing data in browser's localStorage with a default expiration time of one day.
