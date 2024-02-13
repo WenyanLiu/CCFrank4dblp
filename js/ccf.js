@@ -25,7 +25,7 @@ ccf.getRankInfo = function (refine, type) {
             if (full === undefined) {
                 refine = refine.substring(0, refine.length - 1);
                 var res = Object.keys(ccf.fullUrl).filter(function (k) {
-                    return k.indexOf(refine.toUpperCase()) == 0;
+                    return k.indexOf(refine.toUpperCase()) != -1;
                 });
                 url = res ? ccf.fullUrl[res] : false;
             }
