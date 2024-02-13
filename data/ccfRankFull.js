@@ -34,7 +34,7 @@
     "/journals/ccfthpc/ccfthpc": "CCF Transactions on High Performance Computing",
     "/journals/tsusc/tsusc": "IEEE Transactions on Sustainable Computing",
     "/conf/ppopp/ppopp": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
-    "/conf/fast/fast": "Conference on File and Storage Technologies",
+    "/conf/fast/fast": "USENIX Conference on File and Storage Technologies",
     "/conf/dac/dac": "Design Automation Conference",
     "/conf/hpca/hpca": "International Symposium on High-Performance Computer Architecture",
     "/conf/micro/micro": "IEEE/ACM International Symposium on Microarchitecture",

@@ -34,7 +34,7 @@ const ccfRankList =
     "C	CCF-THPC	CCF Transactions on High Performance Computing	/journals/ccfthpc	/journals/ccfthpc/ccfthpc\n" +
     "C	TSUSC	IEEE Transactions on Sustainable Computing	/journals/tsusc	/journals/tsusc/tsusc\n" +
     "A	PPoPP	ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming	/conf/ppopp	/conf/ppopp/ppopp\n" +
-    "A	FAST	Conference on File and Storage Technologies	/conf/fast	/conf/fast/fast\n" +
+    "A	FAST	USENIX Conference on File and Storage Technologies	/conf/fast	/conf/fast/fast\n" +
     "A	DAC	Design Automation Conference	/conf/dac	/conf/dac/dac\n" +
     "A	HPCA	International Symposium on High-Performance Computer Architecture	/conf/hpca	/conf/hpca/hpca\n" +
     "A	MICRO	IEEE/ACM International Symposium on Microarchitecture	/conf/micro	/conf/micro/micro\n" +
