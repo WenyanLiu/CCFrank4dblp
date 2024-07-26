@@ -63,8 +63,8 @@ scholar.appendRanks = function () {
         if (!node.next().hasClass("ccf-rank") && !$(this).hasClass("ccf-ranked")) {
             let title = node.text();
             let author = $(this)
-                .find("div.gs_gray")
-                .text()
+                .find("div.gs_gray")[0]
+                .innerText
                 .replace(/[\,\…]/g, "")
                 .split(" ")[1];
             let year = $(this).find("td.gsc_a_y").text();
