@@ -243,6 +243,7 @@
     "/conf/pldi/pldi": "ACM SIGPLAN Symposium on Programming Language Design & Implementation",
     "/conf/popl/popl": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
     "/conf/sigsoft/fse": "ACM SIGSOFT Symposium on the Foundation of Software Engineering/ European Software Engineering Conference",
+    "/conf/sigsoft/fse": " ACM International Conference on the Foundations of Software Engineering",
     "/conf/sosp/sosp": "ACM Symposium on Operating Systems Principles",
     "/conf/oopsla/oopsla": "Conference on Object-Oriented Programming Systems, Languages,and Applications",
     "/conf/kbse/ase": "International Conference on Automated Software Engineering",
