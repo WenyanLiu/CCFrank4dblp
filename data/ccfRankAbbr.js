@@ -243,6 +243,7 @@
     "/conf/pldi/pldi": "PLDI",
     "/conf/popl/popl": "POPL",
     "/conf/sigsoft/fse": "FSE/ESEC",
+    "/conf/sigsoft/fse": "FSE",
     "/conf/sosp/sosp": "SOSP",
     "/conf/oopsla/oopsla": "OOPSLA",
     "/conf/kbse/ase": "ASE",
