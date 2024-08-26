@@ -1,7 +1,7 @@
 /**
  * MIT License
  *
- * Copyright (c) 2019-2023 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp), Kai Chen (https://github.com/FunClip)
+ * Copyright (c) 2019-2023 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp), Kai Chen (https://github.com/FunClip), dozed (https://github.com/dozed)
  */
 
 const ccf = {};
@@ -16,16 +16,21 @@ ccf.getRankInfo = function (refine, type) {
         rank = ccf.rankUrl[refine];
         url = refine;
     } else if (type == 'abbr') {
-        let full = ccf.abbrFull[refine];
-        url = ccf.fullUrl[full];
-        if (full === undefined) {
-            refine = refine.substring(0, refine.length - 1);
-            var res = Object.keys(ccf.fullUrl).filter(function (k) {
-                return k.indexOf(refine.toUpperCase()) == 0;
-            });
-            url = res ? ccf.fullUrl[res] : false;
+        if (refine === undefined) {
+            rank = "none";
+            rankInfo.info += "Not Found\n";
+        } else {
+            let full = ccf.abbrFull[refine];
+            url = ccf.fullUrl[full];
+            if (full === undefined) {
+                refine = refine.substring(0, refine.length - 1);
+                var res = Object.keys(ccf.fullUrl).filter(function (k) {
+                    return k.indexOf(refine.toUpperCase()) == 0;
+                });
+                url = res ? ccf.fullUrl[res] : false;
+            }
+            rank = ccf.rankUrl[url];
         }
-        rank = ccf.rankUrl[url];
     } else if (type == 'meeting') {
         let full = ccf.abbrFull[refine];
         url = ccf.fullUrl[full];

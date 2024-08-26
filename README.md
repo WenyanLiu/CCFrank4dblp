@@ -75,6 +75,30 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.4.1**
+
+> Dec 16, 2023
+
+1. Refactor code to immediately process existing search results on page load and add a MutationObserver to dynamically handle new entries without duplicating marks on subsequent pages.
+2. Merge the Pull request from @dozed to add several checks.
+- Loop over `@sent` instead of `@total`.
+- Handle the case that `venue` is `undefined`.
+- Clear cache items in case of `QuotaExceededError` in `localStorage.setItem`.
+
+**Version 4.4.0**
+
+> Nov 29, 2023
+
+1. Merge the Pull request from @mra42 to fix repeating dblp API queries.
+- Allow persistently storing data in browser's localStorage with a default expiration time of one day.
+- Improved fetchRank() in order to cache and reuse query results.
+
+**Version 4.3.3**
+
+> Oct 21, 2023
+
+1. Add application token to the queries (Debug only).
+
 **Version 4.3.2**
 
 > Mar 30, 2023
@@ -325,6 +349,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ViTsing"><img src="https://avatars.githubusercontent.com/u/39085334?v=4?s=100" width="100px;" alt="ViTsing"/><br /><sub><b>ViTsing</b></sub></a><br /><a href="#data-ViTsing" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sdtsztom"><img src="https://avatars.githubusercontent.com/u/26901541?v=4?s=100" width="100px;" alt="Tang"/><br /><sub><b>Tang</b></sub></a><br /><a href="#data-sdtsztom" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ch3n9w"><img src="https://avatars.githubusercontent.com/u/40637063?v=4?s=100" width="100px;" alt="ch3n"/><br /><sub><b>ch3n</b></sub></a><br /><a href="#platform-ch3n9w" title="Packaging/porting to new platform">📦</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://dagstuhl.de/ackermann"><img src="https://avatars.githubusercontent.com/u/29752535?v=4?s=100" width="100px;" alt="Marcel R. Ackermann"/><br /><sub><b>Marcel R. Ackermann</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=mra42" title="Code">💻</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Amra42" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/dozed"><img src="https://avatars.githubusercontent.com/u/239058?v=4?s=100" width="100px;" alt="Stefan Ollinger"/><br /><sub><b>Stefan Ollinger</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=dozed" title="Code">💻</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Adozed" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/KezhengLiu"><img src="https://avatars.githubusercontent.com/u/43874813?v=4?s=100" width="100px;" alt="KezhengLiu"/><br /><sub><b>KezhengLiu</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3AKezhengLiu" title="Bug reports">🐛</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://sumsky.top/"><img src="https://avatars.githubusercontent.com/u/58537872?v=4?s=100" width="100px;" alt="Sumsky21"/><br /><sub><b>Sumsky21</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3ASumsky21" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
@@ -349,6 +379,7 @@ Contributions of any kind welcome!
 - Jul 19, 2021. [Lil Ning](https://www.zhihu.com/people/evanism101): [深度学习方向科研工作的神器](https://zhuanlan.zhihu.com/p/388558877).
 - Oct 14, 2021. [爱可可-爱生活](https://weibo.com/u/1402400261): [CCFrank](https://m.weibo.cn/status/4692180050905247).
 - Oct 21, 2021. [Wenhao Yang](https://github.com/Alpha-Yang)：[保研工具推荐-快速查询导师论文发表情况](https://github.com/Alpha-Yang/CS-BAOYAN-2022/blob/eb1d092a99fb62fd080db82da66cdf37d7060d0b/%E5%AF%BC%E5%B8%88%E6%8E%A8%E8%8D%90/%E4%BF%9D%E7%A0%94%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90-%E5%BF%AB%E9%80%9F%E6%9F%A5%E8%AF%A2%E5%AF%BC%E5%B8%88%E8%AE%BA%E6%96%87%E5%8F%91%E8%A1%A8%E6%83%85%E5%86%B5.md).
+- Apr 9, 2023. [暗夜无风](https://www.zhihu.com/people/xu-zhen-rong-49)：[CCFrank——谷歌学术插件，轻松又方便](https://zhuanlan.zhihu.com/p/620578442?utm_psn=1699161915610292224).
 
 ## More Awesome Scripts
 

@@ -180,6 +180,44 @@
       "contributions": [
         "platform"
       ]
+    },
+    {
+      "login": "mra42",
+      "name": "Marcel R. Ackermann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29752535?v=4",
+      "profile": "https://dagstuhl.de/ackermann",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "dozed",
+      "name": "Stefan Ollinger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/239058?v=4",
+      "profile": "https://github.com/dozed",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "KezhengLiu",
+      "name": "KezhengLiu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43874813?v=4",
+      "profile": "https://github.com/KezhengLiu",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "Sumsky21",
+      "name": "Sumsky21",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58537872?v=4",
+      "profile": "https://sumsky.top/",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -188,5 +226,6 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true,
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }
