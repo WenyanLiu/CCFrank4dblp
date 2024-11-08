@@ -116,7 +116,7 @@ const ccfRankList =
     "C	PPNA	Peer-to-Peer Networking and Applications	/journals/ppna	/journals/ppna/ppna\n" +
     "C	WCMC	Wireless Communications & Mobile Computing	/journals/wicomm	/journals/wicomm/wicomm\n" +
     "C		Wireless Networks	/journals/winet	/journals/winet/winet\n" +
-    "C	IOT	IEEE Internet of Things Journal	/journals/iot	/journals/iot/iot\n" +
+    "C	IOT	IEEE Internet of Things Journal	/journals/iotj	/journals/iotj/iotj\n" +
     "A	SIGCOMM	ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication	/conf/sigcomm	/conf/sigcomm/sigcomm\n" +
     "A	MobiCom	ACM International Conference on Mobile Computing and Networking	/conf/mobicom	/conf/mobicom/mobicom\n" +
     "A	INFOCOM	IEEE International Conference on Computer Communications	/conf/infocom	/conf/infocom/infocom\n" +
