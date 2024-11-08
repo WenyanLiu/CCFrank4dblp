@@ -355,6 +355,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://sumsky.top/"><img src="https://avatars.githubusercontent.com/u/58537872?v=4?s=100" width="100px;" alt="Sumsky21"/><br /><sub><b>Sumsky21</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3ASumsky21" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/lovelxc"><img src="https://avatars.githubusercontent.com/u/48879827?v=4?s=100" width="100px;" alt="lovelxc"/><br /><sub><b>lovelxc</b></sub></a><br /><a href="#data-lovelxc" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
