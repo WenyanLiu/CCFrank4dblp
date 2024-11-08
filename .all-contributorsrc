@@ -227,6 +227,16 @@
       "contributions": [
         "data"
       ]
+    },
+    {
+      "login": "liushunyu",
+      "name": "Shunyu Liu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30792664?v=4",
+      "profile": "https://liushunyu.github.io/",
+      "contributions": [
+        "code",
+        "data"
+      ]
     }
   ],
   "contributorsPerLine": 7,
