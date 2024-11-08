@@ -647,5 +647,7 @@ ccf.rankDb = {
   "/conf/isbra": "/conf/isbra/isbra",
   "/conf/sagt": "/conf/sagt/sagt",
   "/conf/gis": "/conf/gis/gis",
-  "/conf/icic": "/conf/icic/icic"
+  "/conf/icic": "/conf/icic/icic",
+  "/conf/iclr": "/conf/iclr/iclr",
+  "/journals/corr": "/journals/corr/corr"
 };

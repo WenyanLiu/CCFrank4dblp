@@ -672,5 +672,7 @@ ccf.rankFullName = {
   "/conf/isbra/isbra": "International Symposium on Bioinformatics Research and Applications",
   "/conf/sagt/sagt": "International Symposium on Algorithmic Game Theory",
   "/conf/gis/gis": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
-  "/conf/icic/icic": "International Conference on Intelligent Computing"
+  "/conf/icic/icic": "International Conference on Intelligent Computing",
+  "/conf/iclr/iclr": "International Conference on Learning Representations",
+  "/journals/corr/corr": "arXiv"
 };

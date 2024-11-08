@@ -672,5 +672,7 @@ ccf.rankUrl = {
   "/conf/isbra/isbra": "C",
   "/conf/sagt/sagt": "C",
   "/conf/gis/gis": "C",
-  "/conf/icic/icic": "C"
+  "/conf/icic/icic": "C",
+  "/conf/iclr/iclr": "E",
+  "/journals/corr/corr": "P"
 };

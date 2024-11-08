@@ -672,5 +672,7 @@ ccf.rankAbbrName = {
   "/conf/isbra/isbra": "ISBRA",
   "/conf/sagt/sagt": "SAGT",
   "/conf/gis/gis": "SIGSPATIAL",
-  "/conf/icic/icic": "ICIC"
+  "/conf/icic/icic": "ICIC",
+  "/conf/iclr/iclr": "ICLR",
+  "/journals/corr/corr": ""
 };
