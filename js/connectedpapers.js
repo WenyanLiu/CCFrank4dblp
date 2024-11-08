@@ -1,7 +1,7 @@
 /**
  * MIT License
  *
- * Copyright (c) 2019-2023 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp), purplewall1206 (https://github.com/purplewall1206)
+ * Copyright (c) 2019-2023 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp), purplewall1206 (https://github.com/purplewall1206), mra42 (https://github.com/mra42)
  */
 
 const connectedpapers = {};
@@ -34,7 +34,7 @@ connectedpapers.appendRank = function () {
 
 connectedpapers.appendRanks = function () {
     let elements = $(".list-group-item-mod.minilist-list-entry");
-    elements.each(function () {
+    elements.each(function( index ) {
         let nodes = $(this).find(".horizontal-flexbox");
         let titlenode = nodes[0];
         let datanode = $(nodes[1]).find("div");
@@ -42,6 +42,8 @@ connectedpapers.appendRanks = function () {
         let title = titlenode.innerText;
         let author = (datanode[0].innerText).split(/[\s.,]+/)[1];
         let year = datanode[1].innerText;
-        fetchRank($(titlenode).find("h5"), title, author, year, connectedpapers);
+        setTimeout(function() {
+            fetchRank($(titlenode).find("h5"), title, author, year, connectedpapers);
+        }, 100 * index );
     });
 };

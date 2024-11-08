@@ -13,15 +13,23 @@
 }
 
 .ccf-a {
-    background-color: #dc3545;
+    background-color: #E15F37;
 }
 
 .ccf-b {
-    background-color: #ffc107;
+    background-color: #F5BD42;
 }
 
 .ccf-c {
-    background-color: #28a745;
+    background-color: #8EBA3A;
+}
+
+.ccf-e {
+    background-color: #4AA3EA;
+}
+
+.ccf-p {
+    background-color: #6c757d;
 }
 
 .ccf-none {

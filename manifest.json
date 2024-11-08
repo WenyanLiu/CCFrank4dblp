@@ -1,6 +1,6 @@
 {
   "name": "__MSG_extName__",
-  "version": "4.3.2",
+  "version": "4.4.1",
   "description": "__MSG_extDesc__",
   "manifest_version": 3,
   "default_locale": "en",
@@ -117,6 +117,7 @@
         "js/scholar.js",
         "js/semanticscholar.js",
         "js/wos.js",
+        "js/apiCache.js",
         "js/ccf.js",
         "js/fetchRank.js",
         "data/ccfRankAbbr.js",
