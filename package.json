@@ -8,10 +8,11 @@
   "scripts": {
     "prepare": "husky"
   },
-
-
-  
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
   }
+
+
+
+  
 }
