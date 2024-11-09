@@ -6,13 +6,9 @@
     "prettier": "3.3.3"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
   }
-
-
-
-  
 }
