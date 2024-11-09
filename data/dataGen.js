@@ -610,6 +610,7 @@ const ccfRankList =
   "A	CSCW	ACM Conference on Computer Supported Cooperative Work and Social Computing	/conf/cscw	/conf/cscw/cscw\n" +
   "A	CHI	ACM Conference on Human Factors in Computing Systems	/conf/chi	/conf/chi/chi\n" +
   "A	UbiComp	ACM International Conference on Ubiquitous Computing	/conf/huc	/conf/huc/ubicomp\n" +
+  "A	IMWUT	Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies	/journals/imwut	/journals/imwut/imwut\n" +
   "A	UIST	ACM Symposium on User Interface Software and Technology	/conf/uist	/conf/uist/uist\n" +
   "B	GROUP	ACM Conference on Supporting Group Work	/conf/group	/conf/group/group\n" +
   "B	IUI	ACM International Conference on Intelligent User Interfaces	/conf/iui	/conf/iui/iui\n" +
@@ -683,7 +684,6 @@ const ccfRankList =
   "C	SAGT	International Symposium on Algorithmic Game Theory	/conf/sagt	/conf/sagt/sagt\n" +
   "C	SIGSPATIAL	ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems	/conf/gis	/conf/gis/gis\n" +
   "C	ICIC	International Conference on Intelligent Computing	/conf/icic	/conf/icic/icic\n" +
-  "A	IMWUT	Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies	/journals/imwut	/journals/imwut/imwut\n" +
   "E	ICLR	International Conference on Learning Representations	/conf/iclr	/conf/iclr/iclr\n" +
   "P		arXiv	/journals/corr	/journals/corr/corr";
 
