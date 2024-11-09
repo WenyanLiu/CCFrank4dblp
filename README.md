@@ -359,6 +359,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://sumsky.top/"><img src="https://avatars.githubusercontent.com/u/58537872?v=4?s=100" width="100px;" alt="Sumsky21"/><br /><sub><b>Sumsky21</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3ASumsky21" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/lovelxc"><img src="https://avatars.githubusercontent.com/u/48879827?v=4?s=100" width="100px;" alt="lovelxc"/><br /><sub><b>lovelxc</b></sub></a><br /><a href="#data-lovelxc" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://liushunyu.github.io/"><img src="https://avatars.githubusercontent.com/u/30792664?v=4?s=100" width="100px;" alt="Shunyu Liu"/><br /><sub><b>Shunyu Liu</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=liushunyu" title="Code">💻</a> <a href="#data-liushunyu" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/junqi-ma"><img src="https://avatars.githubusercontent.com/u/51819249?v=4?s=100" width="100px;" alt="Junqi Ma"/><br /><sub><b>Junqi Ma</b></sub></a><br /><a href="#data-junqi-ma" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
