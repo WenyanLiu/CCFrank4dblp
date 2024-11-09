@@ -1,58 +1,58 @@
 .ccf-rank {
-    display: inline-block;
-    height: 18.35px;
-    font-size: 12px;
-    font-weight: bold;
-    white-space: nowrap;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    color: #ffffff;
-    border-radius: 9px;
-    padding: 1px 8px;
-    margin-left: 5px;
-    margin-right: 5px;
+  display: inline-block;
+  height: 18.35px;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  border-radius: 9px;
+  padding: 1px 8px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .ccf-a {
-    background-color: #E15F37;
+  background-color: #e15f37;
 }
 
 .ccf-b {
-    background-color: #F5BD42;
+  background-color: #f5bd42;
 }
 
 .ccf-c {
-    background-color: #8EBA3A;
+  background-color: #8eba3a;
 }
 
 .ccf-e {
-    background-color: #4AA3EA;
+  background-color: #4aa3ea;
 }
 
 .ccf-p {
-    background-color: #6c757d;
+  background-color: #6c757d;
 }
 
 .ccf-none {
-    background-color: #6c757d;
+  background-color: #6c757d;
 }
 
 .ccf-tooltip {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
 .ccf-tooltip .ccf-tooltiptext {
-    visibility: hidden;
-    background-color: #007bff;
-    border-radius: 6px;
-    padding: 5px 5px;
-    bottom: 100%;
-    left: 50%;
-    position: absolute;
-    z-index: 980624;
-    margin-left: -60px;
+  visibility: hidden;
+  background-color: #007bff;
+  border-radius: 6px;
+  padding: 5px 5px;
+  bottom: 100%;
+  left: 50%;
+  position: absolute;
+  z-index: 980624;
+  margin-left: -60px;
 }
 
 .ccf-tooltip:hover .ccf-tooltiptext {
-    visibility: visible;
+  visibility: visible;
 }

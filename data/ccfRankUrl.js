@@ -1,6 +1,6 @@
 /**
  * MIT License
- *  
+ *
  * WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp)
  * Copyright (c) 2019-2024 All Rights Reserved.
  * ------------------------------------------------------
@@ -674,5 +674,5 @@ ccf.rankUrl = {
   "/conf/gis/gis": "C",
   "/conf/icic/icic": "C",
   "/conf/iclr/iclr": "E",
-  "/journals/corr/corr": "P"
+  "/journals/corr/corr": "P",
 };
