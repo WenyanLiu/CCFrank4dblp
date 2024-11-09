@@ -75,6 +75,15 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.4.2**
+
+> Nov 9, 2024
+
+1. Merge the Pull request from @lovelxc to fix the IJOT url reported by @ailego.
+2. Merge the Pull request from @liushunyu to add Expanded and Preprint.
+3. Add Prettier in pre-commit and Github Action.
+4. Merge the Pull request from @lovelxc to update the IMWUT reported by @junqi-ma.
+
 **Version 4.4.1**
 
 > Dec 16, 2023
