@@ -24,7 +24,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/73885971?v=4",
       "profile": "https://github.com/kevyn-zhang",
       "contributions": [
-        "bug"
+        "bug",
+        "ideas"
       ]
     },
     {
@@ -236,6 +237,14 @@
       "contributions": [
         "code",
         "data",
+      ]
+    },
+    {
+      "login": "ravenxrz",
+      "name": "Raven",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44746032?v=4",
+      "profile": "https://ravenxrz.github.io",
+      "contributions": [
         "ideas"
       ]
     }
