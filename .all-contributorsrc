@@ -238,6 +238,15 @@
         "code",
         "data"
       ]
+    },
+    {
+      "login": "ravenxrz",
+      "name": "Raven",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44746032?v=4",
+      "profile": "https://ravenxrz.github.io",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
