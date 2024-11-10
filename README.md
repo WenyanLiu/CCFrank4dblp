@@ -75,6 +75,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.5.0**
+
+> Nov 10, 2024
+
+1. Add rank filter for dblp as requested by @ravenxrz, @kevyn-zhang, and @liushunyu.
+
 **Version 4.4.2**
 
 > Nov 9, 2024
