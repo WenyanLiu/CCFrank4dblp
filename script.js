@@ -15,3 +15,5 @@ if (window.location.hostname.startsWith("dblp")) {
 } else if (window.location.hostname.includes("webofscience")) {
   wos.run();
 }
+
+filter.init();
