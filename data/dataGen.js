@@ -180,6 +180,7 @@ const ccfRankList =
   "B	CSFW	IEEE Computer Security Foundations Workshop	/conf/csfw	/conf/csfw/csfw\n" +
   "B	SRDS	IEEE International Symposium on Reliable Distributed Systems	/conf/srds	/conf/srds/srds\n" +
   "B	CHES	International Conference on Cryptographic Hardware and Embedded Systems	/conf/ches	/conf/ches/ches\n" +
+  "B	TCHES	IACR Transactions on Cryptographic Hardware and Embedded Systems	/journals/tches	/journals/tches/tches\n" +
   "B	DSN	International Conference on Dependable Systems and Networks	/conf/dsn	/conf/dsn/dsn\n" +
   "B	RAID	International Symposium on Recent Advances in Intrusion Detection	/conf/raid	/conf/raid/raid\n" +
   "B	PKC	International Workshop on Practice and Theory in Public Key Cryptography	/conf/pkc	/conf/pkc/pkc\n" +
