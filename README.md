@@ -75,6 +75,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.5.1**
+
+> Nov 24, 2024
+
+1. Merge the Pull request from @chenyangyc to fix the parsing the author name in Google Scholar.
+
 **Version 4.5.0**
 
 > Nov 10, 2024
