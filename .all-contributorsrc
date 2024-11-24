@@ -24,7 +24,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/73885971?v=4",
       "profile": "https://github.com/kevyn-zhang",
       "contributions": [
-        "bug"
+        "bug",
+        "ideas"
       ]
     },
     {
@@ -217,6 +218,34 @@
       "profile": "https://sumsky.top/",
       "contributions": [
         "bug"
+      ]
+    },
+    {
+      "login": "lovelxc",
+      "name": "lovelxc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48879827?v=4",
+      "profile": "https://github.com/lovelxc",
+      "contributions": [
+        "data"
+      ]
+    },
+    {
+      "login": "liushunyu",
+      "name": "Shunyu Liu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30792664?v=4",
+      "profile": "https://liushunyu.github.io/",
+      "contributions": [
+        "code",
+        "data",
+      ]
+    },
+    {
+      "login": "ravenxrz",
+      "name": "Raven",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44746032?v=4",
+      "profile": "https://ravenxrz.github.io",
+      "contributions": [
+        "ideas"
       ]
     }
   ],

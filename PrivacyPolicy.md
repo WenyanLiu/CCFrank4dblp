@@ -1,4 +1,5 @@
 # CCFrank 隐私权政策
+
 # CCFrank Privacy Policy
 
 您使用 CCFrank 服务，即表示您信赖我们对您的信息的处理方式。我们深知这项责任事关重大，因此一直致力于保护您的信息，并让您拥有控制权。
@@ -23,7 +24,7 @@ CCFrank only requests the paper source from dblp search API.
 
 All parties the user data will be shared with:
 
-dblp search API. 
+dblp search API.
 
 ---
 

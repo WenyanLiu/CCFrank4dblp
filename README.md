@@ -64,8 +64,8 @@ Clone CCFrank to a directory.
 
 1. Open the Extension Management page by navigating to `chrome://extensions`.
 
-    - The Extension Management page can also be opened by clicking on the Chrome menu, hovering over **More Tools** then
-      selecting **Extensions**.
+   - The Extension Management page can also be opened by clicking on the Chrome menu, hovering over **More Tools** then
+     selecting **Extensions**.
 
 2. Enable Developer Mode by clicking the toggle switch next to **Developer mode**.
 
@@ -75,12 +75,28 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.5.0**
+
+> Nov 10, 2024
+
+1. Add rank filter for dblp as requested by @ravenxrz, @kevyn-zhang, and @liushunyu.
+
+**Version 4.4.2**
+
+> Nov 9, 2024
+
+1. Merge the Pull request from @lovelxc to fix the IJOT url reported by @ailego.
+2. Merge the Pull request from @liushunyu to add Expanded and Preprint.
+3. Add Prettier in pre-commit and Github Action.
+4. Merge the Pull request from @lovelxc to update the IMWUT reported by @junqi-ma.
+
 **Version 4.4.1**
 
 > Dec 16, 2023
 
 1. Refactor code to immediately process existing search results on page load and add a MutationObserver to dynamically handle new entries without duplicating marks on subsequent pages.
 2. Merge the Pull request from @dozed to add several checks.
+
 - Loop over `@sent` instead of `@total`.
 - Handle the case that `venue` is `undefined`.
 - Clear cache items in case of `QuotaExceededError` in `localStorage.setItem`.
@@ -90,6 +106,7 @@ Clone CCFrank to a directory.
 > Nov 29, 2023
 
 1. Merge the Pull request from @mra42 to fix repeating dblp API queries.
+
 - Allow persistently storing data in browser's localStorage with a default expiration time of one day.
 - Improved fetchRank() in order to cache and reuse query results.
 
@@ -138,7 +155,7 @@ Clone CCFrank to a directory.
 
 **Version 4.2.1**
 
-> Dec 26, 2021 
+> Dec 26, 2021
 
 1. 增加了对 Semantic Scholar 上 CCF 期刊的支持。
 
@@ -146,7 +163,7 @@ Clone CCFrank to a directory.
 
 > Dec 18, 2021
 
-1. 增加了对 Semantic Scholar 上 CCF 会议的支持。 
+1. 增加了对 Semantic Scholar 上 CCF 会议的支持。
 
 **Version Unchanged**
 
@@ -328,7 +345,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://scholar.google.com/citations?user=a8sqKFkAAAAJ"><img src="https://avatars.githubusercontent.com/u/16554557?v=4?s=100" width="100px;" alt="wyliu"/><br /><sub><b>wyliu</b></sub></a><br /><a href="#ideas-WenyanLiu" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=WenyanLiu" title="Code">💻</a> <a href="#data-WenyanLiu" title="Data">🔣</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=WenyanLiu" title="Documentation">📖</a> <a href="#maintenance-WenyanLiu" title="Maintenance">🚧</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kevyn-zhang"><img src="https://avatars1.githubusercontent.com/u/73885971?v=4?s=100" width="100px;" alt="kevyn-zhang"/><br /><sub><b>kevyn-zhang</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Akevyn-zhang" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kevyn-zhang"><img src="https://avatars1.githubusercontent.com/u/73885971?v=4?s=100" width="100px;" alt="kevyn-zhang"/><br /><sub><b>kevyn-zhang</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Akevyn-zhang" title="Bug reports">🐛</a> <a href="#ideas-kevyn-zhang" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://ipads.se.sjtu.edu.cn/rong_chen"><img src="https://avatars2.githubusercontent.com/u/1779861?v=4?s=100" width="100px;" alt="Rong Chen"/><br /><sub><b>Rong Chen</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Arealstolz" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://jwa.ng"><img src="https://avatars1.githubusercontent.com/u/866329?v=4?s=100" width="100px;" alt="Junwei Wang"/><br /><sub><b>Junwei Wang</b></sub></a><br /><a href="#platform-junwei-wang" title="Packaging/porting to new platform">📦</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ifzh"><img src="https://avatars0.githubusercontent.com/u/11475849?v=4?s=100" width="100px;" alt="iFzh"/><br /><sub><b>iFzh</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Aifzh" title="Bug reports">🐛</a> <a href="#ideas-ifzh" title="Ideas, Planning, & Feedback">🤔</a></td>
@@ -355,6 +372,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://sumsky.top/"><img src="https://avatars.githubusercontent.com/u/58537872?v=4?s=100" width="100px;" alt="Sumsky21"/><br /><sub><b>Sumsky21</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3ASumsky21" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/lovelxc"><img src="https://avatars.githubusercontent.com/u/48879827?v=4?s=100" width="100px;" alt="lovelxc"/><br /><sub><b>lovelxc</b></sub></a><br /><a href="#data-lovelxc" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://liushunyu.github.io/"><img src="https://avatars.githubusercontent.com/u/30792664?v=4?s=100" width="100px;" alt="Shunyu Liu"/><br /><sub><b>Shunyu Liu</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=liushunyu" title="Code">💻</a> <a href="#data-liushunyu" title="Data">🔣</a> <a href="#ideas-liushunyu" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://ravenxrz.github.io"><img src="https://avatars.githubusercontent.com/u/44746032?v=4?s=100" width="100px;" alt="Raven"/><br /><sub><b>Raven</b></sub></a><br /><a href="#ideas-ravenxrz" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
   </tbody>
 </table>
@@ -385,7 +405,7 @@ Contributions of any kind welcome!
 
 - [![show-rank](https://raw.githubusercontent.com/hnshhslsh/show-rank/master/logo/16x16.png) hnshhslsh/show-rank](https://github.com/hnshhslsh/show-rank)
   - 支持在 Chrome 中的 ACM Digital Library、dblp、IEEE Xplore 和 Springer
-  显示中国计算机学会推荐的国际会议和期刊排名（很开心自己在谷歌学术上的查询方法被[直接使用](https://github.com/hnshhslsh/show-rank/commit/864b7a8d2896707e19281ed6e21518eb35cda1db)啦:clap:）；
+    显示中国计算机学会推荐的国际会议和期刊排名（很开心自己在谷歌学术上的查询方法被[直接使用](https://github.com/hnshhslsh/show-rank/commit/864b7a8d2896707e19281ed6e21518eb35cda1db)啦:clap:）；
 - [![swufe_ccf_show_ranking](https://raw.githubusercontent.com/Nixiak-nan/swufe_ccf_show_ranking/master/logo/16.png) Nixiak-nan/swufe_ccf_show_ranking](https://web.archive.org/web/20220118103343/https://github.com/Nixiak-nan/easyScholar/tree/0551c6dcecd70dbc08b580fbce0df43563ebe90c)
   - 支持在 Chrome 和 Firefox 中的 百度学术、知网、Google Scholar、IEEExplore、Microsoft Academic、Springer、Web of Science
-  显示西南财经大学学术期刊目录（Github 果然是大型交友平台，和开发同学已成为好友啦）。
+    显示西南财经大学学术期刊目录（Github 果然是大型交友平台，和开发同学已成为好友啦）。
