@@ -5,13 +5,15 @@ semanticscholar.rankSpanList.push(ccf.getRankSpan);
 wos.rankSpanList.push(ccf.getRankSpan);
 
 if (window.location.hostname.startsWith("dblp")) {
-    dblp.run();
+  dblp.run();
 } else if (window.location.hostname.startsWith("scholar.google")) {
-    scholar.run();
+  scholar.run();
 } else if (window.location.hostname.includes("connectedpaper")) {
-    connectedpapers.run();
+  connectedpapers.run();
 } else if (window.location.hostname.includes("semanticscholar")) {
-    semanticscholar.run();
+  semanticscholar.run();
 } else if (window.location.hostname.includes("webofscience")) {
-    wos.run();
+  wos.run();
 }
+
+filter.init();

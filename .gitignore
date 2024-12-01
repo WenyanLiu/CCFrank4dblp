@@ -6,3 +6,6 @@
 # PyCharm
 .idea/
 *.iml
+
+# Node.js
+node_modules/

@@ -1,6 +1,6 @@
 {
   "name": "__MSG_extName__",
-  "version": "4.4.1",
+  "version": "4.5.1",
   "description": "__MSG_extDesc__",
   "manifest_version": 3,
   "default_locale": "en",
@@ -107,9 +107,7 @@
         "https://www.webofscience.com/*",
         "https://www.semanticscholar.org/*"
       ],
-      "css": [
-        "css/style.css"
-      ],
+      "css": ["css/style.css", "css/filter.css"],
       "js": [
         "lib/jquery-3.5.1.min.js",
         "js/dblp.js",
@@ -120,6 +118,7 @@
         "js/apiCache.js",
         "js/ccf.js",
         "js/fetchRank.js",
+        "js/filter.js",
         "data/ccfRankAbbr.js",
         "data/ccfRankFull.js",
         "data/ccfRankDb.js",
@@ -130,7 +129,11 @@
       ]
     }
   ],
-  "host_permissions": [
-    "*://dblp.org/*"
-  ]
+  "host_permissions": ["*://dblp.org/*"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{cc79b7c3-7c57-4051-a3cc-9e9fccf5855b}",
+      "strict_min_version": "58.0"
+    }
+  }
 }
