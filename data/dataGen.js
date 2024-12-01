@@ -243,6 +243,7 @@ const ccfRankList =
   "A	PLDI	ACM SIGPLAN Symposium on Programming Language Design & Implementation	/conf/pldi	/conf/pldi/pldi\n" +
   "A	POPL	ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages	/conf/popl	/conf/popl/popl\n" +
   "A	FSE/ESEC	ACM SIGSOFT Symposium on the Foundation of Software Engineering/ European Software Engineering Conference	/conf/sigsoft	/conf/sigsoft/fse\n" +
+  "A	FSE 	ACM INTERNATIONAL CONFERENCE ON THE FOUNDATIONS OF SOFTWARE ENGINEERING	/conf/sigsoft	/conf/sigsoft/fse\n" +
   "A	SOSP	ACM Symposium on Operating Systems Principles	/conf/sosp	/conf/sosp/sosp\n" +
   "A	OOPSLA	Conference on Object-Oriented Programming Systems, Languages,and Applications	/conf/oopsla	/conf/oopsla/oopsla\n" +
   "A	ASE	International Conference on Automated Software Engineering	/conf/kbse	/conf/kbse/ase\n" +
