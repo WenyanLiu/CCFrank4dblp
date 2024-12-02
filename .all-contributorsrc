@@ -257,6 +257,16 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "MarkLee131",
+      "name": "Kaixuan Li",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38575222?v=4",
+      "profile": "https://kaixuanli-ecnu.github.io/",
+      "contributions": [
+        "data",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
