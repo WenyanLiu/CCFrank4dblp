@@ -75,6 +75,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.5.2**
+
+> Dec 2, 2024
+
+1. Merge the Pull request from @MarkLee131 to fix FSE, POPL, PLDI, OOPSLA, and ICFP, also mentioned by @SeddonShen.
+
 **Version 4.5.1**
 
 > Nov 24, 2024
