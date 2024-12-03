@@ -15,7 +15,7 @@ function fetchRank(node, title, authorA, year, site) {
     version;
 
   let cached = apiCache.getItem(query_url);
-  console.log("cached: ", cached);
+  // console.log("cached: ", cached);
   if (cached) fetchFromCache(cached, node, title, authorA, year, site);
   else fetchFromDblpApi(query_url, node, title, authorA, year, site);
 }
@@ -26,13 +26,13 @@ function fetchFromCache(cached, node, title, authorA, year, site) {
   let dblp_url = cached.dblp_url;
   let resp = cached.resp;
   let resp_flag = cached.flag;
-  console.log("dblp_url: ", dblp_url);
+  // console.log("dblp_url: ", dblp_url);
 
   //Find a new vul: rankDB lacks of `tacas` etc., but it does occur in file `dataGen`.
   if (typeof dblp_url == "undefined" && resp_flag != false) {
     dblp_abbr = resp.hit[0].info.number;
     if (typeof dblp_abbr != "undefined" && isNaN(dblp_abbr)) {
-      console.log("dblp_abbr: ", dblp_abbr);
+      // console.log("dblp_abbr: ", dblp_abbr);
     } else {
       dblp_abbr = resp.hit[0].info.venue;
     }
@@ -221,8 +221,8 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
 
     else {
       for (let getRankSpan of site.rankSpanList) {
-        // console.log("with url");
-        $(node).after(getRankSpan(dblp_url, "url"));
+        // console.log("with abbr");
+        $(node).after(getRankSpan(dblp_abbr, "abbr")); // I am not sure the difference between "abbr" and "url"
       }
     }
 
