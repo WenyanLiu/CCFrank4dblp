@@ -15,6 +15,7 @@ function fetchRank(node, title, authorA, year, site) {
     version;
 
   let cached = apiCache.getItem(query_url);
+  console.log("cached: ", cached);
   if (cached) fetchFromCache(cached, node, title, authorA, year, site);
   else fetchFromDblpApi(query_url, node, title, authorA, year, site);
 }
@@ -25,14 +26,22 @@ function fetchFromCache(cached, node, title, authorA, year, site) {
   let dblp_url = cached.dblp_url;
   let resp = cached.resp;
   let resp_flag = cached.flag;
+  console.log("dblp_url: ", dblp_url);
 
   //Find a new vul: rankDB lacks of `tacas` etc., but it does occur in file `dataGen`.
   if (typeof dblp_url == "undefined" && resp_flag != false) {
     dblp_abbr = resp.hit[0].info.number;
     if (typeof dblp_abbr != "undefined" && isNaN(dblp_abbr)) {
+      console.log("dblp_abbr: ", dblp_abbr);
     } else {
       dblp_abbr = resp.hit[0].info.venue;
     }
+
+    for (let getRankSpan of site.rankSpanList) {
+      // console.log("with abbr");
+      $(node).after(getRankSpan(dblp_abbr, "abbr"));
+    }
+
   } else if (dblp_url == "/journals/pacmpl/pacmpl") {
     // @kaixuan: Here, we need to process the four PL confs (oopsla, popl, pldi, and icfp) in two branches.
     // Details can be accessed at the same location in the `fetchFromDblpApi` function.
@@ -53,7 +62,8 @@ function fetchFromCache(cached, node, title, authorA, year, site) {
       // console.log("number is not empty");
     }
 
-    if (number == "oopsla1" || number == "oopsla2") {
+    if (number == "oopsla1" || number == "oopsla2" || number == "oopsla") {
+      // previously, the number is "oopsla", now it is "oopsla1" or "oopsla2" due to the two cycles of oopsla
       dblp_url = "/conf/oopsla/oopsla";
     } else if (number == "popl") {
       dblp_url = "/conf/popl/popl";
@@ -209,11 +219,12 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
     //   $(node).after(getRankSpan(dblp_abbr, "abbr"));
     // }
 
-    // } else {
-    //   for (let getRankSpan of site.rankSpanList) {
-    //     // console.log("with url");
-    //     $(node).after(getRankSpan(dblp_url, "url"));
-    //   }
+    else {
+      for (let getRankSpan of site.rankSpanList) {
+        // console.log("with url");
+        $(node).after(getRankSpan(dblp_url, "url"));
+      }
+    }
 
   };
   xhr.send();
