@@ -33,52 +33,46 @@ function fetchFromCache(cached, node, title, authorA, year, site) {
     } else {
       dblp_abbr = resp.hit[0].info.venue;
     }
-
+  } else if (dblp_url == "/journals/pacmpl/pacmpl") {
     // @kaixuan: Here, we need to process the four PL confs (oopsla, popl, pldi, and icfp) in two branches.
     // Details can be accessed at the same location in the `fetchFromDblpApi` function.
-    else if (dblp_url == "/journals/pacmpl/pacmpl"){
+    let number_raw = resp.hit[0]?.info?.number; // may miss the number info in some cases, e.g., recently publised papers
+    let number = number_raw ? number_raw.toString().toLowerCase() : "";
 
-        let number_raw = resp.hit[0]?.info?.number; // may miss the number info in some cases, e.g., recently publised papers
-        let number = number_raw ? number_raw.toString().toLowerCase() : "";
-
-        // a hacky way to handle the missing number issue
-        // travese the resp.hit array to find a element with number info
-        if (number == "") {
-            for (let i = 0; i < resp["@sent"]; i++) {
-                let number_raw = resp.hit[i]?.info?.number;
-                if (number_raw) {
-                    number = number_raw.toString().toLowerCase();
-                    break;
-                }
-            }
+    // a hacky way to handle the missing number issue
+    // travese the resp.hit array to find a element with number info
+    if (number == "") {
+      for (let i = 0; i < resp["@sent"]; i++) {
+        let number_raw = resp.hit[i]?.info?.number;
+        if (number_raw) {
+          number = number_raw.toString().toLowerCase();
+          break;
         }
-
-        if (number == "oopsla1" || number == "oopsla2"){
-            dblp_url = "/conf/oopsla/oopsla";
-        }
-        else if (number == "popl"){
-            dblp_url = "/conf/popl/popl";
-        }
-        else if (number == "pldi"){
-            dblp_url = "/conf/pldi/pldi";
-        }
-        else if (number == "icfp"){
-            dblp_url = "/conf/icfp/icfp";
-            // console.log("already enter this branch");
-        }
-        for (let getRankSpan of site.rankSpanList) {
-            // console.log("with url");
-            $(node).after(getRankSpan(dblp_url, "url"));
-        }
-
+      }
+    } else {
+      // console.log("number is not empty");
     }
-    else{
-        for (let getRankSpan of site.rankSpanList) {
-            // console.log("with url");
-            $(node).after(getRankSpan(dblp_url, "url"));
-        }
+
+    if (number == "oopsla1" || number == "oopsla2") {
+      dblp_url = "/conf/oopsla/oopsla";
+    } else if (number == "popl") {
+      dblp_url = "/conf/popl/popl";
+    } else if (number == "pldi") {
+      dblp_url = "/conf/pldi/pldi";
+    } else if (number == "icfp") {
+      dblp_url = "/conf/icfp/icfp";
+      // console.log("already enter this branch");
+    } else {
+      // console.log("number is not in the list");
     }
+
+    for (let getRankSpan of site.rankSpanList) {
+      // console.log("with url");
+      $(node).after(getRankSpan(dblp_url, "url"));
+    }
+
   } else {
+    // console.log("dblp_url is not empty");
     for (let getRankSpan of site.rankSpanList) {
       // console.log("with url");
       $(node).after(getRankSpan(dblp_url, "url"));
@@ -152,73 +146,57 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
         flag: resp_flag,
       });
 
-            //Find a new vul: rankDB lacks of `tacas` etc., but it does occur in file `dataGen`.
-            if(typeof(dblp_url) == "undefined" && resp_flag != false){
-                dblp_abbr = resp.hit[0].info.number;
-                if(typeof(dblp_abbr) != "undefined" && isNaN(dblp_abbr)){
-                }
-                else{
-                    dblp_abbr = resp.hit[0].info.venue;
-                }
-                for (let getRankSpan of site.rankSpanList) {
-                    // console.log("with abbr");
-                    $(node).after(getRankSpan(dblp_abbr, "abbr"));
-                }
-            }
-            
-            // @kaixuan: Here, we need to process the four PL confs (oopsla, popl, pldi, and icfp) in two branches.
-            // They are wrongly recognized as journals in the dblp api since they are published in PACMPL.
-            // So, we need to parse the number info from the response and determine the dblp_url accordingly.
-            // The same logic is applied to func `fetchFromCache`.
-
-            else if (dblp_url == "/journals/pacmpl/pacmpl"){
-                // we need to process the confs including oopsla, popl, and pldi in the same way
-                let number_raw = resp.hit[0]?.info?.number; // may miss the number info in some cases, e.g., recently publised papers
-                let number = number_raw ? number_raw.toString().toLowerCase() : "";
-
-                // a hacky way to handle the missing number issue
-                // travese the resp.hit array to find a element with number info
-                if (number == "") {
-                    for (let i = 0; i < resp["@sent"]; i++) {
-                        let number_raw = resp.hit[i]?.info?.number;
-                        if (number_raw) {
-                            number = number_raw.toString().toLowerCase();
-                            break;
-                        }
-                    }
-                }
-
-                if (number == "oopsla1" || number == "oopsla2"){
-                    dblp_url = "/conf/oopsla/oopsla";
-                }
-                else if (number == "popl"){
-                    dblp_url = "/conf/popl/popl";
-                }
-                else if (number == "pldi"){
-                    dblp_url = "/conf/pldi/pldi";
-                }
-                else if (number == "icfp"){
-                    dblp_url = "/conf/icfp/icfp";
-                }
-        
-                for (let getRankSpan of site.rankSpanList) {
-                    // console.log("with url");
-                    $(node).after(getRankSpan(dblp_url, "url"));
-                }
-        
-            }
-
-            else{
-                for (let getRankSpan of site.rankSpanList) {
-                    // console.log("with url");
-                    $(node).after(getRankSpan(dblp_url, "url"));
-                }
-            }
+      //Find a new vul: rankDB lacks of `tacas` etc., but it does occur in file `dataGen`.
+      if (typeof (dblp_url) == "undefined" && resp_flag != false) {
+        dblp_abbr = resp.hit[0].info.number;
+        if (typeof (dblp_abbr) != "undefined" && isNaN(dblp_abbr)) {
+        }
+        else {
+          dblp_abbr = resp.hit[0].info.venue;
         }
         for (let getRankSpan of site.rankSpanList) {
           // console.log("with abbr");
           $(node).after(getRankSpan(dblp_abbr, "abbr"));
         }
+      }
+      // @kaixuan: Here, we need to process the four PL confs (oopsla, popl, pldi, and icfp) in two branches.
+      // They are wrongly recognized as journals in the dblp api since they are published in PACMPL.
+      // So, we need to parse the number info from the response and determine the dblp_url accordingly.
+      // The same logic is applied to func `fetchFromCache`.
+      else if (dblp_url == "/journals/pacmpl/pacmpl") {
+        // we need to process the confs including oopsla, popl, and pldi in the same way
+        let number_raw = resp.hit[0]?.info?.number; // may miss the number info in some cases, e.g., recently publised papers
+        let number = number_raw ? number_raw.toString().toLowerCase() : "";
+
+        // a hacky way to handle the missing number issue
+        // travese the resp.hit array to find a element with number info
+        if (number == "") {
+          for (let i = 0; i < resp["@sent"]; i++) {
+            let number_raw = resp.hit[i]?.info?.number;
+            if (number_raw) {
+              number = number_raw.toString().toLowerCase();
+              break;
+            }
+          }
+        }
+
+        if (number == "oopsla1" || number == "oopsla2") {
+          dblp_url = "/conf/oopsla/oopsla";
+        } else if (number == "popl") {
+          dblp_url = "/conf/popl/popl";
+        } else if (number == "pldi") {
+          dblp_url = "/conf/pldi/pldi";
+        } else if (number == "icfp") {
+          dblp_url = "/conf/icfp/icfp";
+        } else {
+          // console.log("number is not in the list");
+        }
+
+        for (let getRankSpan of site.rankSpanList) {
+          // console.log("with url");
+          $(node).after(getRankSpan(dblp_url, "url"));
+        }
+
       } else {
         for (let getRankSpan of site.rankSpanList) {
           // console.log("with url");
@@ -226,6 +204,17 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
         }
       }
     }
+    // for (let getRankSpan of site.rankSpanList) {
+    //   // console.log("with abbr");
+    //   $(node).after(getRankSpan(dblp_abbr, "abbr"));
+    // }
+    
+  // } else {
+  //   for (let getRankSpan of site.rankSpanList) {
+  //     // console.log("with url");
+  //     $(node).after(getRankSpan(dblp_url, "url"));
+  //   }
+  
   };
   xhr.send();
 }
