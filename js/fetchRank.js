@@ -208,13 +208,13 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
     //   // console.log("with abbr");
     //   $(node).after(getRankSpan(dblp_abbr, "abbr"));
     // }
-    
-  // } else {
-  //   for (let getRankSpan of site.rankSpanList) {
-  //     // console.log("with url");
-  //     $(node).after(getRankSpan(dblp_url, "url"));
-  //   }
-  
+
+    // } else {
+    //   for (let getRankSpan of site.rankSpanList) {
+    //     // console.log("with url");
+    //     $(node).after(getRankSpan(dblp_url, "url"));
+    //   }
+
   };
   xhr.send();
 }
