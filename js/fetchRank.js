@@ -41,7 +41,6 @@ function fetchFromCache(cached, node, title, authorA, year, site) {
       // console.log("with abbr");
       $(node).after(getRankSpan(dblp_abbr, "abbr"));
     }
-
   } else if (dblp_url == "/journals/pacmpl/pacmpl") {
     // @kaixuan: Here, we need to process the four PL confs (oopsla, popl, pldi, and icfp) in two branches.
     // Details can be accessed at the same location in the `fetchFromDblpApi` function.
@@ -80,7 +79,6 @@ function fetchFromCache(cached, node, title, authorA, year, site) {
       // console.log("with url");
       $(node).after(getRankSpan(dblp_url, "url"));
     }
-
   } else {
     // console.log("dblp_url is not empty");
     for (let getRankSpan of site.rankSpanList) {
@@ -157,11 +155,10 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
       });
 
       //Find a new vul: rankDB lacks of `tacas` etc., but it does occur in file `dataGen`.
-      if (typeof (dblp_url) == "undefined" && resp_flag != false) {
+      if (typeof dblp_url == "undefined" && resp_flag != false) {
         dblp_abbr = resp.hit[0].info.number;
-        if (typeof (dblp_abbr) != "undefined" && isNaN(dblp_abbr)) {
-        }
-        else {
+        if (typeof dblp_abbr != "undefined" && isNaN(dblp_abbr)) {
+        } else {
           dblp_abbr = resp.hit[0].info.venue;
         }
         for (let getRankSpan of site.rankSpanList) {
@@ -206,7 +203,6 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
           // console.log("with url");
           $(node).after(getRankSpan(dblp_url, "url"));
         }
-
       } else {
         for (let getRankSpan of site.rankSpanList) {
           // console.log("with url");
@@ -218,14 +214,12 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
     //   // console.log("with abbr");
     //   $(node).after(getRankSpan(dblp_abbr, "abbr"));
     // }
-
     else {
       for (let getRankSpan of site.rankSpanList) {
         // console.log("with abbr");
         $(node).after(getRankSpan(dblp_abbr, "abbr")); // I am not sure the difference between "abbr" and "url"
       }
     }
-
   };
   xhr.send();
 }

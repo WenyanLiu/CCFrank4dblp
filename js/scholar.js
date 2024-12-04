@@ -57,21 +57,20 @@ scholar.observeCitations = function () {
 };
 
 scholar.appendRanks = function () {
-    let elements = $("tr.gsc_a_tr");
-    elements.each(function( index ) {
-        let node = $(this).find("td.gsc_a_t > a").first();
-        if (!node.next().hasClass("ccf-rank") && !$(this).hasClass("ccf-ranked")) {
-            let title = node.text();
-            let author = $(this)
-                .find("div.gs_gray")[0]
-                .innerText
-                .replace(/[\,\…]/g, "")
-                .split(" ")[1];
-            let year = $(this).find("td.gsc_a_y").text();
-            $(this).addClass("ccf-ranked");
-            setTimeout(function() {
-                fetchRank(node, title, author, year, scholar);
-            }, 100 * index );
-        }
-    });
+  let elements = $("tr.gsc_a_tr");
+  elements.each(function (index) {
+    let node = $(this).find("td.gsc_a_t > a").first();
+    if (!node.next().hasClass("ccf-rank") && !$(this).hasClass("ccf-ranked")) {
+      let title = node.text();
+      let author = $(this)
+        .find("div.gs_gray")[0]
+        .innerText.replace(/[\,\…]/g, "")
+        .split(" ")[1];
+      let year = $(this).find("td.gsc_a_y").text();
+      $(this).addClass("ccf-ranked");
+      setTimeout(function () {
+        fetchRank(node, title, author, year, scholar);
+      }, 100 * index);
+    }
+  });
 };
