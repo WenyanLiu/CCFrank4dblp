@@ -246,7 +246,7 @@ ccf.rankAbbrName = {
   "/journals/pacmpl/pacmpl": "PACM PL",
   "/conf/pldi/pldi": "PLDI",
   "/conf/popl/popl": "POPL",
-  "/conf/sigsoft/fse": "FSE ",
+  "/conf/sigsoft/fse": "FSE",
   "/conf/sosp/sosp": "SOSP",
   "/conf/oopsla/oopsla": "OOPSLA",
   "/conf/kbse/ase": "ASE",
