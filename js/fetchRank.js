@@ -4,20 +4,30 @@
  * Copyright (c) 2019-2023 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp), FlyingFog (https://github.com/FlyingFog), mra42 (https://github.com/mra42), dozed (https://github.com/dozed)
  */
 
+// Get configured dblp domain, default to dblp.org
+function getDblpDomain(callback) {
+  chrome.storage.sync.get(['dblpDomain'], function(result) {
+    const domain = result.dblpDomain || 'dblp.org';
+    callback(domain);
+  });
+}
+
 function fetchRank(node, title, authorA, year, site) {
   const manifest = chrome.runtime.getManifest();
   const version = manifest.version;
 
-  let query_url =
-    "https://dblp.org/search/publ/api?q=" +
-    encodeURIComponent(title + "  author:" + authorA) +
-    "&format=json&app=CCFrank4dblp_" +
-    version;
+  getDblpDomain(function(domain) {
+    let query_url =
+      "https://" + domain + "/search/publ/api?q=" +
+      encodeURIComponent(title + "  author:" + authorA) +
+      "&format=json&app=CCFrank4dblp_" +
+      version;
 
-  let cached = apiCache.getItem(query_url);
-  // console.log("cached: ", cached);
-  if (cached) fetchFromCache(cached, node, title, authorA, year, site);
-  else fetchFromDblpApi(query_url, node, title, authorA, year, site);
+    let cached = apiCache.getItem(query_url);
+    // console.log("cached: ", cached);
+    if (cached) fetchFromCache(cached, node, title, authorA, year, site);
+    else fetchFromDblpApi(query_url, node, title, authorA, year, site);
+  });
 }
 
 function fetchFromCache(cached, node, title, authorA, year, site) {
@@ -208,16 +218,6 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
           // console.log("with url");
           $(node).after(getRankSpan(dblp_url, "url"));
         }
-      }
-    }
-    // for (let getRankSpan of site.rankSpanList) {
-    //   // console.log("with abbr");
-    //   $(node).after(getRankSpan(dblp_abbr, "abbr"));
-    // }
-    else {
-      for (let getRankSpan of site.rankSpanList) {
-        // console.log("with abbr");
-        $(node).after(getRankSpan(dblp_abbr, "abbr")); // I am not sure the difference between "abbr" and "url"
       }
     }
   };

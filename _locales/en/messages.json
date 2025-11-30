@@ -6,5 +6,29 @@
   "extDesc": {
     "message": "Displays CCF recommended rank of conferences/journals in dblp, Google Scholar, Connected Papers and WoS.",
     "description": "Extension description."
+  },
+  "optionsTitle": {
+    "message": "CCFrank Settings",
+    "description": "Options page title."
+  },
+  "dblpDomainLabel": {
+    "message": "DBLP Domain",
+    "description": "Label for dblp domain input."
+  },
+  "dblpDomainHelp": {
+    "message": "Enter the dblp domain to use (e.g., dblp.uni-trier.de). Default: dblp.org",
+    "description": "Help text for dblp domain input."
+  },
+  "saveButton": {
+    "message": "Save",
+    "description": "Save button text."
+  },
+  "settingsSaved": {
+    "message": "Settings saved successfully!",
+    "description": "Success message when settings are saved."
+  },
+  "domainRequired": {
+    "message": "Domain is required",
+    "description": "Error message when domain is empty."
   }
 }
