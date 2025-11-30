@@ -129,7 +129,14 @@
       ]
     }
   ],
-  "host_permissions": ["*://dblp.org/*"],
+  "host_permissions": [
+    "*://dblp.org/*",
+    "*://dblp.uni-trier.de/*",
+    "*://dblp2.uni-trier.de/*",
+    "*://dblp.dagstuhl.de/*"
+  ],
+  "options_page": "options.html",
+  "permissions": ["storage"],
   "browser_specific_settings": {
     "gecko": {
       "id": "{cc79b7c3-7c57-4051-a3cc-9e9fccf5855b}",

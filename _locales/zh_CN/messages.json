@@ -6,5 +6,29 @@
   "extDesc": {
     "message": "在dblp、Google学术、Connected Papers和WoS的搜索结果中显示中国计算机学会推荐的会议和期刊排名。",
     "description": "Extension description."
+  },
+  "optionsTitle": {
+    "message": "CCFrank 设置",
+    "description": "Options page title."
+  },
+  "dblpDomainLabel": {
+    "message": "DBLP 域名",
+    "description": "Label for dblp domain input."
+  },
+  "dblpDomainHelp": {
+    "message": "输入要使用的 dblp 域名（例如：dblp.uni-trier.de）。默认：dblp.org",
+    "description": "Help text for dblp domain input."
+  },
+  "saveButton": {
+    "message": "保存",
+    "description": "Save button text."
+  },
+  "settingsSaved": {
+    "message": "设置保存成功！",
+    "description": "Success message when settings are saved."
+  },
+  "domainRequired": {
+    "message": "域名不能为空",
+    "description": "Error message when domain is empty."
   }
 }
