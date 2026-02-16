@@ -9,11 +9,10 @@ const semanticscholar = {};
 semanticscholar.rankSpanList = [];
 
 semanticscholar.run = function () {
-  let url = window.location.pathname;
+  $(window).bind("popstate", function () {
+    semanticscholar.appendRanks();
+  });
   setInterval(function () {
-    $(window).bind("popstate", function () {
-      semanticscholar.appendRanks();
-    });
     semanticscholar.appendRanks();
   }, 700);
 };
@@ -38,19 +37,4 @@ semanticscholar.appendRanks = function () {
       }
     }
   });
-};
-
-semanticscholar.appendRank = function (selector) {
-  let element = $(selector);
-  let headline = window.location.pathname;
-  if (headline.length != 0) {
-    for (let getRankSpan of dblp.rankSpanList) {
-      let urls = headline.substring(
-        headline.indexOf("/db/") + 3,
-        headline.lastIndexOf("/"),
-      );
-      url = ccf.rankDb[urls];
-      element.after(getRankSpan(url, "url"));
-    }
-  }
 };

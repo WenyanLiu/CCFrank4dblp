@@ -24,7 +24,7 @@ ccf.getRankInfo = function (refine, type) {
       url = ccf.fullUrl[full];
       if (full === undefined) {
         refine = refine.substring(0, refine.length - 1);
-        var res = Object.keys(ccf.fullUrl).filter(function (k) {
+        let res = Object.keys(ccf.fullUrl).filter(function (k) {
           return k.indexOf(refine.toUpperCase()) == 0;
         });
         url = res ? ccf.fullUrl[res] : false;
@@ -76,11 +76,12 @@ ccf.getRankSpan = function (refine, type) {
   let span = $("<span>")
     .addClass("ccf-rank")
     .addClass(ccf.getRankClass(rankInfo.ranks));
-  if (rankInfo.ranks == "E") {
+  let firstRank = rankInfo.ranks[0];
+  if (firstRank == "E") {
     span.text("Expanded");
-  } else if (rankInfo.ranks == "P") {
+  } else if (firstRank == "P") {
     span.text("Preprint");
-  } else if (rankInfo.ranks == "none") {
+  } else if (firstRank == "none") {
     span.text("CCF None");
   } else {
     span.text("CCF " + rankInfo.ranks.join("/"));

@@ -19,12 +19,16 @@ dblp.run = function () {
       dblp.appendRank("#breadcrumbs > ul > li > span:nth-child(3) > a > span");
     }
   } else {
+    let popstateBound = false;
     setInterval(function () {
       let message = $("#completesearch-publs > div > p.waiting");
       if (message.css("display") == "none") {
-        $(window).bind("popstate", function () {
-          dblp.appendRanks();
-        });
+        if (!popstateBound) {
+          $(window).bind("popstate", function () {
+            dblp.appendRanks();
+          });
+          popstateBound = true;
+        }
         dblp.appendRanks();
       }
     }, 700);
@@ -72,7 +76,7 @@ dblp.appendRank = function (selector) {
         headline.indexOf("/db/") + 3,
         headline.lastIndexOf("/"),
       );
-      url = ccf.rankDb[urls];
+      let url = ccf.rankDb[urls];
       element.after(getRankSpan(url, "url"));
     }
   }

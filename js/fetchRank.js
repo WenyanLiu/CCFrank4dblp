@@ -30,7 +30,7 @@ function fetchFromCache(cached, node, title, authorA, year, site) {
 
   //Find a new vul: rankDB lacks of `tacas` etc., but it does occur in file `dataGen`.
   if (typeof dblp_url == "undefined" && resp_flag != false) {
-    dblp_abbr = resp.hit[0].info.number;
+    let dblp_abbr = resp.hit[0].info.number;
     if (typeof dblp_abbr != "undefined" && isNaN(dblp_abbr)) {
       // console.log("dblp_abbr: ", dblp_abbr);
     } else {
@@ -100,37 +100,40 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
       var dblp_url = "";
       var resp = JSON.parse(xhr.responseText).result.hits;
       if (resp["@total"] == 0) {
-        dblp_url == "";
+        dblp_url = "";
         resp_flag = false;
       } else if (resp["@total"] == 1) {
-        url = resp.hit[0].info.url;
+        let url = resp.hit[0].info.url;
         dblp_url = url.substring(
           url.indexOf("/rec/") + 4,
           url.lastIndexOf("/"),
         );
       } else {
+        var year_last_check = 0;
         for (var h = 0; h < resp["@sent"]; h++) {
-          info = resp.hit[h].info;
+          let info = resp.hit[h].info;
 
           var cur_venue = info.type;
           if (cur_venue == "Informal Publications") continue;
 
+          let author_1st;
           if (Array.isArray(info.authors.author)) {
             author_1st = info.authors.author[0].text;
           } else {
             author_1st = info.authors.author.text;
           }
-          year_fuzzy = info.year;
-          year_last_check = 0;
+          let year_fuzzy = info.year;
+          // Note: Author matching is temporarily disabled due to inconsistent
+          // author name formats from different platforms. We rely on title and
+          // year matching instead, which provides good enough accuracy for most cases.
           if (
             Math.abs(Number(year) - year_fuzzy) <= 1 &&
-            // && author_1st.toLowerCase().split(" ").indexOf(authorA.toLowerCase()) != -1
             author_1st.toLowerCase().split(" ") &&
             year_fuzzy != year_last_check
           ) {
             year_last_check = year_fuzzy;
-            url = resp.hit[h].info.url;
-            dblp_url_last_check = url.substring(
+            let url = resp.hit[h].info.url;
+            let dblp_url_last_check = url.substring(
               url.indexOf("/rec/") + 4,
               url.lastIndexOf("/"),
             );
@@ -156,7 +159,7 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
 
       //Find a new vul: rankDB lacks of `tacas` etc., but it does occur in file `dataGen`.
       if (typeof dblp_url == "undefined" && resp_flag != false) {
-        dblp_abbr = resp.hit[0].info.number;
+        let dblp_abbr = resp.hit[0].info.number;
         if (typeof dblp_abbr != "undefined" && isNaN(dblp_abbr)) {
         } else {
           dblp_abbr = resp.hit[0].info.venue;
@@ -208,16 +211,6 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
           // console.log("with url");
           $(node).after(getRankSpan(dblp_url, "url"));
         }
-      }
-    }
-    // for (let getRankSpan of site.rankSpanList) {
-    //   // console.log("with abbr");
-    //   $(node).after(getRankSpan(dblp_abbr, "abbr"));
-    // }
-    else {
-      for (let getRankSpan of site.rankSpanList) {
-        // console.log("with abbr");
-        $(node).after(getRankSpan(dblp_abbr, "abbr")); // I am not sure the difference between "abbr" and "url"
       }
     }
   };

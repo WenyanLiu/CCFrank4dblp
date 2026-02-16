@@ -9,15 +9,12 @@ const connectedpapers = {};
 connectedpapers.rankSpanList = [];
 
 connectedpapers.run = function () {
-  let url = window.location.pathname;
-  window.onload = function () {
-    setTimeout(function () {
-      if (url.indexOf("/main") != -1) {
-        connectedpapers.appendRank();
-        connectedpapers.appendRanks();
-      }
-    }, 3000);
-  };
+  setInterval(function () {
+    if (window.location.pathname.indexOf("/main") != -1) {
+      connectedpapers.appendRank();
+      connectedpapers.appendRanks();
+    }
+  }, 700);
 };
 
 connectedpapers.appendRank = function () {

@@ -9,10 +9,10 @@ const wos = {};
 wos.rankSpanList = [];
 
 wos.run = function () {
+  $(window).bind("popstate", function () {
+    wos.appendRanks();
+  });
   setInterval(function () {
-    $(window).bind("popstate", function () {
-      wos.appendRanks();
-    });
     wos.appendRanks();
   }, 700);
 };

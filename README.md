@@ -75,6 +75,18 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.5.3**
+
+> Feb 16, 2026
+
+1. Fixed memory leak caused by repeated event listener binding in semanticscholar.js, wos.js, and dblp.js.
+2. Fixed bug where `dblp.rankSpanList` was incorrectly used in semanticscholar.js.
+3. Fixed comparison bug (`==` instead of `=`) in fetchRank.js.
+4. Fixed multiple undeclared global variables in fetchRank.js and dblp.js.
+5. Removed hardcoded 3-second delay in connectedpapers.js for better responsiveness.
+6. Removed dead code and unused CSS class.
+7. Improved code style consistency (var → let).
+
 **Version 4.5.2**
 
 > Dec 2, 2024
