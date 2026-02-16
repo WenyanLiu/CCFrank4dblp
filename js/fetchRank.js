@@ -1,25 +1,31 @@
 /**
  * MIT License
  *
- * Copyright (c) 2019-2023 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp), FlyingFog (https://github.com/FlyingFog), mra42 (https://github.com/mra42), dozed (https://github.com/dozed)
+ * Copyright (c) 2019-2026 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp), FlyingFog (https://github.com/FlyingFog), mra42 (https://github.com/mra42), dozed (https://github.com/dozed), MarkLee131 (https://github.com/MarkLee131)
  */
 
 // PACM PL conference mapping - centralized configuration
 const PACM_PL_CONFERENCE_MAP = {
-  "oopsla": "/conf/oopsla/oopsla",
-  "oopsla1": "/conf/oopsla/oopsla",
-  "oopsla2": "/conf/oopsla/oopsla",
-  "popl": "/conf/popl/popl",
-  "pldi": "/conf/pldi/pldi",
-  "icfp": "/conf/icfp/icfp"
+  oopsla: "/conf/oopsla/oopsla",
+  oopsla1: "/conf/oopsla/oopsla",
+  oopsla2: "/conf/oopsla/oopsla",
+  popl: "/conf/popl/popl",
+  pldi: "/conf/pldi/pldi",
+  icfp: "/conf/icfp/icfp",
 };
 
-// Helper function to process PACM PL journals
-function processPacmPlJournal(resp, getRankSpan) {
+/**
+ * Process PACM PL journal entries to determine the actual conference URL.
+ * PACM PL conferences (OOPSLA, POPL, PLDI, ICFP) are published in PACMPL journal
+ * but should be recognized as conferences for CCF ranking purposes.
+ * @param {Object} resp - DBLP API response hits object
+ * @returns {string} DBLP URL for the conference or default PACMPL journal URL
+ */
+function processPacmPlJournal(resp) {
   let number_raw = resp.hit[0]?.info?.number;
   let number = number_raw ? number_raw.toString().toLowerCase() : "";
 
-  // Handle missing number - traverse resp.hit array
+  // Handle missing number - traverse resp.hit array to find an element with number info
   if (number === "") {
     for (let i = 0; i < resp["@sent"]; i++) {
       let hit_number = resp.hit[i]?.info?.number;
@@ -30,7 +36,7 @@ function processPacmPlJournal(resp, getRankSpan) {
     }
   }
 
-  // Map to conference URL using centralized config
+  // Map to conference URL using centralized config, fallback to PACMPL journal
   return PACM_PL_CONFERENCE_MAP[number] || "/journals/pacmpl/pacmpl";
 }
 
@@ -72,7 +78,7 @@ function fetchFromCache(cached, node, title, authorA, year, site) {
       $(node).after(getRankSpan(dblp_abbr, "abbr"));
     }
   } else if (dblp_url == "/journals/pacmpl/pacmpl") {
-    // Process PACM PL conferences using helper function
+    // Process PACM PL conferences using centralized helper function
     dblp_url = processPacmPlJournal(resp);
 
     for (let getRankSpan of site.rankSpanList) {
@@ -168,10 +174,7 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
           $(node).after(getRankSpan(dblp_abbr, "abbr"));
         }
       }
-      // @kaixuan: Here, we need to process the four PL confs (oopsla, popl, pldi, and icfp) in two branches.
-      // They are wrongly recognized as journals in the dblp api since they are published in PACMPL.
-      // So, we need to parse the number info from the response and determine the dblp_url accordingly.
-      // Process PACM PL conferences using centralized logic
+      // Process PACM PL conferences using centralized helper function
       else if (dblp_url == "/journals/pacmpl/pacmpl") {
         dblp_url = processPacmPlJournal(resp);
 
