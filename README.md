@@ -75,6 +75,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.5.4**
+
+> Feb 16, 2026
+
+1. Merged Pull request #140 from @MarkLee131 to refactor PACM PL conference handling, eliminating code duplication and improving maintainability.
+
 **Version 4.5.3**
 
 > Feb 16, 2026
