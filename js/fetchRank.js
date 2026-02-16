@@ -4,6 +4,36 @@
  * Copyright (c) 2019-2023 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp), FlyingFog (https://github.com/FlyingFog), mra42 (https://github.com/mra42), dozed (https://github.com/dozed)
  */
 
+// PACM PL conference mapping - centralized configuration
+const PACM_PL_CONFERENCE_MAP = {
+  "oopsla": "/conf/oopsla/oopsla",
+  "oopsla1": "/conf/oopsla/oopsla",
+  "oopsla2": "/conf/oopsla/oopsla",
+  "popl": "/conf/popl/popl",
+  "pldi": "/conf/pldi/pldi",
+  "icfp": "/conf/icfp/icfp"
+};
+
+// Helper function to process PACM PL journals
+function processPacmPlJournal(resp, getRankSpan) {
+  let number_raw = resp.hit[0]?.info?.number;
+  let number = number_raw ? number_raw.toString().toLowerCase() : "";
+
+  // Handle missing number - traverse resp.hit array
+  if (number === "") {
+    for (let i = 0; i < resp["@sent"]; i++) {
+      let hit_number = resp.hit[i]?.info?.number;
+      if (hit_number) {
+        number = hit_number.toString().toLowerCase();
+        break;
+      }
+    }
+  }
+
+  // Map to conference URL using centralized config
+  return PACM_PL_CONFERENCE_MAP[number] || "/journals/pacmpl/pacmpl";
+}
+
 function fetchRank(node, title, authorA, year, site) {
   const manifest = chrome.runtime.getManifest();
   const version = manifest.version;
@@ -42,41 +72,10 @@ function fetchFromCache(cached, node, title, authorA, year, site) {
       $(node).after(getRankSpan(dblp_abbr, "abbr"));
     }
   } else if (dblp_url == "/journals/pacmpl/pacmpl") {
-    // @kaixuan: Here, we need to process the four PL confs (oopsla, popl, pldi, and icfp) in two branches.
-    // Details can be accessed at the same location in the `fetchFromDblpApi` function.
-    let number_raw = resp.hit[0]?.info?.number; // may miss the number info in some cases, e.g., recently publised papers
-    let number = number_raw ? number_raw.toString().toLowerCase() : "";
-
-    // a hacky way to handle the missing number issue
-    // travese the resp.hit array to find a element with number info
-    if (number == "") {
-      for (let i = 0; i < resp["@sent"]; i++) {
-        let number_raw = resp.hit[i]?.info?.number;
-        if (number_raw) {
-          number = number_raw.toString().toLowerCase();
-          break;
-        }
-      }
-    } else {
-      // console.log("number is not empty");
-    }
-
-    if (number == "oopsla1" || number == "oopsla2" || number == "oopsla") {
-      // previously, the number is "oopsla", now it is "oopsla1" or "oopsla2" due to the two cycles of oopsla
-      dblp_url = "/conf/oopsla/oopsla";
-    } else if (number == "popl") {
-      dblp_url = "/conf/popl/popl";
-    } else if (number == "pldi") {
-      dblp_url = "/conf/pldi/pldi";
-    } else if (number == "icfp") {
-      dblp_url = "/conf/icfp/icfp";
-      // console.log("already enter this branch");
-    } else {
-      // console.log("number is not in the list");
-    }
+    // Process PACM PL conferences using helper function
+    dblp_url = processPacmPlJournal(resp);
 
     for (let getRankSpan of site.rankSpanList) {
-      // console.log("with url");
       $(node).after(getRankSpan(dblp_url, "url"));
     }
   } else {
@@ -172,38 +171,11 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
       // @kaixuan: Here, we need to process the four PL confs (oopsla, popl, pldi, and icfp) in two branches.
       // They are wrongly recognized as journals in the dblp api since they are published in PACMPL.
       // So, we need to parse the number info from the response and determine the dblp_url accordingly.
-      // The same logic is applied to func `fetchFromCache`.
+      // Process PACM PL conferences using centralized logic
       else if (dblp_url == "/journals/pacmpl/pacmpl") {
-        // we need to process the confs including oopsla, popl, and pldi in the same way
-        let number_raw = resp.hit[0]?.info?.number; // may miss the number info in some cases, e.g., recently publised papers
-        let number = number_raw ? number_raw.toString().toLowerCase() : "";
-
-        // a hacky way to handle the missing number issue
-        // travese the resp.hit array to find a element with number info
-        if (number == "") {
-          for (let i = 0; i < resp["@sent"]; i++) {
-            let number_raw = resp.hit[i]?.info?.number;
-            if (number_raw) {
-              number = number_raw.toString().toLowerCase();
-              break;
-            }
-          }
-        }
-
-        if (number == "oopsla1" || number == "oopsla2") {
-          dblp_url = "/conf/oopsla/oopsla";
-        } else if (number == "popl") {
-          dblp_url = "/conf/popl/popl";
-        } else if (number == "pldi") {
-          dblp_url = "/conf/pldi/pldi";
-        } else if (number == "icfp") {
-          dblp_url = "/conf/icfp/icfp";
-        } else {
-          // console.log("number is not in the list");
-        }
+        dblp_url = processPacmPlJournal(resp);
 
         for (let getRankSpan of site.rankSpanList) {
-          // console.log("with url");
           $(node).after(getRankSpan(dblp_url, "url"));
         }
       } else {
