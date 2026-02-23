@@ -13,7 +13,7 @@ ccf.getRankInfo = function (refine, type) {
   let rank;
   let url;
   if (type == "url") {
-    rank = ccf.rankUrl[refine];
+    rank = (refine && String(refine) !== "undefined") ? ccf.rankUrl[refine] : undefined;
     url = refine;
   } else if (type == "abbr") {
     if (refine === undefined) {
@@ -29,15 +29,15 @@ ccf.getRankInfo = function (refine, type) {
         });
         url = res ? ccf.fullUrl[res] : false;
       }
-      rank = ccf.rankUrl[url];
+      rank = url ? ccf.rankUrl[url] : undefined;
     }
   } else if (type == "meeting") {
     let full = ccf.abbrFull[refine];
     url = ccf.fullUrl[full];
-    rank = ccf.rankUrl[url];
+    rank = url ? ccf.rankUrl[url] : undefined;
   } else {
     url = ccf.fullUrl[refine];
-    rank = ccf.rankUrl[url];
+    rank = url ? ccf.rankUrl[url] : undefined;
   }
   if (rank == undefined) {
     rank = "none";
