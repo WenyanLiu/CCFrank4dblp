@@ -277,6 +277,16 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "liuup",
+      "name": "Shang Liu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46253793?v=4",
+      "profile": "https://liuup.github.io",
+      "contributions": [
+        "bug",
+        "data"
+      ]
     }
   ],
   "contributorsPerLine": 7,
