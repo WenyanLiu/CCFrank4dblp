@@ -75,6 +75,12 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.5.5**
+
+> Feb 23, 2026
+
+1. Merged Pull request #148 from @liuup to fix the undefined bug.
+
 **Version 4.5.4**
 
 > Feb 16, 2026
