@@ -409,6 +409,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://kaixuanli-ecnu.github.io/"><img src="https://avatars.githubusercontent.com/u/38575222?v=4?s=100" width="100px;" alt="Kaixuan Li"/><br /><sub><b>Kaixuan Li</b></sub></a><br /><a href="#data-MarkLee131" title="Data">🔣</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=MarkLee131" title="Code">💻</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3AMarkLee131" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://seddon.lol"><img src="https://avatars.githubusercontent.com/u/64512212?v=4?s=100" width="100px;" alt="Seddon"/><br /><sub><b>Seddon</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3ASeddonShen" title="Bug reports">🐛</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://liuup.github.io"><img src="https://avatars.githubusercontent.com/u/46253793?v=4?s=100" width="100px;" alt="Shang Liu"/><br /><sub><b>Shang Liu</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Aliuup" title="Bug reports">🐛</a> <a href="#data-liuup" title="Data">🔣</a></td>
+    </tr>
   </tbody>
 </table>
 
