@@ -451,3 +451,7 @@ Contributions of any kind welcome!
 - [![swufe_ccf_show_ranking](https://raw.githubusercontent.com/Nixiak-nan/swufe_ccf_show_ranking/master/logo/16.png) Nixiak-nan/swufe_ccf_show_ranking](https://web.archive.org/web/20220118103343/https://github.com/Nixiak-nan/easyScholar/tree/0551c6dcecd70dbc08b580fbce0df43563ebe90c)
   - 支持在 Chrome 和 Firefox 中的 百度学术、知网、Google Scholar、IEEExplore、Microsoft Academic、Springer、Web of Science
     显示西南财经大学学术期刊目录（Github 果然是大型交友平台，和开发同学已成为好友啦）。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=WenyanLiu/CCFrank4dblp&type=date&legend=top-left)](https://www.star-history.com/#WenyanLiu/CCFrank4dblp&type=date&legend=top-left)
