@@ -41,7 +41,7 @@ const ccfRankList =
   "A	SC	International Conference for High Performance Computing, Networking, Storage, and Analysis	/conf/sc	/conf/sc/sc\n" +
   "A	ASPLOS	International Conference on Architectural Support for Programming Languages and Operating Systems	/conf/asplos	/conf/asplos/asplos\n" +
   "A	ISCA	International Symposium on Computer Architecture	/conf/isca	/conf/isca/isca\n" +
-  "A	USENIX ATC	USENIX Annual Technical Conference	/conf/usenix	/conf/usenix/usenix\n" +
+  "A	ACM SIGOPS ATC	USENIX Annual Technical Conference	/conf/usenix	/conf/usenix/usenix\n" +
   "A	EuroSys	European Conference on Computer Systems	/conf/eurosys	/conf/eurosys/eurosys\n" +
   "B	SOCC	ACM Symposium on Cloud Computing	/conf/cloud	/conf/cloud/socc\n" +
   "B	SPAA	ACM Symposium on Parallelism in Algorithms and Architectures	/conf/spaa	/conf/spaa/spaa\n" +
@@ -64,7 +64,7 @@ const ccfRankList =
   "B	VEE	International Conference on Virtual Execution Environments	/conf/vee	/conf/vee/vee\n" +
   "B	IPDPS	International Parallel & Distributed Processing Symposium	/conf/ipps	/conf/ipps/ipdps\n" +
   "B	Performance	International Symposium on Computer Performance, Modeling, Measurements and Evaluation	/conf/performance	/conf/performance/performance\n" +
-  "B	HPDC	International Symposium on High Performance Distributed Computing	/conf/hpdc	/conf/hpdc/hpdc\n" +
+  "A	HPDC	International Symposium on High Performance Distributed Computing	/conf/hpdc	/conf/hpdc/hpdc\n" +
   "B	ITC	International Test Conference	/conf/itc	/conf/itc/itc\n" +
   "B	LISA	Large Installation system Administration Conference	/conf/lisa	/conf/lisa/lisa\n" +
   "B	MSST	Mass Storage Systems and Technologies	/conf/mss	/conf/mss/msst\n" +
@@ -91,7 +91,7 @@ const ccfRankList =
   "C	FPT	International Conference on Field-Programmable Technology	/conf/fpt	/conf/icfpt/icfpt\n" +
   "C	FPT	International Conference on Field-Programmable Technology	/conf/fpt	/conf/fpt/fpt\n" +
   "C	ICPADS	International Conference on Parallel and Distributed Systems	/conf/icpads	/conf/icpads/icpads\n" +
-  "C	ISCAS	International Symposium on Circuits and Systems	/conf/iscas	/conf/iscas/iscas\n" +
+  "B	ISCAS	International Symposium on Circuits and Systems	/conf/iscas	/conf/iscas/iscas\n" +
   "C	ISLPED	International Symposium on Low Power Electronics and Design	/conf/islped	/conf/islped/islped\n" +
   "C	ISPD	International Symposium on Physical Design	/conf/ispd	/conf/ispd/ispd\n" +
   "C	HotI	Symposium on High-Performance Interconnects	/conf/hoti	/conf/hoti/hoti\n" +
@@ -107,7 +107,7 @@ const ccfRankList =
   "B	TCOM	IEEE Transactions on Communications	/journals/tcom	/journals/tcom/tcom\n" +
   "B	TWC	IEEE Transactions on Wireless Communications	/journals/twc	/journals/twc/twc\n" +
   "C		Ad hoc Networks	/journals/adhoc	/journals/adhoc/adhoc\n" +
-  "C	CC	Computer Communications	/journals/comcom	/journals/comcom/comcom\n" +
+  "B	CC	Computer Communications	/journals/comcom	/journals/comcom/comcom\n" +
   "C	TNSM	IEEE Transactions on Network and Service Management	/journals/tnsm	/journals/tnsm/tnsm\n" +
   "C		IET Communications	/journals/iet-com	/journals/iet-com/iet-com\n" +
   "C	JNCA	Journal of Network and Computer Applications	/journals/jnca	/journals/jnca/jnca\n" +
@@ -166,7 +166,7 @@ const ccfRankList =
   "C	IJISP	International Journal of Information Security and Privacy	/journals/ijisp	/journals/ijisp/ijisp\n" +
   "C	JISA	Journal of Information Security and Application	/journals/istr	/journals/istr/istr\n" +
   "C	SCN	Security and Communication Networks	/journals/scn	/journals/scn/scn\n" +
-  "C		Cybersecurity	/journals/cybersec	/journals/cybersec/cybersec\n" +
+  "B		Cybersecurity	/journals/cybersec	/journals/cybersec/cybersec\n" +
   "A	CCS	ACM Conference on Computer and Communications Security	/conf/ccs	/conf/ccs/ccs\n" +
   "A	EUROCRYPT	European Cryptology Conference	/conf/eurocrypt	/conf/eurocrypt/eurocrypt\n" +
   "A	S&P	IEEE Symposium on Security and Privacy	/conf/sp	/conf/sp/sp\n" +
@@ -340,7 +340,7 @@ const ccfRankList =
   "C	JGITM	Journal of Global Information Technology Management		\n" +
   "C	JIIS	Journal of Intelligent Information Systems	/journals/jiis	/journals/jiis/jiis\n" +
   "C	JSIS	Journal of Strategic Information Systems	/journals/jsis	/journals/jsis/jsis\n" +
-  "C	DSE	Data Science and Engineering	/journals/dase	/journals/dase/dase\n" +
+  "B	DSE	Data Science and Engineering	/journals/dase	/journals/dase/dase\n" +
   "A	SIGMOD	ACM Conference on Management of Data	/conf/sigmod	/conf/sigmod/sigmod\n" +
   "A	SIGKDD	ACM Knowledge Discovery and Data Mining	/conf/kdd	/conf/kdd/kdd\n" +
   "A	ICDE	IEEE International Conference on Data Engineering	/conf/icde	/conf/icde/icde\n" +
@@ -370,7 +370,7 @@ const ccfRankList =
   "C	WAIM	International Conference on Web Age Information Management	/conf/waim	/conf/waim/waim\n" +
   "C	SSTD	International Symposium on Spatial and Temporal Databases	/conf/ssd	/conf/ssd/sstd\n" +
   "C	PAKDD	Pacific-Asia Conference on Knowledge Discovery and Data Mining	/conf/pakdd	/conf/pakdd/pakdd\n" +
-  "C	WISE	Web Information Systems Engineering	/conf/wise	/conf/wise/wise\n" +
+  "B	WISE	Web Information Systems Engineering	/conf/wise	/conf/wise/wise\n" +
   "C	ADMA	The International Conference on Advanced Data Mining and Applications	/conf/adma	/conf/adma/adma\n" +
   "A	TIT	IEEE Transactions on Information Theory	/journals/tit	/journals/tit/tit\n" +
   "A	IANDC	Information and Computation	/journals/iandc	/journals/iandc/iandc\n" +
@@ -416,7 +416,7 @@ const ccfRankList =
   "B	SAT	Theory and Applications of Satisfiability Testing	/conf/sat	/conf/sat/sat\n" +
   "B	COCOON	International Computing and Combinatorics Conference	/conf/cocoon	/conf/cocoon/cocoon\n" +
   "C	CSL	Computer Science Logic	/conf/csl	/conf/csl/csl\n" +
-  "C	FMCAD	Formal Method in Computer-Aided Design	/conf/fmcad	/conf/fmcad/fmcad\n" +
+  "B	FMCAD	Formal Method in Computer-Aided Design	/conf/fmcad	/conf/fmcad/fmcad\n" +
   "C	FSTTCS	Foundations of Software Technology and Theoretical Computer Science	/conf/fsttcs	/conf/fsttcs/fsttcs\n" +
   "C	DSAA	IEEE International Conference on Data Science and Advanced Analytics	/conf/dsaa	/conf/dsaa/dsaa\n" +
   "C	ICTAC	International Colloquium on Theoretical Aspects of Computing	/conf/ictac	/conf/ictac/ictac\n" +
@@ -433,9 +433,9 @@ const ccfRankList =
   "B	CAGD	Computer Aided Geometric Design	/journals/cagd	/journals/cagd/cagd\n" +
   "B	CGF	Computer Graphics Forum	/journals/cgf	/journals/cgf/cgf\n" +
   "B	CAD	Computer-Aided Design	/journals/cad	/journals/cad/cad\n" +
-  "B	GM	Graphical Models	/journals/cvgip	/journals/cvgip/cvgip\n" +
+  "C	GM	Graphical Models	/journals/cvgip	/journals/cvgip/cvgip\n" +
   "B	TCSVT	IEEE Transactions on Circuits and Systems for Video Technology	/journals/tcsv	/journals/tcsv/tcsv\n" +
-  "B	TMM	IEEE Transactions on Multimedia	/journals/tmm	/journals/tmm/tmm\n" +
+  "A	TMM	IEEE Transactions on Multimedia	/journals/tmm	/journals/tmm/tmm\n" +
   "B	JASA	Journal of The Acoustical Society of America		\n" +
   "B	SIIMS	SIAM Journal on Imaging Sciences	/journals/siamis	/journals/siamis/siamis\n" +
   "B	Speech Com	Speech Communication	/journals/speech	/journals/speech/speech\n" +
@@ -451,7 +451,7 @@ const ccfRankList =
   "C		Signal Processing	/journals/sigpro	/journals/sigpro/sigpro\n" +
   "C	SPIC	Signal Processing: Image Communication	/journals/spic	/journals/spic/spic\n" +
   "C	TVC	The Visual Computer	/journals/vc	/journals/vc/vc\n" +
-  "C	CVMJ	Computational Visual Media	/journals/cvm	/journals/cvm/cvm\n" +
+  "B	CVMJ	Computational Visual Media	/journals/cvm	/journals/cvm/cvm\n" +
   "A	ACM MM	ACM International Conference on Multimedia	/conf/mm	/conf/mm/mm\n" +
   "A	SIGGRAPH	ACM SIGGRAPH Annual Conference	/conf/siggraph	/conf/siggraph/siggraph\n" +
   "A	VR	IEEE Virtual Reality	/conf/vr	/conf/vr/vr\n" +
@@ -560,7 +560,7 @@ const ccfRankList =
   "A	CVPR	IEEE Conference on Computer Vision and Pattern Recognition	/conf/cvpr	/conf/cvpr/cvpr\n" +
   "A	ICCV	International Conference on Computer Vision	/conf/iccv	/conf/iccv/iccv\n" +
   "A	ICML	International Conference on Machine Learning	/conf/icml	/conf/icml/icml\n" +
-  "A	IJCAI	International Joint Conference on Artificial Intelligence	/conf/ijcai	/conf/ijcai/ijcai\n" +
+  "B	IJCAI	International Joint Conference on Artificial Intelligence	/conf/ijcai	/conf/ijcai/ijcai\n" +
   "B	COLT	Annual Conference on Computational Learning Theory	/conf/colt	/conf/colt/colt\n" +
   "B	EMNLP	Conference on Empirical Methods in Natural Language Processing	/conf/emnlp	/conf/emnlp/emnlp\n" +
   "B	ECAI	European Conference on Artificial Intelligence	/conf/ecai	/conf/ecai/ecai\n" +
@@ -637,7 +637,7 @@ const ccfRankList =
   "A 	JACM	Journal of the ACM	/journals/jacm	/journals/jacm/jacm\n" +
   "A 	Proc. IEEE	Proceedings of the IEEE	/journals/pieee	/journals/pieee/pieee\n" +
   "A	SCIS	Science China Information Sciences	/journals/chinaf	/journals/chinaf/chinaf\n" +
-  "B		Bioinformatics	/journals/bioinformatics	/journals/bioinformatics/bioinformatics\n" +
+  "A		Bioinformatics	/journals/bioinformatics	/journals/bioinformatics/bioinformatics\n" +
   "B		Briefings in Bioinformatics	/journals/bib	/journals/bib/bib\n" +
   "B	Cognition	Cognition: International Journal of Cognitive Science		\n" +
   "B	TASAE	IEEE Transactions on Automation Science and Engineering	/journals/tase	/journals/tase/tase\n" +
@@ -669,7 +669,7 @@ const ccfRankList =
   "C		IEEE Transactions on Reliability	/journals/tr	/journals/tr/tr\n" +
   "A	WWW	International World Wide Web Conferences	/conf/www	/conf/www/www\n" +
   "A	RTSS	Real-Time Systems Symposium	/conf/rtss	/conf/rtss/rtss\n" +
-  "A	WINE	Conference on Web and Internet Economics	/conf/wine	/conf/wine/wine\n" +
+  "B	WINE	Conference on Web and Internet Economics	/conf/wine	/conf/wine/wine\n" +
   "B	CogSci	Cognitive Science Society Annual Conference	/conf/cogsci	/conf/cogsci/cogsci\n" +
   "B	BIBM	IEEE International Conference on Bioinformatics and Biomedicine	/conf/bibm	/conf/bibm/bibm\n" +
   "B	EMSOFT	International Conference on Embedded Software	/conf/emsoft	/conf/emsoft/emsoft\n" +
@@ -685,7 +685,7 @@ const ccfRankList =
   "C	SAGT	International Symposium on Algorithmic Game Theory	/conf/sagt	/conf/sagt/sagt\n" +
   "C	SIGSPATIAL	ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems	/conf/gis	/conf/gis/gis\n" +
   "C	ICIC	International Conference on Intelligent Computing	/conf/icic	/conf/icic/icic\n" +
-  "E	ICLR	International Conference on Learning Representations	/conf/iclr	/conf/iclr/iclr\n" +
+  "A	ICLR	International Conference on Learning Representations	/conf/iclr	/conf/iclr/iclr\n" +
   "P		arXiv	/journals/corr	/journals/corr/corr";
 
 var ccfRankFull = {};
