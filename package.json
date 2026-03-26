@@ -1,10 +1,10 @@
 {
-  "name": "ccfrank-mcp",
-  "version": "4.5.6",
-  "description": "CCFrank MCP server for looking up CCF ranks from embedded data.",
+  "name": "ccfrank",
+  "version": "4.5.5",
+  "description": "CCFrank for looking up CCF ranks.",
   "license": "MIT",
   "bin": {
-    "ccfrank-mcp": "mcp/server.js"
+    "ccfrank": "mcp/server.js"
   },
   "files": [
     "mcp",
