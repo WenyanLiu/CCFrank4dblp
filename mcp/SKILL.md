@@ -1,7 +1,7 @@
 ---
 name: ccfrank
 description: 查询会议/期刊的 CCF 等级。当用户提到 CCF 等级、论文评级、会议排名、期刊等级，或需要查询某个会议/期刊是 CCF-A/B/C 时使用此技能。支持通过会议简称（如 PLDI、ICSE）、全称、或 DBLP URL 查询。
-version: 1.0.3
+version: 1.0.4
 homepage: https://github.com/m2kar/CCFrank4dblp
 dependencies:
   npm:
@@ -11,11 +11,14 @@ dependencies:
       tarball: https://registry.npmjs.org/ccfrank/-/ccfrank-4.5.5.tgz
       sourceRepo: https://github.com/m2kar/CCFrank4dblp
 install:
-  method: local-npm
-  lockVersion: true
-  allowGlobalInstall: false
+  method: global-npm
+  lockVersion: false
+  allowGlobalInstall: true
   execution:
-    command: ./node_modules/.bin/ccfrank
+    command: npx
+    args:
+      - --no-install
+      - ccfrank
 ---
 
 # CCFrank
@@ -24,21 +27,18 @@ install:
 
 ## 安装配置（MCP）
 
-先在隔离目录安装固定版本（避免全局安装、避免运行时动态下载执行）：
+全局安装 CLI（安装命令不限制版本）：
 
 ```bash
-mkdir -p ~/.ccfrank-mcp
-cd ~/.ccfrank-mcp
-npm init -y
-npm install --save-exact ccfrank@4.5.5
+npm install -g ccfrank
 ```
 
 ```json
 {
   "mcpServers": {
     "ccfrank": {
-      "command": "/Users/<your-user>/.ccfrank-mcp/node_modules/.bin/ccfrank",
-      "args": []
+      "command": "npx",
+      "args": ["--no-install", "ccfrank"]
     }
   }
 }
@@ -66,7 +66,7 @@ npm install --save-exact ccfrank@4.5.5
 
 - 数据基于 CCF 2026 年 3 月版目录
 - 未收录返回 `none`
-- 依赖固定为 `ccfrank@4.5.5`，请校验 `integrity` 后再安装
+- 元数据依赖固定为 `ccfrank@4.5.5`（含 `integrity` / `tarball`）
 
 ## 资源
 
