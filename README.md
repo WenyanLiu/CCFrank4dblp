@@ -73,6 +73,24 @@ Clone CCFrank to a directory.
 
 <img src="./img/load_unpacked.png" height="300" alt="Load Extension">
 
+## MCP Server
+
+CCFrank can also run as a local `stdio` MCP server.
+
+For Claude Code, add a project-scoped `.mcp.json` file at the repository root:
+
+```json
+{
+  "mcpServers": {
+    "ccfrank": {
+      "command": "npx",
+      "args": ["-y", "ccfrank-mcp"],
+      "env": {}
+    }
+  }
+}
+```
+
 ## What's New
 
 **Version 4.5.5**

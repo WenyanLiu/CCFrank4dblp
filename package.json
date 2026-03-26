@@ -6,9 +6,15 @@
     "prettier": "3.3.3"
   },
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "mcp": "node ./mcp/server.js",
+    "test": "node --test"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^4.3.6"
   }
 }
