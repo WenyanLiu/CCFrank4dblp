@@ -84,7 +84,7 @@ For Claude Code, add a project-scoped `.mcp.json` file at the repository root:
   "mcpServers": {
     "ccfrank": {
       "command": "npx",
-      "args": ["-y", "ccfrank-mcp"],
+      "args": ["-y", "ccfrank"],
       "env": {}
     }
   }
