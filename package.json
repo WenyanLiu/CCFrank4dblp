@@ -1,4 +1,27 @@
 {
+  "name": "ccfrank-mcp",
+  "version": "4.5.6",
+  "description": "CCFrank MCP server for looking up CCF ranks from embedded data.",
+  "license": "MIT",
+  "bin": {
+    "ccfrank-mcp": "mcp/server.js"
+  },
+  "files": [
+    "mcp",
+    "data/ccfAbbrFull.js",
+    "data/ccfFullUrl.js",
+    "data/ccfRankAbbr.js",
+    "data/ccfRankDb.js",
+    "data/ccfRankFull.js",
+    "data/ccfRankUrl.js",
+    "js/ccf.js",
+    "manifest.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
     "git-format-staged": "^3.1.1",
     "husky": "^9.1.6",
