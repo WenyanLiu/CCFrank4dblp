@@ -279,18 +279,18 @@ const ccfRankList =
   "B	MoDELS	International Conference on Model Driven Engineering Languages and Systems	/conf/models	/conf/models/models\n" +
   "B	CP	International Conference on Principles and Practice of Constraint Programming	/conf/cp	/conf/cp/cp\n" +
   "B	ICSOC	International Conference on Service Oriented Computing	/conf/icsoc	/conf/icsoc/icsoc\n" +
-  "B	SANER	International Conference on Software Analysis, Evolution, and Reengineering	/conf/wcre	/conf/wcre/saner\n" +
+  "B	SANER	IEEE International Conference on Software Analysis, Evolution, and Reengineering	/conf/wcre	/conf/wcre/saner\n" +
   "B	SANER	International Conference on Software Analysis, Evolution, and Reengineering	/conf/wcre	/conf/wcre/wcre\n" +
-  "B	ICSME	International Conference on Software Maintenance and Evolution	/conf/icsm	/conf/icsm/icsme\n" +
+  "B	ICSME	IEEE International Conference on Software Maintenance and Evolution	/conf/icsm	/conf/icsm/icsme\n" +
   "B	ICSME	International Conference on Software Maintenance and Evolution	/conf/icsm	/conf/icsm/icsm\n" +
-  "B	VMCAI	International Conference on Verification,Model Checking, and Abstract Interpretation	/conf/vmcai	/conf/vmcai/vmcai\n" +
-  "B	ICWS	International Conference on Web Services(Research Track)	/conf/icws	/conf/icws/icws\n" +
+  "B	VMCAI	International Conference on Verification, Model Checking and Abstract Interpretation	/conf/vmcai	/conf/vmcai/vmcai\n" +
+  "B	ICWS	International Conference on Web Services	/conf/icws	/conf/icws/icws\n" +
   "B	Middleware	International Middleware Conference	/conf/middleware	/conf/middleware/middleware\n" +
   "B	SAS	International Static Analysis Symposium	/conf/sas	/conf/sas/sas\n" +
-  "B	ESEM	International Symposium on Empirical Software Engineering and Measurement	/conf/esem	/conf/esem/esem\n" +
+  "B	ESEM	IEEE/ACM International Symposium on Empirical Software Engineering and Measurement	/conf/esem	/conf/esem/esem\n" +
   "B	ISSRE	International Symposium on Software Reliability Engineering	/conf/issre	/conf/issre/issre\n" +
   "B	HotOS	USENIX Workshop on Hot Topics in Operating Systems	/conf/hotos	/conf/hotos/hotos\n" +
-  "C	CC	International Conference on Compiler Construction	/conf/cc	/conf/cc/cc\n" +
+  "C	CC	ACM International Conference on Compiler Construction	/conf/cc	/conf/cc/cc\n" +
   "C	PEPM	ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation	/conf/pepm	/conf/pepm/pepm\n" +
   "C	PASTE	ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering	/conf/paste	/conf/paste/paste\n" +
   "C	APLAS	Asian Symposium on Programming Languages and Systems	/conf/aplas	/conf/aplas/aplas\n" +
