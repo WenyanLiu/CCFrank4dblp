@@ -373,6 +373,7 @@ const ccfRankList =
   "B	CIDR	International Conference on Innovative Data Systems Research	/conf/cidr	/conf/cidr/cidr\n" +
   "B	SDM	SIAM International Conference on Data Mining	/conf/sdm	/conf/sdm/sdm\n" +
   "B	RecSys	ACM Conference on Recommender Systems	/conf/recsys	/conf/recsys/recsys\n" +
+  "B	WISE	Web Information Systems Engineering Conference	/conf/wise	/conf/wise/wise\n" +
   "C	APWeb	Asia Pacific Web Conference	/conf/apweb	/conf/apweb/apweb\n" +
   "C	DEXA	Database and Expert System Applications	/conf/dexa	/conf/dexa/dexa\n" +
   "C	ECIR	European Conference on IR Research	/conf/ecir	/conf/ecir/ecir\n" +
@@ -384,7 +385,6 @@ const ccfRankList =
   "C	WAIM	International Conference on Web Age Information Management	/conf/waim	/conf/waim/waim\n" +
   "C	SSTD	International Symposium on Spatial and Temporal Databases	/conf/ssd	/conf/ssd/sstd\n" +
   "C	PAKDD	Pacific-Asia Conference on Knowledge Discovery and Data Mining	/conf/pakdd	/conf/pakdd/pakdd\n" +
-  "C	WISE	Web Information Systems Engineering	/conf/wise	/conf/wise/wise\n" +
   "C	ADMA	The International Conference on Advanced Data Mining and Applications	/conf/adma	/conf/adma/adma\n" +
   "A	TIT	IEEE Transactions on Information Theory	/journals/tit	/journals/tit/tit\n" +
   "A	IANDC	Information and Computation	/journals/iandc	/journals/iandc/iandc\n" +
