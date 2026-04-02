@@ -152,10 +152,10 @@ const ccfRankList =
   "C	WCNC	IEEE Wireless Communications and Networking Conference	/conf/wcnc	/conf/wcnc/wcnc\n" +
   "C	Networking	IFIP International Conferences on Networking	/conf/networking	/conf/networking/networking\n" +
   "C	IM	IFIP/IEEE International Symposium on Integrated Network Management	/conf/im	/conf/im/im\n" +
-  "C	MSN	International Conference on Mobile Ad-hoc and Sensor Networks	/conf/msn	/conf/msn/msn\n" +
+  "C	MSN	International Conference on Mobility, Sensing and Networking	/conf/msn	/conf/msn/msn\n" +
   "C	MSWiM	International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems	/conf/mswim	/conf/mswim/mswim\n" +
-  "C	WASA	International Conference on Wireless Algorithms, Systems, and Applications	/conf/wasa	/conf/wasa/wasa\n" +
-  "C	HotNets	The Workshop on Hot Topics in Networks	/conf/hotnets	/conf/hotnets/hotnets\n" +
+  "C	WASA	The International Conference on Wireless Artificial Intelligent Computing Systems and Applications	/conf/wasa	/conf/wasa/wasa\n" +
+  "C	HotNets	ACM The Workshop on Hot Topics in Networks	/conf/hotnets	/conf/hotnets/hotnets\n" +
   "C	APNet	Asia-Pacific Workshop on Networking	/conf/apnet	/conf/apnet/apnet\n" +
   "A	TDSC	IEEE Transactions on Dependable and Secure Computing	/journals/tdsc	/journals/tdsc/tdsc\n" +
   "A	TIFS	IEEE Transactions on Information Forensics and Security	/journals/tifs	/journals/tifs/tifs\n" +
