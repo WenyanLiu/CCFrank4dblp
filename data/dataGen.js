@@ -338,6 +338,7 @@ const ccfRankList =
   "B	JASIST	Journal of the American Society for Information Science and Technology	/journals/jasis	/journals/jasis/jasis\n" +
   "B	JWS	Journal of Web Semantics	/journals/ws	/journals/ws/ws\n" +
   "B	KAIS	Knowledge and Information Systems	/journals/kais	/journals/kais/kais\n" +
+  "B	DSE	Data Science and Engineering	/journals/dase	/journals/dase/dase\n" +
   "C	DPD	Distributed and Parallel Databases	/journals/dpd	/journals/dpd/dpd\n" +
   "C	I&M	Information and Management	/journals/iam	/journals/iam/iam\n" +
   "C	IPL	Information Processing Letters	/journals/ipl	/journals/ipl/ipl\n" +
@@ -352,7 +353,6 @@ const ccfRankList =
   "C	JGITM	Journal of Global Information Technology Management		\n" +
   "C	JIIS	Journal of Intelligent Information Systems	/journals/jiis	/journals/jiis/jiis\n" +
   "C	JSIS	Journal of Strategic Information Systems	/journals/jsis	/journals/jsis/jsis\n" +
-  "C	DSE	Data Science and Engineering	/journals/dase	/journals/dase/dase\n" +
   "A	SIGMOD	ACM Conference on Management of Data	/conf/sigmod	/conf/sigmod/sigmod\n" +
   "A	SIGKDD	ACM Knowledge Discovery and Data Mining	/conf/kdd	/conf/kdd/kdd\n" +
   "A	ICDE	IEEE International Conference on Data Engineering	/conf/icde	/conf/icde/icde\n" +
