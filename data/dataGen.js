@@ -175,11 +175,11 @@ const ccfRankList =
   "C	SCN	Security and Communication Networks	/journals/scn	/journals/scn/scn\n" +
   "C	HCC	High-Confidence Computing	/journals/hcc	/journals/hcc/hcc\n" +
   "A	CCS	ACM Conference on Computer and Communications Security	/conf/ccs	/conf/ccs/ccs\n" +
-  "A	EUROCRYPT	European Cryptology Conference	/conf/eurocrypt	/conf/eurocrypt/eurocrypt\n" +
+  "A	EUROCRYPT	International Conference on the Theory and Applications of Cryptographic Techniques	/conf/eurocrypt	/conf/eurocrypt/eurocrypt\n" +
   "A	S&P	IEEE Symposium on Security and Privacy	/conf/sp	/conf/sp/sp\n" +
   "A	CRYPTO	International Cryptology Conference	/conf/crypto	/conf/crypto/crypto\n" +
-  "A	USENIX Security	Usenix Security Symposium	/conf/uss	/conf/uss/uss\n" +
-  "A	NDSS	ISOC Network and Distributed System Security Symposium	/conf/ndss	/conf/ndss/ndss\n" +
+  "A	USENIX Security	USENIX Security Symposium	/conf/uss	/conf/uss/uss\n" +
+  "A	NDSS	Network and Distributed System Security Symposium	/conf/ndss	/conf/ndss/ndss\n" +
   "B	ACSAC	Annual Computer Security Applications Conference	/conf/acsac	/conf/acsac/acsac\n" +
   "B	ASIACRYPT	Annual International Conference on the Theory and Application of Cryptology and Information Security	/conf/asiacrypt	/conf/asiacrypt/asiacrypt\n" +
   "B	ESORICS	European Symposium on Research in Computer Security	/conf/esorics	/conf/esorics/esorics\n" +
