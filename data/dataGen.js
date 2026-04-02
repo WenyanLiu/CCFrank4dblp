@@ -290,6 +290,7 @@ const ccfRankList =
   "B	ESEM	International Symposium on Empirical Software Engineering and Measurement	/conf/esem	/conf/esem/esem\n" +
   "B	ISSRE	International Symposium on Software Reliability Engineering	/conf/issre	/conf/issre/issre\n" +
   "B	HotOS	USENIX Workshop on Hot Topics in Operating Systems	/conf/hotos	/conf/hotos/hotos\n" +
+  "C	CC	International Conference on Compiler Construction	/conf/cc	/conf/cc/cc\n" +
   "C	PEPM	ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation	/conf/pepm	/conf/pepm/pepm\n" +
   "C	PASTE	ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering	/conf/paste	/conf/paste/paste\n" +
   "C	APLAS	Asian Symposium on Programming Languages and Systems	/conf/aplas	/conf/aplas/aplas\n" +
