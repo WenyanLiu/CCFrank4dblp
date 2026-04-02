@@ -111,15 +111,15 @@ const ccfRankList =
   "B	CN	Computer Networks	/journals/cn	/journals/cn/cn\n" +
   "B	TCOM	IEEE Transactions on Communications	/journals/tcom	/journals/tcom/tcom\n" +
   "B	TWC	IEEE Transactions on Wireless Communications	/journals/twc	/journals/twc/twc\n" +
-  "C		Ad hoc Networks	/journals/adhoc	/journals/adhoc/adhoc\n" +
+  "C		Ad Hoc Networks	/journals/adhoc	/journals/adhoc/adhoc\n" +
   "C	CC	Computer Communications	/journals/comcom	/journals/comcom/comcom\n" +
   "C	TNSM	IEEE Transactions on Network and Service Management	/journals/tnsm	/journals/tnsm/tnsm\n" +
   "C		IET Communications	/journals/iet-com	/journals/iet-com/iet-com\n" +
   "C	JNCA	Journal of Network and Computer Applications	/journals/jnca	/journals/jnca/jnca\n" +
-  "C	MONET	Mobile Networks & Applications	/journals/monet	/journals/monet/monet\n" +
+  "C	MONET	Mobile Networks and Applications	/journals/monet	/journals/monet/monet\n" +
   "C		Networks	/journals/networks	/journals/networks/networks\n" +
   "C	PPNA	Peer-to-Peer Networking and Applications	/journals/ppna	/journals/ppna/ppna\n" +
-  "C	WCMC	Wireless Communications & Mobile Computing	/journals/wicomm	/journals/wicomm/wicomm\n" +
+  "C	WCMC	Wireless Communications and Mobile Computing	/journals/wicomm	/journals/wicomm/wicomm\n" +
   "C		Wireless Networks	/journals/winet	/journals/winet/winet\n" +
   "C	IOT	IEEE Internet of Things Journal	/journals/iotj	/journals/iotj/iotj\n" +
   "C	TIOT	ACM Transactions on Internet of Things	/journals/tiot	/journals/tiot/tiot\n" +
