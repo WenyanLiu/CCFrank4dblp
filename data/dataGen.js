@@ -70,6 +70,7 @@ const ccfRankList =
   "B	MSST	Mass Storage Systems and Technologies	/conf/mss	/conf/mss/msst\n" +
   "B	RTAS	Real-Time and Embedded Technology and Applications Symposium	/conf/rtas	/conf/rtas/rtas\n" +
   "B	Euro-Par	European Conference on Parallel and Distributed Computing	/conf/europar	/conf/europar/europar\n" +
+  "B	ISCAS	IEEE International Symposium on Circuits and Systems	/conf/iscas	/conf/iscas/iscas\n" +
   "C	CF	ACM International Conference on Computing Frontiers	/conf/cf	/conf/cf/cf\n" +
   "C	SYSTOR	ACM International Systems and Storage Conference	/conf/systor	/conf/systor/systor\n" +
   "C	NOCS	ACM/IEEE International Symposium on Networks-on-Chip	/conf/nocs	/conf/nocs/nocs\n" +
@@ -91,7 +92,6 @@ const ccfRankList =
   "C	FPT	International Conference on Field-Programmable Technology	/conf/fpt	/conf/icfpt/icfpt\n" +
   "C	FPT	International Conference on Field-Programmable Technology	/conf/fpt	/conf/fpt/fpt\n" +
   "C	ICPADS	International Conference on Parallel and Distributed Systems	/conf/icpads	/conf/icpads/icpads\n" +
-  "C	ISCAS	International Symposium on Circuits and Systems	/conf/iscas	/conf/iscas/iscas\n" +
   "C	ISLPED	International Symposium on Low Power Electronics and Design	/conf/islped	/conf/islped/islped\n" +
   "C	ISPD	International Symposium on Physical Design	/conf/ispd	/conf/ispd/ispd\n" +
   "C	HotI	Symposium on High-Performance Interconnects	/conf/hoti	/conf/hoti/hoti\n" +
