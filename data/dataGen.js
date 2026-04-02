@@ -237,7 +237,7 @@ const ccfRankList =
   "B	JSS	Journal of Systems and Software	/journals/jss	/journals/jss/jss\n" +
   "B	RE	Requirements Engineering	/journals/re	/journals/re/re\n" +
   "B	SCP	Science of Computer Programming	/journals/scp	/journals/scp/scp\n" +
-  "B	SoSyM	Software and System Modeling	/journals/sosym	/journals/sosym/sosym\n" +
+  "B	SoSyM	Software and Systems Modeling	/journals/sosym	/journals/sosym/sosym\n" +
   "B	STVR	Software Testing, Verification and Reliability	/journals/stvr	/journals/stvr/stvr\n" +
   "B	SPE	Software: Practice and Experience	/journals/spe	/journals/spe/spe\n" +
   "C	CL	Computer Languages, Systems and Structures	/journals/cl	/journals/cl/cl\n" +
