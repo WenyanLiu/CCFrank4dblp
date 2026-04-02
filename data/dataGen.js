@@ -94,8 +94,8 @@ const ccfRankList =
   "C	ICPADS	International Conference on Parallel and Distributed Systems	/conf/icpads	/conf/icpads/icpads\n" +
   "C	ISLPED	International Symposium on Low Power Electronics and Design	/conf/islped	/conf/islped/islped\n" +
   "C	ISPD	International Symposium on Physical Design	/conf/ispd	/conf/ispd/ispd\n" +
-  "C	HotI	Symposium on High-Performance Interconnects	/conf/hoti	/conf/hoti/hoti\n" +
-  "C	VTS	VLSI Test Symposium	/conf/vts	/conf/vts/vts\n" +
+  "C	HotI	IEEE Symposium on High-Performance Interconnects	/conf/hoti	/conf/hoti/hoti\n" +
+  "C	VTS	IEEE VLSI Test Symposium	/conf/vts	/conf/vts/vts\n" +
   "C	ITC-Asia	International Test Conference in Asia	/conf/itc-asia	/conf/itc-asia/itc-asia\n" +
   "C	SEC	ACM/IEEE Symposium on Edge Computing	/conf/ieeesec	/conf/ieeesec/ieeesec\n" +
   "C	NAS	International Conference on Networking, Architecture and Storages	/conf/nas	/conf/nas/nas\n" +
