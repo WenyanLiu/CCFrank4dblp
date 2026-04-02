@@ -41,8 +41,9 @@ const ccfRankList =
   "A	SC	International Conference for High Performance Computing, Networking, Storage, and Analysis	/conf/sc	/conf/sc/sc\n" +
   "A	ASPLOS	International Conference on Architectural Support for Programming Languages and Operating Systems	/conf/asplos	/conf/asplos/asplos\n" +
   "A	ISCA	International Symposium on Computer Architecture	/conf/isca	/conf/isca/isca\n" +
-  "A	USENIX ATC	USENIX Annual Technical Conference	/conf/usenix	/conf/usenix/usenix\n" +
+  "A	ACM SIGOPS ATC	ACM SIGOPS Annual Technical Conference	/conf/usenix	/conf/usenix/usenix\n" +
   "A	EuroSys	European Conference on Computer Systems	/conf/eurosys	/conf/eurosys/eurosys\n" +
+  "A	HPDC	The International ACM Symposium on High-Performance Parallel and Distributed Computing	/conf/hpdc	/conf/hpdc/hpdc\n" +
   "B	SOCC	ACM Symposium on Cloud Computing	/conf/cloud	/conf/cloud/socc\n" +
   "B	SPAA	ACM Symposium on Parallelism in Algorithms and Architectures	/conf/spaa	/conf/spaa/spaa\n" +
   "B	PODC	ACM Symposium on Principles of Distributed Computing	/conf/podc	/conf/podc/podc\n" +
@@ -64,7 +65,6 @@ const ccfRankList =
   "B	VEE	International Conference on Virtual Execution Environments	/conf/vee	/conf/vee/vee\n" +
   "B	IPDPS	International Parallel & Distributed Processing Symposium	/conf/ipps	/conf/ipps/ipdps\n" +
   "B	Performance	International Symposium on Computer Performance, Modeling, Measurements and Evaluation	/conf/performance	/conf/performance/performance\n" +
-  "B	HPDC	International Symposium on High Performance Distributed Computing	/conf/hpdc	/conf/hpdc/hpdc\n" +
   "B	ITC	International Test Conference	/conf/itc	/conf/itc/itc\n" +
   "B	LISA	Large Installation system Administration Conference	/conf/lisa	/conf/lisa/lisa\n" +
   "B	MSST	Mass Storage Systems and Technologies	/conf/mss	/conf/mss/msst\n" +
