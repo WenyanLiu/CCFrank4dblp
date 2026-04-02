@@ -447,13 +447,13 @@ const ccfRankList =
   "A	TOG	ACM Transactions on Graphics	/journals/tog	/journals/tog/tog\n" +
   "A	TIP	IEEE Transactions on Image Processing	/journals/tip	/journals/tip/tip\n" +
   "A	TVCG	IEEE Transactions on Visualization and Computer Graphics	/journals/tvcg	/journals/tvcg/tvcg\n" +
+  "A	TMM	IEEE Transactions on Multimedia	/journals/tmm	/journals/tmm/tmm\n" +
   "B	TOMCCAP	ACM Transactions on Multimedia Computing,Communications and Application	/journals/tomccap	/journals/tomccap/tomccap\n" +
   "B	CAGD	Computer Aided Geometric Design	/journals/cagd	/journals/cagd/cagd\n" +
   "B	CGF	Computer Graphics Forum	/journals/cgf	/journals/cgf/cgf\n" +
   "B	CAD	Computer-Aided Design	/journals/cad	/journals/cad/cad\n" +
   "B	GM	Graphical Models	/journals/cvgip	/journals/cvgip/cvgip\n" +
   "B	TCSVT	IEEE Transactions on Circuits and Systems for Video Technology	/journals/tcsv	/journals/tcsv/tcsv\n" +
-  "B	TMM	IEEE Transactions on Multimedia	/journals/tmm	/journals/tmm/tmm\n" +
   "B	JASA	Journal of The Acoustical Society of America		\n" +
   "B	SIIMS	SIAM Journal on Imaging Sciences	/journals/siamis	/journals/siamis/siamis\n" +
   "B	Speech Com	Speech Communication	/journals/speech	/journals/speech/speech\n" +
