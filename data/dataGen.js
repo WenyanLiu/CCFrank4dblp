@@ -250,17 +250,17 @@ const ccfRankList =
   "C	SQJ	Software Quality Journal	/journals/sqj	/journals/sqj/sqj\n" +
   "C	TPLP	Theory and Practice of Logic Programming	/journals/tplp	/journals/tplp/tplp\n" +
   "C	PACM PL	Proceedings of the ACM on Programming Languages	/journals/pacmpl	/journals/pacmpl/pacmpl\n" +
-  "A	PLDI	ACM SIGPLAN Symposium on Programming Language Design & Implementation	/conf/pldi	/conf/pldi/pldi\n" +
+  "A	PLDI	ACM SIGPLAN Conference on Programming Language Design and Implementation	/conf/pldi	/conf/pldi/pldi\n" +
   "A	POPL	ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages	/conf/popl	/conf/popl/popl\n" +
   "A	FSE	ACM International Conference on the Foundations of Software Engineering	/conf/sigsoft	/conf/sigsoft/fse\n" +
   "A	FSE/ESEC	ACM SIGSOFT Symposium on the Foundation of Software Engineering/European Software Engineering Conference	/conf/sigsoft	/conf/sigsoft/fse\n" +
   "A	SOSP	ACM Symposium on Operating Systems Principles	/conf/sosp	/conf/sosp/sosp\n" +
-  "A	OOPSLA	Conference on Object-Oriented Programming Systems, Languages,and Applications	/conf/oopsla	/conf/oopsla/oopsla\n" +
+  "A	OOPSLA	Conference on Object-Oriented Programming Systems, Languages, and Applications	/conf/oopsla	/conf/oopsla/oopsla\n" +
   "A	ASE	International Conference on Automated Software Engineering	/conf/kbse	/conf/kbse/ase\n" +
   "A	ASE	International Conference on Automated Software Engineering	/conf/kbse	/conf/kbse/kbse\n" +
   "A	ICSE	International Conference on Software Engineering	/conf/icse	/conf/icse/icse\n" +
   "A	ISSTA	International Symposium on Software Testing and Analysis	/conf/issta	/conf/issta/issta\n" +
-  "A	OSDI	USENIX Symposium on Operating Systems Design and Implementations	/conf/osdi	/conf/osdi/osdi\n" +
+  "A	OSDI	USENIX Symposium on Operating Systems Design and Implementation	/conf/osdi	/conf/osdi/osdi\n" +
   "A	FM	International Symposium on Formal Methods	/conf/fm	/conf/fm/fm\n" +
   "B	ECOOP	European Conference on Object-Oriented Programming	/conf/ecoop	/conf/ecoop/ecoop\n" +
   "B	ETAPS	European Joint Conferences on Theory and Practice of Software	/conf/etaps	/conf/esop/esop\n" +
