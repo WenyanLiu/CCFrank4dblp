@@ -415,6 +415,7 @@ const ccfRankList =
   "C	LMCS	Logical Methods in Computer Science	/journals/lmcs	/journals/lmcs/lmcs\n" +
   "C	SIDMA	SIAM Journal on Discrete Mathematics	/journals/siamdm	/journals/siamdm/siamdm\n" +
   "C		Theory of Computing Systems	/journals/mst	/journals/mst/mst\n" +
+  "C	TQC	ACM Transactions in Quantum Computing	/journals/tqc	/journals/tqc/tqc\n" +
   "A	STOC	ACM Symposium on Theory of Computing	/conf/stoc	/conf/stoc/stoc\n" +
   "A	SODA	ACM-SIAM Symposium on Discrete Algorithms	/conf/soda	/conf/soda/soda\n" +
   "A	CAV	Computer Aided Verification	/conf/cav	/conf/cav/cav\n" +
