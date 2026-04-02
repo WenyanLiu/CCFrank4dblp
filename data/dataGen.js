@@ -63,12 +63,12 @@ const ccfRankList =
   "B	ICPP	International Conference on Parallel Processing	/conf/icpp	/conf/icpp/icpp\n" +
   "B	ICS	International Conference on Supercomputing	/conf/ics	/conf/ics/ics\n" +
   "B	VEE	International Conference on Virtual Execution Environments	/conf/vee	/conf/vee/vee\n" +
-  "B	IPDPS	International Parallel & Distributed Processing Symposium	/conf/ipps	/conf/ipps/ipdps\n" +
+  "B	IPDPS	IEEE International Parallel & Distributed Processing Symposium	/conf/ipps	/conf/ipps/ipdps\n" +
   "B	Performance	International Symposium on Computer Performance, Modeling, Measurements and Evaluation	/conf/performance	/conf/performance/performance\n" +
   "B	ITC	International Test Conference	/conf/itc	/conf/itc/itc\n" +
-  "B	LISA	Large Installation system Administration Conference	/conf/lisa	/conf/lisa/lisa\n" +
+  "B	LISA	Large Installation System Administration Conference	/conf/lisa	/conf/lisa/lisa\n" +
   "B	MSST	Mass Storage Systems and Technologies	/conf/mss	/conf/mss/msst\n" +
-  "B	RTAS	Real-Time and Embedded Technology and Applications Symposium	/conf/rtas	/conf/rtas/rtas\n" +
+  "B	RTAS	IEEE Real-Time and Embedded Technology and Applications Symposium	/conf/rtas	/conf/rtas/rtas\n" +
   "B	Euro-Par	European Conference on Parallel and Distributed Computing	/conf/europar	/conf/europar/europar\n" +
   "B	ISCAS	IEEE International Symposium on Circuits and Systems	/conf/iscas	/conf/iscas/iscas\n" +
   "C	CF	ACM International Conference on Computing Frontiers	/conf/cf	/conf/cf/cf\n" +
