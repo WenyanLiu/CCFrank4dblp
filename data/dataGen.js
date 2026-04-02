@@ -206,7 +206,7 @@ const ccfRankList =
   "C	FC	Financial Cryptography and Data Security	/conf/fc	/conf/fc/fc\n" +
   "C	TrustCom	IEEE International Conference on Trust, Security and Privacy in Computing and Communications	/conf/trustcom	/conf/trustcom/trustcom\n" +
   "C	SEC	IFIP International Information Security Conference	/conf/sec	/conf/sec/sec\n" +
-  "C	IFIP WG 11.9	IFIP WG 11.9 International Conference on Digital Forensics	/conf/ifip11-9	/conf/ifip11-9/df\n" +
+  "C	IFIP WG 11.9	IFIP Working Group 11.9 International Conference on Digital Forensics	/conf/ifip11-9	/conf/ifip11-9/df\n" +
   "C	ISC	Information Security Conference	/conf/isw	/conf/isw/isc\n" +
   "C	ISC	Information Security Conference	/conf/isw	/conf/isw/isw\n" +
   "C	ICDF2C	International Conference on Digital Forensics & Cyber Crime	/conf/icdf2c	/conf/icdf2c/icdf2c\n" +
@@ -219,8 +219,8 @@ const ccfRankList =
   "C	SAC	Selected Areas in Cryptography	/conf/sacrypt	/conf/sacrypt/sacrypt\n" +
   "C	SOUPS	Symposium On Usable Privacy and Security	/conf/soups	/conf/soups/soups\n" +
   "C	HotSec	USENIX Workshop on Hot Topics in Security	/conf/uss/	/conf/uss/hotsec\n" +
-  "C	EuroS&P	IEEE European Symposium on Security and Privacy	/conf/eurosp	/conf/eurosp/eurosp\n" +
-  "C	Inscrypt	International Conference on Information Security and Cryptology	/conf/icisc	/conf/icisc/icisc\n" +
+  "C	EuroS&P	IEEE, European Symposium on Security and Privacy	/conf/eurosp	/conf/eurosp/eurosp\n" +
+  "C	Inscrypt	International Conference on Information Security and Cryptology	/conf/cisc	/conf/cisc/cisc\n" +
   "C	CODASPY	Conference on Data and Application Security and Privacy	/conf/codaspy	/conf/codaspy/codaspy\n" +
   "C	BlockSys	International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems	/conf/blocksys	/conf/blocksys/blocksys\n" +
   "C	CSCloud	International Conference on Cyber Security and Cloud Computing	/conf/cscloud	/conf/cscloud/cscloud\n" +
