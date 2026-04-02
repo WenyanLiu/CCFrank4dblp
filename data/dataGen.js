@@ -312,11 +312,11 @@ const ccfRankList =
   "C	QRS	International Conference on Software Quality, Reliability and Security	/conf/qrs	/conf/qrs/qrs\n" +
   "C	ICSR	International Conference on Software Reuse	/conf/icsr	/conf/icsr/icsr\n" +
   "C	ICWE	International Conference on Web Engineering	/conf/icwe	/conf/icwe/icwe\n" +
-  "C	SPIN	International SPIN Workshop on Model Checking of Software	/conf/spin	/conf/spin/spin\n" +
+  "C	SPIN	International Symposium on Model Checking of Software	/conf/spin	/conf/spin/spin\n" +
   "C	ATVA	International Symposium on Automated Technology for Verification and Analysis	/conf/atva	/conf/atva/atva\n" +
   "C	LOPSTR	International Symposium on Logic-based Program Synthesis and Transformation	/conf/lopstr	/conf/lopstr/lopstr\n" +
-  "C	TASE	International Symposium on Theoretical Aspects of Software Engineering	/conf/tase	/conf/tase/tase\n" +
-  "C	MSR	Mining Software Repositories	/conf/msr	/conf/msr/msr\n" +
+  "C	TASE	Theoretical Aspects of Software Engineering Conference	/conf/tase	/conf/tase/tase\n" +
+  "C	MSR	IEEE/ACM International Conference on Mining Software Repositories	/conf/msr	/conf/msr/msr\n" +
   "C	REFSQ	Requirements Engineering: Foundation for Software Quality	/conf/refsq	/conf/refsq/refsq\n" +
   "C	WICSA	Working IEEE/IFIP Conference on Software Architecture	/conf/wicsa	/conf/wicsa/wicsa\n" +
   "C	Internetware	The Asia-Pacific Symposium on Internetware	/conf/internetware	/conf/internetware/internetware\n" +
