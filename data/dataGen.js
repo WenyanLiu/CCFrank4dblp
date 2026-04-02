@@ -221,6 +221,9 @@ const ccfRankList =
   "C	HotSec	USENIX Workshop on Hot Topics in Security	/conf/uss/	/conf/uss/hotsec\n" +
   "C	EuroS&P	IEEE European Symposium on Security and Privacy	/conf/eurosp	/conf/eurosp/eurosp\n" +
   "C	Inscrypt	International Conference on Information Security and Cryptology	/conf/icisc	/conf/icisc/icisc\n" +
+  "C	CODASPY	Conference on Data and Application Security and Privacy	/conf/codaspy	/conf/codaspy/codaspy\n" +
+  "C	BlockSys	International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems	/conf/blocksys	/conf/blocksys/blocksys\n" +
+  "C	CSCloud	International Conference on Cyber Security and Cloud Computing	/conf/cscloud	/conf/cscloud/cscloud\n" +
   "A	TOPLAS	ACM Transactions on Programming Languages & Systems	/journals/toplas	/journals/toplas/toplas\n" +
   "A	TOSEM	ACM Transactions on Software Engineering and Methodology	/journals/tosem	/journals/tosem/tosem\n" +
   "A	TSE	IEEE Transactions on Software Engineering	/journals/tse	/journals/tse/tse\n" +
