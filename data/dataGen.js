@@ -128,15 +128,15 @@ const ccfRankList =
   "A	INFOCOM	IEEE International Conference on Computer Communications	/conf/infocom	/conf/infocom/infocom\n" +
   "A	NSDI	Symposium on Network System Design and Implementation	/conf/nsdi	/conf/nsdi/nsdi\n" +
   "B	SenSys	ACM Conference on Embedded Networked Sensor Systems	/conf/sensys	/conf/sensys/sensys\n" +
-  "B	CoNEXT	ACM International Conference on emerging Networking EXperiments and Technologies	/conf/conext	/conf/conext/conext\n" +
-  "B	SECON	IEEE Communications Society Conference on Sensor and Ad Hoc Communications and Networks	/conf/secon	/conf/secon/secon\n" +
+  "B	CoNEXT	ACM International Conference on Emerging Networking Experiments and Technologies	/conf/conext	/conf/conext/conext\n" +
+  "B	SECON	IEEE International Conference on Sensing, Communication, and Networking	/conf/secon	/conf/secon/secon\n" +
   "B	IPSN	International Conference on Information Processing in Sensor Networks	/conf/ipsn	/conf/ipsn/ipsn\n" +
-  "B	MobiSys	International Conference on Mobile Systems, Applications, and Services	/conf/mobisys	/conf/mobisys/mobisys\n" +
+  "B	MobiSys	ACM International Conference on Mobile Systems, Applications, and Services	/conf/mobisys	/conf/mobisys/mobisys\n" +
   "B	ICNP	International Conference on Network Protocols	/conf/icnp	/conf/icnp/icnp\n" +
   "B	MobiHoc	International Symposium on Mobile Ad Hoc Networking and Computing	/conf/mobihoc	/conf/mobihoc/mobihoc\n" +
   "B	NOSSDAV	International Workshop on Network and Operating System Support for Digital Audio and Video	/conf/nossdav	/conf/nossdav/nossdav\n" +
-  "B	IWQoS	International Workshop on Quality of Service	/conf/iwqos	/conf/iwqos/iwqos\n" +
-  "B	IMC	Internet Measurement Conference	/conf/imc	/conf/imc/imc\n" +
+  "B	IWQoS	IEEE/ACM International Workshop on Quality of Service	/conf/iwqos	/conf/iwqos/iwqos\n" +
+  "B	IMC	ACM Internet Measurement Conference	/conf/imc	/conf/imc/imc\n" +
   "C	ANCS	Architectures for Networking and Communications Systems	/conf/ancs	/conf/ancs/ancs\n" +
   "C	APNOMS	Asia-Pacific Network Operations and Management Symposium	/conf/apnoms	/conf/apnoms/apnoms\n" +
   "C	FORTE	Formal Techniques for Networked and Distributed Systems	/conf/forte	/conf/forte/forte\n" +
