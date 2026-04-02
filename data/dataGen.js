@@ -164,6 +164,7 @@ const ccfRankList =
   "B		Computers & Security	/journals/compsec	/journals/compsec/compsec\n" +
   "B		Designs, Codes and Cryptography	/journals/dcc	/journals/dcc/dcc\n" +
   "B	JCS	Journal of Computer Security	/journals/jcs	/journals/jcs/jcs\n" +
+  "B	Cybersecurity	Cybersecurity	/journals/cybersec	/journals/cybersec/cybersec\n" +
   "C	CLSR	Computer Law and Security Review	/journals/clsr	/journals/clsr/clsr\n" +
   "C		EURASIP Journal on Information Security	/journals/ejisec	/journals/ejisec/ejisec\n" +
   "C		IET Information Security	/journals/iet-ifs	/journals/iet-ifs/iet-ifs\n" +
@@ -172,7 +173,6 @@ const ccfRankList =
   "C	IJISP	International Journal of Information Security and Privacy	/journals/ijisp	/journals/ijisp/ijisp\n" +
   "C	JISA	Journal of Information Security and Application	/journals/istr	/journals/istr/istr\n" +
   "C	SCN	Security and Communication Networks	/journals/scn	/journals/scn/scn\n" +
-  "C		Cybersecurity	/journals/cybersec	/journals/cybersec/cybersec\n" +
   "A	CCS	ACM Conference on Computer and Communications Security	/conf/ccs	/conf/ccs/ccs\n" +
   "A	EUROCRYPT	European Cryptology Conference	/conf/eurocrypt	/conf/eurocrypt/eurocrypt\n" +
   "A	S&P	IEEE Symposium on Security and Privacy	/conf/sp	/conf/sp/sp\n" +
