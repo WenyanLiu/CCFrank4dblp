@@ -386,6 +386,7 @@ const ccfRankList =
   "C	SSTD	International Symposium on Spatial and Temporal Databases	/conf/ssd	/conf/ssd/sstd\n" +
   "C	PAKDD	Pacific-Asia Conference on Knowledge Discovery and Data Mining	/conf/pakdd	/conf/pakdd/pakdd\n" +
   "C	ADMA	The International Conference on Advanced Data Mining and Applications	/conf/adma	/conf/adma/adma\n" +
+  "C	WISA	Web Information Systems and Applications	/conf/wisa	/conf/wisa/wisa\n" +
   "A	TIT	IEEE Transactions on Information Theory	/journals/tit	/journals/tit/tit\n" +
   "A	IANDC	Information and Computation	/journals/iandc	/journals/iandc/iandc\n" +
   "A	SICOMP	SIAM Journal on Computing	/journals/siamcomp	/journals/siamcomp/siamcomp\n" +
