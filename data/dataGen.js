@@ -438,11 +438,12 @@ const ccfRankList =
   "C	DSAA	IEEE International Conference on Data Science and Advanced Analytics	/conf/dsaa	/conf/dsaa/dsaa\n" +
   "C	ICTAC	International Colloquium on Theoretical Aspects of Computing	/conf/ictac	/conf/ictac/ictac\n" +
   "C	IPCO	International Conference on Integer Programming and Combinatorial Optimization	/conf/ipco	/conf/ipco/ipco\n" +
-  "C	RTA	International Conference on Rewriting Techniques and Applications	/conf/rta	/conf/rta/rta\n" +
+  "C	FSCD	International Conference on Formal Structures for Computation and Deduction	/conf/rta	/conf/rta/rta\n" +
+  "C	FSCD	International Conference on Formal Structures for Computation and Deduction	/journals/logcom	/journals/logcom/logcom\n" +
   "C	ISAAC	International Symposium on Algorithms and Computation	/conf/isaac	/conf/isaac/isaac\n" +
   "C	MFCS	Mathematical Foundations of Computer Science	/conf/mfcs	/conf/mfcs/mfcs\n" +
   "C	STACS	Symposium on Theoretical Aspects of Computer Science	/conf/stacs	/conf/stacs/stacs\n" +
-  "C	SETTA	International Symposium on Dependable Software Engineering: Theories, Tools, and Applications	/conf/setta	/conf/setta/setta\n" +
+  "C	SETTA	International Symposium on Software Engineering: Theories, Tools, and Applications	/conf/setta	/conf/setta/setta\n" +
   "A	TOG	ACM Transactions on Graphics	/journals/tog	/journals/tog/tog\n" +
   "A	TIP	IEEE Transactions on Image Processing	/journals/tip	/journals/tip/tip\n" +
   "A	TVCG	IEEE Transactions on Visualization and Computer Graphics	/journals/tvcg	/journals/tvcg/tvcg\n" +
