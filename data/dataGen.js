@@ -292,16 +292,17 @@ const ccfRankList =
   "B	HotOS	USENIX Workshop on Hot Topics in Operating Systems	/conf/hotos	/conf/hotos/hotos\n" +
   "C	CC	ACM International Conference on Compiler Construction	/conf/cc	/conf/cc/cc\n" +
   "C	PEPM	ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation	/conf/pepm	/conf/pepm/pepm\n" +
-  "C	PASTE	ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering	/conf/paste	/conf/paste/paste\n" +
+  "C	PASTE	ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering	/conf/paste	/conf/paste/paste\n" +
   "C	APLAS	Asian Symposium on Programming Languages and Systems	/conf/aplas	/conf/aplas/aplas\n" +
   "C	APSEC	Asia-Pacific Software Engineering Conference	/conf/apsec	/conf/apsec/apsec\n" +
-  "C	EASE	Evaluation and Assessment in Software Engineering	/conf/ease	/conf/ease/ease\n" +
+  "C	EASE	International Conference on Evaluation and Assessment in Software Engineering	/conf/ease	/conf/ease/ease\n" +
   "C	ICECCS	IEEE International Conference on Engineering of Complex Computer Systems	/conf/iceccs	/conf/iceccs/iceccs\n" +
   "C	ICST	IEEE International Conference on Software Testing, Verification and Validation	/conf/icst	/conf/icst/icst\n" +
   "C	ISPASS	IEEE International Symposium on Performance Analysis of Systems and Software	/conf/ispass	/conf/ispass/ispass\n" +
   "C	SCAM	IEEE International Working Conference on Source Code Analysis and Manipulation	/conf/scam	/conf/scam/scam\n" +
   "C	COMPSAC	International Computer Software and Applications Conference	/conf/compsac	/conf/compsac/compsac\n" +
   "C	ICFEM	International Conference on Formal Engineering Methods	/conf/icfem	/conf/icfem/icfem\n" +
+  "C	SSE	IEEE International Conference on Software Services Engineering	/conf/IEEEscc	/conf/IEEEscc/sse\n" +
   "C	TOOLS	International Conference on Objects, Models, Components, Patterns	/conf/tools	/conf/tools/tools\n" +
   "C	QSIC	International Conference on Quality Software	/conf/qsic	/conf/qsic/qsic\n" +
   "C	SCC	International Conference on Service Computing	/conf/IEEEscc	/conf/IEEEscc/scc\n" +
