@@ -48,9 +48,9 @@ const ccfRankList =
   "B	SPAA	ACM Symposium on Parallelism in Algorithms and Architectures	/conf/spaa	/conf/spaa/spaa\n" +
   "B	PODC	ACM Symposium on Principles of Distributed Computing	/conf/podc	/conf/podc/podc\n" +
   "B	FPGA	ACM/SIGDA International Symposium on Field-Programmable Gate Arrays	/conf/fpga	/conf/fpga/fpga\n" +
-  "B	CGO	Code Generation and Optimization	/conf/cgo	/conf/cgo/cgo\n" +
+  "B	CGO	The International Symposium on Code Generation and Optimization	/conf/cgo	/conf/cgo/cgo\n" +
   "B	DATE	Design, Automation & Test in Europe	/conf/date	/conf/date/date\n" +
-  "B	HOT CHIPS	ACM Symposium on High Performance Chips	/conf/hotchips	/conf/hotchips/hotchips\n" +
+  "B	HOT CHIPS	Hot Chips: A Symposium on High Performance Chips	/conf/hotchips	/conf/hotchips/hotchips\n" +
   "B	CLUSTER	IEEE International Conference on Cluster Computing	/conf/cluster	/conf/cluster/cluster\n" +
   "B	ICCD	International Conference on Computer Design	/conf/iccd	/conf/iccd/iccd\n" +
   "B	ICCAD	International Conference on Computer-Aided Design	/conf/iccad	/conf/iccad/iccad\n" +
