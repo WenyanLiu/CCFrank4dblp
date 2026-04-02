@@ -196,15 +196,15 @@ const ccfRankList =
   "C	DRM	ACM Workshop on Digital Rights Management	/conf/drm	/conf/drm/drm\n" +
   "C	IH&MMSec	ACM Workshop on Information Hiding and Multimedia Security	/conf/ih	/conf/ih/ihmmsec\n" +
   "C	IH&MMSec	ACM Workshop on Information Hiding and Multimedia Security	/conf/ih	/conf/ih/ih\n" +
-  "C	ACNS	Applied Cryptography and Network Security	/conf/acns	/conf/acns/acns\n" +
+  "C	ACNS	International Conference on Applied Cryptography and Network Security	/conf/acns	/conf/acns/acns\n" +
   "C	AsiaCCS	Asia Conference on Computer and Communications Security	/conf/asiaccs	/conf/ccs/asiaccs\n" +
   "C	AsiaCCS	Asia Conference on Computer and Communications Security	/conf/asiaccs	/conf/asiaccs/asiaccs\n" +
-  "C	ACISP	AustralasiaConferenceonInformation SecurityandPrivacy	/conf/acisp	/conf/acisp/acisp\n" +
-  "C	CT-RSA	RSA Conference, Cryptographers' Track	/conf/ctrsa	/conf/ctrsa/ctrsa\n" +
-  "C	DIMVA	Detection of Intrusions and Malware &Vulnerability Assessment	/conf/dimva	/conf/dimva/dimva\n" +
+  "C	ACISP	Australasia Conference on Information Security and Privacy	/conf/acisp	/conf/acisp/acisp\n" +
+  "C	CT-RSA	The Cryptographer's Track at RSA Conference	/conf/ctrsa	/conf/ctrsa/ctrsa\n" +
+  "C	DIMVA	Conference on Detection of Intrusions and Malware & Vulnerability Assessment	/conf/dimva	/conf/dimva/dimva\n" +
   "C	DFRWS	Digital Forensic Research Workshop	/conf/dfrws	/conf/dfrws/dfrws\n" +
   "C	FC	Financial Cryptography and Data Security	/conf/fc	/conf/fc/fc\n" +
-  "C	TrustCom	IEEE International Conference on Trust,Security and Privacy in Computing and Communications	/conf/trustcom	/conf/trustcom/trustcom\n" +
+  "C	TrustCom	IEEE International Conference on Trust, Security and Privacy in Computing and Communications	/conf/trustcom	/conf/trustcom/trustcom\n" +
   "C	SEC	IFIP International Information Security Conference	/conf/sec	/conf/sec/sec\n" +
   "C	IFIP WG 11.9	IFIP WG 11.9 International Conference on Digital Forensics	/conf/ifip11-9	/conf/ifip11-9/df\n" +
   "C	ISC	Information Security Conference	/conf/isw	/conf/isw/isc\n" +
