@@ -122,6 +122,7 @@ const ccfRankList =
   "C	WCMC	Wireless Communications & Mobile Computing	/journals/wicomm	/journals/wicomm/wicomm\n" +
   "C		Wireless Networks	/journals/winet	/journals/winet/winet\n" +
   "C	IOT	IEEE Internet of Things Journal	/journals/iotj	/journals/iotj/iotj\n" +
+  "C	TIOT	ACM Transactions on Internet of Things	/journals/tiot	/journals/tiot/tiot\n" +
   "A	SIGCOMM	ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication	/conf/sigcomm	/conf/sigcomm/sigcomm\n" +
   "A	MobiCom	ACM International Conference on Mobile Computing and Networking	/conf/mobicom	/conf/mobicom/mobicom\n" +
   "A	INFOCOM	IEEE International Conference on Computer Communications	/conf/infocom	/conf/infocom/infocom\n" +
