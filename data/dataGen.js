@@ -271,11 +271,11 @@ const ccfRankList =
   "B	ETAPS	European Joint Conferences on Theory and Practice of Software	/conf/etaps	/conf/spin/spin\n" +
   "B	ICPC	IEEE International Conference on Program Comprehension	/conf/iwpc	/conf/iwpc/icpc\n" +
   "B	ICPC	IEEE International Conference on Program Comprehension	/conf/iwpc	/conf/iwpc/iwpc\n" +
-  "B	RE	IEEE International Requirement Engineering Conference	/conf/re	/conf/re/re\n" +
+  "B	RE	IEEE International Requirements Engineering Conference	/conf/re	/conf/re/re\n" +
   "B	RE	IEEE International Requirement Engineering Conference	/conf/re	/conf/icre/icre\n" +
   "B	CAiSE	International Conference on Advanced Information Systems Engineering	/conf/caise	/conf/caise/caise\n" +
-  "B	ICFP	International Conference on Function Programming	/conf/icfp	/conf/icfp/icfp\n" +
-  "B	LCTES	International Conference on Languages,Compilers, Tools and Theory for Embedded Systems	/conf/lctrts	/conf/lctrts/lctes\n" +
+  "B	ICFP	ACM SIGPLAN International Conference on Function Programming	/conf/icfp	/conf/icfp/icfp\n" +
+  "B	LCTES	ACM SIGPLAN/SIGBED International Conference on Languages, Compilers and Tools for Embedded Systems	/conf/lctrts	/conf/lctrts/lctes\n" +
   "B	MoDELS	International Conference on Model Driven Engineering Languages and Systems	/conf/models	/conf/models/models\n" +
   "B	CP	International Conference on Principles and Practice of Constraint Programming	/conf/cp	/conf/cp/cp\n" +
   "B	ICSOC	International Conference on Service Oriented Computing	/conf/icsoc	/conf/icsoc/icsoc\n" +
