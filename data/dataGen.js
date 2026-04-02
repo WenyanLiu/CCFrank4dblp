@@ -97,6 +97,11 @@ const ccfRankList =
   "C	HotI	Symposium on High-Performance Interconnects	/conf/hoti	/conf/hoti/hoti\n" +
   "C	VTS	VLSI Test Symposium	/conf/vts	/conf/vts/vts\n" +
   "C	ITC-Asia	International Test Conference in Asia	/conf/itc-asia	/conf/itc-asia/itc-asia\n" +
+  "C	SEC	ACM/IEEE Symposium on Edge Computing	/conf/ieeesec	/conf/ieeesec/ieeesec\n" +
+  "C	NAS	International Conference on Networking, Architecture and Storages	/conf/nas	/conf/nas/nas\n" +
+  "C	HotStorage	HotStorage	/conf/hotstorage	/conf/hotstorage/hotstorage\n" +
+  "C	APPT	International Symposium on Advanced Parallel Processing Technology	/conf/appt	/conf/appt/appt\n" +
+  "C	JCC	International Conference on JointCloud Computing	/conf/jcc	/conf/jcc/jcc\n" +
   "A	JSAC	IEEE Journal of Selected Areas in Communications	/journals/jsac	/journals/jsac/jsac\n" +
   "A	TMC	IEEE Transactions on Mobile Computing	/journals/tmc	/journals/tmc/tmc\n" +
   "A	TON	IEEE/ACM Transactions on Networking	/journals/ton	/journals/ton/ton\n" +
