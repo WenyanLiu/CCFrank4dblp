@@ -241,10 +241,10 @@ const ccfRankList =
   "B	STVR	Software Testing, Verification and Reliability	/journals/stvr	/journals/stvr/stvr\n" +
   "B	SPE	Software: Practice and Experience	/journals/spe	/journals/spe/spe\n" +
   "C	CL	Computer Languages, Systems and Structures	/journals/cl	/journals/cl/cl\n" +
-  "C	IJSEKE	International Journal on Software Engineering and Knowledge Engineering	/journals/ijseke	/journals/ijseke/ijseke\n" +
+  "C	IJSEKE	International Journal of Software Engineering and Knowledge Engineering	/journals/ijseke	/journals/ijseke/ijseke\n" +
   "C	STTT	International Journal on Software Tools for Technology Transfer	/journals/sttt	/journals/sttt/sttt\n" +
-  "C	JLAP	Journal of Logic and Algebraic Programming	/journals/jlap	/journals/jlap/jlap\n" +
-  "C	JLAP	Journal of Logic and Algebraic Programming	/journals/jlap	/journals/jlp/jlp\n" +
+  "C	JLAMP	Journal of Logical and Algebraic Methods in Programming	/journals/jlap	/journals/jlap/jlap\n" +
+  "C	JLAMP	Journal of Logical and Algebraic Methods in Programming	/journals/jlap	/journals/jlp/jlp\n" +
   "C	JWE	Journal of Web Engineering	/journals/jwe	/journals/jwe/jwe\n" +
   "C	SOCA	Service Oriented Computing and Applications	/journals/soca	/journals/soca/soca\n" +
   "C	SQJ	Software Quality Journal	/journals/sqj	/journals/sqj/sqj\n" +
