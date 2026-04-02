@@ -329,14 +329,14 @@ const ccfRankList =
   "B	TKDD	ACM Transactions on Knowledge Discovery from Data	/journals/tkdd	/journals/tkdd/tkdd\n" +
   "B	TWEB	ACM Transactions on the Web	/journals/tweb	/journals/tweb\n" +
   "B	AEI	Advanced Engineering Informatics	/journals/aei	/journals/aei/aei\n" +
-  "B	DKE	Data and Knowledge Engineering	/journals/dke	/journals/dke/dke\n" +
+  "B	DKE	Data & Knowledge Engineering	/journals/dke	/journals/dke/dke\n" +
   "B	DMKD	Data Mining and Knowledge Discovery	/journals/datamine	/journals/datamine/datamine\n" +
   "B	EJIS	European Journal of Information Systems	/journals/ejis	/journals/ejis/ejis\n" +
   "B		GeoInformatica	/journals/geoinformatica	/journals/geoinformatica/geoinformatica\n" +
   "B	IPM	Information Processing and Management	/journals/ipm	/journals/ipm/ipm\n" +
   "B		Information Sciences	/journals/isci	/journals/isci/isci\n" +
   "B	IS	Information Systems	/journals/is	/journals/is/is\n" +
-  "B	JASIST	Journal of the American Society for Information Science and Technology	/journals/jasis	/journals/jasis/jasis\n" +
+  "B	JASIST	Journal of the Association for Information Science and Technology	/journals/jasis	/journals/jasis/jasis\n" +
   "B	JWS	Journal of Web Semantics	/journals/ws	/journals/ws/ws\n" +
   "B	KAIS	Knowledge and Information Systems	/journals/kais	/journals/kais/kais\n" +
   "B	DSE	Data Science and Engineering	/journals/dase	/journals/dase/dase\n" +
@@ -517,7 +517,7 @@ const ccfRankList =
   "B	AAMAS	Autonomous Agents and Multi-Agent Systems	/journals/aamas	/journals/aamas/aamas\n" +
   "B		Computational Linguistics	/journals/coling	/journals/coling/coling\n" +
   "B	CVIU	Computer Vision and Image Understanding	/journals/cviu	/journals/cviu/cviu\n" +
-  "B	DKE	Data and Knowledge Engineering	/journals/dke	/journals/dke/dke\n" +
+  "B	DKE	Data & Knowledge Engineering	/journals/dke	/journals/dke/dke\n" +
   "B		Evolutionary Computation	/journals/ec	/journals/ec/ec\n" +
   "B	TAC	IEEE Transactions on Affective Computing	/journals/taffco	/journals/taffco/taffco\n" +
   "B	TASLP	IEEE Transactions on Audio, Speech, and Language Processing	/journals/taslp	/journals/taslp/taslp\n" +
