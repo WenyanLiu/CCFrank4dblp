@@ -137,19 +137,19 @@ const ccfRankList =
   "B	NOSSDAV	International Workshop on Network and Operating System Support for Digital Audio and Video	/conf/nossdav	/conf/nossdav/nossdav\n" +
   "B	IWQoS	IEEE/ACM International Workshop on Quality of Service	/conf/iwqos	/conf/iwqos/iwqos\n" +
   "B	IMC	ACM Internet Measurement Conference	/conf/imc	/conf/imc/imc\n" +
-  "C	ANCS	Architectures for Networking and Communications Systems	/conf/ancs	/conf/ancs/ancs\n" +
+  "C	ANCS	ACM/IEEE Symposium on Architectures for Networking and Communications Systems	/conf/ancs	/conf/ancs/ancs\n" +
   "C	APNOMS	Asia-Pacific Network Operations and Management Symposium	/conf/apnoms	/conf/apnoms/apnoms\n" +
-  "C	FORTE	Formal Techniques for Networked and Distributed Systems	/conf/forte	/conf/forte/forte\n" +
+  "C	FORTE	Formal Techniques for Distributed Objects, Components, and Systems	/conf/forte	/conf/forte/forte\n" +
   "C	LCN	IEEE Conference on Local Computer Networks	/conf/lcn	/conf/lcn/lcn\n" +
   "C	GLOBECOM	IEEE Global Communications Conference	/conf/globecom	/conf/globecom/globecom\n" +
   "C	ICC	IEEE International Conference on Communications	/conf/icc	/conf/icc/icc\n" +
   "C	ICCCN	IEEE International Conference on Computer Communications and Networks	/conf/icccn	/conf/icccn/icccn\n" +
-  "C	MASS	IEEE International Conference on Mobile Ad-hoc and Sensor Systems	/conf/mass	/conf/mass/mass\n" +
+  "C	MASS	IEEE International Conference on Mobile Adhoc and Sensor Systems	/conf/mass	/conf/mass/mass\n" +
   "C	P2P	IEEE International Conference on P2P Computing	/conf/p2p	/conf/p2p/p2p\n" +
   "C	IPCCC	IEEE International Performance Computing and Communications Conference	/conf/ipccc	/conf/ipccc/ipccc\n" +
-  "C	WoWMoM	IEEE International Symposium on a World of Wireless Mobile and Multimedia Networks	/conf/wowmom	/conf/wowmom/wowmom\n" +
+  "C	WoWMoM	IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks	/conf/wowmom	/conf/wowmom/wowmom\n" +
   "C	ISCC	IEEE Symposium on Computers and Communications	/conf/iscc	/conf/iscc/iscc\n" +
-  "C	WCNC	IEEE Wireless Communications & Networking Conference	/conf/wcnc	/conf/wcnc/wcnc\n" +
+  "C	WCNC	IEEE Wireless Communications and Networking Conference	/conf/wcnc	/conf/wcnc/wcnc\n" +
   "C	Networking	IFIP International Conferences on Networking	/conf/networking	/conf/networking/networking\n" +
   "C	IM	IFIP/IEEE International Symposium on Integrated Network Management	/conf/im	/conf/im/im\n" +
   "C	MSN	International Conference on Mobile Ad-hoc and Sensor Networks	/conf/msn	/conf/msn/msn\n" +
