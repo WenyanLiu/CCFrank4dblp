@@ -431,8 +431,9 @@ const ccfRankList =
   "B	HSCC	International Conference on Hybrid Systems: Computation and Control	/conf/hybrid	/conf/hybrid/hscc\n" +
   "B	SAT	Theory and Applications of Satisfiability Testing	/conf/sat	/conf/sat/sat\n" +
   "B	COCOON	International Computing and Combinatorics Conference	/conf/cocoon	/conf/cocoon/cocoon\n" +
+  "B	FMCAD	Formal Methods in Computer-Aided Design	/conf/fmcad	/conf/fmcad/fmcad\n" +
+  "B	FMCAD	Formal Methods in Computer-Aided Design	/journals/apal	/journals/apal/apal\n" +
   "C	CSL	Computer Science Logic	/conf/csl	/conf/csl/csl\n" +
-  "C	FMCAD	Formal Method in Computer-Aided Design	/conf/fmcad	/conf/fmcad/fmcad\n" +
   "C	FSTTCS	Foundations of Software Technology and Theoretical Computer Science	/conf/fsttcs	/conf/fsttcs/fsttcs\n" +
   "C	DSAA	IEEE International Conference on Data Science and Advanced Analytics	/conf/dsaa	/conf/dsaa/dsaa\n" +
   "C	ICTAC	International Colloquium on Theoretical Aspects of Computing	/conf/ictac	/conf/ictac/ictac\n" +
