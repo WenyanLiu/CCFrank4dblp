@@ -320,6 +320,7 @@ const ccfRankList =
   "C	WICSA	Working IEEE/IFIP Conference on Software Architecture	/conf/wicsa	/conf/wicsa/wicsa\n" +
   "C	Internetware	The Asia-Pacific Symposium on Internetware	/conf/internetware	/conf/internetware/internetware\n" +
   "C	RV	International Conference on Runtime Verification	/conf/rv	/conf/rv/rv\n" +
+  "C	MEMOCODE	International Conference on Formal Methods and Models for Co-Design	/conf/memocode	/conf/memocode/memocode\n" +
   "A 	TODS	ACM Transactions on Database Systems	/journals/tods	/journals/tods/tods\n" +
   "A 	TOIS	ACM Transactions on Information Systems	/journals/tois	/journals/tois/tois\n" +
   "A 	TKDE	IEEE Transactions on Knowledge and Data Engineering	/journals/tkde	/journals/tkde/tkde\n" +
