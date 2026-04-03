@@ -422,15 +422,15 @@ const ccfRankList =
   "A	CAV	International Conference on Computer Aided Verification	/conf/cav	/conf/cav/cav\n" +
   "A	FOCS	IEEE Annual Symposium on Foundations of Computer Science	/conf/focs	/conf/focs/focs\n" +
   "A	LICS	ACM/IEEE Symposium on Logic in Computer Science	/conf/lics	/conf/lics/lics\n" +
-  "B	SoCG	ACM Symposium on Computational Geometry	/conf/compgeom	/conf/compgeom/compgeom\n" +
+  "B	SoCG	International Symposium on Computational Geometry	/conf/compgeom	/conf/compgeom/compgeom\n" +
   "B	ESA	European Symposium on Algorithms	/conf/esa	/conf/esa/esa\n" +
-  "B	CCC	IEEE Conference on Computational Complexity	/conf/coco	/conf/coco/coco\n" +
+  "B	CCC	Conference on Computational Complexity	/conf/coco	/conf/coco/coco\n" +
   "B	ICALP	International Colloquium on Automata, Languages and Programming	/conf/icalp	/conf/icalp/icalp\n" +
   "B	CADE/IJCAR	International Conference on Automated Deduction/International Joint Conference on Automated Reasoning	/conf/cade	/conf/cade/ijcar\n" +
   "B	CADE/IJCAR	International Conference on Automated Deduction/International Joint Conference on Automated Reasoning	/conf/cade	/conf/cade/cade\n" +
   "B	CONCUR	International Conference on Concurrency Theory	/conf/concur	/conf/concur/concur\n" +
   "B	HSCC	International Conference on Hybrid Systems: Computation and Control	/conf/hybrid	/conf/hybrid/hscc\n" +
-  "B	SAT	Theory and Applications of Satisfiability Testing	/conf/sat	/conf/sat/sat\n" +
+  "B	SAT	International Conference on Theory and Applications of Satisfiability Testing	/conf/sat	/conf/sat/sat\n" +
   "B	COCOON	International Computing and Combinatorics Conference	/conf/cocoon	/conf/cocoon/cocoon\n" +
   "B	FMCAD	Formal Methods in Computer-Aided Design	/conf/fmcad	/conf/fmcad/fmcad\n" +
   "B	FMCAD	Formal Methods in Computer-Aided Design	/journals/apal	/journals/apal/apal\n" +
