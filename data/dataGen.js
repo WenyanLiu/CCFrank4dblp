@@ -543,7 +543,7 @@ const ccfRankList =
   "B		Machine Learning	/journals/ml	/journals/ml/ml\n" +
   "B		Neural Computation	/journals/neco	/journals/neco/neco\n" +
   "B		Neural Networks	/journals/nn	/journals/nn/nn\n" +
-  "B		Pattern Recognition	/journals/pr	/journals/pr/pr\n" +
+  "B	PR	Pattern Recognition	/journals/pr	/journals/pr/pr\n" +
   "B	TACL	Transactions of the Association for Computational Linguistics	/journals/tacl	/journals/tacl/tacl\n" +
   "C	TALLIP	ACM Transactions on Asian and Low-Resource Language Information Processing	/journals/talip	/journals/talip/talip\n" +
   "C		Applied Intelligence	/journals/apin	/journals/apin/apin\n" +
