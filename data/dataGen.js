@@ -395,7 +395,7 @@ const ccfRankList =
   "B	TOCL	ACM Transactions on Computational Logic	/journals/tocl	/journals/tocl/tocl\n" +
   "B	TOMS	ACM Transactions on Mathematical Software	/journals/toms	/journals/toms/toms\n" +
   "B	Algorithmica	Algorithmica	/journals/algorithmica	/journals/algorithmica/algorithmica\n" +
-  "B	CC	Computational complexity	/journals/cc	/journals/cc/cc\n" +
+  "B	CC	Computational Complexity	/journals/cc	/journals/cc/cc\n" +
   "B	FAC	Formal Aspects of Computing	/journals/fac	/journals/fac/fac\n" +
   "B	FMSD	Formal Methods in System Design	/journals/fmsd	/journals/fmsd/fmsd\n" +
   "B	INFORMS	INFORMS Journal on Computing	/journals/informs	/journals/informs/informs\n" +
