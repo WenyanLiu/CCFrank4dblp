@@ -677,7 +677,7 @@ const ccfRankList =
   "A 	JACM	Journal of the ACM	/journals/jacm	/journals/jacm/jacm\n" +
   "A 	Proc. IEEE	Proceedings of the IEEE	/journals/pieee	/journals/pieee/pieee\n" +
   "A	SCIS	Science China Information Sciences	/journals/chinaf	/journals/chinaf/chinaf\n" +
-  "A	BIBM	IEEE International Conference on Bioinformatics and Biomedicine	/conf/bibm	/conf/bibm/bibm\n" +
+  "B	BIBM	IEEE International Conference on Bioinformatics and Biomedicine	/conf/bibm	/conf/bibm/bibm\n" +
   "A		Bioinformatics	/journals/bioinformatics	/journals/bioinformatics/bioinformatics\n" +
   "B		Briefings in Bioinformatics	/journals/bib	/journals/bib/bib\n" +
   "B	Cognition	Cognition	/journals/cog	/journals/cog/cog\n" +
@@ -710,11 +710,11 @@ const ccfRankList =
   "C		IEEE Transactions on Reliability	/journals/tr	/journals/tr/tr\n" +
   "C	HEALTH	ACM Transactions on Computing for Healthcare	/journals/health	/journals/health/health\n" +\n  "C	ACM DLT	ACM Distributed Ledger Technologies: Research and Practice	/journals/distribledger	/journals/distribledger/distribledger\n" +\n  "A	WWW	The Web Conference	/conf/www	/conf/www/www\n" +
   "A	RTSS	IEEE Real-Time Systems Symposium	/conf/rtss	/conf/rtss/rtss\n" +
-  "A	WINE	Conference on Web and Internet Economics	/conf/wine	/conf/wine/wine\n" +
-  "B	CogSci	Cognitive Science Society Annual Conference	/conf/cogsci	/conf/cogsci/cogsci\n" +
-  "B	EMSOFT	International Conference on Embedded Software	/conf/emsoft	/conf/emsoft/emsoft\n" +
+  "B	WINE	Conference on Web and Internet Economics	/conf/wine	/conf/wine/wine\n" +
+  "B	CogSci	Annual Meeting of the Cognitive Science Society	/conf/cogsci	/conf/cogsci/cogsci\n" +
+  "B	EMSOFT	International Conference on Embedded Software IEEE/ACM/IFIP	/conf/emsoft	/conf/emsoft/emsoft\n" +
   "B	ISMB	International conference on Intelligent Systems for Molecular Biology	/journals/bioinformatics	/journals/bioinformatics/bioinformatics\n" +
-  "B	RECOMB	International Conference on Research in Computational Molecular Biology	/conf/recomb	/conf/recomb/recomb\n" +
+  "B	RECOMB	Annual International Conference on Research in Computational Molecular Biology	/conf/recomb	/conf/recomb/recomb\n" +
   "C	AMIA	American Medical Informatics Association Annual Symposium	/conf/amia	/conf/amia/amia\n" +
   "C	APBC	Asia Pacific Bioinformatics Conference	/conf/apbc	/conf/apbc/apbc\n" +
   "C		IEEE International Conference on Big Data	/conf/bigdataconf	/conf/bigdataconf/bigdataconf\n" +
