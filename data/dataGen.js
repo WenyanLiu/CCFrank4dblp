@@ -511,6 +511,14 @@ const ccfRankList =
   "C	ICVRV	International Conference on Virtual Reality and Visualization		\n" +
   "C	CVM	Computational Visual Media	/conf/cvm	/conf/cvm/cvm\n" +
   "C	PRCV	Chinese Conference on Pattern Recognition and Computer Vision	/conf/prcv	/conf/prcv/prcv\n" +
+  "C	ICIG	International Conference on Image and Graphics	/conf/icig	/conf/icig/icig
+" +
+  "C	NCMMSC	National Conference on Man-Machine Speech Communication	/conf/ncmmsc	/conf/ncmmsc/ncmmsc
+" +
+  "C	ASRU	Automatic Speech Recognition and Understanding Workshop	/conf/asru	/conf/asru/asru
+" +
+  "C	SLT	Spoken Language Technology	/conf/slt	/conf/slt/slt
+" +
   "A	AI	Artificial Intelligence	/journals/ai	/journals/ai/ai\n" +
   "A	TPAMI	IEEE Trans on Pattern Analysis and Machine Intelligence	/journals/pami	/journals/pami/pami\n" +
   "A	IJCV	International Journal of Computer Vision	/journals/ijcv	/journals/ijcv/ijcv\n" +
