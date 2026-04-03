@@ -480,25 +480,25 @@ const ccfRankList =
   "A	IEEE VIS	IEEE Visualization Conference	/conf/visualization	/conf/visualization/visualization\n" +
   "B	ICMR	ACM SIGMM International Conference on Multimedia Retrieval	/conf/mir	/conf/mir/icmr\n" +
   "B	ICMR	ACM SIGMM International Conference on Multimedia Retrieval	/conf/mir	/conf/mir/mir\n" +
-  "B	SI3D	ACM Symposium on Interactive 3D Graphics	/conf/si3d	/conf/si3d/si3d\n" +
-  "B	SCA	ACM/Eurographics Symposium on Computer Animation	/conf/sca	/conf/sca/sca\n" +
+  "B	SI3D	ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games	/conf/si3d	/conf/si3d/si3d\n" +
+  "B	SCA	ACM SIGGRAPH/Eurographics Symposium on Computer Animation	/conf/sca	/conf/sca/sca\n" +
   "B	DCC	Data Compression Conference	/conf/dcc	/conf/dcc/dcc\n" +
-  "B	EG	Eurographics	/conf/eurographics	/journals/cgf/cgf\n" +
+  "B	EG	Annual Conference of the European Association for Computer Graphics	/conf/eurographics	/journals/cgf/cgf\n" +
   "B	EuroVis	Eurographics Conference on Visualization	/conf/vissym	/journals/cgf/cgf\n" +
   "B	SGP	Eurographics Symposium on Geometry Processing	/conf/sgp	/conf/sgp/sgp\n" +
   "B	EGSR	Eurographics Symposium on Rendering	/conf/rt	/conf/rt/dl\n" +
   "B	EGSR	Eurographics Symposium on Rendering	/conf/rt	/conf/rt/eii\n" +
-  "B	ICASSP	IEEE International Conference on Acoustics,Speech and SP	/conf/icassp	/conf/icassp/icassp\n" +
-  "B	ICME	IEEE International Conference on Multimedia& Expo	/conf/icmcs	/conf/icmcs/icme\n" +
+  "B	ICASSP	IEEE International Conference on Acoustics, Speech and Signal Processing	/conf/icassp	/conf/icassp/icassp\n" +
+  "B	ICME	IEEE International Conference on Multimedia & Expo	/conf/icmcs	/conf/icmcs/icme\n" +
   "B	ISMAR	International Symposium on Mixed and Augmented Reality	/conf/ismar	/conf/ismar/ismar\n" +
-  "B	PG	Pacific Graphics: The Pacific Conference on Computer Graphics and Applications	/conf/pg	/conf/pg/pg\n" +
+  "B	PG	Pacific Conference on Computer Graphics and Applications	/conf/pg	/conf/pg/pg\n" +
   "B	SPM	Symposium on Solid and Physical Modeling	/conf/sma	/conf/sma/spm\n" +
   "B	SPM	Symposium on Solid and Physical Modeling	/conf/sma	/conf/sma/sma\n" +
   "B	MICCAI	International Conference on Medical Image Computing and Computer-Assisted Intervention	/conf/miccai	/conf/miccai/miccai\n" +
   "C		ACM Symposium on Virtual Reality Software and Technology	/conf/vrst	/conf/vrst/vrst\n" +
   "C	CASA	Computer Animation and Social Agents	/conf/ca	/conf/ca/casa\n" +
   "C	CGI	Computer Graphics International	/conf/cgi	/conf/cgi/cgi\n" +
-  "C	INTERSPEECH	Conference of the International SpeechCommunication Association	/conf/interspeech	/conf/interspeech/interspeech\n" +
+  "C	INTERSPEECH	Conference of the International Speech Communication Association	/conf/interspeech	/conf/interspeech/interspeech\n" +
   "C	GMP	Geometric Modeling and Processing	/conf/gmp	/conf/gmp/gmp\n" +
   "C	PacificVis	IEEE Pacific Visualization Symposium	/conf/apvis	/conf/apvis/pacificvis\n" +
   "C	PacificVis	IEEE Pacific Visualization Symposium	/conf/apvis	/conf/apvis/apvis\n" +
