@@ -634,13 +634,14 @@ const ccfRankList =
   "A	TOCHI	ACM Transactions on Computer-Human Interaction	/journals/tochi	/journals/tochi/tochi\n" +
   "A	IJHCS	International Journal of Human-Computer Studies	/journals/ijmms	/journals/ijmms/ijmms\n" +
   "B	CSCW	Computer Supported Cooperative Work	/journals/cscw	/journals/cscw/cscw\n" +
-  "B	HCI	Human Computer Interaction	/journals/hhci	/journals/hhci/hhci\n" +
+  "B	HCI	Human-Computer Interaction	/journals/hhci	/journals/hhci/hhci\n" +
   "B		IEEE Transactions on Human-Machine Systems	/journals/thms	/journals/thms/thms\n" +
   "B		IEEE Transactions on Human-Machine Systems	/journals/thms	/journals/tsmc/tsmcc\n" +
   "B	IWC	Interacting with Computers	/journals/iwc	/journals/iwc/iwc\n" +
   "B	IJHCI	International Journal of Human-Computer Interaction	/journals/ijhci	/journals/ijhci/ijhci\n" +
   "B	UMUAI	User Modeling and User-Adapted Interaction	/journals/umuai	/journals/umuai/umuai\n" +
   "B	TSMC	IEEE Transactions on Systems, Man, and Cybernetics: Systems	/journals/tsmc	/journals/tsmc/tsmc\n" +
+  "B	CCF TPCI	CCF Transactions on Pervasive Computing and Interaction	/journals/ccftpci	/journals/ccftpci/ccftpci\n" +
   "C	BIT	Behaviour & Information Technology	/journals/behaviourIT	/journals/behaviourIT/behaviourIT\n" +
   "C	PUC	Personal and Ubiquitous Computing	/journals/puc	/journals/puc/puc\n" +
   "C	PMC	Pervasive and Mobile Computing	/journals/percom	/journals/percom/percom\n" +
