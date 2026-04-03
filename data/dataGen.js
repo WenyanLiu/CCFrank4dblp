@@ -587,12 +587,14 @@ const ccfRankList =
   "C	JATS	ACM Journal on Autonomous Transportation Systems	/journals/jats	/journals/jats/jats
 " +
   "A	AAAI	AAAI Conference on Artificial Intelligence	/conf/aaai	/conf/aaai/aaai\n" +
-  "A	NeurIPS	Annual Conference on Neural Information Processing Systems	/conf/nips	/conf/nips/neurips\n" +
-  "A	NeurIPS	Annual Conference on Neural Information Processing Systems	/conf/nips	/conf/nips/nips\n" +
+  "A	NeurIPS	Conference on Neural Information Processing Systems	/conf/nips	/conf/nips/neurips\n" +
+  "A	NeurIPS	Conference on Neural Information Processing Systems	/conf/nips	/conf/nips/nips\n" +
   "A	ACL	Annual Meeting of the Association for Computational Linguistics	/conf/acl	/conf/acl/acl\n" +
-  "A	CVPR	IEEE Conference on Computer Vision and Pattern Recognition	/conf/cvpr	/conf/cvpr/cvpr\n" +
+  "A	CVPR	IEEE/CVF Computer Vision and Pattern Recognition Conference	/conf/cvpr	/conf/cvpr/cvpr\n" +
   "A	ICCV	International Conference on Computer Vision	/conf/iccv	/conf/iccv/iccv\n" +
   "A	ICML	International Conference on Machine Learning	/conf/icml	/conf/icml/icml\n" +
+  "A	ICLR	International Conference on Learning Representations	/conf/iclr	/conf/iclr/iclr
+" +
   "A	IJCAI	International Joint Conference on Artificial Intelligence	/conf/ijcai	/conf/ijcai/ijcai\n" +
   "B	COLT	Annual Conference on Computational Learning Theory	/conf/colt	/conf/colt/colt\n" +
   "B	EMNLP	Conference on Empirical Methods in Natural Language Processing	/conf/emnlp	/conf/emnlp/emnlp\n" +
@@ -718,7 +720,6 @@ const ccfRankList =
   "C	SAGT	International Symposium on Algorithmic Game Theory	/conf/sagt	/conf/sagt/sagt\n" +
   "C	SIGSPATIAL	ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems	/conf/gis	/conf/gis/gis\n" +
   "C	ICIC	International Conference on Intelligent Computing	/conf/icic	/conf/icic/icic\n" +
-  "E	ICLR	International Conference on Learning Representations	/conf/iclr	/conf/iclr/iclr\n" +
   "P		arXiv	/journals/corr	/journals/corr/corr";
 
 var ccfRankFull = {};
