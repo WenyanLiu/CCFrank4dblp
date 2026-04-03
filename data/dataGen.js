@@ -531,12 +531,11 @@ const ccfRankList =
   "B	DKE	Data & Knowledge Engineering	/journals/dke	/journals/dke/dke\n" +
   "B		Evolutionary Computation	/journals/ec	/journals/ec/ec\n" +
   "B	TAC	IEEE Transactions on Affective Computing	/journals/taffco	/journals/taffco/taffco\n" +
-  "B	TASLP	IEEE Transactions on Audio, Speech, and Language Processing	/journals/taslp	/journals/taslp/taslp\n" +
+  "B	TASLP	IEEE Transactions on Audio, Speech and Language Processing	/journals/taslp	/journals/taslp/taslp\n" +
   "B		IEEE Transactions on Cybernetics	/journals/tcyb	/journals/tcyb/tcyb\n" +
-  "B		IEEE Transactions on Cybernetics	/journals/tcyb	/journals/tsmc/tsmcb\n" +
   "B	TEC	IEEE Transactions on Evolutionary Computation	/journals/tec	/journals/tec/tec\n" +
   "B	TFS	IEEE Transactions on Fuzzy Systems	/journals/tfs	/journals/tfs/tfs\n" +
-  "B	TNNLS	IEEE Transactions on Neural Networks and learning systems	/journals/tnn	/journals/tnn/tnn\n" +
+  "B	TNNLS	IEEE Transactions on Neural Networks and Learning Systems	/journals/tnn	/journals/tnn/tnn\n" +
   "B	IJAR	International Journal of Approximate Reasoning	/journals/ijar	/journals/ijar/ijar\n" +
   "B	JAIR	Journal of Artificial Intelligence Research	/journals/jair	/journals/jair/jair\n" +
   "B		Journal of Automated Reasoning	/journals/jar	/journals/jar/jar\n" +
