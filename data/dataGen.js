@@ -623,12 +623,14 @@ const ccfRankList =
   "C	FG	International Conference on Automatic Face and Gesture Recognition	/conf/fgr	/conf/fgr/fg\n" +
   "C	ICDAR	International Conference on Document Analysis and Recognition	/conf/icdar	/conf/icdar/icdar\n" +
   "C	ILP	International Conference on Inductive Logic Programming	/conf/ilp	/conf/ilp/ilp\n" +
-  "C	KSEM	International conference on Knowledge Science,Engineering and Management	/conf/ksem	/conf/ksem/ksem\n" +
+  "C	KSEM	International conference on Knowledge Science, Engineering and Management	/conf/ksem	/conf/ksem/ksem\n" +
   "C	ICONIP	International Conference on Neural Information Processing	/conf/iconip	/conf/iconip/iconip\n" +
   "C	ICPR	International Conference on Pattern Recognition	/conf/icpr	/conf/icpr/icpr\n" +
-  "C	ICB	International Joint Conference on Biometrics	/conf/icb	/conf/icb/icb\n" +
+  "C	IJCB	International Joint Conference on Biometrics	/conf/icb	/conf/icb/icb\n" +
   "C	IJCNN	International Joint Conference on Neural Networks	/conf/ijcnn	/conf/ijcnn/ijcnn\n" +
   "C	PRICAI	Pacific Rim International Conference on Artificial Intelligence	/conf/pricai	/conf/pricai/pricai\n" +
+  "C	CEC	Congress on Evolutionary Computation	/conf/cec	/conf/cec/cec\n" +
+  "C	DAI	International Conference on Distributed Artificial Intelligence	/conf/dai	/conf/dai/dai\n" +
   "A	TOCHI	ACM Transactions on Computer-Human Interaction	/journals/tochi	/journals/tochi/tochi\n" +
   "A	IJHCS	International Journal of Human Computer Studies	/journals/ijmms	/journals/ijmms/ijmms\n" +
   "B	CSCW	Computer Supported Cooperative Work	/journals/cscw	/journals/cscw/cscw\n" +
