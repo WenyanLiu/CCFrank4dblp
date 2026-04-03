@@ -651,13 +651,13 @@ const ccfRankList =
   "A	UbiComp	ACM international joint conference on Pervasive and Ubiquitous Computing	/conf/huc	/conf/huc/ubicomp\n" +
   "A	IMWUT	Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies	/journals/imwut	/journals/imwut/imwut\n" +
   "A	UIST	ACM Symposium on User Interface Software and Technology	/conf/uist	/conf/uist/uist\n" +
-  "B	GROUP	ACM Conference on Supporting Group Work	/conf/group	/conf/group/group\n" +
+  "B	GROUP	ACM International Conference on Supporting Group Work	/conf/group	/conf/group/group\n" +
   "B	IUI	ACM International Conference on Intelligent User Interfaces	/conf/iui	/conf/iui/iui\n" +
-  "B	ITS	ACM International Conference on Interactive Tabletops and Surfaces	/conf/tabletop	/conf/tabletop/iss\n" +
-  "B	ITS	ACM International Conference on Interactive Tabletops and Surfaces	/conf/tabletop	/conf/tabletop/its\n" +
+  "B	ISS	ACM International Conference on Interactive Surfaces and Spaces	/conf/tabletop	/conf/tabletop/iss\n" +
+  "B	ISS	ACM International Conference on Interactive Surfaces and Spaces	/conf/tabletop	/conf/tabletop/its\n" +
   "B	ECSCW	European Conference on Computer Supported Cooperative Work	/conf/ecscw	/conf/ecscw/ecscw\n" +
   "B	PERCOM	IEEE International Conference on Pervasive Computing and Communications	/conf/percom	/conf/percom/percom\n" +
-  "B	MobileHCI	International Conference on Human Computer Interaction with Mobile Devices and Services	/conf/mhci	/conf/mhci/mhci\n" +
+  "B	MobileHCI	ACM International Conference on Mobile Human-Computer Interaction	/conf/mhci	/conf/mhci/mhci\n" +
   "B	ICWSM	The International AAAI Conference on Web and Social Media	/conf/icwsm	/conf/icwsm/icwsm\n" +
   "C	DIS	ACM Conference on Designing Interactive Systems	/conf/ACMdis	/conf/ACMdis/ACMdis\n" +
   "C	ICMI	ACM International Conference on Multimodal Interaction	/conf/icmi	/conf/icmi/icmi\n" +
