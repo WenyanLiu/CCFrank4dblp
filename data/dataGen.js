@@ -659,19 +659,21 @@ const ccfRankList =
   "B	PERCOM	IEEE International Conference on Pervasive Computing and Communications	/conf/percom	/conf/percom/percom\n" +
   "B	MobileHCI	ACM International Conference on Mobile Human-Computer Interaction	/conf/mhci	/conf/mhci/mhci\n" +
   "B	ICWSM	The International AAAI Conference on Web and Social Media	/conf/icwsm	/conf/icwsm/icwsm\n" +
-  "C	DIS	ACM Conference on Designing Interactive Systems	/conf/ACMdis	/conf/ACMdis/ACMdis\n" +
+  "C	DIS	ACM SIGCHI Conference on Designing Interactive Systems	/conf/ACMdis	/conf/ACMdis/ACMdis\n" +
   "C	ICMI	ACM International Conference on Multimodal Interaction	/conf/icmi	/conf/icmi/icmi\n" +
-  "C	ASSETS	ACM SIGACCESS Conference on Computers and Accessibility	/conf/assets	/conf/assets/assets\n" +
-  "C	GI	Graphics Interface conference	/conf/graphicsinterface	/conf/graphicsinterface/graphicsinterface\n" +
+  "C	ASSETS	International ACM SIGACCESS Conference on Computers and Accessibility	/conf/assets	/conf/assets/assets\n" +
+  "C	GI	Graphics Interface	/conf/graphicsinterface	/conf/graphicsinterface/graphicsinterface\n" +
   "C	UIC	IEEE International Conference on Ubiquitous Intelligence and Computing	/conf/uic	/conf/uic/uic\n" +
   "C		IEEE World Haptics Conference	/conf/haptics	/conf/haptics/haptics\n" +
-  "C	INTERACT	IFIP TC13 Conference on Human-Computer Interaction	/conf/interact	/conf/interact/interact\n" +
+  "C	INTERACT	International Conference on Human-Computer Interaction of International Federation for Information Processing	/conf/interact	/conf/interact/interact\n" +
   "C	IDC	Interaction Design and Children	/conf/acmidc	/conf/acmidc/idc\n" +
   "C	CollaborateCom	International Conference on Collaborative Computing: Networking, Applications and Worksharing	/conf/colcom	/conf/colcom/colcom\n" +
   "C	CSCWD	International Conference on Computer Supported Cooperative Work in Design	/conf/cscwd	/conf/cscwd/cscwd\n" +
   "C	CoopIS	International Conference on Cooperative Information Systems	/conf/coopis	/conf/coopis/coopis\n" +
-  "C	MobiQuitous	International Conference on Mobile and Ubiquitous Systems: Computing,Networking and Services	/conf/mobiquitous	/conf/mobiquitous/mobiquitous\n" +
+  "C	MobiQuitous	International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services	/conf/mobiquitous	/conf/mobiquitous/mobiquitous\n" +
   "C	AVI	International Working Conference on Advanced Visual Interfaces	/conf/avi	/conf/avi/avi\n" +
+  "C	GPC	Conference on Green, Pervasive and Cloud Computing	/conf/gpc	/conf/gpc/gpc\n" +
+  "C	ICXR	CCF International Conference on Extended Reality	/conf/icxr	/conf/icxr/icxr\n" +
   "A 	JACM	Journal of the ACM	/journals/jacm	/journals/jacm/jacm\n" +
   "A 	Proc. IEEE	Proceedings of the IEEE	/journals/pieee	/journals/pieee/pieee\n" +
   "A	SCIS	Science China Information Sciences	/journals/chinaf	/journals/chinaf/chinaf\n" +
