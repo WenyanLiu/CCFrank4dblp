@@ -680,7 +680,7 @@ const ccfRankList =
   "A	BIBM	IEEE International Conference on Bioinformatics and Biomedicine	/conf/bibm	/conf/bibm/bibm\n" +
   "A		Bioinformatics	/journals/bioinformatics	/journals/bioinformatics/bioinformatics\n" +
   "B		Briefings in Bioinformatics	/journals/bib	/journals/bib/bib\n" +
-  "B	Cognition	Cognition: International Journal of Cognitive Science		\n" +
+  "B	Cognition	Cognition	/journals/cog	/journals/cog/cog\n" +
   "B	TASAE	IEEE Transactions on Automation Science and Engineering	/journals/tase	/journals/tase/tase\n" +
   "B	TGARS	IEEE Transactions on Geoscience and Remote Sensing	/journals/tgrs	/journals/tgrs/tgrs\n" +
   "B	TITS	IEEE Transactions on Intelligent Transportation Systems	/journals/tits	/journals/tits/tits\n" +
@@ -691,9 +691,9 @@ const ccfRankList =
   "B	JAMIA	Journal of the American Medical Informatics Association	/journals/jamia	/journals/jamia/jamia\n" +
   "B		PLOS Computational Biology	/journals/ploscb	/journals/ploscb/ploscb\n" +
   "B		The Computer Journal	/journals/cj	/journals/cj/cj\n" +
-  "B		World Wide Web Journal	/journals/www	/journals/www/www\n" +
+  "B	WWW	The Web Conference	/journals/www	/journals/www/www\n" +
   "B	FCS	Frontiers of Computer Science	/journals/fcsc	/journals/fcsc/fcsc\n" +
-  "C		BMC Bioinformatics	/journals/bmcbi	/journals/bmcbi/bmcbi\n" +
+  "B	BCRA	Blockchain: Research and Applications	/journals/bcra	/journals/bcra/bcra\n" +\n  "C		BMC Bioinformatics	/journals/bmcbi	/journals/bmcbi/bmcbi\n" +
   "C		Cybernetics and Systems	/journals/cas	/journals/cas/cas\n" +
   "C		IEEE Geoscience and Remote Sensing Letters	/journals/lgrs	/journals/lgrs/lgrs\n" +
   "C	JBHI	IEEE Journal of Biomedical and Health Informatics	/journals/titb	/journals/titb/titb\n" +
