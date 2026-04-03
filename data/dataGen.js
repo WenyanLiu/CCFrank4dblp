@@ -582,6 +582,10 @@ const ccfRankList =
   "C		Soft Computing	/journals/soco	/journals/soco/soco\n" +
   "C	WI	Web Intelligence	/journals/wias	/journals/wias/wias\n" +
   "C	TIIS	ACM Transactions on Interactive Intelligent Systems	/journals/tiis	/journals/tiis/tiis\n" +
+  "C	TELO	ACM Transactions on Evolutionary Learning and Optimization	/journals/telo	/journals/telo/telo
+" +
+  "C	JATS	ACM Journal on Autonomous Transportation Systems	/journals/jats	/journals/jats/jats
+" +
   "A	AAAI	AAAI Conference on Artificial Intelligence	/conf/aaai	/conf/aaai/aaai\n" +
   "A	NeurIPS	Annual Conference on Neural Information Processing Systems	/conf/nips	/conf/nips/neurips\n" +
   "A	NeurIPS	Annual Conference on Neural Information Processing Systems	/conf/nips	/conf/nips/nips\n" +
