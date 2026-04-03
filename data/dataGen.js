@@ -21,11 +21,11 @@ const ccfRankList =
   "B	PARCO	Parallel Computing	/conf/parco	/conf/parco/parco\n" +
   "B		Parallel Computing	/journals/pc	/journals/pc/pc\n" +
   "B		Performance Evaluation: An International Journal	/journals/pe	/journals/pe/pe\n" +
+  "B	TCC	IEEE Transactions on Cloud Computing	/journals/tcc	/journals/tcc/tcc\n" +
   "C	JETC	ACM Journal on Emerging Technologies in Computing Systems	/journals/jetc	/journals/jetc/jetc\n" +
   "C		Concurrency and Computation: Practice and Experience	/journals/concurrency	/journals/concurrency/concurrency\n" +
   "C	DC	Distributed Computing	/journals/dc	/journals/dc/dc\n" +
   "C	FGCS	Future Generation Computer Systems	/journals/fgcs	/journals/fgcs/fgcs\n" +
-  "B	TCC	IEEE Transactions on Cloud Computing	/journals/tcc	/journals/tcc/tcc\n" +
   "C	Integration	Integration, the VLSI Journal	/journals/integration	/journals/integration/integration\n" +
   "C	JETTA	Journal of Electronic Testing-Theory and Applications	/journals/et	/journals/et/et\n" +
   "C	JGC	The Journal of Grid computing	/journals/grid	/journals/grid/grid\n" +
