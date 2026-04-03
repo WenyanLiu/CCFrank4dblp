@@ -632,7 +632,7 @@ const ccfRankList =
   "C	CEC	Congress on Evolutionary Computation	/conf/cec	/conf/cec/cec\n" +
   "C	DAI	International Conference on Distributed Artificial Intelligence	/conf/dai	/conf/dai/dai\n" +
   "A	TOCHI	ACM Transactions on Computer-Human Interaction	/journals/tochi	/journals/tochi/tochi\n" +
-  "A	IJHCS	International Journal of Human Computer Studies	/journals/ijmms	/journals/ijmms/ijmms\n" +
+  "A	IJHCS	International Journal of Human-Computer Studies	/journals/ijmms	/journals/ijmms/ijmms\n" +
   "B	CSCW	Computer Supported Cooperative Work	/journals/cscw	/journals/cscw/cscw\n" +
   "B	HCI	Human Computer Interaction	/journals/hhci	/journals/hhci/hhci\n" +
   "B		IEEE Transactions on Human-Machine Systems	/journals/thms	/journals/thms/thms\n" +
