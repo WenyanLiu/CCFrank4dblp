@@ -364,13 +364,13 @@ const ccfRankList =
   "A	VLDB	International Conference on Very Large Data Bases	/journals/pvldb	/journals/pvldb/pvldb\n" +
   "B	CIKM	ACM International Conference on Information and Knowledge Management	/conf/cikm	/conf/cikm/cikm\n" +
   "B	WSDM	ACM International Conference on Web Search and Data Mining	/conf/wsdm	/conf/wsdm/wsdm\n" +
-  "B	PODS	ACM Symposium on Principles of Database Systems	/conf/pods	/conf/pods/pods\n" +
-  "B	DASFAA	Database Systems for Advanced Applications	/conf/dasfaa	/conf/dasfaa/dasfaa\n" +
+  "B	PODS	ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems	/conf/pods	/conf/pods/pods\n" +
+  "B	DASFAA	International Conference on Database Systems for Advanced Applications	/conf/dasfaa	/conf/dasfaa/dasfaa\n" +
   "B	ECML-PKDD	European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases	/conf/ecml	/conf/pkdd/pkdd\n" +
   "B	ISWC	IEEE International Semantic Web Conference	/conf/semweb	/conf/semweb/iswc\n" +
-  "B	ICDM	International Conference on Data Mining	/conf/icdm	/conf/icdm/icdm\n" +
+  "B	ICDM	IEEE International Conference on Data Mining	/conf/icdm	/conf/icdm/icdm\n" +
   "B	ICDT	International Conference on Database Theory	/conf/icdt	/conf/icdt/icdt\n" +
-  "B	EDBT	International Conference on Extending DB Technology	/conf/edbt	/conf/edbt/edbt\n" +
+  "B	EDBT	International Conference on Extending Database Technology	/conf/edbt	/conf/edbt/edbt\n" +
   "B	CIDR	International Conference on Innovative Data Systems Research	/conf/cidr	/conf/cidr/cidr\n" +
   "B	SDM	SIAM International Conference on Data Mining	/conf/sdm	/conf/sdm/sdm\n" +
   "B	RecSys	ACM Conference on Recommender Systems	/conf/recsys	/conf/recsys/recsys\n" +
