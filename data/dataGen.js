@@ -495,8 +495,8 @@ const ccfRankList =
   "B	SPM	Symposium on Solid and Physical Modeling	/conf/sma	/conf/sma/spm\n" +
   "B	SPM	Symposium on Solid and Physical Modeling	/conf/sma	/conf/sma/sma\n" +
   "B	MICCAI	International Conference on Medical Image Computing and Computer-Assisted Intervention	/conf/miccai	/conf/miccai/miccai\n" +
-  "C		ACM Symposium on Virtual Reality Software and Technology	/conf/vrst	/conf/vrst/vrst\n" +
-  "C	CASA	Computer Animation and Social Agents	/conf/ca	/conf/ca/casa\n" +
+  "C	VRST	ACM Symposium on Virtual Reality Software and Technology	/conf/vrst	/conf/vrst/vrst\n" +
+  "C	CASA	International Conference on Computer Animation, Social Agents, and Extended Reality	/conf/ca	/conf/ca/casa\n" +
   "C	CGI	Computer Graphics International	/conf/cgi	/conf/cgi/cgi\n" +
   "C	INTERSPEECH	Conference of the International Speech Communication Association	/conf/interspeech	/conf/interspeech/interspeech\n" +
   "C	GMP	Geometric Modeling and Processing	/conf/gmp	/conf/gmp/gmp\n" +
@@ -504,7 +504,7 @@ const ccfRankList =
   "C	PacificVis	IEEE Pacific Visualization Symposium	/conf/apvis	/conf/apvis/apvis\n" +
   "C	3DV	International Conference on 3D Vision	/conf/3dim	/conf/3dim/3dim\n" +
   "C	CAD/Graphics	International Conference on Computer-Aided Design and Computer Graphics	/conf/cadgraphics	/conf/cadgraphics/cadgraphics\n" +
-  "C	ICIP	International Conference on Image Processing	/conf/icip	/conf/icip/icip\n" +
+  "C	ICIP	IEEE International Conference on Image Processing	/conf/icip	/conf/icip/icip\n" +
   "C	MMM	International Conference on Multimedia Modeling	/conf/mmm	/conf/mmm/mmm\n" +
   "C	PCM	Pacific-Rim Conference on Multimedia	/conf/pcm	/conf/pcm/pcm\n" +
   "C	SMI	Shape Modeling International	/conf/smi	/conf/smi/smi\n" +
