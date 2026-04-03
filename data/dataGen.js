@@ -677,7 +677,8 @@ const ccfRankList =
   "A 	JACM	Journal of the ACM	/journals/jacm	/journals/jacm/jacm\n" +
   "A 	Proc. IEEE	Proceedings of the IEEE	/journals/pieee	/journals/pieee/pieee\n" +
   "A	SCIS	Science China Information Sciences	/journals/chinaf	/journals/chinaf/chinaf\n" +
-  "B		Bioinformatics	/journals/bioinformatics	/journals/bioinformatics/bioinformatics\n" +
+  "A	BIBM	IEEE International Conference on Bioinformatics and Biomedicine	/conf/bibm	/conf/bibm/bibm\n" +
+  "A		Bioinformatics	/journals/bioinformatics	/journals/bioinformatics/bioinformatics\n" +
   "B		Briefings in Bioinformatics	/journals/bib	/journals/bib/bib\n" +
   "B	Cognition	Cognition: International Journal of Cognitive Science		\n" +
   "B	TASAE	IEEE Transactions on Automation Science and Engineering	/journals/tase	/journals/tase/tase\n" +
@@ -711,7 +712,6 @@ const ccfRankList =
   "A	RTSS	Real-Time Systems Symposium	/conf/rtss	/conf/rtss/rtss\n" +
   "A	WINE	Conference on Web and Internet Economics	/conf/wine	/conf/wine/wine\n" +
   "B	CogSci	Cognitive Science Society Annual Conference	/conf/cogsci	/conf/cogsci/cogsci\n" +
-  "B	BIBM	IEEE International Conference on Bioinformatics and Biomedicine	/conf/bibm	/conf/bibm/bibm\n" +
   "B	EMSOFT	International Conference on Embedded Software	/conf/emsoft	/conf/emsoft/emsoft\n" +
   "B	ISMB	International conference on Intelligent Systems for Molecular Biology	/journals/bioinformatics	/journals/bioinformatics/bioinformatics\n" +
   "B	RECOMB	International Conference on Research in Computational Molecular Biology	/conf/recomb	/conf/recomb/recomb\n" +
