@@ -356,10 +356,10 @@ const ccfRankList =
   "C	JSIS	The Journal of Strategic Information Systems	/journals/jsis	/journals/jsis/jsis\n" +
   "C	TIST	ACM Transactions on Intelligent Systems and Technology	/journals/tist	/journals/tist/tist\n" +
   "C	TORS	ACM Transactions on Recommender Systems	/journals/tors	/journals/tors/tors\n" +
-  "A	SIGMOD	ACM Conference on Management of Data	/conf/sigmod	/conf/sigmod/sigmod\n" +
-  "A	SIGKDD	ACM Knowledge Discovery and Data Mining	/conf/kdd	/conf/kdd/kdd\n" +
+  "A	SIGMOD	ACM SIGMOD Conference	/conf/sigmod	/conf/sigmod/sigmod\n" +
+  "A	SIGKDD	ACM SIGKDD Conference on Knowledge Discovery and Data Mining	/conf/kdd	/conf/kdd/kdd\n" +
   "A	ICDE	IEEE International Conference on Data Engineering	/conf/icde	/conf/icde/icde\n" +
-  "A	SIGIR	International Conference on Research on Development in Information Retrieval	/conf/sigir	/conf/sigir/sigir\n" +
+  "A	SIGIR	International ACM SIGIR Conference on Research and Development in Information Retrieval	/conf/sigir	/conf/sigir/sigir\n" +
   "A	VLDB	International Conference on Very Large Data Bases	/conf/vldb	/conf/vldb/vldb\n" +
   "A	VLDB	International Conference on Very Large Data Bases	/journals/pvldb	/journals/pvldb/pvldb\n" +
   "B	CIKM	ACM International Conference on Information and Knowledge Management	/conf/cikm	/conf/cikm/cikm\n" +
