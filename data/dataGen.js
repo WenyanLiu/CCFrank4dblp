@@ -717,14 +717,17 @@ const ccfRankList =
   "B	RECOMB	Annual International Conference on Research in Computational Molecular Biology	/conf/recomb	/conf/recomb/recomb\n" +
   "C	AMIA	American Medical Informatics Association Annual Symposium	/conf/amia	/conf/amia/amia\n" +
   "C	APBC	Asia Pacific Bioinformatics Conference	/conf/apbc	/conf/apbc/apbc\n" +
-  "C		IEEE International Conference on Big Data	/conf/bigdataconf	/conf/bigdataconf/bigdataconf\n" +
-  "C		IEEE International Conference on Cloud Computing	/conf/IEEEcloud	/conf/IEEEcloud/IEEEcloud\n" +
+  "C	IEEE BigData	IEEE International Conference on Big Data	/conf/bigdataconf	/conf/bigdataconf/bigdataconf\n" +
+  "C	IEEE CLOUD	IEEE International Conference on Cloud Computing	/conf/IEEEcloud	/conf/IEEEcloud/IEEEcloud\n" +
   "C	SMC	IEEE International Conference on Systems, Man, and Cybernetics	/conf/smc	/conf/smc/smc\n" +
   "C	COSIT	International Conference on Spatial Information Theory	/conf/cosit	/conf/cosit/cosit\n" +
   "C	ISBRA	International Symposium on Bioinformatics Research and Applications	/conf/isbra	/conf/isbra/isbra\n" +
   "C	SAGT	International Symposium on Algorithmic Game Theory	/conf/sagt	/conf/sagt/sagt\n" +
-  "C	SIGSPATIAL	ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems	/conf/gis	/conf/gis/gis\n" +
+  "C	SIGSPATIAL	ACM Special Interest Group on Spatial Information	/conf/gis	/conf/gis/gis\n" +
   "C	ICIC	International Conference on Intelligent Computing	/conf/icic	/conf/icic/icic\n" +
+  "C	ICSS	International Conference on Service Science	/conf/service	/conf/service/service\n" +
+  "C	AFT	Advances in Financial Technologies	/conf/aft	/conf/aft/aft\n" +
+  "C	IJTCS-FAW	International Joint Conference on Theoretical Computer Science - Frontier of Algorithmic Wisdom	/conf/faw	/conf/faw/faw\n" +
   "P		arXiv	/journals/corr	/journals/corr/corr";
 
 var ccfRankFull = {};
