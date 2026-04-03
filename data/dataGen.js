@@ -7,7 +7,7 @@
 const ccfRankList =
   "A	TOCS	ACM Transactions on Computer Systems	/journals/tocs	/journals/tocs/tocs\n" +
   "A	TOS	ACM Transactions on Storage	/journals/tos	/journals/tos/tos\n" +
-  "A	TCAD	IEEE Transactions On Computer-Aided Design Of Integrated Circuits And System	/journals/tcad	/journals/tcad/tcad\n" +
+  "A	TCAD	IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems	/journals/tcad	/journals/tcad/tcad\n" +
   "A	TC	IEEE Transactions on Computers	/journals/tc	/journals/tc/tc\n" +
   "A	TPDS	IEEE Transactions on Parallel and Distributed Systems	/journals/tpds	/journals/tpds/tpds\n" +
   "A	TACO	ACM Transactions on Architecture and Code Optimization	/journals/taco	/journals/taco/taco\n" +
