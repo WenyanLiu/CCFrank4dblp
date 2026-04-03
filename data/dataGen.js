@@ -449,15 +449,16 @@ const ccfRankList =
   "A	TIP	IEEE Transactions on Image Processing	/journals/tip	/journals/tip/tip\n" +
   "A	TVCG	IEEE Transactions on Visualization and Computer Graphics	/journals/tvcg	/journals/tvcg/tvcg\n" +
   "A	TMM	IEEE Transactions on Multimedia	/journals/tmm	/journals/tmm/tmm\n" +
-  "B	TOMCCAP	ACM Transactions on Multimedia Computing,Communications and Application	/journals/tomccap	/journals/tomccap/tomccap\n" +
+  "B	TOMCCAP	ACM Transactions on Multimedia Computing, Communications and Applications	/journals/tomccap	/journals/tomccap/tomccap\n" +
   "B	CAGD	Computer Aided Geometric Design	/journals/cagd	/journals/cagd/cagd\n" +
   "B	CGF	Computer Graphics Forum	/journals/cgf	/journals/cgf/cgf\n" +
   "B	CAD	Computer-Aided Design	/journals/cad	/journals/cad/cad\n" +
-  "B	GM	Graphical Models	/journals/cvgip	/journals/cvgip/cvgip\n" +
   "B	TCSVT	IEEE Transactions on Circuits and Systems for Video Technology	/journals/tcsv	/journals/tcsv/tcsv\n" +
-  "B	JASA	Journal of The Acoustical Society of America		\n" +
+  "B	JASA	The Journal of the Acoustical Society of America\n" +
   "B	SIIMS	SIAM Journal on Imaging Sciences	/journals/siamis	/journals/siamis/siamis\n" +
-  "B	Speech Com	Speech Communication	/journals/speech	/journals/speech/speech\n" +
+  "B	Speech Com	Speech Communication	/journals/speech	/journals/speech/speech
+" +
+  "B	CVMJ	Computational Visual Media	/journals/cvm	/journals/cvm/cvm\n" +
   "C	CGTA	Computational Geometry: Theory and Applications	/journals/comgeo	/journals/comgeo/comgeo\n" +
   "C	CAVW	Computer Animation and Virtual Worlds	/journals/jvca	/journals/jvca/jvca\n" +
   "C	C&G	Computers & Graphics	/journals/cg	/journals/cg/cg\n" +
@@ -470,7 +471,6 @@ const ccfRankList =
   "C		Signal Processing	/journals/sigpro	/journals/sigpro/sigpro\n" +
   "C	SPIC	Signal Processing: Image Communication	/journals/spic	/journals/spic/spic\n" +
   "C	TVC	The Visual Computer	/journals/vc	/journals/vc/vc\n" +
-  "C	CVMJ	Computational Visual Media	/journals/cvm	/journals/cvm/cvm\n" +
   "A	ACM MM	ACM International Conference on Multimedia	/conf/mm	/conf/mm/mm\n" +
   "A	SIGGRAPH	ACM SIGGRAPH Annual Conference	/conf/siggraph	/conf/siggraph/siggraph\n" +
   "A	VR	IEEE Virtual Reality	/conf/vr	/conf/vr/vr\n" +
