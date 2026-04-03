@@ -708,8 +708,8 @@ const ccfRankList =
   "C	EITEE	Engineering Information Technology & Electronic Engineering	/journals/jzusc	/journals/jzusc/jzusc\n" +
   "C	TCSS	IEEE Transactions on Computational Social Systems	/journals/tcss	/journals/tcss/tcss\n" +
   "C		IEEE Transactions on Reliability	/journals/tr	/journals/tr/tr\n" +
-  "C	HEALTH	ACM Transactions on Computing for Healthcare	/journals/health	/journals/health/health\n" +\n  "C	ACM DLT	ACM Distributed Ledger Technologies: Research and Practice	/journals/distribledger	/journals/distribledger/distribledger\n" +\n  "A	WWW	International World Wide Web Conferences	/conf/www	/conf/www/www\n" +
-  "A	RTSS	Real-Time Systems Symposium	/conf/rtss	/conf/rtss/rtss\n" +
+  "C	HEALTH	ACM Transactions on Computing for Healthcare	/journals/health	/journals/health/health\n" +\n  "C	ACM DLT	ACM Distributed Ledger Technologies: Research and Practice	/journals/distribledger	/journals/distribledger/distribledger\n" +\n  "A	WWW	The Web Conference	/conf/www	/conf/www/www\n" +
+  "A	RTSS	IEEE Real-Time Systems Symposium	/conf/rtss	/conf/rtss/rtss\n" +
   "A	WINE	Conference on Web and Internet Economics	/conf/wine	/conf/wine/wine\n" +
   "B	CogSci	Cognitive Science Society Annual Conference	/conf/cogsci	/conf/cogsci/cogsci\n" +
   "B	EMSOFT	International Conference on Embedded Software	/conf/emsoft	/conf/emsoft/emsoft\n" +
