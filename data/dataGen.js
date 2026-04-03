@@ -705,10 +705,10 @@ const ccfRankList =
   "C	TCPS	ACM Transactions on Cyber-Physical Systems	/journals/tcps	/journals/tcps/tcps\n" +
   "C	TOCE	ACM Transactions on Computing Education	/journals/jeric	/journals/jeric/toce\n" +
   "C	TOCE	ACM Transactions on Computing Education	/journals/jeric	/journals/jeric/jeric\n" +
-  "C	FITEE	Frontiers of Information Technology & Electronic Engineering	/journals/jzusc	/journals/jzusc/jzusc\n" +
-  "C	TCSS	IEEE Transaction on Computational Social Systems	/journals/tcss	/journals/tcss/tcss\n" +
+  "C	EITEE	Engineering Information Technology & Electronic Engineering	/journals/jzusc	/journals/jzusc/jzusc\n" +
+  "C	TCSS	IEEE Transactions on Computational Social Systems	/journals/tcss	/journals/tcss/tcss\n" +
   "C		IEEE Transactions on Reliability	/journals/tr	/journals/tr/tr\n" +
-  "A	WWW	International World Wide Web Conferences	/conf/www	/conf/www/www\n" +
+  "C	HEALTH	ACM Transactions on Computing for Healthcare	/journals/health	/journals/health/health\n" +\n  "C	ACM DLT	ACM Distributed Ledger Technologies: Research and Practice	/journals/distribledger	/journals/distribledger/distribledger\n" +\n  "A	WWW	International World Wide Web Conferences	/conf/www	/conf/www/www\n" +
   "A	RTSS	Real-Time Systems Symposium	/conf/rtss	/conf/rtss/rtss\n" +
   "A	WINE	Conference on Web and Internet Economics	/conf/wine	/conf/wine/wine\n" +
   "B	CogSci	Cognitive Science Society Annual Conference	/conf/cogsci	/conf/cogsci/cogsci\n" +
