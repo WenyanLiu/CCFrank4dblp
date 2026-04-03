@@ -550,7 +550,7 @@ const ccfRankList =
   "C	AIM	Artificial Intelligence in Medicine	/journals/artmed	/journals/artmed/artmed\n" +
   "C		Artificial Life	/journals/alife	/journals/alife/alife\n" +
   "C		Computational Intelligence	/journals/ci	/journals/ci/ci\n" +
-  "C		Computer Speech and Language	/journals/csl	/journals/csl/csl\n" +
+  "C		Computer Speech & Language	/journals/csl	/journals/csl/csl\n" +
   "C		Connection Science	/journals/connection	/journals/connection/connection\n" +
   "C	DSS	Decision Support Systems	/journals/dss	/journals/dss/dss\n" +
   "C	EAAI	Engineering Applications of Artificial Intelligence	/journals/eaai	/journals/eaai/eaai\n" +
