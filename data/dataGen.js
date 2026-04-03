@@ -609,7 +609,7 @@ const ccfRankList =
   "B	PPSN	Parallel Problem Solving from Nature	/conf/ppsn	/conf/ppsn/ppsn\n" +
   "B	NAACL	Annual Conference of the North American Chapter of the Association for Computational Linguistics	/conf/naacl	/conf/naacl/naacl\n" +
   "B	IJCAI	International Joint Conference on Artificial Intelligence	/conf/ijcai	/conf/ijcai/ijcai\n" +
-  "C	AISTATS	Artificial Intelligence and Statistics	/conf/aistats	/conf/aistats/aistats\n" +
+  "C	AISTATS	International Conference on Artificial Intelligence and Statistics	/conf/aistats	/conf/aistats/aistats\n" +
   "C	ACCV	Asian Conference on Computer Vision	/conf/accv	/conf/accv/accv\n" +
   "C	ACML	Asian Conference on Machine Learning	/conf/acml	/conf/acml/acml\n" +
   "C	BMVC	British Machine Vision Conference	/conf/bmvc	/conf/bmvc/bmvc\n" +
@@ -617,7 +617,7 @@ const ccfRankList =
   "C	CoNLL	Conference on Computational Natural Language Learning	/conf/conll	/conf/conll/conll\n" +
   "C	GECCO	Genetic and Evolutionary Computation Conference	/conf/gecco	/conf/gecco/gecco\n" +
   "C	ICTAI	IEEE International Conference on Tools with Artificial Intelligence	/conf/ictai	/conf/ictai/ictai\n" +
-  "C	IROS	IEEERSJ International Conference on Intelligent Robots and Systems	/conf/iros	/conf/iros/iros\n" +
+  "C	IROS	IEEE/RSJ International Conference on Intelligent Robots and Systems	/conf/iros	/conf/iros/iros\n" +
   "C	ALT	International Conference on Algorithmic Learning Theory	/conf/alt	/conf/alt/alt\n" +
   "C	ICANN	International Conference on Artificial Neural Networks	/conf/icann	/conf/icann/icann\n" +
   "C	FG	International Conference on Automatic Face and Gesture Recognition	/conf/fgr	/conf/fgr/fg\n" +
