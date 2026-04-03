@@ -417,11 +417,11 @@ const ccfRankList =
   "C	SIDMA	SIAM Journal on Discrete Mathematics	/journals/siamdm	/journals/siamdm/siamdm\n" +
   "C		Theory of Computing Systems	/journals/mst	/journals/mst/mst\n" +
   "C	TQC	ACM Transactions in Quantum Computing	/journals/tqc	/journals/tqc/tqc\n" +
-  "A	STOC	ACM Symposium on Theory of Computing	/conf/stoc	/conf/stoc/stoc\n" +
+  "A	STOC	ACM Symposium on the Theory of Computing	/conf/stoc	/conf/stoc/stoc\n" +
   "A	SODA	ACM-SIAM Symposium on Discrete Algorithms	/conf/soda	/conf/soda/soda\n" +
-  "A	CAV	Computer Aided Verification	/conf/cav	/conf/cav/cav\n" +
+  "A	CAV	International Conference on Computer Aided Verification	/conf/cav	/conf/cav/cav\n" +
   "A	FOCS	IEEE Annual Symposium on Foundations of Computer Science	/conf/focs	/conf/focs/focs\n" +
-  "A	LICS	IEEE Symposium on Logic in Computer Science	/conf/lics	/conf/lics/lics\n" +
+  "A	LICS	ACM/IEEE Symposium on Logic in Computer Science	/conf/lics	/conf/lics/lics\n" +
   "B	SoCG	ACM Symposium on Computational Geometry	/conf/compgeom	/conf/compgeom/compgeom\n" +
   "B	ESA	European Symposium on Algorithms	/conf/esa	/conf/esa/esa\n" +
   "B	CCC	IEEE Conference on Computational Complexity	/conf/coco	/conf/coco/coco\n" +
