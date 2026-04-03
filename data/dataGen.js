@@ -646,7 +646,7 @@ const ccfRankList =
   "C	PUC	Personal and Ubiquitous Computing	/journals/puc	/journals/puc/puc\n" +
   "C	PMC	Pervasive and Mobile Computing	/journals/percom	/journals/percom/percom\n" +
   "C	PACMHCI	Proceedings of the ACM on Human-Computer Interaction	/journals/pacmhci	/journals/pacmhci/pacmhci\n" +
-  "A	CSCW	ACM Conference on Computer Supported Cooperative Work and Social Computing	/conf/cscw	/conf/cscw/cscw\n" +
+  "C	THRI	ACM Transactions on Human-Robot Interaction	/journals/thri	/journals/thri/thri\n" +\n  "A	CSCW	ACM Conference on Computer Supported Cooperative Work and Social Computing	/conf/cscw	/conf/cscw/cscw\n" +
   "A	CHI	ACM Conference on Human Factors in Computing Systems	/conf/chi	/conf/chi/chi\n" +
   "A	UbiComp	ACM International Conference on Ubiquitous Computing	/conf/huc	/conf/huc/ubicomp\n" +
   "A	IMWUT	Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies	/journals/imwut	/journals/imwut/imwut\n" +
