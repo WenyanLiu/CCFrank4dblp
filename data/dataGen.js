@@ -566,7 +566,7 @@ const ccfRankList =
   "C	IJIS	International Journal of Intelligent Systems	/journals/ijis	/journals/ijis/ijis\n" +
   "C	IJNS	International Journal of Neural Systems	/journals/ijns	/journals/ijns/ijns\n" +
   "C	IJPRAI	International Journal of Pattern Recognition and Artificial Intelligence	/journals/ijprai	/journals/ijprai/ijprai\n" +
-  "C	IJUFKS	International Journal of Uncertainty, Fuzziness and Knowledge-Based System	/journals/ijufks	/journals/ijufks/ijufks\n" +
+  "C	IJUFKS	International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems	/journals/ijufks	/journals/ijufks/ijufks\n" +
   "C	IJDAR	International Journal on Document Analysis and Recognition	/journals/ijdar	/journals/ijdar/ijdar\n" +
   "C	JETAI	Journal of Experimental and Theoretical Artificial Intelligence	/journals/jetai	/journals/jetai/jetai\n" +
   "C	KBS	Knowledge-Based Systems	/journals/kbs	/journals/kbs/kbs\n" +
@@ -574,7 +574,7 @@ const ccfRankList =
   "C		Machine Vision and Applications	/journals/mva	/journals/mva/mva\n" +
   "C		Natural Computing	/journals/nc	/journals/nc/nc\n" +
   "C	NLE	Natural Language Engineering	/journals/nle	/journals/nle/nle\n" +
-  "C	NCA	Neural Computing & Applications	/journals/nca	/journals/nca/nca\n" +
+  "C	NCA	Neural Computing and Applications	/journals/nca	/journals/nca/nca\n" +
   "C	NPL	Neural Processing Letters	/journals/npl	/journals/npl/npl\n" +
   "C		Neurocomputing	/journals/ijon	/journals/ijon/ijon\n" +
   "C	PAA	Pattern Analysis and Applications	/journals/paa	/journals/paa/paa\n" +
