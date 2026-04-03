@@ -520,7 +520,7 @@ const ccfRankList =
   "C	SLT	Spoken Language Technology	/conf/slt	/conf/slt/slt
 " +
   "A	AI	Artificial Intelligence	/journals/ai	/journals/ai/ai\n" +
-  "A	TPAMI	IEEE Trans on Pattern Analysis and Machine Intelligence	/journals/pami	/journals/pami/pami\n" +
+  "A	TPAMI	IEEE Transactions on Pattern Analysis and Machine Intelligence	/journals/pami	/journals/pami/pami\n" +
   "A	IJCV	International Journal of Computer Vision	/journals/ijcv	/journals/ijcv/ijcv\n" +
   "A	JMLR	Journal of Machine Learning Research	/journals/jmlr	/journals/jmlr/jmlr\n" +
   "B	TAP	ACM Transactions on Applied Perception	/journals/tap	/journals/tap/tap\n" +
