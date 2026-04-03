@@ -412,7 +412,7 @@ const ccfRankList =
   "C	IPL	Information Processing Letters	/journals/ipl	/journals/ipl/ipl\n" +
   "C	JCOMPLEXITY	Journal of Complexity	/journals/jc	/journals/jc/jc\n" +
   "C	LOGCOM	Journal of Logic and Computation	/journals/logcom	/journals/logcom/logcom\n" +
-  "C	JSL	Journal of Symbolic Logic	/journals/jsyml	/journals/jsyml/jsyml\n" +
+  "C	JSL	The Journal of Symbolic Logic	/journals/jsyml	/journals/jsyml/jsyml\n" +
   "C	LMCS	Logical Methods in Computer Science	/journals/lmcs	/journals/lmcs/lmcs\n" +
   "C	SIDMA	SIAM Journal on Discrete Mathematics	/journals/siamdm	/journals/siamdm/siamdm\n" +
   "C		Theory of Computing Systems	/journals/mst	/journals/mst/mst\n" +
