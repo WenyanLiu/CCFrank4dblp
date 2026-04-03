@@ -595,7 +595,6 @@ const ccfRankList =
   "A	ICML	International Conference on Machine Learning	/conf/icml	/conf/icml/icml\n" +
   "A	ICLR	International Conference on Learning Representations	/conf/iclr	/conf/iclr/iclr
 " +
-  "B	IJCAI	International Joint Conference on Artificial Intelligence	/conf/ijcai	/conf/ijcai/ijcai\n" +
   "B	COLT	Annual Conference on Computational Learning Theory	/conf/colt	/conf/colt/colt\n" +
   "B	EMNLP	Conference on Empirical Methods in Natural Language Processing	/conf/emnlp	/conf/emnlp/emnlp\n" +
   "B	ECAI	European Conference on Artificial Intelligence	/conf/ecai	/conf/ecai/ecai\n" +
@@ -609,6 +608,7 @@ const ccfRankList =
   "B	AAMAS	International Joint Conference on Autonomous Agents and Multi-agent Systems	/conf/atal	/conf/atal/aamas\n" +
   "B	PPSN	Parallel Problem Solving from Nature	/conf/ppsn	/conf/ppsn/ppsn\n" +
   "B	NAACL	Annual Conference of the North American Chapter of the Association for Computational Linguistics	/conf/naacl	/conf/naacl/naacl\n" +
+  "B	IJCAI	International Joint Conference on Artificial Intelligence	/conf/ijcai	/conf/ijcai/ijcai\n" +
   "C	AISTATS	Artificial Intelligence and Statistics	/conf/aistats	/conf/aistats/aistats\n" +
   "C	ACCV	Asian Conference on Computer Vision	/conf/accv	/conf/accv/accv\n" +
   "C	ACML	Asian Conference on Machine Learning	/conf/acml	/conf/acml/acml\n" +
