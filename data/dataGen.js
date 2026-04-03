@@ -18,7 +18,7 @@ const ccfRankList =
   "B	TVLSI	IEEE Transactions on Very Large Scale Integration (VLSI) Systems	/journals/tvlsi	/journals/tvlsi/tvlsi\n" +
   "B	JPDC	Journal of Parallel and Distributed Computing	/journals/jpdc	/journals/jpdc/jpdc\n" +
   "B	JSA	Journal of Systems Architecture: Embedded Software Design	/journals/jsa	/journals/jsa/jsa\n" +
-  "B	PARCO	Parallel Computing	/conf/parco	/conf/parco/parco\n" +
+  "B		Parallel Computing	/conf/parco	/conf/parco/parco\n" +
   "B		Parallel Computing	/journals/pc	/journals/pc/pc\n" +
   "B		Performance Evaluation: An International Journal	/journals/pe	/journals/pe/pe\n" +
   "B	TCC	IEEE Transactions on Cloud Computing	/journals/tcc	/journals/tcc/tcc\n" +
