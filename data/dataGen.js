@@ -201,9 +201,9 @@ const ccfRankList =
   "C	ACNS	Applied Cryptography and Network Security	/conf/acns	/conf/acns/acns\n" +
   "C	AsiaCCS	Asia Conference on Computer and Communications Security	/conf/asiaccs	/conf/ccs/asiaccs\n" +
   "C	AsiaCCS	Asia Conference on Computer and Communications Security	/conf/asiaccs	/conf/asiaccs/asiaccs\n" +
-  "C	ACISP	AustralasiaConferenceonInformation SecurityandPrivacy	/conf/acisp	/conf/acisp/acisp\n" +
-  "C	CT-RSA	RSA Conference, Cryptographers' Track	/conf/ctrsa	/conf/ctrsa/ctrsa\n" +
-  "C	DIMVA	Detection of Intrusions and Malware &Vulnerability Assessment	/conf/dimva	/conf/dimva/dimva\n" +
+  "C	ACISP	Australasia Conference on Information Security and Privacy	/conf/acisp	/conf/acisp/acisp\n" +
+  "C	CT-RSA	The Cryptographer's Track at RSA Conference	/conf/ctrsa	/conf/ctrsa/ctrsa\n" +
+  "C	DIMVA	Conference on Detection of Intrusions and Malware & Vulnerability Assessment	/conf/dimva	/conf/dimva/dimva\n" +
   "C	DFRWS	Digital Forensic Research Workshop	/conf/dfrws	/conf/dfrws/dfrws\n" +
   "C	FC	Financial Cryptography and Data Security	/conf/fc	/conf/fc/fc\n" +
   "C	TrustCom	IEEE International Conference on Trust,Security and Privacy in Computing and Communications	/conf/trustcom	/conf/trustcom/trustcom\n" +
@@ -223,6 +223,10 @@ const ccfRankList =
   "C	HotSec	USENIX Workshop on Hot Topics in Security	/conf/uss/	/conf/uss/hotsec\n" +
   "C	EuroS&P	IEEE European Symposium on Security and Privacy	/conf/eurosp	/conf/eurosp/eurosp\n" +
   "C	Inscrypt	International Conference on Information Security and Cryptology	/conf/icisc	/conf/icisc/icisc\n" +
+  "C	Inscrypt	International Conference on Information Security and Cryptology	/conf/cisc	/conf/cisc/inscrypt\n" +
+  "C	CODASPY	Conference on Data and Application Security and Privacy	/conf/codaspy /conf/codaspy/codaspy\n" +
+  "C	BlockSys	International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems	/conf/blocksys	/conf/blocksys/blocksys\n" +
+  "C	CSCloud	International Conference on Cyber Security and Cloud Computing	/conf/cscloud	/conf/cscloud/cscloud\n" +
   "A	TOPLAS	ACM Transactions on Programming Languages & Systems	/journals/toplas	/journals/toplas/toplas\n" +
   "A	TOSEM	ACM Transactions on Software Engineering and Methodology	/journals/tosem	/journals/tosem/tosem\n" +
   "A	TSE	IEEE Transactions on Software Engineering	/journals/tse	/journals/tse/tse\n" +
