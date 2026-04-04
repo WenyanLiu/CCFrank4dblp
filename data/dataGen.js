@@ -76,16 +76,16 @@ const ccfRankList =
   "C	CF	ACM International Conference on Computing Frontiers	/conf/cf	/conf/cf/cf\n" +
   "C	SYSTOR	ACM International Systems and Storage Conference	/conf/systor	/conf/systor/systor\n" +
   "C	NOCS	ACM/IEEE International Symposium on Networks-on-Chip	/conf/nocs	/conf/nocs/nocs\n" +
-  "C	ASAP	Application-Specific Systems, Architectures, and Processors	/conf/asap	/conf/asap/asap\n" +
+  "C	ASAP	IEEE International Conference on Application-Specific Systems, Architectures, and Processors	/conf/asap	/conf/asap/asap\n" +
   "C	ASP-DAC	Asia and South Pacific Design Automation Conference	/conf/aspdac	/conf/aspdac/aspdac\n" +
-  "C	ETS	European Test Symposium	/conf/ets	/conf/ets/ets\n" +
-  "C	FPL	Field Programmable Logic and Applications	/conf/fpl	/conf/fpl/fpl\n" +
-  "C	FCCM	Field-Programmable Custom Computing Machines	/conf/fccm	/conf/fccm/fccm\n" +
+  "C	ETS	IEEE European Test Symposium	/conf/ets	/conf/ets/ets\n" +
+  "C	FPL	International Conference on Field-Programmable Logic and Applications	/conf/fpl	/conf/fpl/fpl\n" +
+  "C	FCCM	IEEE Symposium on Field-Programmable Custom Computing Machines	/conf/fccm	/conf/fccm/fccm\n" +
   "C	GLSVLSI	Great Lakes Symposium on VLSI	/conf/glvlsi	/conf/glvlsi/glvlsi\n" +
   "C	ATS	IEEE Asian Test Symposium	/conf/ats	/conf/ats/ats\n" +
   "C	HPCC	IEEE International Conference on High Performance Computing and Communications	/conf/hpcc	/conf/hpcc/hpcc\n" +
   "C	HiPC	IEEE International Conference on High Performance Computing, Data and Analytics	/conf/hipc	/conf/hipc/hipc\n" +
-  "C	MASCOTS	IEEE International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems	/conf/mascots	/conf/mascots/mascots\n" +
+  "C	MASCOTS	International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems	/conf/mascots	/conf/mascots/mascots\n" +
   "C	ISPA	IEEE International Symposium on Parallel and Distributed Processing with Applications	/conf/ispa	/conf/ispa/ispa\n" +
   "C	CCGRID	IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing	/conf/ccgrid	/conf/ccgrid/ccgrid\n" +
   "C	NPC	IFIP International Conference on Network and Parallel Computing	/conf/npc	/conf/npc/npc\n" +
@@ -96,9 +96,14 @@ const ccfRankList =
   "C	ICPADS	International Conference on Parallel and Distributed Systems	/conf/icpads	/conf/icpads/icpads\n" +
   "C	ISLPED	International Symposium on Low Power Electronics and Design	/conf/islped	/conf/islped/islped\n" +
   "C	ISPD	International Symposium on Physical Design	/conf/ispd	/conf/ispd/ispd\n" +
-  "C	HotI	Symposium on High-Performance Interconnects	/conf/hoti	/conf/hoti/hoti\n" +
-  "C	VTS	VLSI Test Symposium	/conf/vts	/conf/vts/vts\n" +
+  "C	HOTI	IEEE Symposium on High-Performance Interconnects	/conf/hoti	/conf/hoti/hoti\n" +
+  "C	VTS	IEEE VLSI Test Symposium	/conf/vts	/conf/vts/vts\n" +
   "C	ITC-Asia	International Test Conference in Asia	/conf/itc-asia	/conf/itc-asia/itc-asia\n" +
+  "C	SEC	ACM/IEEE Symposium on Edge Computing	/conf/ieeesec	/conf/ieeesec/sec\n" +
+  "C	NAS	International Conference on Networking, Architecture and Storages	/conf/nas	/conf/nas/nas\n" +
+  "C	HotStorage	HotStorage	/conf/hotstorage	/conf/hotstorage/hotstorage\n" +
+  "C	APPT	International Symposium on Advanced Parallel Processing Technology	/conf/appt	/conf/appt/appt\n" +
+  "C	JCC	International Conference on JointCloud Computing		\n" +
   "A	JSAC	IEEE Journal of Selected Areas in Communications	/journals/jsac	/journals/jsac/jsac\n" +
   "A	TMC	IEEE Transactions on Mobile Computing	/journals/tmc	/journals/tmc/tmc\n" +
   "A	TON	IEEE/ACM Transactions on Networking	/journals/ton	/journals/ton/ton\n" +
