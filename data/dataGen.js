@@ -227,10 +227,10 @@ const ccfRankList =
   "C	CODASPY	Conference on Data and Application Security and Privacy	/conf/codaspy /conf/codaspy/codaspy\n" +
   "C	BlockSys	International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems	/conf/blocksys	/conf/blocksys/blocksys\n" +
   "C	CSCloud	International Conference on Cyber Security and Cloud Computing	/conf/cscloud	/conf/cscloud/cscloud\n" +
-  "A	TOPLAS	ACM Transactions on Programming Languages & Systems	/journals/toplas	/journals/toplas/toplas\n" +
+  "A	TOPLAS	ACM Transactions on Programming Languages and Systems	/journals/toplas	/journals/toplas/toplas\n" +
   "A	TOSEM	ACM Transactions on Software Engineering and Methodology	/journals/tosem	/journals/tosem/tosem\n" +
   "A	TSE	IEEE Transactions on Software Engineering	/journals/tse	/journals/tse/tse\n" +
-  "A	TSC	IEEE Transactions on Service Computing	/journals/tsc	/journals/tsc/tsc\n" +
+  "A	TSC	IEEE Transactions on Services Computing	/journals/tsc	/journals/tsc/tsc\n" +
   "B	ASE	Automated Software Engineering	/journals/ase	/journals/ase/ase\n" +
   "B	ESE	Empirical Software Engineering	/journals/ese	/journals/ese/ese\n" +
   "B	IETS	IET Software	/journals/iee	/journals/iee/iee-s\n" +
