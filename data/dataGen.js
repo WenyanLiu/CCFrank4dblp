@@ -104,9 +104,9 @@ const ccfRankList =
   "C	HotStorage	HotStorage	/conf/hotstorage	/conf/hotstorage/hotstorage\n" +
   "C	APPT	International Symposium on Advanced Parallel Processing Technology	/conf/appt	/conf/appt/appt\n" +
   "C	JCC	International Conference on JointCloud Computing		\n" +
-  "A	JSAC	IEEE Journal of Selected Areas in Communications	/journals/jsac	/journals/jsac/jsac\n" +
+  "A	JSAC	IEEE Journal on Selected Areas in Communications	/journals/jsac	/journals/jsac/jsac\n" +
   "A	TMC	IEEE Transactions on Mobile Computing	/journals/tmc	/journals/tmc/tmc\n" +
-  "A	TON	IEEE/ACM Transactions on Networking	/journals/ton	/journals/ton/ton\n" +
+  "A	TON	IEEE Transactions on Networking	/journals/ton	/journals/ton/ton\n" +
   "B	TOIT	ACM Transactions on Internet Technology	/journals/toit	/journals/toit/toit\n" +
   "B	TOMCCAP	ACM Transactions on Multimedia Computing, Communications and Applications	/journals/tomccap	/journals/tomccap/tomccap\n" +
   "B	TOSN	ACM Transactions on Sensor Networks	/journals/tosn	/journals/tosn/tosn\n" +
