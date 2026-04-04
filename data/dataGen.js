@@ -234,13 +234,14 @@ const ccfRankList =
   "B	ASE	Automated Software Engineering	/journals/ase	/journals/ase/ase\n" +
   "B	ESE	Empirical Software Engineering	/journals/ese	/journals/ese/ese\n" +
   "B	IETS	IET Software	/journals/iee	/journals/iee/iee-s\n" +
+  "B	IETS	IET Software	/journals/iet-sen	/journals/iet-sen/iet-sen\n" +
   "B	IST	Information and Software Technology	/journals/infsof	/journals/infsof/infsof\n" +
   "B	JFP	Journal of Functional Programming	/journals/jfp	/journals/jfp/jfp\n" +
   "B		Journal of Software: Evolution and Process	/journals/smr	/journals/smr/smr\n" +
   "B	JSS	Journal of Systems and Software	/journals/jss	/journals/jss/jss\n" +
   "B	RE	Requirements Engineering	/journals/re	/journals/re/re\n" +
   "B	SCP	Science of Computer Programming	/journals/scp	/journals/scp/scp\n" +
-  "B	SoSyM	Software and System Modeling	/journals/sosym	/journals/sosym/sosym\n" +
+  "B	SoSyM	Software and Systems Modeling	/journals/sosym	/journals/sosym/sosym\n" +
   "B	STVR	Software Testing, Verification and Reliability	/journals/stvr	/journals/stvr/stvr\n" +
   "B	SPE	Software: Practice and Experience	/journals/spe	/journals/spe/spe\n" +
   "C	CL	Computer Languages, Systems and Structures	/journals/cl	/journals/cl/cl\n" +
