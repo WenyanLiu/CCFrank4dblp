@@ -28,7 +28,7 @@ const ccfRankList =
   "C	FGCS	Future Generation Computer Systems	/journals/fgcs	/journals/fgcs/fgcs\n" +
   "C	Integration	Integration, the VLSI Journal	/journals/integration	/journals/integration/integration\n" +
   "C	JETTA	Journal of Electronic Testing-Theory and Applications	/journals/et	/journals/et/et\n" +
-  "C	JGC	The Journal of Grid computing	/journals/grid	/journals/grid/grid\n" +
+  "C	JGC	Journal of Grid computing	/journals/grid	/journals/grid/grid\n" +
   "C	RTS	Real-Time Systems	/journals/rts	/journals/rts/rts\n" +
   "C	TJSC	The Journal of Supercomputing	/journals/tjs	/journals/tjs/tjs\n" +
   "C	TCASI	IEEE Transactions on Circuits and Systems I: Regular Papers	/journals/tcasI	/journals/tcasI/tcasI\n" +
