@@ -45,18 +45,19 @@ const ccfRankList =
   "A	ACM SIGOPS ATC	ACM SIGOPS Annual Technical Conference	/conf/usenix	/conf/usenix/usenix\n" +
   "A	EuroSys	European Conference on Computer Systems	/conf/eurosys	/conf/eurosys/eurosys\n" +
   "A	HPDC	The International ACM Symposium on High-Performance Parallel and Distributed Computing	/conf/hpdc	/conf/hpdc/hpdc\n" +
-  "B	SOCC	ACM Symposium on Cloud Computing	/conf/cloud	/conf/cloud/socc\n" +
+  "B	SoCC	ACM Symposium on Cloud Computing	/conf/cloud	/conf/cloud/socc\n" +
   "B	SPAA	ACM Symposium on Parallelism in Algorithms and Architectures	/conf/spaa	/conf/spaa/spaa\n" +
   "B	PODC	ACM Symposium on Principles of Distributed Computing	/conf/podc	/conf/podc/podc\n" +
   "B	FPGA	ACM/SIGDA International Symposium on Field-Programmable Gate Arrays	/conf/fpga	/conf/fpga/fpga\n" +
-  "B	CGO	Code Generation and Optimization	/conf/cgo	/conf/cgo/cgo\n" +
+  "B	CGO	The International Symposium on Code Generation and Optimization	/conf/cgo	/conf/cgo/cgo\n" +
   "B	DATE	Design, Automation & Test in Europe	/conf/date	/conf/date/date\n" +
-  "B	HOT CHIPS	ACM Symposium on High Performance Chips	/conf/hotchips	/conf/hotchips/hotchips\n" +
+  "B	HOT CHIPS	Hot Chips: A Symposium on High Performance Chips	/conf/hotchips	/conf/hotchips/hotchips\n" +
   "B	CLUSTER	IEEE International Conference on Cluster Computing	/conf/cluster	/conf/cluster/cluster\n" +
   "B	ICCD	International Conference on Computer Design	/conf/iccd	/conf/iccd/iccd\n" +
   "B	ICCAD	International Conference on Computer-Aided Design	/conf/iccad	/conf/iccad/iccad\n" +
-  "B	ICDCS	International Conference on Distributed Computing Systems	/conf/icdcs	/conf/icdcs/icdcs\n" +
+  "B	ICDCS	IEEE International Conference on Distributed Computing Systems	/conf/icdcs	/conf/icdcs/icdcs\n" +
   "B	CODES+ISSS	International Conference on Hardware/Software Co-design and System Synthesis	/conf/codes	/conf/codes/codes\n" +
+  "B	CODES+ISSS	International Conference on Hardware/Software Co-design and System Synthesis	/conf/codesisss	/conf/codes/codesisss\n" +
   "B	HiPEAC	International Conference on High Performance and Embedded Architectures and Compilers	/conf/hipeac	/conf/hipeac/hipeac\n" +
   "B	SIGMETRICS	International Conference on Measurement and Modeling of Computer Systems	/conf/sigmetrics	/conf/sigmetrics/sigmetrics\n" +
   "B	PACT	International Conference on Parallel Architectures and Compilation Techniques	/conf/IEEEpact	/conf/IEEEpact/pact\n" +
@@ -64,13 +65,14 @@ const ccfRankList =
   "B	ICPP	International Conference on Parallel Processing	/conf/icpp	/conf/icpp/icpp\n" +
   "B	ICS	International Conference on Supercomputing	/conf/ics	/conf/ics/ics\n" +
   "B	VEE	International Conference on Virtual Execution Environments	/conf/vee	/conf/vee/vee\n" +
-  "B	IPDPS	International Parallel & Distributed Processing Symposium	/conf/ipps	/conf/ipps/ipdps\n" +
+  "B	IPDPS	IEEE International Parallel & Distributed Processing Symposium	/conf/ipps	/conf/ipps/ipdps\n" +
   "B	Performance	International Symposium on Computer Performance, Modeling, Measurements and Evaluation	/conf/performance	/conf/performance/performance\n" +
   "B	ITC	International Test Conference	/conf/itc	/conf/itc/itc\n" +
-  "B	LISA	Large Installation system Administration Conference	/conf/lisa	/conf/lisa/lisa\n" +
+  "B	LISA	Large Installation System Administration Conference	/conf/lisa	/conf/lisa/lisa\n" +
   "B	MSST	Mass Storage Systems and Technologies	/conf/mss	/conf/mss/msst\n" +
-  "B	RTAS	Real-Time and Embedded Technology and Applications Symposium	/conf/rtas	/conf/rtas/rtas\n" +
+  "B	RTAS	IEEE Real-Time and Embedded Technology and Applications Symposium	/conf/rtas	/conf/rtas/rtas\n" +
   "B	Euro-Par	European Conference on Parallel and Distributed Computing	/conf/europar	/conf/europar/europar\n" +
+  "B	ISCAS	IEEE International Symposium on Circuits and Systems	/conf/iscas	/conf/iscas/iscas\n" +
   "C	CF	ACM International Conference on Computing Frontiers	/conf/cf	/conf/cf/cf\n" +
   "C	SYSTOR	ACM International Systems and Storage Conference	/conf/systor	/conf/systor/systor\n" +
   "C	NOCS	ACM/IEEE International Symposium on Networks-on-Chip	/conf/nocs	/conf/nocs/nocs\n" +
@@ -92,7 +94,6 @@ const ccfRankList =
   "C	FPT	International Conference on Field-Programmable Technology	/conf/fpt	/conf/icfpt/icfpt\n" +
   "C	FPT	International Conference on Field-Programmable Technology	/conf/fpt	/conf/fpt/fpt\n" +
   "C	ICPADS	International Conference on Parallel and Distributed Systems	/conf/icpads	/conf/icpads/icpads\n" +
-  "B	ISCAS	International Symposium on Circuits and Systems	/conf/iscas	/conf/iscas/iscas\n" +
   "C	ISLPED	International Symposium on Low Power Electronics and Design	/conf/islped	/conf/islped/islped\n" +
   "C	ISPD	International Symposium on Physical Design	/conf/ispd	/conf/ispd/ispd\n" +
   "C	HotI	Symposium on High-Performance Interconnects	/conf/hoti	/conf/hoti/hoti\n" +
