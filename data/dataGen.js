@@ -108,7 +108,7 @@ const ccfRankList =
   "A	TMC	IEEE Transactions on Mobile Computing	/journals/tmc	/journals/tmc/tmc\n" +
   "A	TON	IEEE Transactions on Networking	/journals/ton	/journals/ton/ton\n" +
   "B	TOIT	ACM Transactions on Internet Technology	/journals/toit	/journals/toit/toit\n" +
-  "B	TOMCCAP	ACM Transactions on Multimedia Computing, Communications and Applications	/journals/tomccap	/journals/tomccap/tomccap\n" +
+  "B	TOMM	ACM Transactions on Multimedia Computing, Communications and Applications	/journals/tomccap	/journals/tomccap/tomccap\n" +
   "B	TOSN	ACM Transactions on Sensor Networks	/journals/tosn	/journals/tosn/tosn\n" +
   "B	CN	Computer Networks	/journals/cn	/journals/cn/cn\n" +
   "B	TCOM	IEEE Transactions on Communications	/journals/tcom	/journals/tcom/tcom\n" +
