@@ -696,7 +696,7 @@ const ccfRankList =
   "C	TCPS	ACM Transactions on Cyber-Physical Systems	/journals/tcps	/journals/tcps/tcps\n" +
   "C	TOCE	ACM Transactions on Computing Education	/journals/jeric	/journals/jeric/toce\n" +
   "C	TOCE	ACM Transactions on Computing Education	/journals/jeric	/journals/jeric/jeric\n" +
-  "C	EITEE	Engineering Information Technology & Electronic Engineering	/journals/jzusc	/journals/jzusc/jzusc\n" +
+  "C	EITEE	ENGINEERING Information Technology & Electronic Engineering	/journals/jzusc	/journals/jzusc/jzusc\n" +
   "C	TCSS	IEEE Transactions on Computational Social Systems	/journals/tcss	/journals/tcss/tcss\n" +
   "C		IEEE Transactions on Reliability	/journals/tr	/journals/tr/tr\n" +
   "C	HEALTH	ACM Transactions on Computing for Healthcare	/journals/health	/journals/health/health\n" +
