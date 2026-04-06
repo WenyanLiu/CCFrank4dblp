@@ -75,6 +75,14 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.6.0**
+
+> Apr 6, 2026
+
+1. 更新至《[中国计算机学会推荐国际学术会议和期刊目录](https://www.ccf.org.cn/Academic_Evaluation/By_category/)》2026年版本。
+2. 修正大量会议和期刊全称。
+3. 代码质量修复：修复内存泄漏、localStorage遍历修改等问题。
+
 **Version 4.5.5**
 
 > Feb 23, 2026
