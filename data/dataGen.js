@@ -544,7 +544,7 @@ const ccfRankList =
   "C	AIM	Artificial Intelligence in Medicine	/journals/artmed	/journals/artmed/artmed\n" +
   "C		Artificial Life	/journals/alife	/journals/alife/alife\n" +
   "C		Computational Intelligence	/journals/ci	/journals/ci/ci\n" +
-  "C		Computer Speech and Language	/journals/csl	/journals/csl/csl\n" +
+  "C		Computer Speech & Language	/journals/csl	/journals/csl/csl\n" +
   "C		Connection Science	/journals/connection	/journals/connection/connection\n" +
   "C	DSS	Decision Support Systems	/journals/dss	/journals/dss/dss\n" +
   "C	EAAI	Engineering Applications of Artificial Intelligence	/journals/eaai	/journals/eaai/eaai\n" +
@@ -560,7 +560,7 @@ const ccfRankList =
   "C	IJIS	International Journal of Intelligent Systems	/journals/ijis	/journals/ijis/ijis\n" +
   "C	IJNS	International Journal of Neural Systems	/journals/ijns	/journals/ijns/ijns\n" +
   "C	IJPRAI	International Journal of Pattern Recognition and Artificial Intelligence	/journals/ijprai	/journals/ijprai/ijprai\n" +
-  "C	IJUFKS	International Journal of Uncertainty, Fuzziness and Knowledge-Based System	/journals/ijufks	/journals/ijufks/ijufks\n" +
+  "C	IJUFKS	International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems	/journals/ijufks	/journals/ijufks/ijufks\n" +
   "C	IJDAR	International Journal on Document Analysis and Recognition	/journals/ijdar	/journals/ijdar/ijdar\n" +
   "C	JETAI	Journal of Experimental and Theoretical Artificial Intelligence	/journals/jetai	/journals/jetai/jetai\n" +
   "C	KBS	Knowledge-Based Systems	/journals/kbs	/journals/kbs/kbs\n" +
@@ -568,7 +568,7 @@ const ccfRankList =
   "C		Machine Vision and Applications	/journals/mva	/journals/mva/mva\n" +
   "C		Natural Computing	/journals/nc	/journals/nc/nc\n" +
   "C	NLE	Natural Language Engineering	/journals/nle	/journals/nle/nle\n" +
-  "C	NCA	Neural Computing & Applications	/journals/nca	/journals/nca/nca\n" +
+  "C	NCA	Neural Computing and Applications	/journals/nca	/journals/nca/nca\n" +
   "C	NPL	Neural Processing Letters	/journals/npl	/journals/npl/npl\n" +
   "C		Neurocomputing	/journals/ijon	/journals/ijon/ijon\n" +
   "C	PAA	Pattern Analysis and Applications	/journals/paa	/journals/paa/paa\n" +
@@ -576,6 +576,8 @@ const ccfRankList =
   "C		Soft Computing	/journals/soco	/journals/soco/soco\n" +
   "C	WI	Web Intelligence	/journals/wias	/journals/wias/wias\n" +
   "C	TIIS	ACM Transactions on Interactive Intelligent Systems	/journals/tiis	/journals/tiis/tiis\n" +
+  "C	TELO	ACM Transactions on Evolutionary Learning and Optimization	/journals/telo	/journals/telo/telo\n" +
+  "C	JATS	ACM Journal on Autonomous Transportation Systems		\n" +
   "A	AAAI	AAAI Conference on Artificial Intelligence	/conf/aaai	/conf/aaai/aaai\n" +
   "A	NeurIPS	Annual Conference on Neural Information Processing Systems	/conf/nips	/conf/nips/neurips\n" +
   "A	NeurIPS	Annual Conference on Neural Information Processing Systems	/conf/nips	/conf/nips/nips\n" +
