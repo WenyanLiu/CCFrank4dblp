@@ -579,12 +579,13 @@ const ccfRankList =
   "C	TELO	ACM Transactions on Evolutionary Learning and Optimization	/journals/telo	/journals/telo/telo\n" +
   "C	JATS	ACM Journal on Autonomous Transportation Systems		\n" +
   "A	AAAI	AAAI Conference on Artificial Intelligence	/conf/aaai	/conf/aaai/aaai\n" +
-  "A	NeurIPS	Annual Conference on Neural Information Processing Systems	/conf/nips	/conf/nips/neurips\n" +
-  "A	NeurIPS	Annual Conference on Neural Information Processing Systems	/conf/nips	/conf/nips/nips\n" +
+  "A	NeurIPS	Conference on Neural Information Processing Systems	/conf/nips	/conf/nips/neurips\n" +
+  "A	NeurIPS	Conference on Neural Information Processing Systems	/conf/nips	/conf/nips/nips\n" +
   "A	ACL	Annual Meeting of the Association for Computational Linguistics	/conf/acl	/conf/acl/acl\n" +
-  "A	CVPR	IEEE Conference on Computer Vision and Pattern Recognition	/conf/cvpr	/conf/cvpr/cvpr\n" +
+  "A	CVPR	IEEE/CVF Computer Vision and Pattern Recognition Conference	/conf/cvpr	/conf/cvpr/cvpr\n" +
   "A	ICCV	International Conference on Computer Vision	/conf/iccv	/conf/iccv/iccv\n" +
   "A	ICML	International Conference on Machine Learning	/conf/icml	/conf/icml/icml\n" +
+  "A	ICLR	International Conference on Learning Representations	/conf/iclr	/conf/iclr/iclr\n" +
   "B	IJCAI	International Joint Conference on Artificial Intelligence	/conf/ijcai	/conf/ijcai/ijcai\n" +
   "B	COLT	Annual Conference on Computational Learning Theory	/conf/colt	/conf/colt/colt\n" +
   "B	EMNLP	Conference on Empirical Methods in Natural Language Processing	/conf/emnlp	/conf/emnlp/emnlp\n" +
