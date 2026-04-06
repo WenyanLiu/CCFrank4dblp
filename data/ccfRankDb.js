@@ -220,6 +220,7 @@ ccf.rankDb = {
   "/conf/eurosp": "/conf/eurosp/eurosp",
   "/conf/icisc": "/conf/icisc/icisc",
   "/conf/cisc": "/conf/cisc/inscrypt",
+  "/conf/codaspy": "/conf/codaspy/codaspy",
   "/conf/blocksys": "/conf/blocksys/blocksys",
   "/conf/cscloud": "/conf/cscloud/cscloud",
   "/journals/toplas": "/journals/toplas/toplas",
