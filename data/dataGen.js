@@ -378,17 +378,19 @@ const ccfRankList =
   "B	RecSys	ACM Conference on Recommender Systems	/conf/recsys	/conf/recsys/recsys\n" +
   "B	WISE	Web Information Systems Engineering Conference	/conf/wise	/conf/wise/wise\n" +
   "C	APWeb	Asia Pacific Web Conference	/conf/apweb	/conf/apweb/apweb\n" +
-  "C	DEXA	Database and Expert System Applications	/conf/dexa	/conf/dexa/dexa\n" +
-  "C	ECIR	European Conference on IR Research	/conf/ecir	/conf/ecir/ecir\n" +
+  "C	DEXA	International Conference on Database and Expert System Applications	/conf/dexa	/conf/dexa/dexa\n" +
+  "C	ECIR	European Conference on Information Retrieval	/conf/ecir	/conf/ecir/ecir\n" +
   "C	ESWC	Extended Semantic Web Conference	/conf/esws	/conf/esws/eswc\n" +
-  "C	WebDB	International ACM Workshop on Web and Databases	/conf/webdb	/conf/webdb/webdb\n" +
+  "C	WebDB	International Workshop on Web and Databases	/conf/webdb	/conf/webdb/webdb\n" +
   "C	ER	International Conference on Conceptual Modeling	/conf/er	/conf/er/er\n" +
   "C	MDM	International Conference on Mobile Data Management	/conf/mdm	/conf/mdm/mdm\n" +
-  "C	SSDBM	International Conference on Scientific and Statistical DB Management	/conf/ssdbm	/conf/ssdbm/ssdbm\n" +
+  "C	SSDBM	International Conference on Scientific and Statistical Database Management	/conf/ssdbm	/conf/ssdbm/ssdbm\n" +
   "C	WAIM	International Conference on Web Age Information Management	/conf/waim	/conf/waim/waim\n" +
+  "C	SSTD	International Symposium on Spatial and Temporal Databases	/conf/ssd	/conf/ssd/ssd\n" +
   "C	SSTD	International Symposium on Spatial and Temporal Databases	/conf/ssd	/conf/ssd/sstd\n" +
   "C	PAKDD	Pacific-Asia Conference on Knowledge Discovery and Data Mining	/conf/pakdd	/conf/pakdd/pakdd\n" +
-  "C	ADMA	The International Conference on Advanced Data Mining and Applications	/conf/adma	/conf/adma/adma\n" +
+  "C	ADMA	International Conference on Advanced Data Mining and Applications	/conf/adma	/conf/adma/adma\n" +
+  "C	WISA	Web Information Systems and Applications	/conf/wisa	/conf/wisa/wisa\n" +
   "A	TIT	IEEE Transactions on Information Theory	/journals/tit	/journals/tit/tit\n" +
   "A	IANDC	Information and Computation	/journals/iandc	/journals/iandc/iandc\n" +
   "A	SICOMP	SIAM Journal on Computing	/journals/siamcomp	/journals/siamcomp/siamcomp\n" +
@@ -396,7 +398,7 @@ const ccfRankList =
   "B	TOCL	ACM Transactions on Computational Logic	/journals/tocl	/journals/tocl/tocl\n" +
   "B	TOMS	ACM Transactions on Mathematical Software	/journals/toms	/journals/toms/toms\n" +
   "B	Algorithmica	Algorithmica	/journals/algorithmica	/journals/algorithmica/algorithmica\n" +
-  "B	CC	Computational complexity	/journals/cc	/journals/cc/cc\n" +
+  "B	CC	Computational Complexity	/journals/cc	/journals/cc/cc\n" +
   "B	FAC	Formal Aspects of Computing	/journals/fac	/journals/fac/fac\n" +
   "B	FMSD	Formal Methods in System Design	/journals/fmsd	/journals/fmsd/fmsd\n" +
   "B	INFORMS	INFORMS Journal on Computing	/journals/informs	/journals/informs/informs\n" +
