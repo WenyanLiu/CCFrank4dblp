@@ -7,6 +7,7 @@
 const dblp = {};
 
 dblp.rankSpanList = [];
+dblp._pollInterval = null;
 
 dblp.run = function () {
   let url = window.location.pathname;
@@ -20,7 +21,7 @@ dblp.run = function () {
     }
   } else {
     let popstateBound = false;
-    setInterval(function () {
+    dblp._pollInterval = setInterval(function () {
       let message = $("#completesearch-publs > div > p.waiting");
       if (message.css("display") == "none") {
         if (!popstateBound) {
@@ -35,8 +36,16 @@ dblp.run = function () {
   }
 };
 
+dblp.stop = function () {
+  if (dblp._pollInterval !== null) {
+    clearInterval(dblp._pollInterval);
+    dblp._pollInterval = null;
+  }
+};
+
 dblp.appendRanks = function () {
   let elements = $("cite > a");
+  const TRAILING_NUMERIC_PATTERN = /[0-9]{1,4}(-[0-9]{1,4})?$/;
   elements.each(function () {
     let element = $(this);
     let source = element.attr("href");
@@ -55,9 +64,8 @@ dblp.appendRanks = function () {
           source.indexOf("/db/") + 3,
           source.lastIndexOf(".html"),
         );
-        var pattern = /[0-9]{1,4}(-[0-9]{1,4})?$/;
-        if (pattern.test(urls)) {
-          urls = urls.replace(pattern, "");
+        if (TRAILING_NUMERIC_PATTERN.test(urls)) {
+          urls = urls.replace(TRAILING_NUMERIC_PATTERN, "");
         } else {
           urls = "";
         }

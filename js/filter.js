@@ -7,6 +7,7 @@
 const filter = {
   currentFilter: "ALL",
   processedEntries: new Set(),
+  MAX_PROCESSED_ENTRIES: 1000,
 
   init() {
     if (!window.location.hostname.startsWith("dblp")) {
@@ -64,9 +65,15 @@ const filter = {
 
       this.processedEntries.add(entryId);
 
-      const hasCCFC = entry.textContent.includes("CCF C");
-      const hasCCFB = entry.textContent.includes("CCF B");
-      const hasCCFA = entry.textContent.includes("CCF A");
+      if (this.processedEntries.size > this.MAX_PROCESSED_ENTRIES) {
+        const firstKey = this.processedEntries.values().next().value;
+        this.processedEntries.delete(firstKey);
+      }
+
+      const text = entry.textContent;
+      const hasCCFC = text.includes("CCF C");
+      const hasCCFB = text.includes("CCF B");
+      const hasCCFA = text.includes("CCF A");
 
       let shouldShow = false;
 
