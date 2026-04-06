@@ -330,16 +330,17 @@ const ccfRankList =
   "B	TKDD	ACM Transactions on Knowledge Discovery from Data	/journals/tkdd	/journals/tkdd/tkdd\n" +
   "B	TWEB	ACM Transactions on the Web	/journals/tweb	/journals/tweb\n" +
   "B	AEI	Advanced Engineering Informatics	/journals/aei	/journals/aei/aei\n" +
-  "B	DKE	Data and Knowledge Engineering	/journals/dke	/journals/dke/dke\n" +
+  "B	DKE	Data & Knowledge Engineering	/journals/dke	/journals/dke/dke\n" +
   "B	DMKD	Data Mining and Knowledge Discovery	/journals/datamine	/journals/datamine/datamine\n" +
   "B	EJIS	European Journal of Information Systems	/journals/ejis	/journals/ejis/ejis\n" +
   "B		GeoInformatica	/journals/geoinformatica	/journals/geoinformatica/geoinformatica\n" +
   "B	IPM	Information Processing and Management	/journals/ipm	/journals/ipm/ipm\n" +
   "B		Information Sciences	/journals/isci	/journals/isci/isci\n" +
   "B	IS	Information Systems	/journals/is	/journals/is/is\n" +
-  "B	JASIST	Journal of the American Society for Information Science and Technology	/journals/jasis	/journals/jasis/jasis\n" +
+  "B	JASIST	Journal of the Association for Information Science and Technology	/journals/jasis	/journals/jasis/jasis\n" +
   "B	JWS	Journal of Web Semantics	/journals/ws	/journals/ws/ws\n" +
   "B	KAIS	Knowledge and Information Systems	/journals/kais	/journals/kais/kais\n" +
+  "B	DSE	Data Science and Engineering	/journals/dase	/journals/dase/dase\n" +
   "C	DPD	Distributed and Parallel Databases	/journals/dpd	/journals/dpd/dpd\n" +
   "C	I&M	Information and Management	/journals/iam	/journals/iam/iam\n" +
   "C	IPL	Information Processing Letters	/journals/ipl	/journals/ipl/ipl\n" +
@@ -354,7 +355,6 @@ const ccfRankList =
   "C	JGITM	Journal of Global Information Technology Management		\n" +
   "C	JIIS	Journal of Intelligent Information Systems	/journals/jiis	/journals/jiis/jiis\n" +
   "C	JSIS	Journal of Strategic Information Systems	/journals/jsis	/journals/jsis/jsis\n" +
-  "B	DSE	Data Science and Engineering	/journals/dase	/journals/dase/dase\n" +
   "A	SIGMOD	ACM Conference on Management of Data	/conf/sigmod	/conf/sigmod/sigmod\n" +
   "A	SIGKDD	ACM Knowledge Discovery and Data Mining	/conf/kdd	/conf/kdd/kdd\n" +
   "A	ICDE	IEEE International Conference on Data Engineering	/conf/icde	/conf/icde/icde\n" +
