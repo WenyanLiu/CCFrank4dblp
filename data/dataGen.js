@@ -703,12 +703,14 @@ const ccfRankList =
   "C	ACM DLT	ACM Distributed Ledger Technologies: Research and Practice	/journals/distribledger	/journals/distribledger/distribledger\n" +
   "A	WWW	The Web Conference	/conf/www	/conf/www/www\n" +
   "A	RTSS	IEEE Real-Time Systems Symposium	/conf/rtss	/conf/rtss/rtss\n" +
-  "B	WINE	Conference on Web and Internet Economics	/conf/wine	/conf/wine/wine\n" +
   "B	CogSci	Annual Meeting of the Cognitive Science Society	/conf/cogsci	/conf/cogsci/cogsci\n" +
   "B	BIBM	IEEE International Conference on Bioinformatics and Biomedicine	/conf/bibm	/conf/bibm/bibm\n" +
   "B	EMSOFT	International Conference on Embedded Software IEEE/ACM/IFIP	/conf/emsoft	/conf/emsoft/emsoft\n" +
   "B	ISMB	International conference on Intelligent Systems for Molecular Biology	/journals/bioinformatics	/journals/bioinformatics/bioinformatics\n" +
+  "B	ISMB	International conference on Intelligent Systems for Molecular Biology	/conf/ismb	/conf/ismb/ismb\n" +
   "B	RECOMB	Annual International Conference on Research in Computational Molecular Biology	/conf/recomb	/conf/recomb/recomb\n" +
+  "B	MICCAI	International Conference on Medical Image Computing and Computer-Assisted Intervention	/conf/miccai	/conf/miccai/miccai\n" +
+  "B	WINE	Conference on Web and Internet Economics	/conf/wine	/conf/wine/wine\n" +
   "C	AMIA	American Medical Informatics Association Annual Symposium	/conf/amia	/conf/amia/amia\n" +
   "C	APBC	Asia Pacific Bioinformatics Conference	/conf/apbc	/conf/apbc/apbc\n" +
   "C	IEEE BigData	IEEE International Conference on Big Data	/conf/bigdataconf	/conf/bigdataconf/bigdataconf\n" +
