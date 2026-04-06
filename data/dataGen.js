@@ -720,10 +720,10 @@ const ccfRankList =
   "C	ISBRA	International Symposium on Bioinformatics Research and Applications	/conf/isbra	/conf/isbra/isbra\n" +
   "C	SAGT	International Symposium on Algorithmic Game Theory	/conf/sagt	/conf/sagt/sagt\n" +
   "C	SIGSPATIAL	ACM Special Interest Group on Spatial Information	/conf/gis	/conf/gis/gis\n" +
+  "C	SIGSPATIAL	ACM Special Interest Group on Spatial Information	/journals/sigspatial	/journals/sigspatial/sigspatial\n" +
   "C	ICIC	International Conference on Intelligent Computing	/conf/icic	/conf/icic/icic\n" +
   "C	ICSS	International Conference on Service Science	/conf/service	/conf/service/service\n" +
   "C	AFT	Advances in Financial Technologies	/conf/aft	/conf/aft/aft\n" +
-  "A	ICLR	International Conference on Learning Representations	/conf/iclr	/conf/iclr/iclr\n" +
   "C	IJTCS-FAW	International Joint Conference on Theoretical Computer Science - Frontier of Algorithmic Wisdom	/conf/faw	/conf/faw/faw\n" +
   "P		arXiv	/journals/corr	/journals/corr/corr";
 
