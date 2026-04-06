@@ -600,7 +600,7 @@ const ccfRankList =
   "B	PPSN	Parallel Problem Solving from Nature	/conf/ppsn	/conf/ppsn/ppsn\n" +
   "B	NAACL	North American Chapter of the Association for Computational Linguistics	/conf/naacl	/conf/naacl/naacl\n" +
   "B	IJCAI	International Joint Conference on Artificial Intelligence	/conf/ijcai	/conf/ijcai/ijcai\n" +
-  "C	AISTATS	Artificial Intelligence and Statistics	/conf/aistats	/conf/aistats/aistats\n" +
+  "C	AISTATS	International Conference on Artificial Intelligence and Statistics	/conf/aistats	/conf/aistats/aistats\n" +
   "C	ACCV	Asian Conference on Computer Vision	/conf/accv	/conf/accv/accv\n" +
   "C	ACML	Asian Conference on Machine Learning	/conf/acml	/conf/acml/acml\n" +
   "C	BMVC	British Machine Vision Conference	/conf/bmvc	/conf/bmvc/bmvc\n" +
@@ -608,7 +608,7 @@ const ccfRankList =
   "C	CoNLL	Conference on Computational Natural Language Learning	/conf/conll	/conf/conll/conll\n" +
   "C	GECCO	Genetic and Evolutionary Computation Conference	/conf/gecco	/conf/gecco/gecco\n" +
   "C	ICTAI	IEEE International Conference on Tools with Artificial Intelligence	/conf/ictai	/conf/ictai/ictai\n" +
-  "C	IROS	IEEERSJ International Conference on Intelligent Robots and Systems	/conf/iros	/conf/iros/iros\n" +
+  "C	IROS	IEEE/RSJ International Conference on Intelligent Robots and Systems	/conf/iros	/conf/iros/iros\n" +
   "C	ALT	International Conference on Algorithmic Learning Theory	/conf/alt	/conf/alt/alt\n" +
   "C	ICANN	International Conference on Artificial Neural Networks	/conf/icann	/conf/icann/icann\n" +
   "C	FG	International Conference on Automatic Face and Gesture Recognition	/conf/fgr	/conf/fgr/fg\n" +
@@ -617,11 +617,13 @@ const ccfRankList =
   "C	KSEM	International conference on Knowledge Science,Engineering and Management	/conf/ksem	/conf/ksem/ksem\n" +
   "C	ICONIP	International Conference on Neural Information Processing	/conf/iconip	/conf/iconip/iconip\n" +
   "C	ICPR	International Conference on Pattern Recognition	/conf/icpr	/conf/icpr/icpr\n" +
-  "C	ICB	International Joint Conference on Biometrics	/conf/icb	/conf/icb/icb\n" +
+  "C	IJCB	International Joint Conference on Biometrics	/conf/icb	/conf/icb/icb\n" +
   "C	IJCNN	International Joint Conference on Neural Networks	/conf/ijcnn	/conf/ijcnn/ijcnn\n" +
   "C	PRICAI	Pacific Rim International Conference on Artificial Intelligence	/conf/pricai	/conf/pricai/pricai\n" +
+  "C	IEEE CEC	Congress on Evolutionary Computation	/conf/cec	/conf/cec/cec\n" +
+  "C	DAI	International Conference on Distributed Artificial Intelligence	/conf/dai2	/conf/dai2/dai2\n" +
   "A	TOCHI	ACM Transactions on Computer-Human Interaction	/journals/tochi	/journals/tochi/tochi\n" +
-  "A	IJHCS	International Journal of Human Computer Studies	/journals/ijmms	/journals/ijmms/ijmms\n" +
+  "A	IJHCS	International Journal of Human-Computer Studies	/journals/ijmms	/journals/ijmms/ijmms\n" +
   "B	CSCW	Computer Supported Cooperative Work	/journals/cscw	/journals/cscw/cscw\n" +
   "B	HCI	Human Computer Interaction	/journals/hhci	/journals/hhci/hhci\n" +
   "B		IEEE Transactions on Human-Machine Systems	/journals/thms	/journals/thms/thms\n" +
