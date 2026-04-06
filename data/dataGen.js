@@ -299,16 +299,14 @@ const ccfRankList =
   "C	PASTE	ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering	/conf/paste	/conf/paste/paste\n" +
   "C	APLAS	Asian Symposium on Programming Languages and Systems	/conf/aplas	/conf/aplas/aplas\n" +
   "C	APSEC	Asia-Pacific Software Engineering Conference	/conf/apsec	/conf/apsec/apsec\n" +
-  "C	EASE	Evaluation and Assessment in Software Engineering	/conf/ease	/conf/ease/ease\n" +
+  "C	EASE	International Conference on Evaluation and Assessment in Software Engineering	/conf/ease	/conf/ease/ease\n" +
   "C	ICECCS	IEEE International Conference on Engineering of Complex Computer Systems	/conf/iceccs	/conf/iceccs/iceccs\n" +
   "C	ICST	IEEE International Conference on Software Testing, Verification and Validation	/conf/icst	/conf/icst/icst\n" +
   "C	ISPASS	IEEE International Symposium on Performance Analysis of Systems and Software	/conf/ispass	/conf/ispass/ispass\n" +
   "C	SCAM	IEEE International Working Conference on Source Code Analysis and Manipulation	/conf/scam	/conf/scam/scam\n" +
   "C	COMPSAC	International Computer Software and Applications Conference	/conf/compsac	/conf/compsac/compsac\n" +
   "C	ICFEM	International Conference on Formal Engineering Methods	/conf/icfem	/conf/icfem/icfem\n" +
-  "C	TOOLS	International Conference on Objects, Models, Components, Patterns	/conf/tools	/conf/tools/tools\n" +
-  "C	QSIC	International Conference on Quality Software	/conf/qsic	/conf/qsic/qsic\n" +
-  "C	SCC	International Conference on Service Computing	/conf/IEEEscc	/conf/IEEEscc/scc\n" +
+  "C	SSE	IEEE International Conference on Software Services Engineering	/conf/IEEEscc	/conf/IEEEscc/scc\n" +
   "C	ICSSP	International Conference on Software and System Process	/conf/ispw	/conf/ispw/icssp\n" +
   "C	ICSSP	International Conference on Software and System Process	/conf/ispw	/conf/ispw/icsp\n" +
   "C	SEKE	International Conference on Software Engineering and Knowledge Engineering	/conf/seke	/conf/seke/seke\n" +
@@ -318,12 +316,13 @@ const ccfRankList =
   "C	SPIN	International SPIN Workshop on Model Checking of Software	/conf/spin	/conf/spin/spin\n" +
   "C	ATVA	International Symposium on Automated Technology for Verification and Analysis	/conf/atva	/conf/atva/atva\n" +
   "C	LOPSTR	International Symposium on Logic-based Program Synthesis and Transformation	/conf/lopstr	/conf/lopstr/lopstr\n" +
-  "C	TASE	International Symposium on Theoretical Aspects of Software Engineering	/conf/tase	/conf/tase/tase\n" +
+  "C	TASE	Theoretical Aspects of Software Engineering Conference	/conf/tase	/conf/tase/tase\n" +
   "C	MSR	Mining Software Repositories	/conf/msr	/conf/msr/msr\n" +
   "C	REFSQ	Requirements Engineering: Foundation for Software Quality	/conf/refsq	/conf/refsq/refsq\n" +
   "C	WICSA	Working IEEE/IFIP Conference on Software Architecture	/conf/wicsa	/conf/wicsa/wicsa\n" +
-  "C	Internetware	The Asia-Pacific Symposium on Internetware	/conf/internetware	/conf/internetware/internetware\n" +
+  "C	Internetware	Asia-Pacific Symposium on Internetware	/conf/internetware	/conf/internetware/internetware\n" +
   "C	RV	International Conference on Runtime Verification	/conf/rv	/conf/rv/rv\n" +
+  "C	MEMOCODE	International Conference on Formal Methods and Models for Co-Design	/conf/memocode	/conf/memocode/memocode\n" +
   "A 	TODS	ACM Transactions on Database Systems	/journals/tods	/journals/tods/tods\n" +
   "A 	TOIS	ACM Transactions on Information Systems	/journals/tois	/journals/tois/tois\n" +
   "A 	TKDE	IEEE Transactions on Knowledge and Data Engineering	/journals/tkde	/journals/tkde/tkde\n" +
