@@ -411,7 +411,6 @@ const ccfRankList =
   "C	APAL	Annals of Pure and Applied Logic	/journals/apal	/journals/apal/apal\n" +
   "C	DAM	Discrete Applied Mathematics	/journals/dam	/journals/dam/dam\n" +
   "C	FUIN	Fundamenta Informaticae	/journals/fuin	/journals/fuin/fuin\n" +
-  "C	LISP	Higher-Order and Symbolic Computation	/journals/lisp	/journals/lisp/lisp\n" +
   "C	IPL	Information Processing Letters	/journals/ipl	/journals/ipl/ipl\n" +
   "C	JCOMPLEXITY	Journal of Complexity	/journals/jc	/journals/jc/jc\n" +
   "C	LOGCOM	Journal of Logic and Computation	/journals/logcom	/journals/logcom/logcom\n" +
@@ -419,32 +418,33 @@ const ccfRankList =
   "C	LMCS	Logical Methods in Computer Science	/journals/lmcs	/journals/lmcs/lmcs\n" +
   "C	SIDMA	SIAM Journal on Discrete Mathematics	/journals/siamdm	/journals/siamdm/siamdm\n" +
   "C		Theory of Computing Systems	/journals/mst	/journals/mst/mst\n" +
-  "A	STOC	ACM Symposium on Theory of Computing	/conf/stoc	/conf/stoc/stoc\n" +
+  "C	TQC	ACM Transactions in Quantum Computing	/journals/tqc	/journals/tqc/tqc\n" +
+  "A	STOC	ACM Symposium on the Theory of Computing	/conf/stoc	/conf/stoc/stoc\n" +
   "A	SODA	ACM-SIAM Symposium on Discrete Algorithms	/conf/soda	/conf/soda/soda\n" +
-  "A	CAV	Computer Aided Verification	/conf/cav	/conf/cav/cav\n" +
+  "A	CAV	International Conference on Computer Aided Verification	/conf/cav	/conf/cav/cav\n" +
   "A	FOCS	IEEE Annual Symposium on Foundations of Computer Science	/conf/focs	/conf/focs/focs\n" +
-  "A	LICS	IEEE Symposium on Logic in Computer Science	/conf/lics	/conf/lics/lics\n" +
-  "B	SoCG	ACM Symposium on Computational Geometry	/conf/compgeom	/conf/compgeom/compgeom\n" +
+  "A	LICS	ACM/IEEE Symposium on Logic in Computer Science	/conf/lics	/conf/lics/lics\n" +
+  "B	SoCG	International Symposium on Computational Geometry	/conf/compgeom	/conf/compgeom/compgeom\n" +
   "B	ESA	European Symposium on Algorithms	/conf/esa	/conf/esa/esa\n" +
-  "B	CCC	IEEE Conference on Computational Complexity	/conf/coco	/conf/coco/coco\n" +
+  "B	CCC	Conference on Computational Complexity	/conf/coco	/conf/coco/coco\n" +
   "B	ICALP	International Colloquium on Automata, Languages and Programming	/conf/icalp	/conf/icalp/icalp\n" +
-  "B	CADE/IJCAR	International Conference on Automated Deduction/International Joint Conference on Automated Reasoning	/conf/cade	/conf/cade/ijcar\n" +
-  "B	CADE/IJCAR	International Conference on Automated Deduction/International Joint Conference on Automated Reasoning	/conf/cade	/conf/cade/cade\n" +
+  "B	CADE	Conference on Automated Deduction	/conf/cade	/conf/cade/ijcar\n" +
+  "B	CADE	Conference on Automated Deduction	/conf/cade	/conf/cade/cade\n" +
   "B	CONCUR	International Conference on Concurrency Theory	/conf/concur	/conf/concur/concur\n" +
   "B	HSCC	International Conference on Hybrid Systems: Computation and Control	/conf/hybrid	/conf/hybrid/hscc\n" +
-  "B	SAT	Theory and Applications of Satisfiability Testing	/conf/sat	/conf/sat/sat\n" +
+  "B	SAT	International Conference on Theory and Applications of Satisfiability Testing	/conf/sat	/conf/sat/sat\n" +
   "B	COCOON	International Computing and Combinatorics Conference	/conf/cocoon	/conf/cocoon/cocoon\n" +
+  "B	FMCAD	Formal Methods in Computer-Aided Design	/conf/fmcad	/conf/fmcad/fmcad\n" +
   "C	CSL	Computer Science Logic	/conf/csl	/conf/csl/csl\n" +
-  "B	FMCAD	Formal Method in Computer-Aided Design	/conf/fmcad	/conf/fmcad/fmcad\n" +
   "C	FSTTCS	Foundations of Software Technology and Theoretical Computer Science	/conf/fsttcs	/conf/fsttcs/fsttcs\n" +
   "C	DSAA	IEEE International Conference on Data Science and Advanced Analytics	/conf/dsaa	/conf/dsaa/dsaa\n" +
   "C	ICTAC	International Colloquium on Theoretical Aspects of Computing	/conf/ictac	/conf/ictac/ictac\n" +
   "C	IPCO	International Conference on Integer Programming and Combinatorial Optimization	/conf/ipco	/conf/ipco/ipco\n" +
-  "C	RTA	International Conference on Rewriting Techniques and Applications	/conf/rta	/conf/rta/rta\n" +
+  "C	FSCD	International Conference on Formal Structures for Computation and Deduction	/conf/rta	/conf/rta/rta\n" +
   "C	ISAAC	International Symposium on Algorithms and Computation	/conf/isaac	/conf/isaac/isaac\n" +
   "C	MFCS	Mathematical Foundations of Computer Science	/conf/mfcs	/conf/mfcs/mfcs\n" +
   "C	STACS	Symposium on Theoretical Aspects of Computer Science	/conf/stacs	/conf/stacs/stacs\n" +
-  "C	SETTA	International Symposium on Dependable Software Engineering: Theories, Tools, and Applications	/conf/setta	/conf/setta/setta\n" +
+  "C	SETTA	International Symposium on Software Engineering: Theories, Tools, and Applications	/conf/setta	/conf/setta/setta\n" +
   "A	TOG	ACM Transactions on Graphics	/journals/tog	/journals/tog/tog\n" +
   "A	TIP	IEEE Transactions on Image Processing	/journals/tip	/journals/tip/tip\n" +
   "A	TVCG	IEEE Transactions on Visualization and Computer Graphics	/journals/tvcg	/journals/tvcg/tvcg\n" +
