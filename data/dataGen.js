@@ -668,7 +668,7 @@ const ccfRankList =
   "A 	JACM	Journal of the ACM	/journals/jacm	/journals/jacm/jacm\n" +
   "A 	Proc. IEEE	Proceedings of the IEEE	/journals/pieee	/journals/pieee/pieee\n" +
   "A	SCIS	Science China Information Sciences	/journals/chinaf	/journals/chinaf/chinaf\n" +
-  "A		Bioinformatics	/journals/bioinformatics	/journals/bioinformatics/bioinformatics\n" +
+  "A	Bioinformatics	Bioinformatics	/journals/bioinformatics	/journals/bioinformatics/bioinformatics\n" +
   "B		Briefings in Bioinformatics	/journals/bib	/journals/bib/bib\n" +
   "B	Cognition	Cognition: International Journal of Cognitive Science		\n" +
   "B	TASAE	IEEE Transactions on Automation Science and Engineering	/journals/tase	/journals/tase/tase\n" +
