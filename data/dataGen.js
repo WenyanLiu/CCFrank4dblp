@@ -495,10 +495,9 @@ const ccfRankList =
   "B	SPM	Symposium on Solid and Physical Modeling	/conf/sma	/conf/sma/spm\n" +
   "B	SPM	Symposium on Solid and Physical Modeling	/conf/sma	/conf/sma/sma\n" +
   "B	INTER-SPEECH	Conference of the International Speech Communication Association	/conf/interspeech	/conf/interspeech/interspeech\n" +
-  "C		ACM Symposium on Virtual Reality Software and Technology	/conf/vrst	/conf/vrst/vrst\n" +
-  "C	CASA	Computer Animation and Social Agents	/conf/ca	/conf/ca/casa\n" +
+  "C	VRST	ACM Symposium on Virtual Reality Software and Technology	/conf/vrst	/conf/vrst/vrst\n" +
+  "C	CASAXR	International Conference on Computer Animation, Social Agents, and Extended Reality	/conf/ca	/conf/ca/casa\n" +
   "C	CGI	Computer Graphics International	/conf/cgi	/conf/cgi/cgi\n" +
-  "C	INTERSPEECH	Conference of the International SpeechCommunication Association	/conf/interspeech	/conf/interspeech/interspeech\n" +
   "C	GMP	Geometric Modeling and Processing	/conf/gmp	/conf/gmp/gmp\n" +
   "C	PacificVis	IEEE Pacific Visualization Symposium	/conf/apvis	/conf/apvis/pacificvis\n" +
   "C	PacificVis	IEEE Pacific Visualization Symposium	/conf/apvis	/conf/apvis/apvis\n" +
@@ -506,24 +505,26 @@ const ccfRankList =
   "C	CAD/Graphics	International Conference on Computer-Aided Design and Computer Graphics	/conf/cadgraphics	/conf/cadgraphics/cadgraphics\n" +
   "C	ICIP	International Conference on Image Processing	/conf/icip	/conf/icip/icip\n" +
   "C	MMM	International Conference on Multimedia Modeling	/conf/mmm	/conf/mmm/mmm\n" +
-  "C	PCM	Pacific-Rim Conference on Multimedia	/conf/pcm	/conf/pcm/pcm\n" +
+  "C	MMAsia	ACM Multimedia Asia	/conf/mmasia	/conf/mmasia/mmasia\n" +
   "C	SMI	Shape Modeling International	/conf/smi	/conf/smi/smi\n" +
-  "C	ICVRV	International Conference on Virtual Reality and Visualization		\n" +
   "C	CVM	Computational Visual Media	/conf/cvm	/conf/cvm/cvm\n" +
   "C	PRCV	Chinese Conference on Pattern Recognition and Computer Vision	/conf/prcv	/conf/prcv/prcv\n" +
+  "C	ICIG	International Conference on Image and Graphics	/conf/icig	/conf/icig/icig\n" +
+  "C	NCMMSC	National Conference on Man-Machine Speech Communication	/conf/ncmmsc	/conf/ncmmsc/ncmmsc\n" +
+  "C	ASRU	Automatic Speech Recognition and Understanding Workshop	/conf/asru	/conf/asru/asru\n" +
+  "C	SLT	Spoken Language Technology	/conf/slt	/conf/slt/slt\n" +
   "A	AI	Artificial Intelligence	/journals/ai	/journals/ai/ai\n" +
-  "A	TPAMI	IEEE Trans on Pattern Analysis and Machine Intelligence	/journals/pami	/journals/pami/pami\n" +
+  "A	TPAMI	IEEE Transactions on Pattern Analysis and Machine Intelligence	/journals/pami	/journals/pami/pami\n" +
   "A	IJCV	International Journal of Computer Vision	/journals/ijcv	/journals/ijcv/ijcv\n" +
   "A	JMLR	Journal of Machine Learning Research	/journals/jmlr	/journals/jmlr/jmlr\n" +
   "B	TAP	ACM Transactions on Applied Perception	/journals/tap	/journals/tap/tap\n" +
-  "B	TSLP	ACM Transactions on Speech and Language Processing	/journals/tslp	/journals/tslp/tslp\n" +
   "B	AAMAS	Autonomous Agents and Multi-Agent Systems	/journals/aamas	/journals/aamas/aamas\n" +
   "B		Computational Linguistics	/journals/coling	/journals/coling/coling\n" +
   "B	CVIU	Computer Vision and Image Understanding	/journals/cviu	/journals/cviu/cviu\n" +
   "B	DKE	Data and Knowledge Engineering	/journals/dke	/journals/dke/dke\n" +
   "B		Evolutionary Computation	/journals/ec	/journals/ec/ec\n" +
   "B	TAC	IEEE Transactions on Affective Computing	/journals/taffco	/journals/taffco/taffco\n" +
-  "B	TASLP	IEEE Transactions on Audio, Speech, and Language Processing	/journals/taslp	/journals/taslp/taslp\n" +
+  "B	TASLP	IEEE Transactions on Audio, Speech and Language Processing	/journals/taslp	/journals/taslp/taslp\n" +
   "B		IEEE Transactions on Cybernetics	/journals/tcyb	/journals/tcyb/tcyb\n" +
   "B		IEEE Transactions on Cybernetics	/journals/tcyb	/journals/tsmc/tsmcb\n" +
   "B	TEC	IEEE Transactions on Evolutionary Computation	/journals/tec	/journals/tec/tec\n" +
@@ -536,7 +537,7 @@ const ccfRankList =
   "B		Machine Learning	/journals/ml	/journals/ml/ml\n" +
   "B		Neural Computation	/journals/neco	/journals/neco/neco\n" +
   "B		Neural Networks	/journals/nn	/journals/nn/nn\n" +
-  "B		Pattern Recognition	/journals/pr	/journals/pr/pr\n" +
+  "B	PR	Pattern Recognition	/journals/pr	/journals/pr/pr\n" +
   "B	TACL	Transactions of the Association for Computational Linguistics	/journals/tacl	/journals/tacl/tacl\n" +
   "C	TALLIP	ACM Transactions on Asian and Low-Resource Language Information Processing	/journals/talip	/journals/talip/talip\n" +
   "C		Applied Intelligence	/journals/apin	/journals/apin/apin\n" +
