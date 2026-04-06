@@ -245,26 +245,25 @@ const ccfRankList =
   "B	STVR	Software Testing, Verification and Reliability	/journals/stvr	/journals/stvr/stvr\n" +
   "B	SPE	Software: Practice and Experience	/journals/spe	/journals/spe/spe\n" +
   "C	CL	Computer Languages, Systems and Structures	/journals/cl	/journals/cl/cl\n" +
-  "C	IJSEKE	International Journal on Software Engineering and Knowledge Engineering	/journals/ijseke	/journals/ijseke/ijseke\n" +
-  "C	STTT	International Journal on Software Tools for Technology Transfer	/journals/sttt	/journals/sttt/sttt\n" +
-  "C	JLAP	Journal of Logic and Algebraic Programming	/journals/jlap	/journals/jlap/jlap\n" +
-  "C	JLAP	Journal of Logic and Algebraic Programming	/journals/jlap	/journals/jlp/jlp\n" +
+  "C	IJSEKE	International Journal of Software Engineering and Knowledge Engineering	/journals/ijseke	/journals/ijseke/ijseke\n" +
+  "C	STTT	International Journal of Software Tools for Technology Transfer	/journals/sttt	/journals/sttt/sttt\n" +
+  "C	JLAMP	Journal of Logical and Algebraic Methods in Programming	/journals/jlap	/journals/jlap/jlap\n" +
+  "C	JLAMP	Journal of Logical and Algebraic Methods in Programming	/journals/jlap	/journals/jlp/jlp\n" +
   "C	JWE	Journal of Web Engineering	/journals/jwe	/journals/jwe/jwe\n" +
   "C	SOCA	Service Oriented Computing and Applications	/journals/soca	/journals/soca/soca\n" +
   "C	SQJ	Software Quality Journal	/journals/sqj	/journals/sqj/sqj\n" +
   "C	TPLP	Theory and Practice of Logic Programming	/journals/tplp	/journals/tplp/tplp\n" +
   "C	PACM PL	Proceedings of the ACM on Programming Languages	/journals/pacmpl	/journals/pacmpl/pacmpl\n" +
-  "A	PLDI	ACM SIGPLAN Symposium on Programming Language Design & Implementation	/conf/pldi	/conf/pldi/pldi\n" +
+  "A	PLDI	ACM SIGPLAN Conference on Programming Language Design and Implementation	/conf/pldi	/conf/pldi/pldi\n" +
   "A	POPL	ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages	/conf/popl	/conf/popl/popl\n" +
   "A	FSE	ACM International Conference on the Foundations of Software Engineering	/conf/sigsoft	/conf/sigsoft/fse\n" +
-  "A	FSE/ESEC	ACM SIGSOFT Symposium on the Foundation of Software Engineering/European Software Engineering Conference	/conf/sigsoft	/conf/sigsoft/fse\n" +
   "A	SOSP	ACM Symposium on Operating Systems Principles	/conf/sosp	/conf/sosp/sosp\n" +
   "A	OOPSLA	Conference on Object-Oriented Programming Systems, Languages,and Applications	/conf/oopsla	/conf/oopsla/oopsla\n" +
   "A	ASE	International Conference on Automated Software Engineering	/conf/kbse	/conf/kbse/ase\n" +
   "A	ASE	International Conference on Automated Software Engineering	/conf/kbse	/conf/kbse/kbse\n" +
   "A	ICSE	International Conference on Software Engineering	/conf/icse	/conf/icse/icse\n" +
   "A	ISSTA	International Symposium on Software Testing and Analysis	/conf/issta	/conf/issta/issta\n" +
-  "A	OSDI	USENIX Symposium on Operating Systems Design and Implementations	/conf/osdi	/conf/osdi/osdi\n" +
+  "A	OSDI	USENIX Symposium on Operating Systems Design and Implementation	/conf/osdi	/conf/osdi/osdi\n" +
   "A	FM	International Symposium on Formal Methods	/conf/fm	/conf/fm/fm\n" +
   "B	ECOOP	European Conference on Object-Oriented Programming	/conf/ecoop	/conf/ecoop/ecoop\n" +
   "B	ETAPS	European Joint Conferences on Theory and Practice of Software	/conf/etaps	/conf/esop/esop\n" +
@@ -273,27 +272,29 @@ const ccfRankList =
   "B	ETAPS	European Joint Conferences on Theory and Practice of Software	/conf/etaps	/conf/tacas/tacas\n" +
   "B	ETAPS	European Joint Conferences on Theory and Practice of Software	/conf/etaps	/conf/post/post\n" +
   "B	ETAPS	European Joint Conferences on Theory and Practice of Software	/conf/etaps	/conf/spin/spin\n" +
+  "B	ETAPS	European Joint Conferences on Theory and Practice of Software	/conf/etaps	/conf/etaps/etaps\n" +
   "B	ICPC	IEEE International Conference on Program Comprehension	/conf/iwpc	/conf/iwpc/icpc\n" +
   "B	ICPC	IEEE International Conference on Program Comprehension	/conf/iwpc	/conf/iwpc/iwpc\n" +
-  "B	RE	IEEE International Requirement Engineering Conference	/conf/re	/conf/re/re\n" +
-  "B	RE	IEEE International Requirement Engineering Conference	/conf/re	/conf/icre/icre\n" +
+  "B	RE	IEEE International Requirements Engineering Conference	/conf/re	/conf/re/re\n" +
+  "B	RE	IEEE International Requirements Engineering Conference	/conf/re	/conf/icre/icre\n" +
   "B	CAiSE	International Conference on Advanced Information Systems Engineering	/conf/caise	/conf/caise/caise\n" +
   "B	ICFP	International Conference on Function Programming	/conf/icfp	/conf/icfp/icfp\n" +
-  "B	LCTES	International Conference on Languages,Compilers, Tools and Theory for Embedded Systems	/conf/lctrts	/conf/lctrts/lctes\n" +
-  "B	MoDELS	International Conference on Model Driven Engineering Languages and Systems	/conf/models	/conf/models/models\n" +
+  "B	LCTES	ACM SIGPLAN/SIGBED International Conference on Languages, Compilers and Tools for Embedded Systems	/conf/lctrts	/conf/lctrts/lctes\n" +
+  "B	MoDELS	ACM/IEEE International Conference on Model Driven Engineering Languages and Systems	/conf/models	/conf/models/models\n" +
   "B	CP	International Conference on Principles and Practice of Constraint Programming	/conf/cp	/conf/cp/cp\n" +
   "B	ICSOC	International Conference on Service Oriented Computing	/conf/icsoc	/conf/icsoc/icsoc\n" +
   "B	SANER	International Conference on Software Analysis, Evolution, and Reengineering	/conf/wcre	/conf/wcre/saner\n" +
   "B	SANER	International Conference on Software Analysis, Evolution, and Reengineering	/conf/wcre	/conf/wcre/wcre\n" +
   "B	ICSME	International Conference on Software Maintenance and Evolution	/conf/icsm	/conf/icsm/icsme\n" +
   "B	ICSME	International Conference on Software Maintenance and Evolution	/conf/icsm	/conf/icsm/icsm\n" +
-  "B	VMCAI	International Conference on Verification,Model Checking, and Abstract Interpretation	/conf/vmcai	/conf/vmcai/vmcai\n" +
-  "B	ICWS	International Conference on Web Services(Research Track)	/conf/icws	/conf/icws/icws\n" +
+  "B	VMCAI	International Conference on Verification, Model Checking and Abstract Interpretation	/conf/vmcai	/conf/vmcai/vmcai\n" +
+  "B	ICWS	IEEE International Conference on Web Services	/conf/icws	/conf/icws/icws\n" +
   "B	Middleware	International Middleware Conference	/conf/middleware	/conf/middleware/middleware\n" +
   "B	SAS	International Static Analysis Symposium	/conf/sas	/conf/sas/sas\n" +
   "B	ESEM	International Symposium on Empirical Software Engineering and Measurement	/conf/esem	/conf/esem/esem\n" +
   "B	ISSRE	International Symposium on Software Reliability Engineering	/conf/issre	/conf/issre/issre\n" +
   "B	HotOS	USENIX Workshop on Hot Topics in Operating Systems	/conf/hotos	/conf/hotos/hotos\n" +
+  "B	CC	International Conference on Compiler Construction	/conf/cc	/conf/cc/cc\n" +
   "C	PEPM	ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation	/conf/pepm	/conf/pepm/pepm\n" +
   "C	PASTE	ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering	/conf/paste	/conf/paste/paste\n" +
   "C	APLAS	Asian Symposium on Programming Languages and Systems	/conf/aplas	/conf/aplas/aplas\n" +
