@@ -586,20 +586,20 @@ const ccfRankList =
   "A	ICCV	International Conference on Computer Vision	/conf/iccv	/conf/iccv/iccv\n" +
   "A	ICML	International Conference on Machine Learning	/conf/icml	/conf/icml/icml\n" +
   "A	ICLR	International Conference on Learning Representations	/conf/iclr	/conf/iclr/iclr\n" +
-  "B	IJCAI	International Joint Conference on Artificial Intelligence	/conf/ijcai	/conf/ijcai/ijcai\n" +
   "B	COLT	Annual Conference on Computational Learning Theory	/conf/colt	/conf/colt/colt\n" +
   "B	EMNLP	Conference on Empirical Methods in Natural Language Processing	/conf/emnlp	/conf/emnlp/emnlp\n" +
   "B	ECAI	European Conference on Artificial Intelligence	/conf/ecai	/conf/ecai/ecai\n" +
   "B	ECCV	European Conference on Computer Vision	/conf/eccv	/conf/eccv/eccv\n" +
   "B	ICRA	IEEE International Conference on Robotics and Automation	/conf/icra	/conf/icra/icra\n" +
   "B	ICAPS	International Conference on Automated Planning and Scheduling	/conf/aips	/conf/aips/icaps\n" +
-  "B	ICCBR	International Conference on Case-Based Reasoning and Development	/conf/iccbr	/conf/iccbr/iccbr\n" +
+  "B	ICCBR	International Conference on Case-Based Reasoning	/conf/iccbr	/conf/iccbr/iccbr\n" +
   "B	COLING	International Conference on Computational Linguistics	/conf/coling	/conf/coling/coling\n" +
   "B	KR	International Conference on Principles of Knowledge Representation and Reasoning	/conf/kr	/conf/kr/kr\n" +
   "B	UAI	International Conference on Uncertainty in Artificial Intelligence	/conf/uai	/conf/uai/uai\n" +
   "B	AAMAS	International Joint Conference on Autonomous Agents and Multi-agent Systems	/conf/atal	/conf/atal/aamas\n" +
   "B	PPSN	Parallel Problem Solving from Nature	/conf/ppsn	/conf/ppsn/ppsn\n" +
-  "B	NAACL	The Annual Conference of the North American Chapter of the Association for Computational Linguistics	/conf/naacl	/conf/naacl/naacl\n" +
+  "B	NAACL	North American Chapter of the Association for Computational Linguistics	/conf/naacl	/conf/naacl/naacl\n" +
+  "B	IJCAI	International Joint Conference on Artificial Intelligence	/conf/ijcai	/conf/ijcai/ijcai\n" +
   "C	AISTATS	Artificial Intelligence and Statistics	/conf/aistats	/conf/aistats/aistats\n" +
   "C	ACCV	Asian Conference on Computer Vision	/conf/accv	/conf/accv/accv\n" +
   "C	ACML	Asian Conference on Machine Learning	/conf/acml	/conf/acml/acml\n" +
