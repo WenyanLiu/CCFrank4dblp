@@ -175,7 +175,7 @@ const ccfRankList =
   "C	IJISP	International Journal of Information Security and Privacy	/journals/ijisp	/journals/ijisp/ijisp\n" +
   "C	JISA	Journal of Information Security and Applications	/journals/istr	/journals/istr/istr\n" +
   "C	SCN	Security and Communication Networks	/journals/scn	/journals/scn/scn\n" +
-  "C	HCC	High-Confidence Computing	/journals/hcc	/journals/hcc/hcc\n"
+  "C	HCC	High-Confidence Computing	/journals/hcc	/journals/hcc/hcc\n" +
   "A	CCS	ACM Conference on Computer and Communications Security	/conf/ccs	/conf/ccs/ccs\n" +
   "A	EUROCRYPT	International Conference on the Theory and Applications of Cryptographic Techniques	/conf/eurocrypt	/conf/eurocrypt/eurocrypt\n" +
   "A	S&P	IEEE Symposium on Security and Privacy	/conf/sp	/conf/sp/sp\n" +
