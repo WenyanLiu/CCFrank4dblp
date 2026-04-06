@@ -224,7 +224,7 @@ const ccfRankList =
   "C	EuroS&P	IEEE European Symposium on Security and Privacy	/conf/eurosp	/conf/eurosp/eurosp\n" +
   "C	Inscrypt	International Conference on Information Security and Cryptology	/conf/icisc	/conf/icisc/icisc\n" +
   "C	Inscrypt	International Conference on Information Security and Cryptology	/conf/cisc	/conf/cisc/inscrypt\n" +
-  "C	CODASPY	Conference on Data and Application Security and Privacy	/conf/codaspy /conf/codaspy/codaspy\n" +
+  "C	CODASPY	Conference on Data and Application Security and Privacy	/conf/codaspy	/conf/codaspy/codaspy\n" +
   "C	BlockSys	International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems	/conf/blocksys	/conf/blocksys/blocksys\n" +
   "C	CSCloud	International Conference on Cyber Security and Cloud Computing	/conf/cscloud	/conf/cscloud/cscloud\n" +
   "A	TOPLAS	ACM Transactions on Programming Languages and Systems	/journals/toplas	/journals/toplas/toplas\n" +
@@ -737,7 +737,7 @@ var ccfAbbrFull = {};
 for (x of ccfRankList.split("\n")) {
   y = x.split("\t");
   ccfFullUrl[y[2].toUpperCase()] = y[4];
-  if (y[4] != "") {
+  if (y[4] !== undefined && y[4] !== "") {
     ccfRankUrl[y[4]] = y[0];
     ccfRankAbbr[y[4]] = y[1];
     ccfRankFull[y[4]] = y[2];
