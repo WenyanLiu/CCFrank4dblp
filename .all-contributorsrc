@@ -296,6 +296,15 @@
       "contributions": [
         "data"
       ]
+    },
+    {
+      "login": "wolfvoid",
+      "name": "wolf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/135403246?v=4",
+      "profile": "https://wolfvoid.github.io/",
+      "contributions": [
+        "data"
+      ]
     }
   ],
   "contributorsPerLine": 7,
