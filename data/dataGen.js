@@ -474,8 +474,8 @@ const ccfRankList =
   "C	VRIH	Virtual Reality & Intelligent Hardware	/journals/vrih	/journals/vrih/vrih\n" +
   "C	GMOD	Graphical Models	/journals/cvgip	/journals/cvgip/cvgip\n" +
   "A	ACM MM	ACM International Conference on Multimedia	/conf/mm	/conf/mm/mm\n" +
-  "A	SIGGRAPH	ACM SIGGRAPH Annual Conference	/conf/siggraph	/conf/siggraph/siggraph\n" +
-  "A	VR	IEEE Virtual Reality	/conf/vr	/conf/vr/vr\n" +
+  "A	SIGGRAPH	ACM Special Interest Group on Computer Graphics	/conf/siggraph	/conf/siggraph/siggraph\n" +
+  "A	VR	IEEE Conference on Virtual Reality and 3D User Interfaces	/conf/vr	/conf/vr/vr\n" +
   "A	IEEE VIS	IEEE Visualization Conference	/conf/visualization	/conf/visualization/visualization\n" +
   "B	ICMR	ACM SIGMM International Conference on Multimedia Retrieval	/conf/mir	/conf/mir/icmr\n" +
   "B	ICMR	ACM SIGMM International Conference on Multimedia Retrieval	/conf/mir	/conf/mir/mir\n" +
