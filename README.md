@@ -426,6 +426,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://liuup.github.io"><img src="https://avatars.githubusercontent.com/u/46253793?v=4?s=100" width="100px;" alt="Shang Liu"/><br /><sub><b>Shang Liu</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Aliuup" title="Bug reports">🐛</a> <a href="#data-liuup" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ShawnPi233"><img src="https://avatars.githubusercontent.com/u/84508049?v=4?s=100" width="100px;" alt="Bingsong Bai"/><br /><sub><b>Bingsong Bai</b></sub></a><br /><a href="#data-ShawnPi233" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://wolfvoid.github.io/"><img src="https://avatars.githubusercontent.com/u/135403246?v=4?s=100" width="100px;" alt="wolf"/><br /><sub><b>wolf</b></sub></a><br /><a href="#data-wolfvoid" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
