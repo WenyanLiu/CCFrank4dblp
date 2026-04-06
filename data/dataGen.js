@@ -357,24 +357,26 @@ const ccfRankList =
   "C	JSIS	Journal of Strategic Information Systems	/journals/jsis	/journals/jsis/jsis\n" +
   "C	TIST	ACM Transactions on Intelligent Systems and Technology	/journals/tist	/journals/tist/tist\n" +
   "C	TORS	ACM Transactions on Recommender Systems	/journals/tors	/journals/tors/tors\n" +
-  "A	SIGMOD	ACM Conference on Management of Data	/conf/sigmod	/conf/sigmod/sigmod\n" +
-  "A	SIGKDD	ACM Knowledge Discovery and Data Mining	/conf/kdd	/conf/kdd/kdd\n" +
+  "A	SIGMOD	ACM SIGMOD Conference	/conf/sigmod	/conf/sigmod/sigmod\n" +
+  "A	SIGKDD	ACM SIGKDD Conference on Knowledge Discovery and Data Mining	/conf/kdd	/conf/kdd/kdd\n" +
   "A	ICDE	IEEE International Conference on Data Engineering	/conf/icde	/conf/icde/icde\n" +
-  "A	SIGIR	International Conference on Research on Development in Information Retrieval	/conf/sigir	/conf/sigir/sigir\n" +
+  "A	SIGIR	International ACM SIGIR Conference on Research and Development in Information Retrieval	/conf/sigir	/conf/sigir/sigir\n" +
   "A	VLDB	International Conference on Very Large Data Bases	/conf/vldb	/conf/vldb/vldb\n" +
   "A	VLDB	International Conference on Very Large Data Bases	/journals/pvldb	/journals/pvldb/pvldb\n" +
   "B	CIKM	ACM International Conference on Information and Knowledge Management	/conf/cikm	/conf/cikm/cikm\n" +
   "B	WSDM	ACM International Conference on Web Search and Data Mining	/conf/wsdm	/conf/wsdm/wsdm\n" +
-  "B	PODS	ACM Symposium on Principles of Database Systems	/conf/pods	/conf/pods/pods\n" +
-  "B	DASFAA	Database Systems for Advanced Applications	/conf/dasfaa	/conf/dasfaa/dasfaa\n" +
-  "B	ECML-PKDD	European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases	/conf/ecml	/conf/pkdd/pkdd\n" +
+  "B	PODS	ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems	/conf/pods	/conf/pods/pods\n" +
+  "B	DASFAA	International Conference on Database Systems for Advanced Applications	/conf/dasfaa	/conf/dasfaa/dasfaa\n" +
+  "B	ECML-PKDD	European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases	/conf/ecml	/conf/ecml/ecml\n" +
+  "B	ECML-PKDD	European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases	/conf/pkdd	/conf/pkdd/pkdd\n" +
   "B	ISWC	IEEE International Semantic Web Conference	/conf/semweb	/conf/semweb/iswc\n" +
-  "B	ICDM	International Conference on Data Mining	/conf/icdm	/conf/icdm/icdm\n" +
+  "B	ICDM	IEEE International Conference on Data Mining	/conf/icdm	/conf/icdm/icdm\n" +
   "B	ICDT	International Conference on Database Theory	/conf/icdt	/conf/icdt/icdt\n" +
-  "B	EDBT	International Conference on Extending DB Technology	/conf/edbt	/conf/edbt/edbt\n" +
-  "B	CIDR	International Conference on Innovative Data Systems Research	/conf/cidr	/conf/cidr/cidr\n" +
+  "B	EDBT	International Conference on Extending Database Technology	/conf/edbt	/conf/edbt/edbt\n" +
+  "B	CIDR	Conference on Innovative Data Systems Research	/conf/cidr	/conf/cidr/cidr\n" +
   "B	SDM	SIAM International Conference on Data Mining	/conf/sdm	/conf/sdm/sdm\n" +
   "B	RecSys	ACM Conference on Recommender Systems	/conf/recsys	/conf/recsys/recsys\n" +
+  "B	WISE	Web Information Systems Engineering Conference	/conf/wise	/conf/wise/wise\n" +
   "C	APWeb	Asia Pacific Web Conference	/conf/apweb	/conf/apweb/apweb\n" +
   "C	DEXA	Database and Expert System Applications	/conf/dexa	/conf/dexa/dexa\n" +
   "C	ECIR	European Conference on IR Research	/conf/ecir	/conf/ecir/ecir\n" +
@@ -386,7 +388,6 @@ const ccfRankList =
   "C	WAIM	International Conference on Web Age Information Management	/conf/waim	/conf/waim/waim\n" +
   "C	SSTD	International Symposium on Spatial and Temporal Databases	/conf/ssd	/conf/ssd/sstd\n" +
   "C	PAKDD	Pacific-Asia Conference on Knowledge Discovery and Data Mining	/conf/pakdd	/conf/pakdd/pakdd\n" +
-  "B	WISE	Web Information Systems Engineering	/conf/wise	/conf/wise/wise\n" +
   "C	ADMA	The International Conference on Advanced Data Mining and Applications	/conf/adma	/conf/adma/adma\n" +
   "A	TIT	IEEE Transactions on Information Theory	/journals/tit	/journals/tit/tit\n" +
   "A	IANDC	Information and Computation	/journals/iandc	/journals/iandc/iandc\n" +
