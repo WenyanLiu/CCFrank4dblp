@@ -563,6 +563,7 @@ ccf.rankDb = {
   "/conf/kr": "/conf/kr/kr",
   "/conf/uai": "/conf/uai/uai",
   "/conf/atal": "/conf/atal/aamas",
+  "/conf/ifaamas": "/conf/ifaamas/aamas",
   "/conf/ppsn": "/conf/ppsn/ppsn",
   "/conf/naacl": "/conf/naacl/naacl",
   "/conf/ijcai": "/conf/ijcai/ijcai",

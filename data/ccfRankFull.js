@@ -591,6 +591,7 @@ ccf.rankFullName = {
   "/conf/kr/kr": "International Conference on Principles of Knowledge Representation and Reasoning",
   "/conf/uai/uai": "International Conference on Uncertainty in Artificial Intelligence",
   "/conf/atal/aamas": "International Joint Conference on Autonomous Agents and Multi-agent Systems",
+  "/conf/ifaamas/aamas": "International Joint Conference on Autonomous Agents and Multi-agent Systems",
   "/conf/ppsn/ppsn": "Parallel Problem Solving from Nature",
   "/conf/naacl/naacl": "North American Chapter of the Association for Computational Linguistics",
   "/conf/ijcai/ijcai": "International Joint Conference on Artificial Intelligence",

@@ -597,6 +597,7 @@ const ccfRankList =
   "B	KR	International Conference on Principles of Knowledge Representation and Reasoning	/conf/kr	/conf/kr/kr\n" +
   "B	UAI	International Conference on Uncertainty in Artificial Intelligence	/conf/uai	/conf/uai/uai\n" +
   "B	AAMAS	International Joint Conference on Autonomous Agents and Multi-agent Systems	/conf/atal	/conf/atal/aamas\n" +
+  "B	AAMAS	International Joint Conference on Autonomous Agents and Multi-agent Systems	/conf/ifaamas	/conf/ifaamas/aamas\n" +
   "B	PPSN	Parallel Problem Solving from Nature	/conf/ppsn	/conf/ppsn/ppsn\n" +
   "B	NAACL	North American Chapter of the Association for Computational Linguistics	/conf/naacl	/conf/naacl/naacl\n" +
   "B	IJCAI	International Joint Conference on Artificial Intelligence	/conf/ijcai	/conf/ijcai/ijcai\n" +

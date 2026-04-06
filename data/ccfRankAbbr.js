@@ -591,6 +591,7 @@ ccf.rankAbbrName = {
   "/conf/kr/kr": "KR",
   "/conf/uai/uai": "UAI",
   "/conf/atal/aamas": "AAMAS",
+  "/conf/ifaamas/aamas": "AAMAS",
   "/conf/ppsn/ppsn": "PPSN",
   "/conf/naacl/naacl": "NAACL",
   "/conf/ijcai/ijcai": "IJCAI",

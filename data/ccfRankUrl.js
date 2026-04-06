@@ -591,6 +591,7 @@ ccf.rankUrl = {
   "/conf/kr/kr": "B",
   "/conf/uai/uai": "B",
   "/conf/atal/aamas": "B",
+  "/conf/ifaamas/aamas": "B",
   "/conf/ppsn/ppsn": "B",
   "/conf/naacl/naacl": "B",
   "/conf/ijcai/ijcai": "B",
