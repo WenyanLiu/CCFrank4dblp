@@ -342,9 +342,9 @@ const ccfRankList =
   "B	KAIS	Knowledge and Information Systems	/journals/kais	/journals/kais/kais\n" +
   "B	DSE	Data Science and Engineering	/journals/dase	/journals/dase/dase\n" +
   "C	DPD	Distributed and Parallel Databases	/journals/dpd	/journals/dpd/dpd\n" +
-  "C	I&M	Information and Management	/journals/iam	/journals/iam/iam\n" +
+  "C	I&M	Information & Management	/journals/iam	/journals/iam/iam\n" +
   "C	IPL	Information Processing Letters	/journals/ipl	/journals/ipl/ipl\n" +
-  "C	IR	Information Retrieval Journal	/journals/ir	/journals/ir/ir\n" +
+  "C		Discover Computing	/journals/ir	/journals/ir/ir\n" +
   "C	IJCIS	International Journal of Cooperative Information Systems	/journals/ijcis	/journals/ijcis/ijcis\n" +
   "C	IJGIS	International Journal of Geographical Information Science	/journals/gis	/journals/gis/gis\n" +
   "C	IJIS	International Journal of Intelligent Systems	/journals/ijis	/journals/ijis/ijis\n" +
@@ -352,9 +352,11 @@ const ccfRankList =
   "C	IJSWIS	International Journal on Semantic Web and Information Systems	/journals/ijswis	/journals/ijswis/ijswis\n" +
   "C	JCIS	Journal of Computer Information Systems	/journals/jcis	/journals/jcis/jcis\n" +
   "C	JDM	Journal of Database Management	/journals/jdm	/journals/jdm/jdm\n" +
-  "C	JGITM	Journal of Global Information Technology Management		\n" +
+  "C	JGITM	Journal of Global Information Technology Management	/journals/jgim	/journals/jgim/jgim\n" +
   "C	JIIS	Journal of Intelligent Information Systems	/journals/jiis	/journals/jiis/jiis\n" +
   "C	JSIS	Journal of Strategic Information Systems	/journals/jsis	/journals/jsis/jsis\n" +
+  "C	TIST	ACM Transactions on Intelligent Systems and Technology	/journals/tist	/journals/tist/tist\n" +
+  "C	TORS	ACM Transactions on Recommender Systems	/journals/tors	/journals/tors/tors\n" +
   "A	SIGMOD	ACM Conference on Management of Data	/conf/sigmod	/conf/sigmod/sigmod\n" +
   "A	SIGKDD	ACM Knowledge Discovery and Data Mining	/conf/kdd	/conf/kdd/kdd\n" +
   "A	ICDE	IEEE International Conference on Data Engineering	/conf/icde	/conf/icde/icde\n" +
