@@ -10,6 +10,9 @@ ccf.getRankInfo = function (refine, type) {
   let rankInfo = {};
   rankInfo.ranks = [];
   rankInfo.info = "";
+  rankInfo.sourceKey = null;
+  rankInfo.canonicalName = null;
+  rankInfo.abbrName = null;
   let rank;
   let url;
   if (type == "url") {
@@ -43,10 +46,14 @@ ccf.getRankInfo = function (refine, type) {
     rank = "none";
     rankInfo.info += "Not Found\n";
   } else {
-    rankInfo.info += ccf.rankFullName[url];
-    let abbrname = ccf.rankAbbrName[url];
-    if (abbrname != "") {
-      rankInfo.info += " (" + abbrname + ")";
+    let canonicalName = ccf.rankFullName[url] || "";
+    let abbrName = ccf.rankAbbrName[url] || "";
+    rankInfo.sourceKey = url;
+    rankInfo.canonicalName = canonicalName || null;
+    rankInfo.abbrName = abbrName || null;
+    rankInfo.info += canonicalName;
+    if (abbrName != "") {
+      rankInfo.info += " (" + abbrName + ")";
     }
     if (rank == "E") {
       rankInfo.info += ": Expanded\n";
