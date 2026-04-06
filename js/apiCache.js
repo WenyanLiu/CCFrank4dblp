@@ -11,13 +11,14 @@ const keyPrefix = "CCFrank4dblp_";
 
 // clear all our items from the cache
 function clearItems() {
+  const keysToRemove = [];
   for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i);
-
     if (key.startsWith(keyPrefix)) {
-      localStorage.removeItem(key);
+      keysToRemove.push(key);
     }
   }
+  keysToRemove.forEach((key) => localStorage.removeItem(key));
 }
 
 function isQuotaExceededError(err) {
