@@ -448,18 +448,18 @@ const ccfRankList =
   "A	TOG	ACM Transactions on Graphics	/journals/tog	/journals/tog/tog\n" +
   "A	TIP	IEEE Transactions on Image Processing	/journals/tip	/journals/tip/tip\n" +
   "A	TVCG	IEEE Transactions on Visualization and Computer Graphics	/journals/tvcg	/journals/tvcg/tvcg\n" +
-  "B	TOMCCAP	ACM Transactions on Multimedia Computing,Communications and Application	/journals/tomccap	/journals/tomccap/tomccap\n" +
+  "A	TMM	IEEE Transactions on Multimedia	/journals/tmm	/journals/tmm/tmm\n" +
+  "B	TOMM	ACM Transactions on Multimedia Computing, Communications and Applications	/journals/tomccap	/journals/tomccap/tomccap\n" +
   "B	CAGD	Computer Aided Geometric Design	/journals/cagd	/journals/cagd/cagd\n" +
   "B	CGF	Computer Graphics Forum	/journals/cgf	/journals/cgf/cgf\n" +
   "B	CAD	Computer-Aided Design	/journals/cad	/journals/cad/cad\n" +
-  "C	GM	Graphical Models	/journals/cvgip	/journals/cvgip/cvgip\n" +
   "B	TCSVT	IEEE Transactions on Circuits and Systems for Video Technology	/journals/tcsv	/journals/tcsv/tcsv\n" +
-  "A	TMM	IEEE Transactions on Multimedia	/journals/tmm	/journals/tmm/tmm\n" +
   "B	JASA	Journal of The Acoustical Society of America		\n" +
   "B	SIIMS	SIAM Journal on Imaging Sciences	/journals/siamis	/journals/siamis/siamis\n" +
-  "B	Speech Com	Speech Communication	/journals/speech	/journals/speech/speech\n" +
+  "B	SPEECH	Speech Communication	/journals/speech	/journals/speech/speech\n" +
+  "B	CVMJ	Computational Visual Media	/journals/cvm	/journals/cvm/cvm\n" +
   "C	CGTA	Computational Geometry: Theory and Applications	/journals/comgeo	/journals/comgeo/comgeo\n" +
-  "C	CAVW	Computer Animation and Virtual Worlds	/journals/jvca	/journals/jvca/jvca\n" +
+  "C	CAVW	Computer animation & virtual worlds	/journals/jvca	/journals/jvca/jvca\n" +
   "C	C&G	Computers & Graphics	/journals/cg	/journals/cg/cg\n" +
   "C	DCG	Discrete & Computational Geometry	/journals/dcg	/journals/dcg/dcg\n" +
   "C	SPL	IEEE Signal Processing Letters	/journals/spl	/journals/spl/spl\n" +
@@ -467,10 +467,12 @@ const ccfRankList =
   "C	JVCIR	Journal of Visual Communication and Image Representation	/journals/jvcir	/journals/jvcir/jvcir\n" +
   "C	MS	Multimedia Systems	/journals/mms	/journals/mms/mms\n" +
   "C	MTA	Multimedia Tools and Applications	/journals/mta	/journals/mta/mta\n" +
-  "C		Signal Processing	/journals/sigpro	/journals/sigpro/sigpro\n" +
+  "C	SIGPRO	Signal Processing	/journals/sigpro	/journals/sigpro/sigpro\n" +
   "C	SPIC	Signal Processing: Image Communication	/journals/spic	/journals/spic/spic\n" +
   "C	TVC	The Visual Computer	/journals/vc	/journals/vc/vc\n" +
-  "B	CVMJ	Computational Visual Media	/journals/cvm	/journals/cvm/cvm\n" +
+  "C	VI	Visual Informatics	/journals/vi	/journals/vi/vi\n" +
+  "C	VRIH	Virtual Reality & Intelligent Hardware	/journals/vrih	/journals/vrih/vrih\n" +
+  "C	GMOD	Graphical Models	/journals/cvgip	/journals/cvgip/cvgip\n" +
   "A	ACM MM	ACM International Conference on Multimedia	/conf/mm	/conf/mm/mm\n" +
   "A	SIGGRAPH	ACM SIGGRAPH Annual Conference	/conf/siggraph	/conf/siggraph/siggraph\n" +
   "A	VR	IEEE Virtual Reality	/conf/vr	/conf/vr/vr\n" +
