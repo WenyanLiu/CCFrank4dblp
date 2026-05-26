@@ -429,6 +429,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://wolfvoid.github.io/"><img src="https://avatars.githubusercontent.com/u/135403246?v=4?s=100" width="100px;" alt="wolf"/><br /><sub><b>wolf</b></sub></a><br /><a href="#data-wolfvoid" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/succuba-IID"><img src="https://avatars.githubusercontent.com/u/223258459?v=4?s=100" width="100px;" alt="succuba-IID"/><br /><sub><b>succuba-IID</b></sub></a><br /><a href="#data-succuba-IID" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/LiangcaiSu"><img src="https://avatars.githubusercontent.com/u/34390574?v=4?s=100" width="100px;" alt="LiangcaiSu"/><br /><sub><b>LiangcaiSu</b></sub></a><br /><a href="#data-LiangcaiSu" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sheng-zi-yang"><img src="https://avatars.githubusercontent.com/u/186380733?v=4?s=100" width="100px;" alt="sheng-zi-yang"/><br /><sub><b>sheng-zi-yang</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Asheng-zi-yang" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
