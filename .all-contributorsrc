@@ -323,6 +323,15 @@
       "contributions": [
         "data"
       ]
+    },
+    {
+      "login": "sheng-zi-yang",
+      "name": "sheng-zi-yang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186380733?v=4",
+      "profile": "https://github.com/sheng-zi-yang",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
