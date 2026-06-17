@@ -328,6 +328,7 @@ ccf.rankAbbrName = {
   "/journals/tois/tois": "TOIS",
   "/journals/tkde/tkde": "TKDE",
   "/journals/vldb/vldb": "VLDBJ",
+  "/journals/pacmmod/pacmmod": "PACMMOD",
   "/journals/tkdd/tkdd": "TKDD",
   "/journals/tweb": "TWEB",
   "/journals/aei/aei": "AEI",

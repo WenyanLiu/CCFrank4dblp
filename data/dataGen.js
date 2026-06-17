@@ -358,6 +358,7 @@ const ccfRankList =
   "C	TIST	ACM Transactions on Intelligent Systems and Technology	/journals/tist	/journals/tist/tist\n" +
   "C	TORS	ACM Transactions on Recommender Systems	/journals/tors	/journals/tors/tors\n" +
   "A	SIGMOD	ACM SIGMOD Conference	/conf/sigmod	/conf/sigmod/sigmod\n" +
+  "A	SIGMOD	ACM SIGMOD Conference	/journals/pacmmod	/journals/pacmmod/pacmmod\n" +
   "A	SIGKDD	ACM SIGKDD Conference on Knowledge Discovery and Data Mining	/conf/kdd	/conf/kdd/kdd\n" +
   "A	ICDE	IEEE International Conference on Data Engineering	/conf/icde	/conf/icde/icde\n" +
   "A	SIGIR	International ACM SIGIR Conference on Research and Development in Information Retrieval	/conf/sigir	/conf/sigir/sigir\n" +
