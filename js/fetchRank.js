@@ -46,7 +46,7 @@ function fetchRank(node, title, authorA, year, site) {
 
   let query_url =
     "https://dblp.org/search/publ/api?q=" +
-    encodeURIComponent(title + "  author:" + authorA) +
+    encodeURIComponent(title) +
     "&format=json&app=CCFrank4dblp_" +
     version;
 
@@ -105,8 +105,8 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
       var dblp_url = "";
       var resp = JSON.parse(xhr.responseText).result.hits;
       if (resp["@total"] == 0) {
-        dblp_url = "";
-        resp_flag = false;
+        console.debug("dblp API: 0 results for query, skipping");
+        return;  // Don't cache or display anything for 0-result queries
       } else if (resp["@total"] == 1) {
         let url = resp.hit[0].info.url;
         dblp_url = url.substring(
@@ -119,7 +119,7 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
           let info = resp.hit[h].info;
 
           var cur_venue = info.type;
-          if (cur_venue == "Informal Publications") continue;
+          if (cur_venue == "Informal Publications" || cur_venue == "Informal and Other Publications") continue;
 
           let author_1st;
           if (Array.isArray(info.authors.author)) {
