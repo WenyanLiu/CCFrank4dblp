@@ -12,3 +12,6 @@ node_modules/
 
 # Claude Code
 CLAUDE.md
+
+# build artifacts
+*.zip
