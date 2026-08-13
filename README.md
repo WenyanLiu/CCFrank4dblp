@@ -473,4 +473,4 @@ Contributions of any kind welcome!
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=WenyanLiu/CCFrank4dblp&type=date&legend=top-left)](https://www.star-history.com/#WenyanLiu/CCFrank4dblp&type=date&legend=top-left)
+[![Star History Chart](https://star-history.dera.page/svg?repos=WenyanLiu/CCFrank4dblp&type=date&legend=top-left)](https://star-history.dera.page/#WenyanLiu/CCFrank4dblp&type=date&legend=top-left)
