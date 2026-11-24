@@ -341,6 +341,70 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "rain-0",
+      "name": "rain-0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47851758?v=4",
+      "profile": "https://github.com/rain-0",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "triccsr",
+      "name": "Triccsr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36883469?v=4",
+      "profile": "https://triccsr.github.io",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "jgy0",
+      "name": "GUANGYAO JU",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83772483?v=4",
+      "profile": "https://github.com/jgy0",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "Gophone11",
+      "name": "XiaoFeng Zhou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103277226?v=4",
+      "profile": "https://github.com/Gophone11",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "XinhanWang",
+      "name": "Xinhan Wang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/145259027?v=4",
+      "profile": "https://github.com/XinhanWang",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "xyh1147575351-dev",
+      "name": "xyh1147575351-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/245180626?v=4",
+      "profile": "https://github.com/xyh1147575351-dev",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "lingMori",
+      "name": "Haoyang Zhang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88962191?v=4",
+      "profile": "http://lingmori.cn/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
