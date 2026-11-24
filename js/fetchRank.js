@@ -93,101 +93,146 @@ function fetchFromCache(cached, node, title, authorA, year, site) {
   }
 }
 
+// dblp mirrors tried in order when the main site's search backend is
+// unavailable (dblp.org search occasionally returns HTTP 503 for weeks).
+const DBLP_API_HOSTS = [
+  "https://dblp.org",
+  "https://dblp.uni-trier.de",
+  "https://dblp.dagstuhl.de",
+];
+
 function fetchFromDblpApi(query_url, node, title, authorA, year, site) {
   console.debug('fetch from API: %s (%s) "%s"', authorA, year, title);
   console.debug("query url: %s", query_url);
 
-  var xhr = new XMLHttpRequest();
-  xhr.open("GET", query_url, true);
   var resp_flag = true;
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState == 4) {
-      var dblp_url = "";
-      var resp = JSON.parse(xhr.responseText).result.hits;
-      if (resp["@total"] == 0) {
-        dblp_url = "";
-        resp_flag = false;
-      } else if (resp["@total"] == 1) {
-        let url = resp.hit[0].info.url;
-        dblp_url = url.substring(
-          url.indexOf("/rec/") + 4,
-          url.lastIndexOf("/"),
-        );
-      } else {
-        var year_last_check = 0;
-        for (var h = 0; h < resp["@sent"]; h++) {
-          let info = resp.hit[h].info;
 
-          var cur_venue = info.type;
-          if (cur_venue == "Informal Publications") continue;
+  function handleResponse(xhr) {
+    var dblp_url = "";
+    var resp = JSON.parse(xhr.responseText).result.hits;
+    if (resp["@total"] == 0) {
+      dblp_url = "";
+      resp_flag = false;
+    } else if (resp["@total"] == 1) {
+      let url = resp.hit[0].info.url;
+      dblp_url = url.substring(
+        url.indexOf("/rec/") + 4,
+        url.lastIndexOf("/"),
+      );
+    } else {
+      var year_last_check = 0;
+      for (var h = 0; h < resp["@sent"]; h++) {
+        let info = resp.hit[h].info;
 
-          let author_1st;
-          if (Array.isArray(info.authors.author)) {
-            author_1st = info.authors.author[0].text;
+        var cur_venue = info.type;
+        if (cur_venue == "Informal Publications") continue;
+
+        let author_1st;
+        if (Array.isArray(info.authors.author)) {
+          author_1st = info.authors.author[0].text;
+        } else {
+          author_1st = info.authors.author.text;
+        }
+        let year_fuzzy = info.year;
+        // Note: Author matching is temporarily disabled due to inconsistent
+        // author name formats from different platforms. We rely on title and
+        // year matching instead, which provides good enough accuracy for most cases.
+        if (
+          Math.abs(Number(year) - year_fuzzy) <= 1 &&
+          author_1st.toLowerCase().split(" ") &&
+          year_fuzzy != year_last_check
+        ) {
+          year_last_check = year_fuzzy;
+          let url = resp.hit[h].info.url;
+          let dblp_url_last_check = url.substring(
+            url.indexOf("/rec/") + 4,
+            url.lastIndexOf("/"),
+          );
+          if (year_fuzzy == year + 1) {
+            dblp_url = dblp_url_last_check;
+          } else if (year_fuzzy == year) {
+            dblp_url = dblp_url_last_check;
+            break;
           } else {
-            author_1st = info.authors.author.text;
-          }
-          let year_fuzzy = info.year;
-          // Note: Author matching is temporarily disabled due to inconsistent
-          // author name formats from different platforms. We rely on title and
-          // year matching instead, which provides good enough accuracy for most cases.
-          if (
-            Math.abs(Number(year) - year_fuzzy) <= 1 &&
-            author_1st.toLowerCase().split(" ") &&
-            year_fuzzy != year_last_check
-          ) {
-            year_last_check = year_fuzzy;
-            let url = resp.hit[h].info.url;
-            let dblp_url_last_check = url.substring(
-              url.indexOf("/rec/") + 4,
-              url.lastIndexOf("/"),
-            );
-            if (year_fuzzy == year + 1) {
+            if (dblp_url == "") {
               dblp_url = dblp_url_last_check;
-            } else if (year_fuzzy == year) {
-              dblp_url = dblp_url_last_check;
-              break;
-            } else {
-              if (dblp_url == "") {
-                dblp_url = dblp_url_last_check;
-              }
             }
           }
         }
       }
-      dblp_url = ccf.rankDb[dblp_url];
-      apiCache.setItem(query_url, {
-        dblp_url: dblp_url,
-        resp: resp,
-        flag: resp_flag,
-      });
+    }
+    dblp_url = ccf.rankDb[dblp_url];
+    apiCache.setItem(query_url, {
+      dblp_url: dblp_url,
+      resp: resp,
+      flag: resp_flag,
+    });
 
-      //Find a new vul: rankDB lacks of `tacas` etc., but it does occur in file `dataGen`.
-      if (typeof dblp_url == "undefined" && resp_flag != false) {
-        let dblp_abbr = resp.hit[0].info.number;
-        if (typeof dblp_abbr != "undefined" && isNaN(dblp_abbr)) {
-        } else {
-          dblp_abbr = resp.hit[0].info.venue;
-        }
-        for (let getRankSpan of site.rankSpanList) {
-          // console.log("with abbr");
-          $(node).after(getRankSpan(dblp_abbr, "abbr"));
-        }
-      }
-      // Process PACM PL conferences using centralized helper function
-      else if (dblp_url == "/journals/pacmpl/pacmpl") {
-        dblp_url = processPacmPlJournal(resp);
-
-        for (let getRankSpan of site.rankSpanList) {
-          $(node).after(getRankSpan(dblp_url, "url"));
-        }
+    //Find a new vul: rankDB lacks of `tacas` etc., but it does occur in file `dataGen`.
+    if (typeof dblp_url == "undefined" && resp_flag != false) {
+      let dblp_abbr = resp.hit[0].info.number;
+      if (typeof dblp_abbr != "undefined" && isNaN(dblp_abbr)) {
       } else {
-        for (let getRankSpan of site.rankSpanList) {
-          // console.log("with url");
-          $(node).after(getRankSpan(dblp_url, "url"));
-        }
+        dblp_abbr = resp.hit[0].info.venue;
+      }
+      for (let getRankSpan of site.rankSpanList) {
+        // console.log("with abbr");
+        $(node).after(getRankSpan(dblp_abbr, "abbr"));
       }
     }
-  };
-  xhr.send();
+    // Process PACM PL conferences using centralized helper function
+    else if (dblp_url == "/journals/pacmpl/pacmpl") {
+      dblp_url = processPacmPlJournal(resp);
+
+      for (let getRankSpan of site.rankSpanList) {
+        $(node).after(getRankSpan(dblp_url, "url"));
+      }
+    } else {
+      for (let getRankSpan of site.rankSpanList) {
+        // console.log("with url");
+        $(node).after(getRankSpan(dblp_url, "url"));
+      }
+    }
+  }
+
+  var hostIndex = 0;
+  function requestNextHost() {
+    if (hostIndex >= DBLP_API_HOSTS.length) {
+      console.debug("all dblp API hosts failed for: %s", query_url);
+      return;
+    }
+    var xhr = new XMLHttpRequest();
+    xhr.open(
+      "GET",
+      query_url.replace(DBLP_API_HOSTS[0], DBLP_API_HOSTS[hostIndex]),
+      true,
+    );
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState == 4) {
+        if (xhr.status == 200) {
+          try {
+            handleResponse(xhr);
+          } catch (e) {
+            console.debug("bad response from %s: %s", DBLP_API_HOSTS[hostIndex], e);
+            hostIndex++;
+            requestNextHost();
+          }
+        } else {
+          console.debug(
+            "%s returned HTTP %s, trying next dblp mirror",
+            DBLP_API_HOSTS[hostIndex],
+            xhr.status,
+          );
+          hostIndex++;
+          requestNextHost();
+        }
+      }
+    };
+    xhr.onerror = function () {
+      hostIndex++;
+      requestNextHost();
+    };
+    xhr.send();
+  }
+  requestNextHost();
 }
