@@ -36,6 +36,11 @@
   background-color: #6c757d;
 }
 
+.ccf-fail {
+  background-color: #b23b3b;
+  cursor: pointer;
+}
+
 .ccf-tooltip {
   display: inline-block;
   position: relative;

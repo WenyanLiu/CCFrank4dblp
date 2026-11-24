@@ -22,6 +22,8 @@ connectedpapers.appendRank = function () {
   let nodes = element.find(".horizontal-flexbox");
   let titlenode = nodes[1];
   let datanode = $(nodes[2]).find("div");
+  // The site can render partial DOM while loading; skip instead of throwing.
+  if (!titlenode || datanode.length < 2) return;
 
   let title = titlenode.innerText;
   let author = datanode[0].innerText.split(/[\s.,]+/)[1];
@@ -35,6 +37,7 @@ connectedpapers.appendRanks = function () {
     let nodes = $(this).find(".horizontal-flexbox");
     let titlenode = nodes[0];
     let datanode = $(nodes[1]).find("div");
+    if (!titlenode || datanode.length < 2) return;
 
     let title = titlenode.innerText;
     let author = datanode[0].innerText.split(/[\s.,]+/)[1];

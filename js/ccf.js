@@ -27,7 +27,8 @@ ccf.getRankInfo = function (refine, type) {
         let res = Object.keys(ccf.fullUrl).filter(function (k) {
           return k.indexOf(refine.toUpperCase()) == 0;
         });
-        url = res ? ccf.fullUrl[res] : false;
+        // res is an array of matching full names; use the first match.
+        url = res.length ? ccf.fullUrl[res[0]] : false;
       }
       rank = ccf.rankUrl[url];
     }
@@ -69,6 +70,80 @@ ccf.getRankClass = function (ranks) {
     }
   }
   return "ccf-none";
+};
+
+/**
+ * Some conference proceedings are published as journal volumes in dblp, and a
+ * single dblp journal URL covers several CCF-ranked conferences. PACMMOD
+ * publishes both SIGMOD (A) and PODS (B) tracks; issues 2 and 5 are PODS.
+ */
+ccf.proceedingsJournalRules = {
+  "/journals/pacmmod/pacmmod": {
+    podsIssues: [2, 5],
+    podsUrl: "/conf/pods/pods",
+    defaultUrl: "/conf/sigmod/sigmod",
+  },
+};
+
+ccf.resolveVenueUrl = function (url, issue) {
+  if (!url) return url;
+  // rankDb has no entry for PACMMOD; browse pages can still hand us the
+  // journal-level dblp key, so normalize it before applying the rules.
+  if (url === "/journals/pacmmod") url = "/journals/pacmmod/pacmmod";
+  let rule = ccf.proceedingsJournalRules[url];
+  if (!rule) return url;
+  let issueNumber = Number(String(issue || "").trim());
+  return rule.podsIssues.includes(issueNumber) ? rule.podsUrl : rule.defaultUrl;
+};
+
+/**
+ * Human-readable texts for rank lookup failures.
+ * Shown as a clickable badge so users can tell a lookup failure apart from
+ * a venue that genuinely has no CCF rank.
+ */
+ccf.failInfo = {
+  "rate-limit": {
+    label: "请求过多",
+    detail: "HTTP 429: dblp API 请求过于频繁，请稍后重试。",
+  },
+  network: {
+    label: "网络异常",
+    detail: "无法连接 dblp API，请检查网络后重试。",
+  },
+  timeout: {
+    label: "请求超时",
+    detail: "dblp API 请求超时，请稍后重试。",
+  },
+  server: {
+    label: "服务异常",
+    detail: "dblp API 返回了错误状态码，请稍后重试。",
+  },
+  parse: {
+    label: "解析失败",
+    detail: "dblp API 返回的数据无法解析，请稍后重试。",
+  },
+  busy: {
+    label: "请求过多",
+    detail: "同一条目的查询正在进行中，请稍后刷新页面。",
+  },
+  unknown: {
+    label: "查询失败",
+    detail: "查询排名时发生未知错误，请稍后重试。",
+  },
+};
+
+ccf.getFailSpan = function (kind, status) {
+  let info = ccf.failInfo[kind] || ccf.failInfo.unknown;
+  let detail = info.detail;
+  if (kind === "server" && status) {
+    detail = "dblp API 返回 HTTP " + status + "，请稍后重试。";
+  }
+  return $("<span>")
+    .addClass("ccf-rank")
+    .addClass("ccf-fail")
+    .text(info.label)
+    .addClass("ccf-tooltip")
+    .append($("<pre>").addClass("ccf-tooltiptext").text(detail));
 };
 
 ccf.getRankSpan = function (refine, type) {

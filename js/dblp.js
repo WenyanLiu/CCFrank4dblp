@@ -64,12 +64,16 @@ dblp.appendRanks = function () {
           source.indexOf("/db/") + 3,
           source.lastIndexOf(".html"),
         );
+        let issue = "";
         if (TRAILING_NUMERIC_PATTERN.test(urls)) {
+          issue = urls.match(TRAILING_NUMERIC_PATTERN)[0];
           urls = urls.replace(TRAILING_NUMERIC_PATTERN, "");
         } else {
           urls = "";
         }
-        element.after(getRankSpan(urls, "url"));
+        element.after(
+          getRankSpan(ccf.resolveVenueUrl(urls, issue), "url"),
+        );
       }
     }
   });
@@ -84,8 +88,15 @@ dblp.appendRank = function (selector) {
         headline.indexOf("/db/") + 3,
         headline.lastIndexOf("/"),
       );
+      // `urls` already starts with "/" (e.g. /journals/pacmmod).
       let url = ccf.rankDb[urls];
-      element.after(getRankSpan(url, "url"));
+      if (typeof url === "undefined" && urls.indexOf("/journals/") === 0) {
+        // New journals may not be in the generated rankDb yet; rebuild the
+        // canonical dblp venue key (e.g. /journals/pacmmod -> /journals/pacmmod/pacmmod).
+        let parts = urls.split("/").filter(Boolean);
+        url = urls + "/" + parts[parts.length - 1];
+      }
+      element.after(getRankSpan(ccf.resolveVenueUrl(url, ""), "url"));
     }
   }
 };

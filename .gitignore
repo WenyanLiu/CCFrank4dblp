@@ -10,6 +10,10 @@
 # Node.js
 node_modules/
 
+# Test artifacts
+cdp-results.json
+tests/cdp-results.json
+
 # Claude Code
 CLAUDE.md
 

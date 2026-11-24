@@ -745,6 +745,11 @@ for (x of ccfRankList.split("\n")) {
     ccfAbbrFull[y[1]] = y[2].toUpperCase();
   }
 }
+// dblp splits PACM PL OOPSLA papers into OOPSLA1 / OOPSLA2 issues. Keep both
+// aliases pointing at the CCF A OOPSLA entry so person pages can resolve them
+// by issueNumber instead of falling back to the PACM PL journal rank (C).
+ccfAbbrFull.OOPSLA1 = ccfAbbrFull.OOPSLA;
+ccfAbbrFull.OOPSLA2 = ccfAbbrFull.OOPSLA;
 
 const copyright = `/**
  * MIT License
