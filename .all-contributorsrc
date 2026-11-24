@@ -332,6 +332,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "XinhanWang",
+      "name": "Xinhan Wang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/145259027?v=4",
+      "profile": "https://github.com/XinhanWang",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
