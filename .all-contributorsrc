@@ -332,6 +332,16 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "lingMori",
+      "name": "Haoyang Zhang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88962191?v=4",
+      "profile": "http://lingmori.cn/",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
