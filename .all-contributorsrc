@@ -332,6 +332,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "Gophone11",
+      "name": "XiaoFeng Zhou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103277226?v=4",
+      "profile": "https://github.com/Gophone11",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
