@@ -6,9 +6,7 @@
     "prettier": "3.3.3"
   },
   "scripts": {
-    "prepare": "husky",
-    "test": "node --test tests/*.test.js",
-    "test:cdp": "node --test tests/cdp.e2e.js --test-reporter=spec"
+    "prepare": "husky"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"

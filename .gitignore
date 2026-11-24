@@ -10,9 +10,8 @@
 # Node.js
 node_modules/
 
-# Test artifacts
-cdp-results.json
-tests/cdp-results.json
+# Local development tests (kept on this machine only, not in the repository)
+tests/
 
 # Claude Code
 CLAUDE.md

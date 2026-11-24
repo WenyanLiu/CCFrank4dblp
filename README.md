@@ -73,16 +73,6 @@ Clone CCFrank to a directory.
 
 <img src="./img/load_unpacked.png" height="300" alt="Load Extension">
 
-## 回归测试与错题集
-
-历史 bug 记录在 [`tests/regression-cases.json`](tests/regression-cases.json)：每条包含反馈来源、现象、根因、修复版本、相关文件与测试。修完新问题后请在这里追加一条，下次改动就能一起回归。案例既来自用户反馈，也来自历史已合并的 Pull request（如 FSE 撞名、PACM PL 会议映射、OOPSLA 期次别名、SIGSPATIAL、IOTJ），`browserCases` 里记录了 dblp 上可复现的具体论文与预期等级。
-
-- `npm test`：运行 `tests/*.test.js` 中的全部单元测试。
-- `npm run test:cdp`：读取错题集里的 `browserCases`，启动真实 Chrome（CDP 加载 unpacked 扩展）验证 dblp 页面上实际渲染的 CCF 标签，结果写入 `tests/cdp-results.json`。
-  - 默认 headful； headless=new 在 dblp 反爬页会崩，可用 `CDP_HEADLESS=1` 自行尝试。
-  - `CDP_URL=... npm run test:cdp` 只跑单个页面，便于调试新案例。
-  - dblp 搜索后端偶发限流时，相关案例会标记为 SKIP 而不是失败。
-
 ## What's New
 
 **Version 4.6.2**
@@ -94,8 +84,8 @@ Clone CCFrank to a directory.
 3. 增强 Google Scholar / Connected Papers 页面结构变化时的容错，避免单个条目异常导致整页标注中断。
 4. 修复 Proc. ACM Manag. Data（PACMMOD）论文被标为 CCF None 的问题：SIGMOD 期按 CCF A、PODS 期按 CCF B 识别（感谢反馈）。
 5. 新增 dblp 搜索 API 官方镜像回退：主站不可用时依次尝试 `dblp.uni-trier.de`、`dblp.dagstuhl.de`，全部失败才显示失败标签（感谢 @lingMori 的 Pull request #164）。
-6. 修复简称匹配多个候选时取错全称的问题；新增 `npm test` 单元测试和 `npm run test:cdp` 真实浏览器（Chrome DevTools Protocol）端到端验证。
-7. 补上 dblp 使用的 OOPSLA1 / OOPSLA2 期次别名，使 PACM PL 的 OOPSLA 论文在作者页也按 CCF A 显示；同时把历史 issue #44 / PR #45 的 OOPSLA URL 修复纳入错题集回归。
+6. 修复简称匹配多个候选时取错全称的问题。
+7. 补上 dblp 使用的 OOPSLA1 / OOPSLA2 期次别名，使 PACM PL 的 OOPSLA 论文在作者页也按 CCF A 显示；同时修复历史 issue #44 / PR #45 的 OOPSLA URL 问题。
 
 **Version 4.6.1**
 
