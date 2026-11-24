@@ -332,6 +332,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "triccsr",
+      "name": "Triccsr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36883469?v=4",
+      "profile": "https://triccsr.github.io",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
