@@ -30,6 +30,12 @@ const RANK_FETCH = {
   failureTtlMs: 60 * 1000,
 };
 
+// dblp renamed the CoRR bucket; both spellings can appear in search hits.
+const INFORMAL_PUBLICATION_TYPES = new Set([
+  "Informal Publications",
+  "Informal and Other Publications",
+]);
+
 const rankPendingQueries = new Set();
 const rankFailedQueries = new Map();
 
@@ -130,9 +136,12 @@ function fetchRank(node, title, authorA, year, site, retryIndex = 0) {
   // Both rank and failure badges carry the ccf-rank class, so one check covers both.
   if ($(node).next().hasClass("ccf-rank")) return;
 
+  // Do not add `author:<last name>` here: Scholar only provides a surname,
+  // while dblp's author: filter matches from the beginning of the full name.
+  // Title (plus year disambiguation below) is far more reliable.
   let query_url =
     "https://dblp.org/search/publ/api?q=" +
-    encodeURIComponent(title + "  author:" + authorA) +
+    encodeURIComponent(title) +
     "&format=json&app=CCFrank4dblp_" +
     getExtensionVersion();
 
@@ -165,6 +174,12 @@ function fetchRank(node, title, authorA, year, site, retryIndex = 0) {
   }
 
   let cached = apiCache.getItem(query_url);
+  // Older versions stored zero-hit responses as CCF-None for 24 hours.
+  // Drop those stale entries so the fix applies without clearing storage.
+  if (cached && cached.resp && cached.resp["@total"] == 0) {
+    apiCache.removeItem(query_url);
+    cached = null;
+  }
   if (cached) {
     try {
       appendRankSpans(node, cached.dblp_url, cached.resp, site);
@@ -201,15 +216,24 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site, onSettled
   function handleResponse(resp, status) {
     try {
       var dblp_url = "";
-      var resp_flag = true;
       if (resp["@total"] == 0) {
-        resp_flag = false;
-      } else if (resp["@total"] == 1) {
+        // Zero hits are often transient (indexing delay or mirror hiccup).
+        // Never cache this as a CCF-None verdict for 24 hours: show a
+        // retryable badge instead and suppress duplicate polls briefly.
+        fail("no-results", status);
+        return;
+      }
+      if (resp["@total"] == 1) {
         dblp_url = extractDblpUrl(resp.hit[0].info);
       } else {
         var year_last_check = 0;
+        var firstInformalUrl = "";
         for (var h = 0; h < resp["@sent"]; h++) {
           let info = resp.hit[h].info;
+          if (INFORMAL_PUBLICATION_TYPES.has(info.type)) {
+            if (firstInformalUrl === "") firstInformalUrl = extractDblpUrl(info);
+            continue;
+          }
           let year_fuzzy = info.year;
           // Note: Author matching is temporarily disabled due to inconsistent
           // author name formats from different platforms. We rely on title and
@@ -230,6 +254,11 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site, onSettled
             }
           }
         }
+        // Preprints are only a fallback: use them when no formal record
+        // matches, so arXiv-only papers keep their "Preprint" badge.
+        if (dblp_url === "" && firstInformalUrl !== "") {
+          dblp_url = firstInformalUrl;
+        }
       }
       if (dblp_url === "/journals/pacmmod/pacmmod") {
         dblp_url = ccf.resolveVenueUrl(
@@ -242,7 +271,6 @@ function fetchFromDblpApi(query_url, node, title, authorA, year, site, onSettled
       apiCache.setItem(query_url, {
         dblp_url: dblp_url,
         resp: resp,
-        flag: resp_flag,
       });
       rankFailedQueries.delete(query_url);
       appendRankSpans(node, dblp_url, resp, site);

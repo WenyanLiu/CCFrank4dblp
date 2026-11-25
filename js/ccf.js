@@ -126,6 +126,10 @@ ccf.failInfo = {
     label: "请求过多",
     detail: "同一条目的查询正在进行中，请稍后刷新页面。",
   },
+  "no-results": {
+    label: "暂未收录",
+    detail: "dblp 暂未返回该论文的出版信息（可能是收录延迟），点击标记可重试。",
+  },
   unknown: {
     label: "查询失败",
     detail: "查询排名时发生未知错误，请稍后重试。",
