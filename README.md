@@ -467,6 +467,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/xyh1147575351-dev"><img src="https://avatars.githubusercontent.com/u/245180626?v=4&size=100" width="100px" height="100px" alt="xyh1147575351-dev"/><br /><sub><b>xyh1147575351-dev</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Axyh1147575351-dev" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://lingmori.cn/"><img src="https://avatars.githubusercontent.com/u/88962191?v=4&size=100" width="100px" height="100px" alt="Haoyang Zhang"/><br /><sub><b>Haoyang Zhang</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=lingMori" title="Code">💻</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3AlingMori" title="Bug reports">🐛</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://peichun.xyz"><img src="https://avatars.githubusercontent.com/u/113615790?v=4&size=100" width="100px" height="100px" alt="Peichun Hua"/><br /><sub><b>Peichun Hua</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=sarendis56" title="Code">💻</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Asarendis56" title="Bug reports">🐛</a></td>
+    </tr>
   </tbody>
 </table>
 
