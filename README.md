@@ -75,6 +75,14 @@ Clone CCFrank to a directory.
 
 ## What's New
 
+**Version 4.6.3**
+
+> Nov 25, 2026
+
+1. 修复 Google Scholar 上间歇性显示错误 `CCF-None` 的问题：查询不再带 `author:` 姓氏过滤（dblp 的 `author:` 是姓名前缀匹配，Scholar 只提供姓氏时会漏检），改为仅用标题 + 年份消歧（感谢 @sarendis56 的 Pull request #163）。
+2. 零结果不再被当作 `CCF-None` 缓存 24 小时：现在显示可点击重试的灰色「暂未收录」标记，并自动清除旧版本遗留的错误缓存，避免临时收录延迟造成长期误判。
+3. 多结果消歧时同时过滤 dblp 新旧两种预印本类型（`Informal Publications` / `Informal and Other Publications`），优先选正式发表版本；全是预印本时仍显示 `Preprint`。
+
 **Version 4.6.2**
 
 > Nov 24, 2026
