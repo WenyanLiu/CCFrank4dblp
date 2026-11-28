@@ -433,6 +433,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "diaowenrui",
+      "name": "Wenrui Diao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10430418?v=4",
+      "profile": "https://diaowenrui.github.io/",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
