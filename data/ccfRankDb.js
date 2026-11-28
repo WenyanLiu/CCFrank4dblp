@@ -608,6 +608,7 @@ ccf.rankDb = {
   "/conf/cscw": "/conf/cscw/cscw",
   "/conf/chi": "/conf/chi/chi",
   "/conf/huc": "/conf/huc/ubicomp",
+  "/journals/imwut": "/journals/imwut/imwut",
   "/conf/uist": "/conf/uist/uist",
   "/conf/group": "/conf/group/group",
   "/conf/iui": "/conf/iui/iui",

@@ -642,6 +642,7 @@ const ccfRankList =
   "A	CSCW	ACM Conference On Computer-Supported Cooperative Work And Social Computing	/conf/cscw	/conf/cscw/cscw\n" +
   "A	CHI	ACM Conference on Human Factors in Computing Systems	/conf/chi	/conf/chi/chi\n" +
   "A	UbiComp	ACM international joint conference on Pervasive and Ubiquitous Computing	/conf/huc	/conf/huc/ubicomp\n" +
+  "A		Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.	/journals/imwut	/journals/imwut/imwut\n" +
   "A	UIST	ACM Symposium on User Interface Software and Technology	/conf/uist	/conf/uist/uist\n" +
   "B	GROUP	ACM International Conference on Supporting Group Work	/conf/group	/conf/group/group\n" +
   "B	IUI	ACM International Conference on Intelligent User Interfaces	/conf/iui	/conf/iui/iui\n" +

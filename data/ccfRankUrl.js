@@ -636,6 +636,7 @@ ccf.rankUrl = {
   "/conf/cscw/cscw": "A",
   "/conf/chi/chi": "A",
   "/conf/huc/ubicomp": "A",
+  "/journals/imwut/imwut": "A",
   "/conf/uist/uist": "A",
   "/conf/group/group": "B",
   "/conf/iui/iui": "B",

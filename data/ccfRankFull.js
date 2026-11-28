@@ -636,6 +636,7 @@ ccf.rankFullName = {
   "/conf/cscw/cscw": "ACM Conference On Computer-Supported Cooperative Work And Social Computing",
   "/conf/chi/chi": "ACM Conference on Human Factors in Computing Systems",
   "/conf/huc/ubicomp": "ACM international joint conference on Pervasive and Ubiquitous Computing",
+  "/journals/imwut/imwut": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
   "/conf/uist/uist": "ACM Symposium on User Interface Software and Technology",
   "/conf/group/group": "ACM International Conference on Supporting Group Work",
   "/conf/iui/iui": "ACM International Conference on Intelligent User Interfaces",

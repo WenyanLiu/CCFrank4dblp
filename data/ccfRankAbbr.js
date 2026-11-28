@@ -636,6 +636,7 @@ ccf.rankAbbrName = {
   "/conf/cscw/cscw": "CSCW",
   "/conf/chi/chi": "CHI",
   "/conf/huc/ubicomp": "UbiComp",
+  "/journals/imwut/imwut": "",
   "/conf/uist/uist": "UIST",
   "/conf/group/group": "GROUP",
   "/conf/iui/iui": "IUI",
