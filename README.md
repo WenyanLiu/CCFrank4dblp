@@ -469,6 +469,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://peichun.xyz"><img src="https://avatars.githubusercontent.com/u/113615790?v=4&size=100" width="100px" height="100px" alt="Peichun Hua"/><br /><sub><b>Peichun Hua</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/commits?author=sarendis56" title="Code">💻</a> <a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3Asarendis56" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/OOOOOORAN"><img src="https://avatars.githubusercontent.com/u/85605736?v=4&size=100" width="100px" height="100px" alt="OOOOOORAN"/><br /><sub><b>OOOOOORAN</b></sub></a><br /><a href="https://github.com/WenyanLiu/CCFrank4dblp/issues?q=author%3AOOOOOORAN" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
