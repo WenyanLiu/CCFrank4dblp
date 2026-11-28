@@ -1,7 +1,7 @@
 /**
  * MIT License
  *
- * Copyright (c) 2019-2026 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp), FlyingFog (https://github.com/FlyingFog), mra42 (https://github.com/mra42), dozed (https://github.com/dozed), MarkLee131 (https://github.com/MarkLee131), lingMori (https://github.com/lingMori)
+ * Copyright (c) 2019-2026 WenyanLiu (https://github.com/WenyanLiu/CCFrank4dblp), FlyingFog (https://github.com/FlyingFog), mra42 (https://github.com/mra42), dozed (https://github.com/dozed), MarkLee131 (https://github.com/MarkLee131), lingMori (https://github.com/lingMori), sarendis56 (https://github.com/sarendis56)
  */
 
 // PACM PL conference mapping - centralized configuration
