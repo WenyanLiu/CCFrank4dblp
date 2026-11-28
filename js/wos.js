@@ -17,12 +17,27 @@ wos.run = function () {
   }, 700);
 };
 
+wos.extractPublicationName = function (node) {
+  let clone = node.clone();
+  clone
+    .find(
+      "mat-icon, svg, [aria-hidden='true'], .mat-icon, .cdk-visually-hidden",
+    )
+    .remove();
+  return clone
+    .text()
+    .replace(/\u00a0/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toUpperCase();
+};
+
 wos.appendRanks = function () {
   $(".summary-source-title-link[lang='en']").each(function () {
     let node = $(this);
     if (!node.next().hasClass("ccf-rank")) {
       for (let getRankSpan of wos.rankSpanList) {
-        let publication = node.text();
+        let publication = wos.extractPublicationName(node);
         node.after(getRankSpan(publication, "publication"));
       }
     }
@@ -31,7 +46,7 @@ wos.appendRanks = function () {
     let node = $(this);
     if (!node.next().hasClass("ccf-rank")) {
       for (let getRankSpan of wos.rankSpanList) {
-        let publication = node.text();
+        let publication = wos.extractPublicationName(node);
         node.after(getRankSpan(publication, "publication"));
       }
     }
