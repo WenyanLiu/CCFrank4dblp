@@ -328,6 +328,7 @@ ccf.rankFullName = {
   "/journals/tois/tois": "ACM Transactions on Information Systems",
   "/journals/tkde/tkde": "IEEE Transactions on Knowledge and Data Engineering",
   "/journals/vldb/vldb": "The VLDB Journal",
+  "/journals/pacmmod/pacmmod": "Proceedings of the ACM on Management of Data",
   "/journals/tkdd/tkdd": "ACM Transactions on Knowledge Discovery from Data",
   "/journals/tweb": "ACM Transactions on the Web",
   "/journals/aei/aei": "Advanced Engineering Informatics",

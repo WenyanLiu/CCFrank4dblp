@@ -310,6 +310,7 @@ ccf.rankDb = {
   "/journals/tois": "/journals/tois/tois",
   "/journals/tkde": "/journals/tkde/tkde",
   "/journals/vldb": "/journals/vldb/vldb",
+  "/journals/pacmmod": "/journals/pacmmod/pacmmod",
   "/journals/tkdd": "/journals/tkdd/tkdd",
   "/journals/tweb": "/journals/tweb",
   "/journals/aei": "/journals/aei/aei",

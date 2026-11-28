@@ -328,6 +328,7 @@ ccf.rankUrl = {
   "/journals/tois/tois": "A ",
   "/journals/tkde/tkde": "A ",
   "/journals/vldb/vldb": "A ",
+  "/journals/pacmmod/pacmmod": "A ",
   "/journals/tkdd/tkdd": "B",
   "/journals/tweb": "B",
   "/journals/aei/aei": "B",
