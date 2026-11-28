@@ -220,6 +220,7 @@ ccf.rankAbbrName = {
   "/conf/pam/pam": "PAM",
   "/conf/pet/pets": "PETS",
   "/conf/pet/pet": "PETS",
+  "/journals/popets/popets": "",
   "/conf/sacrypt/sacrypt": "SAC",
   "/conf/soups/soups": "SOUPS",
   "/conf/uss/hotsec": "HotSec",

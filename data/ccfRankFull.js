@@ -220,6 +220,7 @@ ccf.rankFullName = {
   "/conf/pam/pam": "Passive and Active Measurement Conference",
   "/conf/pet/pets": "Privacy Enhancing Technologies Symposium",
   "/conf/pet/pet": "Privacy Enhancing Technologies Symposium",
+  "/journals/popets/popets": "Proceedings on Privacy Enhancing Technologies",
   "/conf/sacrypt/sacrypt": "Selected Areas in Cryptography",
   "/conf/soups/soups": "Symposium On Usable Privacy and Security",
   "/conf/uss/hotsec": "USENIX Workshop on Hot Topics in Security",

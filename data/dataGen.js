@@ -218,6 +218,7 @@ const ccfRankList =
   "C	PAM	Passive and Active Measurement Conference	/conf/pam	/conf/pam/pam\n" +
   "C	PETS	Privacy Enhancing Technologies Symposium	/conf/pet	/conf/pet/pets\n" +
   "C	PETS	Privacy Enhancing Technologies Symposium	/conf/pet	/conf/pet/pet\n" +
+  "C		Proceedings on Privacy Enhancing Technologies	/journals/popets	/journals/popets/popets\n" +
   "C	SAC	Selected Areas in Cryptography	/conf/sacrypt	/conf/sacrypt/sacrypt\n" +
   "C	SOUPS	Symposium On Usable Privacy and Security	/conf/soups	/conf/soups/soups\n" +
   "C	HotSec	USENIX Workshop on Hot Topics in Security	/conf/uss/	/conf/uss/hotsec\n" +

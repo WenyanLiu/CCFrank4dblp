@@ -220,6 +220,7 @@ ccf.rankUrl = {
   "/conf/pam/pam": "C",
   "/conf/pet/pets": "C",
   "/conf/pet/pet": "C",
+  "/journals/popets/popets": "C",
   "/conf/sacrypt/sacrypt": "C",
   "/conf/soups/soups": "C",
   "/conf/uss/hotsec": "C",

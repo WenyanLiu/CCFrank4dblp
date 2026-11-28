@@ -213,6 +213,7 @@ ccf.fullUrl = {
   "NEW SECURITY PARADIGMS WORKSHOP": "/conf/nspw/nspw",
   "PASSIVE AND ACTIVE MEASUREMENT CONFERENCE": "/conf/pam/pam",
   "PRIVACY ENHANCING TECHNOLOGIES SYMPOSIUM": "/conf/pet/pet",
+  "PROCEEDINGS ON PRIVACY ENHANCING TECHNOLOGIES": "/journals/popets/popets",
   "SELECTED AREAS IN CRYPTOGRAPHY": "/conf/sacrypt/sacrypt",
   "SYMPOSIUM ON USABLE PRIVACY AND SECURITY": "/conf/soups/soups",
   "USENIX WORKSHOP ON HOT TOPICS IN SECURITY": "/conf/uss/hotsec",

@@ -214,6 +214,7 @@ ccf.rankDb = {
   "/conf/nspw": "/conf/nspw/nspw",
   "/conf/pam": "/conf/pam/pam",
   "/conf/pet": "/conf/pet/pet",
+  "/journals/popets": "/journals/popets/popets",
   "/conf/sacrypt": "/conf/sacrypt/sacrypt",
   "/conf/soups": "/conf/soups/soups",
   "/conf/uss/": "/conf/uss/hotsec",
