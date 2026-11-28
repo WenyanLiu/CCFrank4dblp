@@ -682,7 +682,7 @@ const ccfRankList =
   "B	JAMIA	Journal of the American Medical Informatics Association	/journals/jamia	/journals/jamia/jamia\n" +
   "B		PLOS Computational Biology	/journals/ploscb	/journals/ploscb/ploscb\n" +
   "B		The Computer Journal	/journals/cj	/journals/cj/cj\n" +
-  "B	WWW	The Web Conference	/journals/www	/journals/www/www\n" +
+  "B	WWW	World Wide Web	/journals/www	/journals/www/www\n" +
   "B	FCS	Frontiers of Computer Science	/journals/fcsc	/journals/fcsc/fcsc\n" +
   "B	BCRA	Blockchain: Research and Applications	/journals/bcra	/journals/bcra/bcra\n" +
   "C		BMC Bioinformatics	/journals/bmcbi	/journals/bmcbi/bmcbi\n" +
