@@ -1,4 +1,27 @@
 {
+  "name": "ccfrank",
+  "version": "4.5.5",
+  "description": "CCFrank for looking up CCF ranks.",
+  "license": "MIT",
+  "bin": {
+    "ccfrank": "mcp/server.js"
+  },
+  "files": [
+    "mcp",
+    "data/ccfAbbrFull.js",
+    "data/ccfFullUrl.js",
+    "data/ccfRankAbbr.js",
+    "data/ccfRankDb.js",
+    "data/ccfRankFull.js",
+    "data/ccfRankUrl.js",
+    "js/ccf.js",
+    "manifest.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
     "git-format-staged": "^3.1.1",
     "husky": "^9.1.6",
@@ -6,9 +29,15 @@
     "prettier": "3.3.3"
   },
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "mcp": "node ./mcp/server.js",
+    "test": "node --test"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^4.3.6"
   }
 }
